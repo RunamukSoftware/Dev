@@ -1,0 +1,305 @@
+/* DATA SPRINGS Inc. - DYNAMIC Forms STYLE SHEET */
+.ruInputs span { line-height:100%; font-size:13px; font-weight:normal; padding:7px 6px !important; height:auto !important;}
+.ruInputs input[type="text"], .ruInputs input[type="button"], .ruInputs input[type="file"] { float: right; margin:0px 8px 0 0; height:auto; font-weight:normal;font-size:13px !important; line-height:100%; padding:6px 5px !important; width:auto; overflow:hidden;}
+.ruInputs input[type="button"]  { padding:7px 0!important;} .ruInputs input[type="text"] { background:#fff !important; background-image:none !important;}
+.ruInputs , .ruFileWrap{ height:45px; overflow:hidden;}
+.dynamicforms_questiontable td { padding:4px !important; border-spacing:0px !important;}
+
+.DynamicForms_MainPanel input[type="image"] {
+	width:auto !important;
+	height:auto !important;
+}
+.DynamicForms_QuestionDiv {
+	clear:both;
+	overflow:hidden;
+}
+.DynamicForms_MainPanel {
+	margin:0 auto;
+	padding: 15px 0 0;
+	font-size:13px;
+}
+.DF-FieldRow {
+	background:none;
+	overflow:hidden;
+	padding:0 0 4px 0;
+	margin:0 0 5px 0;
+	clear:both;
+}
+
+
+
+.DF-FieldRow:hover {
+}
+.DF-FieldRow label {
+	color:#4c4c4c;
+	display:block;
+	font-size:13px;
+	font-weight:normal;
+	padding:0;
+	margin:1px 0 3px 0;
+}
+.DynamicForms_FieldLeftLabel, 
+.dnnFormItem.DynamicForms_Label, 
+.DynamicForms_Label {
+	float:left;
+	text-align:left;
+	margin:4px 10px 3px 0;
+	width:120px;
+	clear:both;
+}
+
+
+.df-FieldLabelSame1 .DynamicForms_FieldLeftLabel, 
+.df-FieldLabelSame1 .dnnFormItem.DynamicForms_Label, 
+.df-FieldLabelSame1 .DynamicForms_Label {
+	width:100% !important;
+}
+df-FieldLabelSame-1 label {
+	width:100% !important;
+}
+
+.DynamicForms_FieldRightLabel {
+	float:right;
+	text-align:right;
+}
+.DynamicForms_QuestionTopDiv {
+	overflow:hidden;
+}
+.NormalRed {
+	color:#F00;
+}
+.subHead {
+	background:#EFEFEF;
+	display: block;
+    margin: 15px 0 -3px;
+    padding: 5px;
+    width: 100% !important;
+}
+
+
+.DynamicForms_MainPanel input[type="text"], 
+.DynamicForms_MainPanel [type="textarea"], 
+.DynamicForms_MainPanel [type="password"], 
+.DynamicForms_MainPanel textarea, 
+.DynamicForms_MainPanel select {
+	margin:0;
+	padding:5px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	height:auto !important;
+/*	width:100% !important;*/
+	border:1px solid #b0b0b0;
+	background:#fff;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.DynamicForms_MainPanel input.Required {
+	border:1px solid #ce2e2e !important;
+	font-size:13px !important;
+	background:url(/DesktopModules/Dynamic Forms/images/red-error.gif) 98% center no-repeat #fff;
+	text-align:left !important;
+}
+.DynamicForms_MainPanel [type="checkbox"], .DynamicForms_CheckBoxList {
+	float:left;
+	margin-top: 2px;
+}
+.DynamicForms_MainPanel .Required {
+	text-align:right;
+	font-size:12px;
+}
+#SaveForm,
+.DynamicForms_SaveFormDiv {
+	border-top: 1px solid #DDDDDD;
+	margin: 15px 0 0;
+	padding: 15px 0 0;
+}
+.DynamicForms_Maintable {
+	width: 100%;
+	padding: 2px;
+}
+.DynamicForms_Label {
+}
+.DynamicForms_RequiredFieldAsterik {
+	font-size: 9px;
+	color: #CC0202;
+}
+.DynamicForms_Textbox {
+}
+.DynamicForms_Password {
+}
+.DynamicForms_Watermark {
+	font-size: 9px;
+	background-color: #CCCCCC;
+}
+.DynamicForms_FieldError {
+	background-color: #EF5050;
+}
+.DynamicForms_Dropdownlist {
+	font-weight: bold;
+	font-size: 15px;
+	color: #003366;
+}
+.DynamicForms_Listbox {
+}
+.DynamicForms_Checkbox {
+	margin-top:6px;
+}
+.DynamicForms_Checkboxgroup {
+	font-weight: bold;
+}
+#hintbox { /*CSS for pop up hint box */
+	position:absolute;
+	top: 0;
+	background-color: lightyellow;
+	width: 150px; /*Default width of hint.*/
+	padding: 3px;
+	border:1px solid black;
+	font:normal 11px Verdana;
+	line-height:18px;
+	z-index:100;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	visibility: hidden;
+}
+.hintanchor { /*CSS for link that shows hint onmouseover*/
+	font-weight: bold;
+	color: navy;
+	margin: 3px 8px;
+}
+/*  ADVANCED STYLES FOR PASSWORD STRENGTH */
+.top_testresult {
+	font-weight: bold;
+	font-size:13px;
+	color:#666;
+	padding:0;
+	margin:0 0 2px 0;
+}
+.top_testresult span {
+	padding:6px;
+	margin:0;
+}
+.top_shortPass {
+	background:#edabab;
+	border:1px solid #bc0000;
+	display:block;
+}
+.top_shortPass span {
+}
+.top_badPass {
+	background:#edabab;
+	border:1px solid #bc0000;
+	display:block;
+}
+.top_badPass span {
+}
+.top_goodPass {
+	background:#ede3ab;
+	border:1px solid #bc9f00;
+	display:block;
+}
+.top_goodPass span {
+}
+.top_strongPass {
+	background:#d3edab;
+	border:1px solid #73bc00;
+	display:block;
+}
+.top_strongPass span {
+}
+/* 	RESULT STYLE  */
+.testresult {
+	font-weight: bold;
+	font-size:13px;
+	color:#666;
+	padding:0px 0px 12px 10px;
+	margin-left:10px;
+	display: block;
+	height:28px;
+	float:right;
+}
+.testresult span {
+	padding:10px 20px 12px 10px;
+	margin: 0px 0px 0px 20px;
+	display:block;
+	float:right;
+	white-space: nowrap;
+}
+.shortPass {
+	background:url(/DesktopModules/Dynamic Forms/images/red.png) no-repeat 0 0;
+}
+.shortPass span {
+	background:url(/DesktopModules/Dynamic Forms/images/red.png) no-repeat top right;
+}
+.badPass {
+	background:url(/DesktopModules/Dynamic Forms/images/red.png) no-repeat 0 0;
+}
+.badPass span {
+	background:url(/DesktopModules/Dynamic Forms/images/red.png) no-repeat top right;
+}
+.goodPass {
+	background:url(/DesktopModules/Dynamic Forms/images/yellow.png) no-repeat 0 0;
+}
+.goodPass span {
+	background:url(/DesktopModules/Dynamic Forms/images/Yellow.png) no-repeat top right;
+}
+.strongPass {
+	background:url(/DesktopModules/Dynamic Forms/images/green.png) no-repeat 0 0;
+}
+.strongPass span {
+	background:url(/DesktopModules/Dynamic Forms/images/green.png) no-repeat top right;
+}
+
+.subhead#total,
+.subHead#total { 
+	width:100%;
+	color:#333;
+	background:#F5F5F5;
+	padding:5px 8px;
+	margin:10px 0;
+	display:block;
+}
+
+
+/* those <br> are just creating extra lines. At least on the div layout. */
+.ModDynamicFormsC br {display:none;}
+
+/* I need my own class, specific to this field ID */
+#dnn_ctr508_DynamicForms_CaptchaText_c9652dcb-4a09-42c8-a354-ae14b16a1697 {
+  margin-top: 5px;
+  width: 201px !important;
+}
+
+
+
+
+/* Responsive stuff */
+@media only screen and (max-width:599px), only screen and (max-device-width:599px) {
+	
+	.DF-FieldRow label {
+		text-align:left !important;
+		white-space:normal;
+		line-height:normal;
+	}
+	.DynamicForms_FieldLeftLabel, 
+	.dnnFormItem.DynamicForms_Label, 
+	.DynamicForms_Label {
+		float:none;
+		width:100%;
+		text-align:left;
+		padding-top:5px;
+	}
+	.DynamicForms_MainPanel input[type="text"], 
+	.DynamicForms_MainPanel [type="textarea"], 
+	.DynamicForms_MainPanel [type="password"], 
+	.DynamicForms_MainPanel textarea, 
+	.DynamicForms_MainPanel select {
+		width: 100% !important;
+		max-width:100%;
+	}
+}
+@media only screen and (max-width:400px), only screen and (max-device-width:400px) {
+}
+
+

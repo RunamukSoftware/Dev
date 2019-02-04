@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="ACTIONBUTTON1">
+    <value>Add User</value>
+  </data>
+
+	
+	<data name="lblWizardQuestions.Text">
+		<value>Standard Questions</value>
+	</data>
+	<data name="lblWizardExtendedQuestions.Text">
+		<value>Other Common Questions</value>
+	</data>
+
+	<data name="lblCurrentQuestions.Text">
+		<value>Existing questions</value>
+	</data>
+
+	<data name="lblCurrentQuestions.Help">
+		<value>Select any existing questions you would like to copy. The module can create clones of all existing fields that you have checked.</value>
+	</data>
+        
+        <data name="lblQuestionsToGenerate.Text">
+		<value>Fields to generate</value>
+	</data>
+
+	<data name="lblQuestionsToGenerate.Help">
+		<value>Select the columns below that you would like to be generated as Dynamic Forms fields for this form instance.</value>
+	</data>
+
+ 	<data name="lblSQLStatement.Text">
+		<value>SQL Query</value>
+	</data>
+
+	<data name="lblSQLStatement.Help">
+		<value>Enter a SQL statement to return columns from a flat table within your database. This can be useful for generating new fields based on a table structure.</value>
+	</data>
+<data name="lblWizardQuestions.Help">
+		<value>Select which standard questions you would automatically like to have the setup wizard create for your Forms.</value>
+	</data>
+	<data name="lblWizardExtendedQuestions.Help">
+		<value>Select which extended questions you would automatically like to have the setup wizard create for your Forms.</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>Please visit www.datasprings.com for the full user guide for Dynamic Forms</value>
+	</data>
+	<data name="ControlTitle_SetupWizard.Text">
+		<value>Setup Wizard</value>
+	</data>
+<data name="RunWizard.Text">
+		<value>Run Wizard</value>
+	</data>
+<data name="RunQuery.Text">
+		<value>Execute Query / Return Columns</value>
+	</data>
+<data name="SelectDeSelectAll.Text">
+		<value>Select All / Deselect All</value>
+	</data>
+<data name="Exit.Text">
+		<value>Exit</value>
+	</data>
+
+<data name="HeaderDesc.Text">
+		<value>Welcome to the Dynamic Forms Setup Wizard. This wizard will guide you through the steps of setting up some of the basic fields types for your Forms page. Remember that this is just a wizard to get you started. Once you have added some of the initial field types with the wizard you will see need to go into the Manage Questions and Settings area to configure other areas of your Forms. </value>
+	</data>
+<data name="HeaderAdvancedDesc.Text">
+		<value>Welcome to the Dynamic Forms advanced field Setup Wizard. You can create initial fields via a SQL query. For example, a query such as 'Select top 1 * from Portals' will return all columns within the portals table. Once you run the wizard you can select which columns you would like to be added as fields for your form. Fields will be created based on their data type (such as textbox for strings, checkbox for boolean, etc...). </value>
+	</data>
+
+<data name="InitialDisplayAfterMessageLiteral.Text">
+		<value>Site Administrator: Set this message up under Layout Settings.</value>
+</data>
+<data name="InitialBlackListItemText.Text">
+		<value>Site Administrator: Set this message up under Layout Settings.</value>
+</data>
+
+<data name="lblDisplayAfterMessage.Help">
+		<value>Would you like to display a message to the user after initial Forms?</value>
+</data>
+  <data name="DefaultContinueMessage.Text">
+		<value>Continue...</value>
+ </data>
+
+ <data name="InitialRegister.Text">
+		<value>Submit</value>
+	</data>
+
+  <data name="ControlTitle_wizard.Text">
+		<value>Dynamic Forms Setup Wizard</value>
+</data>
+ <data name="StandardPanel.Text">
+		<value>Standard Fields Wizard - Create common fields and also easily close existing fields within the module instance.</value>
+	</data>
+
+ <data name="AdvancedPanel.Text">
+		<value>SQL Creation Wizard - Create fields based on a SQL query.</value>
+	</data>
+
+ <data name="OtherPortals.Text">
+		<value>Existing Modules Wizard - Create fields based on cloning existing module instance within the DotNetNuke installation.</value>
+	</data>
+ <data name="Repository.Text">
+		<value>Data Springs Repository - Search and create fields based on a global repository of submitted field types and definitions.</value>
+	</data>
+
+
+ <data name="lblPortal.Text">
+		<value>Portal Portal</value>
+	</data>
+
+ <data name="lblPortal.Help">
+		<value>Select the DotNetNuke portal that you would like to import Dynamic Forms objects from.</value>
+	</data>
+
+
+ <data name="lblModuleInstance.Text">
+		<value>Module Instance</value>
+	</data>
+
+
+ <data name="lblModuleInstance.Help">
+		<value>Select the module instance that you would like to import existing fields from. After selecting the module instance you will be able to select which fields you want to import.</value>
+	</data>
+
+
+ <data name="lblQuestionsToGenerateFromModules.Text">
+		<value>Generate / Import Fields</value>
+	</data>
+
+
+ <data name="lblQuestionsToGenerateFromModules.Help">
+		<value>Select the fields from the selected module instance that you would like to import into the current module instance.</value>
+	</data>
+
+<data name="lblRepositoryObjectType.Text">
+		<value>Object Type</value>
+	</data>
+
+ <data name="lblRepositoryObjectType.Help">
+		<value>Select the Data Springs Dynamic Forms object type that you would like to search for.</value>
+	</data>
+
+ <data name="lblSearchRepositoryCategory.Text">
+		<value>Repository Category</value>
+	</data>
+
+ <data name="lblSearchRepositoryCategory.Help">
+		<value>Select the Data Springs Repository Category that you would like to search for.</value>
+ </data>
+
+ <data name="lblSearch.Text">
+		<value>Search</value>
+	</data>
+
+ <data name="lblSearch.Help">
+		<value>Enter the search terms to query against the Data Springs repository.</value>
+	</data>
+
+
+</root>

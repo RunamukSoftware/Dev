@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav] DROP CONSTRAINT [FK_{objectQualifier}rxzChildNav_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_rxzChildNav]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav].[IX_{objectQualifier}YourCompany_rxzChildNav]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetrxzChildNavs]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetrxzChildNav]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_AddrxzChildNav]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_UpdaterxzChildNav]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_DeleterxzChildNav]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

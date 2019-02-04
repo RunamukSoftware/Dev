@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="utf-8" ?><content type="DynamicForms" version="04.10.04"><dynamicforms><modulesettings><HideModalImage><![CDATA[False]]></HideModalImage><SaveJavaScript><![CDATA[]]></SaveJavaScript><CheckBlackList><![CDATA[True]]></CheckBlackList><enablesaveforlaterbutton><![CDATA[False]]></enablesaveforlaterbutton><AuthPost><![CDATA[]]></AuthPost><SetDefaults><![CDATA[True]]></SetDefaults><DisableEdit><![CDATA[False]]></DisableEdit><DisableEditor><![CDATA[False]]></DisableEditor><VAlignFields><![CDATA[Top]]></VAlignFields><DefaultLong><![CDATA[400]]></DefaultLong><ExcelExportDelimiter><![CDATA[]]></ExcelExportDelimiter><AlignLabels><![CDATA[Left]]></AlignLabels><AllowNonAdminToManageTemplate><![CDATA[False]]></AllowNonAdminToManageTemplate><CalcField><![CDATA[]]></CalcField><InitialSQLBindQuerystringParam><![CDATA[]]></InitialSQLBindQuerystringParam><ViewResultsSecurityRole><![CDATA[Disabled]]></ViewResultsSecurityRole><VerifiPassword><![CDATA[]]></VerifiPassword><BlackListItemText><![CDATA[Site Administrator: Set this message up under Layout Settings.]]></BlackListItemText><FieldSuffix><![CDATA[:]]></FieldSuffix><PayPalPaymentType><![CDATA[Purchase]]></PayPalPaymentType><EnableValMessage><![CDATA[True]]></EnableValMessage><PayFlowProPartner><![CDATA[]]></PayFlowProPartner><DBType><![CDATA[SQL]]></DBType><PanelType><![CDATA[Disabled]]></PanelType><DynamicStyleSheet><![CDATA[Custom]]></DynamicStyleSheet><saveforlatertext><![CDATA[]]></saveforlatertext><ClearType><![CDATA[ImageButton]]></ClearType><SameLine><![CDATA[False]]></SameLine><ExportType><![CDATA[Excel]]></ExportType><SaveText><![CDATA[Submit]]></SaveText><HideModal><![CDATA[False]]></HideModal><DisableConfigAJAX><![CDATA[True]]></DisableConfigAJAX><PayFlowProGateway><![CDATA[https://pilot-payflowpro.verisign.com/transaction]]></PayFlowProGateway><ValScroll><![CDATA[Top]]></ValScroll><DisableDragDrop><![CDATA[False]]></DisableDragDrop><RegisterURL><![CDATA[]]></RegisterURL><EnterKeySave><![CDATA[False]]></EnterKeySave><AllowNonAdminToDelete><![CDATA[False]]></AllowNonAdminToDelete><PassCompletionID><![CDATA[False]]></PassCompletionID><DefaultShort><![CDATA[200]]></DefaultShort><PayPalStatusField><![CDATA[- Select Dynamic Field -]]></PayPalStatusField><LimitBySubmissionCount><![CDATA[]]></LimitBySubmissionCount><ClearFunctionality><![CDATA[PageRefresh]]></ClearFunctionality><AuthCode><![CDATA[]]></AuthCode><SQLValidationErrorMessage><![CDATA[]]></SQLValidationErrorMessage><VAlignLabels><![CDATA[Top]]></VAlignLabels><PayFlowProPost><![CDATA[]]></PayFlowProPost><SQLValidationQuery><![CDATA[]]></SQLValidationQuery><EnableWordWrap><![CDATA[False]]></EnableWordWrap><TestMode><![CDATA[False]]></TestMode><UseErrorCSS><![CDATA[False]]></UseErrorCSS><ValLocation><![CDATA[Top]]></ValLocation><ClearButtonURL><![CDATA[Awesome-Cycles-Logo.png]]></ClearButtonURL><InitialSQLBind><![CDATA[]]></InitialSQLBind><AllowNonAdminToExport><![CDATA[True]]></AllowNonAdminToExport><PayPalLogin><![CDATA[]]></PayPalLogin><ImageButtonURL><![CDATA[Awesome-Cycles-Logo.png]]></ImageButtonURL><DisplayAfterMessage><![CDATA[True]]></DisplayAfterMessage><PasswordLength><![CDATA[7]]></PasswordLength><InitialHideSubmit><![CDATA[False]]></InitialHideSubmit><ServerValidation><![CDATA[True]]></ServerValidation><VerifiPost><![CDATA[]]></VerifiPost><LabelCellWidth><![CDATA[200]]></LabelCellWidth><ClientValidation><![CDATA[True]]></ClientValidation><USEDWIZARD><![CDATA[TRUE]]></USEDWIZARD><DisplayResultsOnUserFacingModule><![CDATA[None]]></DisplayResultsOnUserFacingModule><AlignButtons><![CDATA[Left]]></AlignButtons><DatabaseProviderExternalConnection><![CDATA[]]></DatabaseProviderExternalConnection><EnableSQLValidation><![CDATA[False]]></EnableSQLValidation><InitialSQLBindConnection><![CDATA[]]></InitialSQLBindConnection><HideHelp><![CDATA[True]]></HideHelp><PaymentGateway><![CDATA[Authorizenet]]></PaymentGateway><FocusFirstField><![CDATA[True]]></FocusFirstField><AltModalPopupMessage><![CDATA[]]></AltModalPopupMessage><AuthLogin><![CDATA[]]></AuthLogin><imageforlater><![CDATA[Awesome-Cycles-Logo.png]]></imageforlater><AltModalPopupImage><![CDATA[]]></AltModalPopupImage><DisableFormAJAX><![CDATA[True]]></DisableFormAJAX><DisableQuickStats><![CDATA[False]]></DisableQuickStats><PayPalPost><![CDATA[]]></PayPalPost><AuthGateway><![CDATA[https://secure.authorize.net/gateway/transact.dll]]></AuthGateway><DisableHelpMenu><![CDATA[False]]></DisableHelpMenu><logdetailsofallevents><![CDATA[False]]></logdetailsofallevents><DisableQuickEdit><![CDATA[True]]></DisableQuickEdit><SetDefaults2><![CDATA[True]]></SetDefaults2><PayFlowProVendor><![CDATA[]]></PayFlowProVendor><DisplayAfterMessageContinue><![CDATA[Continue...]]></DisplayAfterMessageContinue><PayPalGateway><![CDATA[https://www.paypal.com/cgi-bin/webscr]]></PayPalGateway><ValErrorMessageLocation><![CDATA[Right]]></ValErrorMessageLocation><OnlyAllowOnce><![CDATA[False]]></OnlyAllowOnce><VerifiLogin><![CDATA[]]></VerifiLogin><ExportShortFieldName><![CDATA[False]]></ExportShortFieldName><SetFocusAfterVal><![CDATA[True]]></SetFocusAfterVal><wrapallfieldswithindiv><![CDATA[False]]></wrapallfieldswithindiv><PaymentTestMode><![CDATA[False]]></PaymentTestMode><HideValidationSummary><![CDATA[False]]></HideValidationSummary><EnablePaymentGateway><![CDATA[No]]></EnablePaymentGateway><EnablejQueryHighlights><![CDATA[False]]></EnablejQueryHighlights><AlternateExportFolder><![CDATA[]]></AlternateExportFolder><UpdateText><![CDATA[Update]]></UpdateText><AlternateExportMapPath><![CDATA[]]></AlternateExportMapPath><CancelText><![CDATA[Cancel]]></CancelText><SaveType><![CDATA[HTMLInputButton]]></SaveType><ClearMessage><![CDATA[]]></ClearMessage><ShowAsterik><![CDATA[True]]></ShowAsterik><saveforlatertype><![CDATA[]]></saveforlatertype><InitialSQLBindEnabled><![CDATA[False]]></InitialSQLBindEnabled><PayFlowProPassword><![CDATA[]]></PayFlowProPassword><SummaryField><![CDATA[-1]]></SummaryField><ClearText><![CDATA[]]></ClearText><EnablejQueryEZCheckbox><![CDATA[False]]></EnablejQueryEZCheckbox><donotsaveresultsglobal><![CDATA[False]]></donotsaveresultsglobal><DynamicInitialUpgrade><![CDATA[Yes]]></DynamicInitialUpgrade><EnableClearButton><![CDATA[False]]></EnableClearButton><SubmitRight><![CDATA[False]]></SubmitRight><PayFlowProLogin><![CDATA[]]></PayFlowProLogin></modulesettings><extendedmodulesettings><formheader><![CDATA[]]></formheader><formfooter><![CDATA[]]></formfooter><initialjavascript><![CDATA[]]></initialjavascript><formdisplayafter><![CDATA[&lt;h2&gt;Thank you for submitting your information.  Someone from our staff will contact you shortly.&lt;/h2&gt;]]></formdisplayafter><formdisplayaftersaveforlater><![CDATA[]]></formdisplayaftersaveforlater><formcssfile><![CDATA[/* DATA SPRINGS Inc. - DYNAMIC FORMS STYLE SHEET */
+
+
+
+
+.DynamicForms_Maintable {
+
+      width: 100%;
+      padding: 2px;
+}
+
+.DynamicForms_TableRow td:hover {
+ 
+}
+
+
+.DynamicForms_QuestionTableCell { 
+white-space: normal; 
+} 
+
+
+
+
+.DynamicForms_RequiredFieldAsterik
+{
+     font-size: 6.5pt;
+     color: #CC0202;
+}
+
+
+.DynamicForms_AJAXModalMessage
+{
+     font-size: 15.5pt;
+     color: #08498C;
+}
+
+
+.DynamicForms_GridColumn{ background-color: #6DBCDD;  }
+.DynamicForms_GridHeaderColumn{ background-color: #FBF1A5;  }
+.DynamicForms_GridItem{ background-color: #F1BC48;  }
+.DynamicForms_GridColumn{ background-color: #6DBCDD;  }
+.DynamicForms_GridView{ background-color: white; }
+
+.Dynamicforms_DataGridEdit{ background-color: #6DBCDD;  }
+.DynamicForms_DataGridHeader{ background-color: #FBF1A5;  }
+.DynamicForms_DataGridFooter{ background-color: #F1BC48;  }
+.DynamicForms_DataGridItem{ background-color: #6DBCDD;  }
+.DynamicForms_DataGrid{background-color: #6DBCDD;  }
+
+
+
+.DynamicForms_Label
+{
+    font-weight: Normal;
+    font-size: 10.5pt;
+    color: #000000;
+    font-family: Tahoma, Arial, Helvetica;
+    text-decoration: none;
+}
+
+
+
+/* Dynamic Forms jQuery Ratings Control */ 
+div.rating-cancel,div.star-rating{float:left;width:17px;height:15px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+div.rating-cancel,div.rating-cancel a{background:url(/desktopmodules/Dynamic%20Forms/images/delete.gif) no-repeat 0 -16px}
+div.star-rating,div.star-rating a{background:url(/desktopmodules/Dynamic%20Forms/images/star.gif) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -16px!important}
+div.star-rating-hover a{background-position:0 -32px}
+/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important}
+/* END Dynamic Forms jQuery Ratings CSS */
+
+
+
+.DynamicForms_Link
+{
+
+}
+
+
+.DynamicForms_RequiredField
+{
+
+}
+
+.DynamicForms_Compare
+{
+
+}
+
+.DynamicForms_RegularExpression
+{
+
+}
+
+
+.DynamicForms_Textbox
+{
+
+}
+
+.DynamicForms_NormalTextbox
+{
+
+}
+
+.DynamicForms_ComboBox
+{
+
+}
+
+
+.DynamicForms_Dropdownlist
+{
+
+}
+
+.DynamicForms_Captcha
+{
+
+}
+
+
+.DynamicForms_RadioButton
+{
+
+}
+
+.DynamicForms_Listbox
+{
+
+}
+
+.DynamicForms_RichText{
+
+}
+
+
+
+.DynamicForms_Checkbox
+{
+
+}
+
+.DynamicForms_Country
+{
+
+}
+
+
+
+.DynamicForms_CheckBoxList
+{
+   
+
+}
+
+.DynamicForms_DisabledCheckBoxList
+{
+
+     background-color: #efefef;
+
+
+  }
+
+.DynamicForms_DisabledTextBox
+{
+
+     background-color: #efefef;
+}
+
+
+.DynamicForms_DisabledListBox
+{
+     background-color: #efefef;
+
+}
+
+
+
+.DynamicForms_DisabledRadioButton
+{
+
+     background-color: #efefef;
+}
+
+
+.DynamicForms_DisabledCountry
+{
+
+     background-color: #efefef;
+}
+
+
+.DynamicForms_DisabledRichTextbox
+{
+
+     background-color: #efefef;
+}
+
+.DynamicForms_FieldError
+{
+
+     background-color: red;
+}
+
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: lightyellow;
+width: 150px; /*Default width of hint.*/ 
+padding: 3px;
+border:1px solid black;
+font:normal 11px Verdana;
+line-height:18px;
+z-index:100;
+border-right: 3px solid black;
+border-bottom: 3px solid black;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: navy;
+margin: 3px 8px;
+}
+
+
+
+
+
+/******** FOR THE AUTOSUGGEST BOX *******/
+.NodeDefault {font-size:12px;cursor:hand;text-decoration:none;color:#555;}
+.NodeIconDefault {cursor:hand;}
+.ChildNodeDefault, .SpecialNode {font-size:12px;cursor:hand;text-decoration:none;color:#555;
+.SpecialNodeHover{background-color:green;color:#fff;}
+.DisabledNode {color:Gray;}
+.SelClass {background-color:#fc2f00;color:White;}
+.HoverClass {background-color:#fc2f00;color:#fff;}
+.MenuBarClass {border-right:1px outset;border-top:1px outset;border-left:1px outset;width:140px;border-bottom: 1px outset;background-color:#ededed;}
+.MenuClass {background-color: silver;border: outset 1px;}
+.SpecialNode {color: Yellow;}
+
+
+/**
+ * CSS File for ezMark jQuery Plugin
+ *
+ **/
+.ez-hide { opacity: 0; filter:alpha(opacity=0); }
+.ez-checkbox {
+	background: transparent url('/desktopmodules/Dynamic%20Forms/images/checkbox-red.png') 0 1px no-repeat;
+	display:inline-block;
+}
+
+.ez-radio {
+	background: transparent url('/desktopmodules/Dynamic%20Forms/imagesradio-black.png') 0 1px no-repeat;
+	display:inline-block;
+}
+
+.ez-checked { background-position: 0 -18px; }
+.ez-selected { background-position: 0 -19px; }
+
+.ez-checkbox-green {
+	background: transparent url('/desktopmodules/Dynamic%20Forms/images/checkbox-green.png') 0 1px no-repeat;
+	display:inline-block;
+	*display: inline;
+}
+.ez-checked-green { background-position: 0 -18px; }
+.ez-checkbox, .ez-radio { zoom: 1; *display:inline; _height:30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></formcssfile><formjsfile><![CDATA[/***********************************************
+* Data Springs Custom Javascript File
+* Insert any custom client side javascript to be rendered for Dynamic Forms
+* for demonstrations of Dynamic Forms please visit: http://www.datasprings.com/Products/DNNModules/DynamicForms/DynamicFormsDemonstration1/tabid/754/Default.aspx
+***********************************************/
+
+
+/***********************************************
+* This function call is used to add validate that a field is an integer. 
+* Example use: validateNumber($(DynamicForms_ShortFieldName))
+***********************************************/
+
+
+function validateNumber(fieldvalue){
+if (!isNaN(fieldvalue) && (fieldvalue>0))
+alert('This is a number greater than 0');
+else
+alert('This is not a number greater than 0');
+}
+
+/***********************************************
+* This function call is used to add two decimal places to a field. For example 50.4 would be returned as 50.40 
+* Example use: toTwoDecimals($(DynamicForms_ShortFieldName))
+***********************************************/
+
+function toTwoDecimals(n) {
+  var s = "" + Math.round(n * 100) / 100
+  var i = s.indexOf('.')
+  if (i < 0) return s + ".00"
+  var t = s.substring(0, i + 1) + s.substring(i + 1, i + 3)
+  if (i + 2 == s.length) t += "0"
+  return t
+}
+
+
+/***********************************************
+* This function call is used to add commas to a number. For example 100000 would be returned as 100,000 
+* Example use: addCommas($(DynamicForms_ShortFieldName))
+***********************************************/
+
+function addCommas(nStr)
+{
+	nStr += '';
+	x = nStr.split('.');
+	x1 = x[0];
+	x2 = x.length > 1 ? '.' + x[1] : '';
+	var rgx = /(\d+)(\d{3})/;
+	while (rgx.test(x1)) {
+		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	}
+	return x1 + x2;
+}
+
+
+/***********************************************
+* This function call is used to return the value of a radio button. This function can be called for using calculations with radio buttons
+* Example use: funcRadioCalc($(ShortFieldName_FieldID))
+***********************************************/
+
+
+function  funcRadioCalc(RadioName)
+
+ {
+var chkList1= document.getElementById (RadioName);
+var arrayOfCheckBoxes= chkList1.getElementsByTagName("input");
+for(var i=0;i<arrayOfCheckBoxes.length;i++)
+{
+
+if (arrayOfCheckBoxes[i].checked) {
+return arrayOfCheckBoxes[i].value;
+}
+  }
+}
+
+
+
+function  fucRadioCalc(RadioName)
+
+ {
+var chkList1= document.getElementById (RadioName);
+var arrayOfCheckBoxes= chkList1.getElementsByTagName("input");
+for(var i=0;i<arrayOfCheckBoxes.length;i++)
+{
+
+if (arrayOfCheckBoxes[i].checked) {
+return arrayOfCheckBoxes[i].value;
+}
+  }
+}
+
+
+
+ /***********************************************
+* This is a client side event function call is used to verify the email address via a client side event 
+* Example use: verifyEmail($(ShortFieldName))
+***********************************************/
+
+function verifyEmail(emaddress){
+var status = false;    
+var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+     if (emaddress.search(emailRegEx) == -1) {
+          alert("Please enter a valid email address.");
+     }
+     return status;
+}
+
+
+
+ /***********************************************
+* This is a client side event function call is used to verify the a required field via a client side event 
+* Example use: Verifyrequired($(ShortFieldName), 'Your alert message here'))
+***********************************************/
+
+
+function Verifyrequired(reqfield,alerttxt){
+var status = false;
+ if (reqfield.value==null||reqfield.value==""){
+ alert(alerttxt);
+ }
+ return status;
+}
+
+
+
+/***********************************************
+* This function call is used to calculate the total number of characters and notify the user that they exceeded their limitations. For more details
+*please  visit this URL: http://www.datasprings.com/Products/DNNModules/DynamicForms/DynamicFormsDemonstration6/tabid/842/Default.aspx
+***********************************************/
+
+
+ function countChars(dId,txtVal,limit)
+  {
+      var totalLen = txtVal.length; 
+      if (totalLen < limit)
+      {
+          document.getElementById(dId).innerHTML = "<font color='red'>You have used " + totalLen + " of " + limit + " characters available.<br>You have " + (limit - totalLen) + " characters remaining.</font>"; 
+      }
+      else
+      {
+          document.getElementById(dId).innerHTML = "<font color='red'>You have exceeded the character limit for this field.</font>";
+      }
+  }
+
+
+
+
+/***********************************************
+* This function call will format the number into a currency format
+***********************************************/
+
+
+
+function formatCurrency(num) {
+num = num.toString().replace(/\$|\,/g,'');
+if(isNaN(num))
+num = "0";
+sign = (num == (num = Math.abs(num)));
+num = Math.floor(num*100+0.50000000001);
+cents = num%100;
+num = Math.floor(num/100).toString();
+if(cents<10)
+cents = "0" + cents;
+for (var i = 0; i < Math.floor((num.length-(1+i))/3); i++)
+num = num.substring(0,num.length-(4*i+3))+','+
+num.substring(num.length-(4*i+3));
+return (((sign)?'':'-') + '$' + num + '.' + cents);
+}
+
+
+
+function validate_required(field,alerttxt)
+{
+with (field)
+{
+if (value==null||value=="")
+{
+alert(alerttxt);return false;
+}
+else
+{
+return true;
+}
+}
+} 
+function validate_email(field,alerttxt)
+{
+with (field)
+{
+apos=value.indexOf("@");
+dotpos=value.lastIndexOf(".");
+if (apos<1||dotpos-apos<2) 
+{alert(alerttxt);return false;}
+else {return true;}
+}
+}
+
+function CalculateCheckBoxList(CheckBoxList) {
+var objChkBoxLst = document.getElementById(CheckBoxList);
+if(objChkBoxLst) {
+var objChkBoxes = objChkBoxLst.getElementsByTagName('input');
+var objChkLabels = objChkBoxLst.getElementsByTagName('label');
+var i; var numSum = 0;            
+for(i=0;i<objChkBoxes.length;i++) {                    
+if(objChkBoxes[i].checked) {                    
+numSum += GetLabelValue(objChkLabels, objChkBoxes[i].id);
+}
+}
+}
+numSum = Math.round(numSum * 100)/100;                
+return (numSum);
+}
+function GetLabelValue(objLabelList, strForValue) {
+if(objLabelList) {
+var i; var numActualVal; var strElemForValue;
+for(i=0;i<objLabelList.length;i++) {
+if(objLabelList[i].htmlFor)
+strElemForValue = objLabelList[i].htmlFor;
+else
+strElemForValue = objLabelList[i].getAttribute('for');
+if(strElemForValue==strForValue) {                        
+numActualVal = objLabelList[i].innerHTML;
+if(numActualVal.indexOf('$')!=-1); {
+numActualVal = numActualVal.substring(numActualVal.indexOf('$')+1, numActualVal.length);
+} 
+return(numActualVal*1);
+}
+}
+}
+return(0);
+}
+function CalculateCheckBoxListValues(CheckBoxList, CheckBoxValField) {
+var objChkBoxLst = document.getElementById(CheckBoxList);
+var objChkBoxVals = document.getElementById(CheckBoxValField);
+var arrChkBoxVals = '';
+if(objChkBoxVals)
+arrChkBoxVals = objChkBoxVals.value.split('|');
+if(objChkBoxLst) {
+var objChkBoxes = objChkBoxLst.getElementsByTagName('input');                
+var i; var numSum = 0;            
+for(i=0;i<objChkBoxes.length;i++) {                    
+if(objChkBoxes[i].checked) {                    
+numSum += GetCBValue(i, arrChkBoxVals);
+}
+}
+}
+numSum = Math.round(numSum * 100)/100;                
+return (numSum);
+}
+function GetCBValue(intIndex, arrChkValues) {            
+if(arrChkValues) {
+var i;
+var arrTempVals;
+var numRetVal = 0;
+for(i=0;i<arrChkValues.length;i++) {
+arrTempVals = arrChkValues[i].split(':');
+if(arrTempVals) {
+if(arrTempVals[0]==intIndex) {
+numRetVal = arrTempVals[1];
+if(numRetVal.indexOf('$')!=-1); {
+numRetVal = numRetVal.substring(numRetVal.indexOf('$')+1, numRetVal.length);
+} 
+return(numRetVal*1);
+}                        
+}
+}
+}
+return(0);
+}      
+/***********************************************
+* Show Hint script- � Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" //horizontal offset of hint box from anchor link
+
+/////No further editting needed
+
+var vertical_offset="0" //horizontal offset of hint box from anchor link. No need to change.
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+
+
+
+]]></formjsfile></extendedmodulesettings><dynamicquestions><dynamicquestion><dynamicquestionid><![CDATA[96ae2e18-2aac-4d22-af8a-ae12bac8a3f2]]></dynamicquestionid><question><![CDATA[Today's Date]]></question><shortfieldname><![CDATA[TodaysDate]]></shortfieldname><sortorder><![CDATA[5]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[SELECT CONVERT(varchar(10), GETDATE(), 101) AS DefaultValue;
+]]></defaultvalue><helptext><![CDATA[Please enter a value for Today's Date]]></helptext><usesql><![CDATA[1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Today's Date]]></requiredfieldtext><questiontype><![CDATA[label]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Today's Date]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Today's Date]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[16e41e4a-dd3a-4ac1-9f38-e1abb4388578]]></dynamicquestionid><question><![CDATA[First Name]]></question><shortfieldname><![CDATA[FirstName]]></shortfieldname><sortorder><![CDATA[10]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter your first name.]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[SingleShort]]></optiontype><requiredfieldtext><![CDATA[Please enter your first name]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter your first name]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter your first name]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[64a42c15-bf42-4f3c-ba32-674b466e171f]]></dynamicquestionid><question><![CDATA[Last Name]]></question><shortfieldname><![CDATA[LastName]]></shortfieldname><sortorder><![CDATA[15]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter your last name]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[SingleShort]]></optiontype><requiredfieldtext><![CDATA[Please enter your last name]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter your last name]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter your last name]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[30c9077f-147a-4c14-9dda-1e03702b434c]]></dynamicquestionid><question><![CDATA[Email Address]]></question><shortfieldname><![CDATA[Email]]></shortfieldname><sortorder><![CDATA[20]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter your email address]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[SingleShort]]></optiontype><requiredfieldtext><![CDATA[Please enter your email address]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[-1]]></useregularexpression><regularexpressiontext><![CDATA[Please enter a valid email address]]></regularexpressiontext><regularexpression><![CDATA[^((?>[a-zA-Z\d!#$%&'*+\-/=?^_`{|}~]+\x20*|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*"\x20*)*(?<angle><))?((?!\.)(?>\.?[a-zA-Z\d!#$%&'*+\-/=?^_`{|}~]+)+|"((?=[\x01-\x7f])[^"\\]|\\[\x01-\x7f])*")@(((?!-)[a-zA-Z\d\-]+(?<!-)\.)+[a-zA-Z]{2,}|\[(((?(?<!\[)\.)(25[0-5]|2[0-4]\d|[01]?\d?\d)){4}|[a-zA-Z\d\-]*[a-zA-Z\d]:((?=[\x01-\x7f])[^\\\[\]]|\\[\x01-\x7f])+)\])(?(angle)>)$]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter your email address]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter your email address]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[Please enter a valid email address]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[e8bd0ab4-7fc4-47ac-b01d-61a7784cb14e]]></dynamicquestionid><question><![CDATA[Telephone]]></question><shortfieldname><![CDATA[Telephone]]></shortfieldname><sortorder><![CDATA[25]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter your telephone number]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[SingleShort]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Telephone]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Telephone]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Telephone]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[(999) 999-9999]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[8e41953b-5eac-4b07-948a-ac25bf0ba1cb]]></dynamicquestionid><question><![CDATA[Total Jumps]]></question><shortfieldname><![CDATA[TotalJumps]]></shortfieldname><sortorder><![CDATA[30]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Total Jumps.]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Total Jumps between 0 and 99999]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[10]]></maxlength><useregularexpression><![CDATA[-1]]></useregularexpression><regularexpressiontext><![CDATA[Please enter a numeric value for Total Jumps between 0 and 999999]]></regularexpressiontext><regularexpression><![CDATA[^\d(\d)?(\d)?(\d)?(\d)?$]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Total Jumps between 0 and 99999]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Total Jumps between 0 and 99999]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[Please enter a numeric value for Total Jumps between 0 and 999999]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[040de310-0a47-4bb3-878f-d2b763925344]]></dynamicquestionid><question><![CDATA[Date of First Jump]]></question><shortfieldname><![CDATA[DateFirstJump]]></shortfieldname><sortorder><![CDATA[35]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Date of First Jump]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Date of First Jump]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[-90,-0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[-90,-0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Date of First Jump]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Date of First Jump]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[99/99/9999]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[-1]]></enablesqlvalidation><sqlvalidation><![CDATA[BEGIN TRY
+DECLARE @booleanTrueFalse int;
+SET @booleanTrueFalse = 0;
+DECLARE @var1 datetime; 
+SET @var1 = '$(DateFirstJump)';
+IF isDate(@var1) = 1 
+BEGIN 
+SET @booleanTrueFalse = 1;
+END 
+ELSE 
+BEGIN 
+SET @booleanTrueFalse = 0;
+END 
+END TRY
+BEGIN CATCH
+END CATCH
+
+SELECT @booleanTrueFalse As IsValid;
+]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[29c86e0d-08d9-4135-ad40-5ca425f73ddc]]></dynamicquestionid><question><![CDATA[Date of Last Jump]]></question><shortfieldname><![CDATA[LastJump]]></shortfieldname><sortorder><![CDATA[40]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Date of Last Jump]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[// Define functions
+function DateDiff(date1, date2) {
+    var datediff = date1.getTime() - date2.getTime(); //store the getTime diff - or +
+    return (Math.ceil(datediff / (24 * 60 * 60 * 1000))); //convert value to days and return
+}
+
+function addDate(date1, numDays) {
+    var dateObject = new Date(date1);
+    dateObject.setDate(dateObject.getDate() + numDays);
+    return dateObject;
+}
+
+function formatDate(date1) {
+    return date1.getMonth() + 1 + "/" + date1.getDate() + "/" + date1.getFullYear();
+}
+
+// Calculate days out of currency
+var currDateTime = new Date(); //Todays date
+var currDate = formatDate(currDateTime);
+var daysOut = DateDiff(new Date(currDate), new Date($(LastJump)));
+var validDays;
+var validUntil;
+
+//Set recurrency fields for email message based on days out of currency
+switch (true) {
+    case (daysOut <= 7): // 1-7 days out of currency
+        validDays = 7;
+        break;
+    case (daysOut <= 60): // 7-60 days
+        validDays = 60;
+        break;
+    case (daysOut <= 90): // 60-90 days
+        validDays = 90;
+        break;
+    case (daysOut <= 365): // 90-365 days
+        validDays = 365;
+        break;
+    case (daysOut <= (365 * 2)): // 1 year - 2 years
+        validDays = (365 * 2); //730 days
+        break;
+    case (daysOut <= (365 * 10)): // 2+ years
+        validDays = (365 * 10); //3650 days
+        break;
+    case (daysOut <= (365 * 20)): // 10+ years
+        validDays = (365 * 20); //7300 days
+        break;
+    case (daysOut <= (365 * 30)): // 20+ years
+        validDays = (365 * 30); //10950 days
+        break;
+    case (daysOut <= (365 * 100)): // 30+ years
+        validDays = (365 * 100); //36500 days
+        break;
+}
+
+validUntil = addDate(currDateTime, (validDays - daysOut));
+//$(DaysOut) = daysOut;
+var DaysOutID = $(DaysOut_FieldID); 
+document.getElementById(DaysOutID).innerHTML = daysOut;
+
+//var recurrencyTable = document.getElementById($(RecurrencyTable_FieldID));
+var recurrencyInfo = document.getElementById(validDays);
+OutputHtml.innerHTML = recurrencyInfo.innerHTML;
+$(HiddenText) = OutputHtml.innerHTML;
+
+// Place recurrency text into HTML field
+//DaysOutCurrency.innerHTML = daysOut;
+//OutputField.innerHTML = recurrencyText(daysOut);
+
+//document.getElementById(ValidUntil).innerHTML = formatDate(validUntil);
+$(ValidUntilHidden) = formatDate(validUntil);
+var validUntilLabelID = $(ValidUntilLabel_FieldID);
+document.getElementById(validUntilLabelID).innerHTML = formatDate(validUntil);
+]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Date of Last Jump]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[-90,-0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[-90,-0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Date of Last Jump]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Date of Last Jump]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[99/99/9999]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[-1]]></enablesqlvalidation><sqlvalidation><![CDATA[DECLARE @var1 datetime 
+SET @var1 = $(DateLastJump) 
+DECLARE @booleanTrueFalse int 
+SET @booleanTrueFalse = 0 
+IF isDate(@var1) = 1 
+BEGIN 
+SET @booleanTrueFalse = 1 
+SELECT @booleanTrueFalse As IsValid 
+END 
+ELSE 
+BEGIN 
+SET @booleanTrueFalse = 0 
+SELECT @booleanTrueFalse As IsValid 
+END 
+]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[4023c409-5b5f-4e9f-b951-28d5762efb42]]></dynamicquestionid><question><![CDATA[Days Out of Currency]]></question><shortfieldname><![CDATA[DaysOut]]></shortfieldname><sortorder><![CDATA[45]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Days Out of Currency.]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[label]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[c908634a-3a0a-41de-95e1-1855cb4ae67a]]></dynamicquestionid><question><![CDATA[Date Licensed]]></question><shortfieldname><![CDATA[DateLicensed]]></shortfieldname><sortorder><![CDATA[50]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Date Licensed]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Date Licensed]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[-90,-0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[-90,-0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Date Licensed]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Date Licensed]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[99/99/9999]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[c6079cc9-d9a7-480e-8d7c-4b1983a914c1]]></dynamicquestionid><question><![CDATA[USPA License held]]></question><shortfieldname><![CDATA[USPALicHeld]]></shortfieldname><sortorder><![CDATA[55]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for USPA License held]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[False]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for USPA License held]]></requiredfieldtext><questiontype><![CDATA[ComboBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for USPA License held]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for USPA License held]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions><questionoption><questionoptiontext><![CDATA[Please select one:]]></questionoptiontext><questionoptionvalue><![CDATA[Please select one:]]></questionoptionvalue><questionoptionsortorder><![CDATA[0]]></questionoptionsortorder><isgridcolumn><![CDATA[-1]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[A]]></questionoptiontext><questionoptionvalue><![CDATA[A]]></questionoptionvalue><questionoptionsortorder><![CDATA[1]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[B]]></questionoptiontext><questionoptionvalue><![CDATA[B]]></questionoptionvalue><questionoptionsortorder><![CDATA[2]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[C]]></questionoptiontext><questionoptionvalue><![CDATA[C]]></questionoptionvalue><questionoptionsortorder><![CDATA[3]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[D]]></questionoptiontext><questionoptionvalue><![CDATA[D]]></questionoptionvalue><questionoptionsortorder><![CDATA[4]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[db3c549e-e5e8-44a4-9d5d-a4647fe5db49]]></dynamicquestionid><question><![CDATA[License #]]></question><shortfieldname><![CDATA[LicNum]]></shortfieldname><sortorder><![CDATA[60]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for License #]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for License Number. If unknown contact USPA membership services at (540) 604-9740 ]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for License Number. If unknown contact USPA membership services at (540) 604-9740 ]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for License number]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[a65cc680-50de-4b7d-baab-1c6d53254f62]]></dynamicquestionid><question><![CDATA[Current USPA Member]]></question><shortfieldname><![CDATA[CurrentUSPA]]></shortfieldname><sortorder><![CDATA[65]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Current USPA Member]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[False]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Current USPA Member]]></requiredfieldtext><questiontype><![CDATA[ComboBox]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Current USPA Member]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Current USPA Member]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions><questionoption><questionoptiontext><![CDATA[Please select one:]]></questionoptiontext><questionoptionvalue><![CDATA[Please select one:]]></questionoptionvalue><questionoptionsortorder><![CDATA[0]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[Yes]]></questionoptiontext><questionoptionvalue><![CDATA[Yes]]></questionoptionvalue><questionoptionsortorder><![CDATA[1]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[No]]></questionoptiontext><questionoptionvalue><![CDATA[No]]></questionoptionvalue><questionoptionsortorder><![CDATA[2]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[d48d8a3a-80ea-49ec-b58a-7e53c512a7da]]></dynamicquestionid><question><![CDATA[USPA #]]></question><shortfieldname><![CDATA[USPANum]]></shortfieldname><sortorder><![CDATA[70]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for USPA number]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for USPA#]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for USPA#]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for USPA#]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[d583cf66-7b53-4413-aa37-f73b356f7d10]]></dynamicquestionid><question><![CDATA[Main Deployment Method]]></question><shortfieldname><![CDATA[MainDeploy]]></shortfieldname><sortorder><![CDATA[75]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Main Deployment Method]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[False]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Main Deployment Method]]></requiredfieldtext><questiontype><![CDATA[ComboBox]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Main Deployment Method]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Main Deployment Method]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions><questionoption><questionoptiontext><![CDATA[Please select one:]]></questionoptiontext><questionoptionvalue><![CDATA[Please select one:]]></questionoptionvalue><questionoptionsortorder><![CDATA[0]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[Ripcord]]></questionoptiontext><questionoptionvalue><![CDATA[Ripcord]]></questionoptionvalue><questionoptionsortorder><![CDATA[1]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[Throw out pilot chute]]></questionoptiontext><questionoptionvalue><![CDATA[Throw out pilot chute]]></questionoptionvalue><questionoptionsortorder><![CDATA[2]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[dd993fb7-bcab-4efe-90e3-2a60b4341164]]></dynamicquestionid><question><![CDATA[Emergency Procedures]]></question><shortfieldname><![CDATA[EmergProc]]></shortfieldname><sortorder><![CDATA[80]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Emergency Procedures]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[False]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Emergency Procedures]]></requiredfieldtext><questiontype><![CDATA[ComboBox]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Emergency Procedures]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Emergency Procedures]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions><questionoption><questionoptiontext><![CDATA[Please select one:]]></questionoptiontext><questionoptionvalue><![CDATA[Please select one:]]></questionoptionvalue><questionoptionsortorder><![CDATA[0]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[Single handle]]></questionoptiontext><questionoptionvalue><![CDATA[Single handle]]></questionoptionvalue><questionoptionsortorder><![CDATA[1]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[Dual handle]]></questionoptiontext><questionoptionvalue><![CDATA[Dual handle]]></questionoptionvalue><questionoptionsortorder><![CDATA[2]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[16195aa0-217e-4214-bf71-9e120b1cf440]]></dynamicquestionid><question><![CDATA[Size of parachute last jumped]]></question><shortfieldname><![CDATA[SizeParachute]]></shortfieldname><sortorder><![CDATA[85]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Size of parachute last jumped]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[False]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Size of parachute last jumped]]></requiredfieldtext><questiontype><![CDATA[ComboBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Size of parachute last jumped]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Size of parachute last jumped]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions><questionoption><questionoptiontext><![CDATA[Please select one:]]></questionoptiontext><questionoptionvalue><![CDATA[Please select one:]]></questionoptionvalue><questionoptionsortorder><![CDATA[0]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[< 135]]></questionoptiontext><questionoptionvalue><![CDATA[< 135]]></questionoptionvalue><questionoptionsortorder><![CDATA[1]]></questionoptionsortorder><isgridcolumn><![CDATA[-1]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[135 – 150]]></questionoptiontext><questionoptionvalue><![CDATA[135 – 150]]></questionoptionvalue><questionoptionsortorder><![CDATA[2]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[150 – 170]]></questionoptiontext><questionoptionvalue><![CDATA[150 – 170]]></questionoptionvalue><questionoptionsortorder><![CDATA[3]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[170 – 190]]></questionoptiontext><questionoptionvalue><![CDATA[170 – 190]]></questionoptionvalue><questionoptionsortorder><![CDATA[4]]></questionoptionsortorder><isgridcolumn><![CDATA[-1]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[190 – 210]]></questionoptiontext><questionoptionvalue><![CDATA[190 – 210]]></questionoptionvalue><questionoptionsortorder><![CDATA[5]]></questionoptionsortorder><isgridcolumn><![CDATA[0]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption><questionoption><questionoptiontext><![CDATA[> 210]]></questionoptiontext><questionoptionvalue><![CDATA[> 210]]></questionoptionvalue><questionoptionsortorder><![CDATA[6]]></questionoptionsortorder><isgridcolumn><![CDATA[-1]]></isgridcolumn><isselectedcolumn><![CDATA[0]]></isselectedcolumn><fieldtype><![CDATA[]]></fieldtype><listname><![CDATA[]]></listname></questionoption></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[28cab0cc-c3f7-4a2e-9e0a-68474b78fc55]]></dynamicquestionid><question><![CDATA[Current Weight]]></question><shortfieldname><![CDATA[CurrentWt]]></shortfieldname><sortorder><![CDATA[90]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Current Weight]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Current Weight]]></requiredfieldtext><questiontype><![CDATA[TextBox]]></questiontype><isrequired><![CDATA[-1]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[-1]]></useregularexpression><regularexpressiontext><![CDATA[Please enter a numeric value for Current Weight]]></regularexpressiontext><regularexpression><![CDATA[^\d(\d)?(\d)?$]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Current Weight]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Current Weight]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[Please enter a numeric value for Current Weight]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[f9d145d1-156f-42ca-bc9c-229761f0c546]]></dynamicquestionid><question><![CDATA[Valid Until]]></question><shortfieldname><![CDATA[ValidUntilLabel]]></shortfieldname><sortorder><![CDATA[95]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Valid Until.]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Single]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[label]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[-1]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[58258660-6c3f-4059-99b6-c213f7e44f0c]]></dynamicquestionid><question><![CDATA[&lt;span id=&quot;OutputHtml&quot;&gt;
+&lt;/span&gt;]]></question><shortfieldname><![CDATA[Output]]></shortfieldname><sortorder><![CDATA[195]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for Output]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[Please enter a value for Output]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[200]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[Please enter a value for Output]]></requiredfieldtext><requiredfielderror><![CDATA[Please enter a value for Output]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[10]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[f709dae2-8116-42cb-8217-1609364010ec]]></dynamicquestionid><question><![CDATA[Hidden Text]]></question><shortfieldname><![CDATA[HiddenText]]></shortfieldname><sortorder><![CDATA[200]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field HiddenText.]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Multi]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[Hidden]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[False]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[False]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[e8d88a15-acaa-407d-869a-6aa1593eae8b]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;7&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;15 min. Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$6.25&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style=&quot;width: 100%;&quot; colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency7]]></shortfieldname><sortorder><![CDATA[205]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field RecurrencyTables.]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[86afad9d-1008-4c64-90d1-14ead7348135]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;60&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;30 min. Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$12.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency60]]></shortfieldname><sortorder><![CDATA[210]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Recurrency30.]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[b187badb-bd3e-4f6e-8132-f2b4a8196a8b]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;90&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;45 min. Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$18.75&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency90]]></shortfieldname><sortorder><![CDATA[215]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Recurrency90.]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[2efc08f8-936f-44e0-8243-4c2c0be880e1]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;365&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;60 min. Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$25.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency365]]></shortfieldname><sortorder><![CDATA[220]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Recurrency90.]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[15ccc55b-3f46-46fc-859e-e9ae178299ee]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;730&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2 hour Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$50.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency730]]></shortfieldname><sortorder><![CDATA[225]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field .]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[56b125a3-6711-4bef-9b36-762aba7934ca]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;3650&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2 hour Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$50.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: 45 #3)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: RW #2/3)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency3650]]></shortfieldname><sortorder><![CDATA[230]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[11494ab9-c8d8-473b-a9ea-a07d1da8f753]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;7300&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Static Line First Jump Class&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$50.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2 hour Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$50.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1 hour Review&lt;br /&gt;
+            -Ground Licensed Requirement Refresher&lt;br /&gt;
+            -Gear Familiarization&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$25.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: 45 #3)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: RW #2)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: RW #3)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency7300]]></shortfieldname><sortorder><![CDATA[235]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[9fe66d60-fd1a-46ca-9bf8-cfdd6cbab5fc]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;10950&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Static Line First Jump Class&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$50.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;2 hour Review&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$50.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;1 hour Review&lt;br /&gt;
+            -Ground Licensed Requirement Refresher&lt;br /&gt;
+            -Gear Familiarization&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$25.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;&amp;nbsp;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td&gt;Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;PRCP #3 (Practice Rip Cord Pull)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$90.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 5K Recurrency&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$61.50&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: 45 #3)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: RW #2)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Lic. 10K Recurrency (Objectives: RW #3)&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$80.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency10950]]></shortfieldname><sortorder><![CDATA[240]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[d573bdea-764c-4b78-b9f9-be72e0671750]]></dynamicquestionid><question><![CDATA[&lt;div style=&quot;display: none; visibility: hidden;&quot;&gt;
+&lt;div id=&quot;36500&quot;&gt;
+&lt;table style=&quot;width: 300pt;&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr style=&quot;font-weight: bold;&quot;&gt;
+            &lt;td style=&quot;width: 90%;&quot;&gt;Ground &amp;amp; Air Requirement&lt;/td&gt;
+            &lt;td style=&quot;width: 10%; text-align: right;&quot;&gt;Cost&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;a href=&quot;http://www.skydivesnohomish.com/Get_Licensed/Static_Line_Progression.aspx&quot;&gt;Static Line Progression&lt;/a&gt;&lt;/td&gt;
+            &lt;td style=&quot;text-align: right;&quot;&gt;$2,130.00&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td colspan=&quot;2&quot;&gt;Course Cost does not include Packing Class, USPA Membership, or Repeated Jumps&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;]]></question><shortfieldname><![CDATA[Recurrency36500]]></shortfieldname><sortorder><![CDATA[245]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[]]></helptext><usesql><![CDATA[-1]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[Vertical]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[HTML]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[5]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[-1]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion><dynamicquestion><dynamicquestionid><![CDATA[f705be43-8944-4e66-9866-9958ea113096]]></dynamicquestionid><question><![CDATA[Valid Until]]></question><shortfieldname><![CDATA[ValidUntilHidden]]></shortfieldname><sortorder><![CDATA[250]]></sortorder><exampletext><![CDATA[]]></exampletext><defaultvalue><![CDATA[]]></defaultvalue><helptext><![CDATA[Please enter a value for the field Valid Until Hidden.]]></helptext><usesql><![CDATA[0]]></usesql><sqltext><![CDATA[]]></sqltext><javavalidation><![CDATA[]]></javavalidation><isreadonly><![CDATA[0]]></isreadonly><ishidden><![CDATA[0]]></ishidden><textboxlength><![CDATA[200]]></textboxlength><pullinquery><![CDATA[0]]></pullinquery><pushtoquery><![CDATA[0]]></pushtoquery><pullinsession><![CDATA[0]]></pullinsession><pushtosession><![CDATA[0]]></pushtosession><optiontype><![CDATA[]]></optiontype><requiredfieldtext><![CDATA[]]></requiredfieldtext><questiontype><![CDATA[Hidden]]></questiontype><isrequired><![CDATA[0]]></isrequired><maxlength><![CDATA[50]]></maxlength><useregularexpression><![CDATA[0]]></useregularexpression><regularexpressiontext><![CDATA[]]></regularexpressiontext><regularexpression><![CDATA[]]></regularexpression><questionheader><![CDATA[]]></questionheader><questionfooter><![CDATA[]]></questionfooter><hiddenuntilevent><![CDATA[0]]></hiddenuntilevent><optiontypetwo><![CDATA[0]]></optiontypetwo><userviewable><![CDATA[0]]></userviewable><optiontype2><![CDATA[0]]></optiontype2><dnnfield><![CDATA[0]]></dnnfield><requiredfieldtext><![CDATA[]]></requiredfieldtext><requiredfielderror><![CDATA[]]></requiredfielderror><comparevalidatorquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></comparevalidatorquestionid><comparevalidatortext><![CDATA[]]></comparevalidatortext><comparevalidatorerror><![CDATA[]]></comparevalidatorerror><issameline><![CDATA[0]]></issameline><issamecell><![CDATA[0]]></issamecell><labelclass><![CDATA[]]></labelclass><fieldclass><![CDATA[]]></fieldclass><fieldlabelsameline><![CDATA[0]]></fieldlabelsameline><hidefieldlabel><![CDATA[0]]></hidefieldlabel><colspan><![CDATA[1]]></colspan><rowspan><![CDATA[1]]></rowspan><showhelpaspopuptext><![CDATA[0]]></showhelpaspopuptext><popuptextwidth><![CDATA[200]]></popuptextwidth><pullincookie><![CDATA[0]]></pullincookie><pushtocookie><![CDATA[0]]></pushtocookie><hidefromresults><![CDATA[0]]></hidefromresults><nosave><![CDATA[0]]></nosave><optiontype3><![CDATA[]]></optiontype3><maskededit><![CDATA[]]></maskededit><regularexpressionerror><![CDATA[]]></regularexpressionerror><enablesqlvalidation><![CDATA[0]]></enablesqlvalidation><sqlvalidation><![CDATA[]]></sqlvalidation><sqlvalidationerror><![CDATA[]]></sqlvalidationerror><questionoptions></questionoptions></dynamicquestion></dynamicquestions><dynamicevents><dynamicevent><dynamiceventid><![CDATA[4905e340-d314-404d-ab0c-0990efbdfbde]]></dynamiceventid><dnnrole><![CDATA[0]]></dnnrole><dynamicemailfrom><![CDATA[tony@otemb.com]]></dynamicemailfrom><dynamicemailmessage><![CDATA[&lt;p&gt;&lt;strong&gt;Licensed Jumper Re-currency&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;color: red;&quot;&gt;&lt;strong&gt;Valid Until: $(ValidUntilHidden)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hi $(FirstName),&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s great that you are considering getting back in the air with us! Below we have outlined the requirements for your progression and have included the items that need to be completed prior to your re-currency progression.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Prior to Starting Ground &amp;amp; Air training:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Review the following sections of the SIM (Skydivers Information Manual).&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;color: #065eec;&quot;&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Section 4:&lt;/span&gt;
+&lt;a href=&quot;http://www.uspa.org/SIM/Read/Section4/tabid/166/Default.aspx&quot;&gt;Category Quizzes A-H&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Take all quizzes.&lt;/li&gt;
+    &lt;li&gt;Take until receiving 90% or higher.&lt;/li&gt;
+    &lt;li&gt;Print results and bring with you when scheduled for your ground training.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;span style=&quot;color: #065eec;&quot;&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Section 4:&lt;/span&gt;
+&lt;a href=&quot;http://www.uspa.org/SIM/Read/Section4/Articles/MentalRelaxationTheKeytoBodyFlight/tabid/167/Default.aspx&quot;&gt;Articles Mental Relaxation&lt;/a&gt; &amp;amp;
+&lt;a href=&quot;http://www.uspa.org/SIM/Read/Section4/Articles/VisualizationMindOverBody/tabid/216/Default.aspx&quot;&gt;Visualization: Mind Over Body&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;color: #065eec;&quot;&gt;&lt;span style=&quot;font-weight: bold; text-decoration: underline;&quot;&gt;Section 5:&lt;/span&gt;
+&lt;a href=&quot;http://www.uspa.org/SIM/Read/Section5/tabid/168/Default.aspx&quot;&gt;All Sections&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+$(HiddenText)
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;em&gt;How to Schedule Your Review:&lt;/em&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Current Week:&lt;/strong&gt; Call Skydive Snohomish at 360-568-7703 to inquire about availability on Student Schedule if after 10am Monday.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Following Week:&lt;/strong&gt; Submit &lt;a href=&quot;http://www.skydivesnohomish.com/get-licensed/availability/&quot;&gt;Student Availability Form&lt;/a&gt; no later than 12:00am on Sunday.
+    &lt;ul&gt;
+        &lt;li&gt;For Type of Next Jump enter &lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;License Jumper Re-currency&lt;/span&gt;&lt;/em&gt;&lt;/li&gt;
+        &lt;li&gt;For Comments enter &lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Mod. Progression&lt;/span&gt;&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Equipment/Gear Rentals: For Licensed Jumpers who do not have their own gear.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;1-3 jumps: $20.00 plus tax (per jump)&lt;/li&gt;
+    &lt;li&gt;4+ jumps: $60.00&lt;/li&gt;
+    &lt;li&gt;Altimeter: $5.00 per jump&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Additional Information:&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Non-Refundable Deposit:&lt;/strong&gt;
+    To reserve space on the Student Schedule we require a Non-Refundable deposit of $50.00. Fifty dollars will be applied to the cost of the jump.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Hold Policy:&lt;/strong&gt;
+    Spaces on the Student Schedule will only be held for 24 hours without a deposit, after that time the space will become available to the public.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Weather:&lt;/strong&gt;
+    Call manifest 1 hour prior to class time to verify that weather conditions are suitable for skydiving.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Cancellation/Rescheduling:&lt;/strong&gt;
+    24hr. advance notice is required to cancel or reschedule your reviews and/or skydives. Failure to provide the required advance notice will result in a No Show Fee of $50.00.
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Required Documentation:&lt;/strong&gt;
+    New Licensed Jumpers are required to provide Photo ID, Last entry of logbook, USPA card, and reserve repack (if jumping own gear).
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Jump Operations:&lt;/strong&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Summer Season: May-September jumping Wednesday-Sunday&lt;/li&gt;
+        &lt;li&gt;Winter Season: October, January-April jumping Friday-Sunday&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Hours:&lt;/strong&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Weekdays: 11am-sunset&lt;/li&gt;
+        &lt;li&gt;Weekends: 8am-sunset&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;USPA Contact Information:&lt;/strong&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;strong&gt;Website: &lt;/strong&gt;www.uspa.org&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Phone: &lt;/strong&gt;540-604-9740&lt;/li&gt;
+        &lt;li&gt;&lt;strong&gt;Email: &lt;/strong&gt;uspa@uspa.org&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;h3&gt;&amp;nbsp;&lt;em&gt;For Internal Office Use Only&lt;/em&gt;&lt;/h3&gt;
+$(TodaysDate_FullResults)
+$(FirstName_FullResults)
+$(LastName_FullResults)
+$(Email_FullResults)
+$(Telephone_FullResults)
+$(TotalJumps_FullResults)
+$(DateFirstJump_FullResults)
+$(LastJump_FullResults)
+$(DaysOut_FullResults)
+$(DateLicensed_FullResults)
+$(USPALicHeld_FullResults)
+$(LicNum_FullResults)
+$(CurrentUSPA_FullResults)
+$(USPANum_FullResults)
+$(MainDeploy_FullResults)
+$(EmergProc_FullResults)
+$(SizeParachute_FullResults)
+$(CurrentWt_FullResults)
+$(ValidUntilHidden_FullResults)]]></dynamicemailmessage><dynamicemailsubject><![CDATA[Licensed Jumper Re-Currency ]]></dynamicemailsubject><dynamicemailto><![CDATA[runamuk0@msn.com]]></dynamicemailto><dynamicquestionid><![CDATA[00000000-0000-0000-0000-000000000000]]></dynamicquestionid><dynamicredirection><![CDATA[]]></dynamicredirection><dynamicresponse><![CDATA[]]></dynamicresponse><dynamicsql><![CDATA[]]></dynamicsql><eventname><![CDATA[SubmitEmail]]></eventname><eventtype><![CDATA[Email]]></eventtype><fireeventparameter><![CDATA[1]]></fireeventparameter><sortorder><![CDATA[0]]></sortorder><dynamicemailpriority><![CDATA[0]]></dynamicemailpriority><pdfdesc><![CDATA[]]></pdfdesc><pdftemplate><![CDATA[]]></pdftemplate><pdfheader><![CDATA[]]></pdfheader><pdffooter><![CDATA[]]></pdffooter><pdfshowpages><![CDATA[0]]></pdfshowpages><dynamicemailcc><![CDATA[]]></dynamicemailcc><dynamicemailbcc><![CDATA[]]></dynamicemailbcc><dynamicemailfromname><![CDATA[OTEMB]]></dynamicemailfromname><emailformat><![CDATA[OTEMB]]></emailformat><optionalconfig1><![CDATA[]]></optionalconfig1></dynamicevent></dynamicevents><dynamicquestionevents></dynamicquestionevents><localization><formslocal></formslocal><questionslocal></questionslocal></localization><resultstemplate></resultstemplate></dynamicforms></content>

@@ -1,0 +1,18 @@
+04/29/2018 17:16:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Folder Creation Check
+04/29/2018 17:16:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep File Creation Check
+04/29/2018 17:16:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep File Deletion Check
+04/29/2018 17:16:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Folder Deletion Check
+04/29/2018 17:16:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Checking IIS configuration
+04/29/2018 17:16:58 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Upgrading Application
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - Module
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - Skin
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - Container
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - Language
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - Provider
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - AuthSystem
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Install Packages for type - Package
+04/29/2018 17:16:59 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Initializing Host Settings
+04/29/2018 17:17:01 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Creating Site [www.abcd.com]
+04/29/2018 17:17:01 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Portal Alias [www.skydivesnohomish.com] is already present. Skipping this step.
+04/29/2018 17:17:01 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Create SuperUser
+04/29/2018 17:17:01 [INFO] DotNetNuke.Services.Upgrade.Internals.Steps.BaseInstallationStep Creating SuperUserhelloworld

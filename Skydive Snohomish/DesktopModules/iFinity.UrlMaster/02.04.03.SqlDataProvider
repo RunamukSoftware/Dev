@@ -1,0 +1,185 @@
+﻿/************************************************************/
+/*****              SQLDataProvider		                *****/
+/*****              iFinity.Url Master 02.04.03			*****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}	*****/
+/************************************************************/
+
+/* 904 : removed */
+declare @isSqlServer2005 bit
+select @isSqlServer2005 = case when CONVERT(int, SUBSTRING(CONVERT(varchar(15), SERVERPROPERTY('productversion')), 0, CHARINDEX('.', CONVERT(varchar(15), SERVERPROPERTY('productversion'))))) < 9 then 0 else 1 end
+/****** Object:  Trigger [ifty_OnNewModuleControl]    Script Date: 06/29/2011 17:10:09 ******/
+IF @isSqlServer2005 = 1 and EXISTS (select * from sysobjects where id = OBJECT_ID(N'{databaseOwner}[ifty_OnNewModuleControl]') and xtype='TR')
+EXEC sp_executesql @statement = N'ALTER TRIGGER {databaseOwner}[ifty_OnNewModuleControl] on {databaseOwner}[{objectQualifier}ModuleControls]
+FOR INSERT 
+as 
+
+-- =============================================
+-- Author:		Bruce Chapman
+-- Create date: 5 Mar 2008
+-- Description:	Checks and runs tab and tabmodule creation
+--              when a TabModuleCreation record exists to do
+--				so.  Note that this trigger drops itself
+--				when there are no more records in the tabModule
+--				creation table to run.
+-- Mods	
+-- =============================================
+--  bc	29/06/11 842 : dnn 6.0 compatibility
+-- =============================================
+
+SET NOCOUNT ON
+DECLARE @ErrStr 	varchar(600)	/* Return error string				*/
+DECLARE @Error		int		/* Return error value				*/
+DECLARE @Rowcount	int		/* Return related row count			*/
+DECLARE @TranCount  int     /* Keeps a record of the transaction count */
+
+
+/* 842 : add in transaction handling and soft error handling to prevent failures */
+SELECT @TranCount = @@TRANCOUNT
+IF @TranCount = 0 BEGIN TRANSACTION T1
+
+
+BEGIN TRY
+
+	SET XACT_ABORT OFF  --don''t throw error and rollback if error found in this block
+
+	declare @moduleDefId int, @moduleControlId int, @controlSource nvarchar(255)
+
+	select @moduleDefId = md.ModuleDefId
+		 , @moduleControlId = mc.ModuleControlId
+ 		 , @controlSource = mc.ControlSrc
+	from {databaseOwner}{objectQualifier}ModuleDefinitions md
+	inner join inserted mc
+	on mc.ModuleDefId = md.ModuleDefId
+
+	IF EXISTS (SELECT * FROM sysobjects WHERE id = OBJECT_ID(N''{databaseOwner}[ifty_TabModuleCreation]'') AND type in (N''U''))
+	BEGIN
+
+		if exists (select * from {databaseOwner}[ifty_TabModuleCreation] where completed = 0)
+		BEgin
+			exec {databaseOwner}ifty_AddTabAndTabModule @moduleDefId, @moduleControlId
+		END
+
+		if not exists (select * from {databaseOwner}[ifty_TabModuleCreation] where completed = 0)
+		BEGIN
+			DROP TRIGGER {databaseOwner}ifty_OnNewModuleControl
+		END
+
+	END 
+	/* finished procedure, commit and return */
+	IF @TranCount = 0 COMMIT TRANSACTION T1
+	
+	SET XACT_ABORT ON --switch transaction abort back on again
+END TRY
+BEGIN CATCH
+	select @errStr = ''Error in ModuleControls trigger caught - Procedure: '' + Convert(nvarchar(100), Error_Procedure()) + '' Line:'' + Convert(nvarchar(10), error_Line()) + '' Message:'' + convert(nvarchar(890),Error_Message())
+	select @error = Error_Number()
+    RAISERROR(@ErrStr,1,2)	
+	--note only rollsback the work done in the trigger
+	IF @TranCount = 0 ROLLBACK TRANSACTION T1
+    
+	    --manually insert message into event log
+    BEGIN TRY
+		declare @logGuid uniqueidentifier, @LogCreateDate datetime, @logProperties nvarchar(3000), @logConfigId int
+		select @logCOnfigId = ID from {databaseOwner}{objectQualifier}EventLogConfig where LogTypeKey = ''HOST_ALERT''
+		set @logGuid = newid()
+		set @logCreateDate = getdate()
+		set @logProperties = N''<LogProperties><LogProperty><PropertyName>Install Package Failure:</PropertyName><PropertyValue>iFinity Url Master</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error:</PropertyName><PropertyValue>Installation Failed - Module</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Info:</PropertyName><PropertyValue>Installation Failed - iFinity Url Master</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Trigger Name:</PropertyName><PropertyValue>ifty_OnNewModuleControl</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error Number:</PropertyName><PropertyValue>'' + Convert(nvarchar(10),Error_Number()) + ''</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error Severity:</PropertyName><PropertyValue>'' + Convert(nvarchar(10),Error_Severity()) + ''</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error State:</PropertyName><PropertyValue>'' + Convert(nvarchar(10),ERROR_STATE()) + ''</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error Procedure:</PropertyName><PropertyValue>'' + Convert(nvarchar(100),ERROR_PROCEDURE()) + ''</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error Line:</PropertyName><PropertyValue>'' +  Convert(nvarchar(10),ERROR_LINE()) + ''</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Error Message:</PropertyName><PropertyValue>'' + Convert(varchar(1000),ERROR_MESSAGE()) + ''</PropertyValue></LogProperty>
+<LogProperty><PropertyName>Info:</PropertyName><PropertyValue>Installation Failed</PropertyValue></LogProperty></LogProperties>''
+		exec {databaseOwner}{objectQualifier}AddEventLog @logGuid=@LogGUID,@LogTypeKey=''HOST_ALERT'',@LogUserId=NULL,@logUserName=NULL,@logPortalId=NULL,@logPortalName=NULL,@logCreateDate=@LogCreateDate,@logServerName=@@ServerName,@logProperties=@logProperties,@logConfigId=@logConfigId
+    END TRY
+    BEGIN CATCH
+		ROLLBACK TRANSACTION T2
+		select @errStr = ''Error in ModuleControls trigger error logging caught - Procedure: '' + Convert(nvarchar(100), coalesce(Error_Procedure(),''[no proc]'')) + '' Line:'' + Convert(nvarchar(10),coalesce( error_Line(), 0)) + '' Message:'' + convert(nvarchar(870),coalesce(Error_Message(), ''[no message]''))
+        RAISERROR(@errStr,1,2)
+    END CATCH	
+END CATCH
+SET NOCOUNT OFF'
+
+/*904 : OnNewModule removed */
+
+/****** Object:  StoredProcedure {databaseOwner}[ifty_GetUserByDisplayName]    Script Date: 07/04/2011 14:27:01 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF EXISTS (SELECT * FROM sysobjects WHERE ID = OBJECT_ID(N'{databaseOwner}[ifty_GetUserByDisplayName]') AND type in (N'P', N'PC'))
+BEGIN
+EXEC sp_executesql @statement = N'
+ALTER Procedure {databaseOwner}[ifty_GetUserByDisplayName]
+(
+	  @portalId int
+	, @displayNameReplaced nvarchar(100)
+	, @displayNameStripped nvarchar(100)
+)
+AS
+BEGIN
+
+/* =============================================
+	Author:      Bruce Chapman
+	Create date: 11/06/2009
+	Description: Returns the display name for a nominated user
+   ============================================= 
+	
+	    Return Values
+	    0  - Successful Execution.
+	    1  - SQL Error. Rollback Occurred.
+	    2  - No records modified. Rollback Occurred.
+	    3  - No records modified. Commit Occured
+	    4  - Error in sub procedure - entire top procedure rolled back.
+	    5  - No record(s) returned. Procedure Executed Ok.
+	    6+ - Specific to procedure
+	
+	    Modified by:		Date:		Reason for Modification:
+		BRC					20/04/2010	implemented lookup to stop returning when pagename clash
+		brc					04/07/2011  845 : was matching username/tabname instead of displayname/tabname
+	   =============================================*/
+
+SET NOCOUNT ON 
+DECLARE @ErrStr 	varchar(100)	/* Return error string				*/
+DECLARE @Error		int		/* Return error value				*/
+DECLARE @RowCount	int
+	
+	SELECT top 1 UserId 
+		,  case when DisplayName = @displayNameReplaced then ''encoded'' else ''stripped'' end as MatchType
+		,  DisplayName
+	FROM {databaseOwner}{objectQualifier}vw_Users u
+	WHERE (DisplayName = @displayNameReplaced or DisplayName = @displayNameStripped)
+	  AND (u.PortalId = @PortalID OR IsSuperUser = 1 OR @PortalID is null)
+	  and not exists (select * FROM {databaseOwner}{objectQualifier}vw_tabs t
+					 where t.Level = 0
+					 and (t.PortalId = u.PortalId or u.PortalId is null or t.PortalId is null)
+					 and (t.TabName = u.DisplayName or t.TabName = @displayNameStripped))
+	and not exists (select * FROM {databaseOwner}ifty_tabRedirect tr
+					left join {databaseOwner}{objectQualifier}Tabs trt
+					   on tr.TabId = trt.TabId
+					where  (tr.Url = u.DisplayName or tr.Url = @displayNameStripped) --matches custom url)
+					  and (trt.PortalId = u.PortalId or u.POrtalId is null))
+
+	ORDER BY UserId ASC
+
+	SELECT @Error = @@ERROR, @RowCount = @@RowCount
+	IF @Error <> 0
+	BEGIN
+		SELECT @ErrStr=''Error in ''+ OBJECT_NAME(@@PROCID) + ''. Stmt No.=1, Db=''+db_name()+'',Err=''+CONVERT(varchar(10),@Error)
+		RAISERROR(@ErrStr,16,1)
+		RETURN 1 /* statement failed */
+	END
+	ELSE
+		RETURN 0	  /*** Procedure executed ok. Records committed */
+END
+
+
+' 
+END

@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap-min.css" rel="stylesheet" />
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/CanopyPolicy.js"></script>    
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>Experienced Jumper Policy</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <div id="mainpanel" class="well bs-component panel panel-default">
+                    <h2>Jumper Details</h2>
+                    <form id="ajax-contact" method="post" action="php/Mailer2.php">
+                        
+						
+						
+									<div class="field">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"  class="form-control" placeholder="Enter Name" required>
+			</div>
+
+			<div class="field">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"  class="form-control" placeholder="Enter Email" required>
+			</div>
+
+			<div class="field" >
+				<label for="message" hidden>Message:</label>				        
+				<textarea id="message" name="message" required hidden></textarea>
+			</div>
+			<div class="field" >
+				<label for="reasoning" hidden>Reasoning:</label>				        
+				<textarea id="reasoning" name="reasoning"  hidden></textarea>
+			</div> 
+
+                        <!-- can potentially change to dynamically load from array of known KnownChkItems -->
+                        <fieldset class="form-group">
+                            <!-- USPA Content In Panel-->
+                            <div class="checkbox">
+                                <img id="chk_uspa_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('uspa')">USPA</a>
+                            </div>
+
+                            <!-- Equipment Content In Panel-->
+                            <div class="checkbox">
+                                <img id="chk_equipment_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('equipment')">Equipment</a>
+                            </div>
+
+							<!-- Policy Content In Panel -->
+                            <div class="checkbox">
+                                <img id="chk_policy_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('policy')">Canopy Policy</a>
+                            </div>
+							
+                            <!-- Logbook Content In Panel-->
+                            <div class="checkbox">
+                                <img id="chk_logbook_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('logbook')">Logbook</a>
+                            </div>
+
+                            <!-- DZ Brief Content In Panel-->
+							
+							<!-- TO BE ADDED BACK IN LATER
+                            <div class="checkbox">
+                                <img id="chk_dz_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('dz')">DZ</a>
+                            </div>
+							-->
+                        </fieldset>
+
+                        <button class="btn btn-default"  type="submit">Send</button>
+                        <button class="btn btn-default" onclick="resetstate()">Reset</button>
+
+                        
+                    </form>
+
+                    
+                    <div id="form-messages"></div>
+                </div>
+            </div>
+
+            <!-- THIS IS THE RIGHT HAND PANEL WHICH WILL CHANGE CONTENT DEPENDING UPON THE  CHECKBOX LINK CLICKED -->
+            <div class="col-md-6">
+                <div id="contentpanel" class="panel panel-default ">
+                    <div id="cp_inner" hidden>
+                        <div class="panel-heading">
+                            <h3 id="cp_heading">Content Panel Heading</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div id="cp_content">
+                                <!--Content will be displayed in here..... -->
+                            </div>
+                        </div>
+                        <div class="panel-footer ">
+                            <!--   Possible Button to be clicked to confirm that you have read and checkbox will be updated -->
+                            <button  id="confirmread" class="btn btn-primary" onclick="confirmReadSection()">OK</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function () {
+            console.log("ready!");
+
+            // Populate the message with inputs 		
+            updatemessage ();
+            showState();
+        });
+
+function resetstate() {            
+	resetlocalstoragevalues();
+    showState();			
+    updatemessage ();            
+}
+
+function showState() {		
+	//Update Form
+	$("#name").val("");
+	$("#email").val("");
+	ShowControlState(findKnownChkItem("USPA"));	
+	ShowControlState(findKnownChkItem("logbook"));						 
+	ShowControlState(findKnownChkItem("Equipment"));				
+	ShowControlState(findKnownChkItem("DZ"));		
+	ShowControlState(findKnownChkItem("Policy"));			 
+}
+				 
+function ShowControlState(chkItem) {	
+// General function to set/unset the image for a given control
+// depending upon its localstorage value
+    var nocheckmark = "content/Checkmarks/no-th.jpg";
+    var checkmark = "content/Checkmarks/th.jpg";
+	
+	if (chkItem != null) {
+		chkcontrol = chkItem.persistItem;
+		if (chkcontrol !== ls_chk_policy) {
+			var img = "#" + chkcontrol + "_img";
+					
+            if (localStorage.getItem(chkcontrol) === "true") {
+				$(img).attr("src", checkmark);
+                $(img).attr("hidden", false);                        
+            }
+            else {
+				$(img).attr("src", nocheckmark);
+                $(img).attr("hidden", false);
+            }
+
+		}
+		else {			
+			reflectPolicyState(chkcontrol);            
+		}
+	}		
+}
+		
+        
+
+
+    </script>
+</body>
+</html>

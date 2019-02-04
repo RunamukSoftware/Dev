@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?><content type="DNNReports" version="05.05.00"><title><![CDATA[Triple S Report]]></title>
+<description><![CDATA[]]></description>
+<converters>
+</converters>
+<datasource type="DotNetNuke" class="DotNetNuke.Modules.Reports.DataSources.DotNetNuke.DotNetNukeDataSource">
+<setting key="Query"><![CDATA[EXEC [SkySno_uspSelClassStatusForDay];]]></setting>
+</datasource></content>

@@ -1,0 +1,82 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="SitemapMenu" type="Module" version="1.0.0">
+  <friendlyName>Sitemap Menu</friendlyName>
+  <description>Lists the visible pages of a portal in a tree view</description>
+  <iconFile />
+  <owner>
+    <name />
+    <organization />
+    <url />
+    <email />
+  </owner>
+  <license>The license for this package is not currently included within the installation file, please check with the vendor for full license details.</license>
+  <releaseNotes />
+  <components>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>SitemapMenu</moduleName>
+        <foldername>SitemapMenu</foldername>
+        <businessControllerClass />
+        <supportedFeatures />
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>Sitemap Menu</friendlyName>
+            <definitionName>Sitemap Menu</definitionName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/SitemapMenu/View.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>View</controlType>
+                <iconFile />
+                <helpUrl />
+                <supportsPopUps>False</supportsPopUps>
+                <viewOrder>0</viewOrder>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+    </component>
+    <component type="Assembly">
+      <assemblies>
+        <basePath>bin</basePath>
+        <assembly>
+          <name>SitemapMenu.dll</name>
+        </assembly>
+      </assemblies>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\SitemapMenu</basePath>
+        <file>
+          <path>img</path>
+          <name>lastnode.png</name>
+        </file>
+        <file>
+          <path>img</path>
+          <name>node.png</name>
+        </file>
+        <file>
+          <path>img</path>
+          <name>vline.png</name>
+        </file>
+        <file>
+          <name>License.txt</name>
+        </file>
+        <file>
+          <name>module.css</name>
+        </file>
+        <file>
+          <name>View.ascx</name>
+        </file>
+        <file>
+          <name>SitemapMenu.dnn</name>
+        </file>
+      </files>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>

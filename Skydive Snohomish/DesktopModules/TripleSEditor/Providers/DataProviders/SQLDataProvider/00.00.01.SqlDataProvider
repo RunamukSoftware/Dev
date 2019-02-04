@@ -1,0 +1,469 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
+
+/************************************************************/
+/*****            Triple 'S' Database                   *****/
+/*****           for Skydive Snohomish                  *****/
+/*****            Created: 09/12/2013                   *****/
+/************************************************************/
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[FK_SkySno_DayTime_SkySno_ClassStatus]') AND parent_object_id = OBJECT_ID(N'[SkySno_DayTime]'))
+ALTER TABLE [SkySno_DayTime] DROP CONSTRAINT [FK_SkySno_DayTime_SkySno_ClassStatus]
+GO
+
+/****** Object:  View [SkySno_vwDayTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'[SkySno_vwDayTime]'))
+DROP VIEW [SkySno_vwDayTime]
+GO
+
+/****** Object:  Table [SkySno_ClassStatus]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_ClassStatus]') AND type in (N'U'))
+DROP TABLE [SkySno_ClassStatus]
+GO
+
+/****** Object:  Table [SkySno_JobTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_JobTime]') AND type in (N'U'))
+DROP TABLE [SkySno_JobTime]
+GO
+
+/****** Object:  Table [SkySno_DayTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_DayTime]') AND type in (N'U'))
+DROP TABLE [SkySno_DayTime]
+GO
+
+/****** Object:  Table [dbo].[SkySno_DayTimeHistory]    Script Date: 9/4/2013 10:52:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SkySno_DayTimeHistory]') AND type in (N'U'))
+DROP TABLE [dbo].[SkySno_DayTimeHistory]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspUpdClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspUpdClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspUpdClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspSelClassStatusForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspSelClassStatusForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspSelClassStatusForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspSelClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspSelClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspSelClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspInsClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspInsClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspInsClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspDelClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspDelClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspDelClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspDayTimeResetClassStatus]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspDayTimeResetClassStatus]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspDayTimeResetClassStatus]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspCheckJobTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspCheckJobTime]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspCheckJobTime]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspInsDayTimeHistory]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspInsDayTimeHistory]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspInsDayTimeHistory] 
+GO
+
+
+/****** Object:  Table [SkySno_JobTime]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [SkySno_JobTime](
+	[Time] [smalldatetime] NOT NULL
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [SkySno_ClassStatus]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [SkySno_ClassStatus](
+	[ClassStatusID] [int] IDENTITY(1,1) NOT NULL,
+	[ClassStatus] [nvarchar](25) NOT NULL,
+	[CSSStyle] [nvarchar](15) NOT NULL,
+	[HRef] [nvarchar](15) NOT NULL,
+ CONSTRAINT [PK_ClassStatus] PRIMARY KEY CLUSTERED 
+(
+	[ClassStatusID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [SkySno_DayTime]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [SkySno_DayTime](
+	[DayTimeID] [int] IDENTITY(1,1) NOT NULL,
+	[Day] [nchar](10) NOT NULL,
+	[Time] [smalldatetime] NOT NULL,
+	[ClassStatusID] [int] NOT NULL,
+ CONSTRAINT [PK_DayTime] PRIMARY KEY CLUSTERED 
+(
+	[DayTimeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+/****** Object:  Table [dbo].[SkySno_DayTimeHistory]    Script Date: 9/4/2013 10:52:03 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SkySno_DayTimeHistory]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[SkySno_DayTimeHistory](
+	[DayTimeHistoryID] [int] IDENTITY(1,1) NOT NULL,
+	[DateTime] [smalldatetime] NOT NULL,
+	[ClassStatus] [nvarchar](15) NOT NULL
+) ON [PRIMARY]
+END
+GO
+
+CREATE UNIQUE NONCLUSTERED INDEX IX_SkySno_Day_Time ON dbo.SkySno_DayTime
+	(
+	Day,
+	Time
+	) WITH( STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+GO
+
+ALTER TABLE [SkySno_DayTime]  WITH CHECK ADD  CONSTRAINT [FK_SkySno_DayTime_SkySno_ClassStatus] FOREIGN KEY([ClassStatusID])
+REFERENCES [SkySno_ClassStatus] ([ClassStatusID])
+GO
+
+ALTER TABLE [SkySno_DayTime] CHECK CONSTRAINT [FK_SkySno_DayTime_SkySno_ClassStatus]
+GO
+
+/****** Object:  View [SkySno_vwDayTime]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [SkySno_vwDayTime]
+AS
+SELECT TOP (100) PERCENT DayTimeID, Day, Time, ClassStatusID
+FROM [SkySno_DayTime]
+ORDER BY Day, Time
+GO
+
+/****** Object: SqlProcedure [dbo].[SkySno_uspInsDayTimeHistory] Script Date: 9/4/2013 10:06:05 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [SkySno_uspInsDayTimeHistory] 
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	INSERT INTO [dbo].[SkySno_DayTimeHistory]
+			([DateTime]
+			,[ClassStatus])
+	SELECT 
+		CAST(CONVERT(nvarchar(10), DATEADD(hour, -8, GETUTCDATE()), 101) + ' ' + CAST(CAST([SkySno_DayTime].[Time] AS time) AS nvarchar(12)) AS smalldatetime) AS [DateTime]
+		, [SkySno_ClassStatus].[CSSStyle] AS [ClassStatus]
+	FROM [SkySno_DayTime] INNER JOIN [SkySno_ClassStatus] 
+		ON [SkySno_DayTime].[ClassStatusID] = [SkySno_ClassStatus].[ClassStatusID]
+	WHERE [SkySno_DayTime].[Day] = DATENAME(weekday, DATEADD(hour, -8, GETUTCDATE())) 
+	ORDER BY [SkySno_DayTime].[Day], [SkySno_DayTime].[Time];
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspDayTimeResetClassStatus]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [SkySno_uspDayTimeResetClassStatus] 
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	-- Copy current days data to history table
+	EXECUTE [SkySno_uspInsDayTimeHistory];
+
+	UPDATE [SkySno_DayTime]
+	   SET [ClassStatusID] = 1; -- Undetermined
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspCheckJobTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Tony Green
+-- Create date: 03/31/2011
+-- Description:	
+-- =============================================
+CREATE PROCEDURE [SkySno_uspCheckJobTime]
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	DECLARE @DaysSinceUpdate [int];
+
+	SELECT @DaysSinceUpdate = DATEDIFF(day, [Time], GETDATE())
+	FROM [SkySno_JobTime];
+
+	-- Check if we need to reset the class status
+	IF @DaysSinceUpdate > 0 
+	BEGIN 
+		PRINT 'Performing Class Status Update';
+
+		-- Reset class status
+		EXECUTE [SkySno_uspDayTimeResetClassStatus];
+
+		-- Update job time to today
+		UPDATE [SkySno_JobTime] 
+		SET [Time] = GETDATE();
+	END
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspDelClassStatusEditForDay]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [SkySno_uspDelClassStatusEditForDay] (
+	@DayTimeID int
+)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	EXECUTE [SkySno_uspCheckJobTime];
+
+	DELETE FROM [SkySno_DayTime] 
+	WHERE [DayTimeID] = @DayTimeID;
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspInsClassStatusEditForDay]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE PROCEDURE [SkySno_uspInsClassStatusEditForDay] (
+	@Day nchar(10), 
+	@Time smalldatetime, 
+	@ClassStatusID int
+)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	EXECUTE [SkySno_uspCheckJobTime];
+
+	INSERT INTO [SkySno_DayTime] ([Day], [Time], [ClassStatusID]) 
+	VALUES (@Day, @Time, @ClassStatusID)
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspSelClassStatusEditForDay]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [SkySno_uspSelClassStatusEditForDay] 
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	EXECUTE [SkySno_uspCheckJobTime];
+
+	SELECT 
+		[SkySno_DayTime].[DayTimeID]
+		, [SkySno_DayTime].[Day]
+		, RIGHT(CONVERT(nchar(20), [SkySno_DayTime].[Time], 100), 8) AS [ClassTime]
+		, [SkySno_ClassStatus].[ClassStatusID]
+		, [SkySno_ClassStatus].[CSSStyle]
+	FROM [SkySno_DayTime] INNER JOIN [SkySno_ClassStatus] 
+		ON [SkySno_DayTime].[ClassStatusID] = [SkySno_ClassStatus].[ClassStatusID]
+	WHERE [Day] = DATENAME(weekday, DATEADD(hour, -8, GETUTCDATE())) 
+	ORDER BY [Day], [Time];
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspSelClassStatusForDay]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [SkySno_uspSelClassStatusForDay] 
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	EXECUTE [SkySno_uspCheckJobTime];
+
+	SELECT 
+		[SkySno_DayTime].[DayTimeID]
+		, [SkySno_DayTime].[Day]
+		, RIGHT(CONVERT(nchar(20), [SkySno_DayTime].[Time], 100), 8) AS [ClassTime]
+		, [SkySno_ClassStatus].[ClassStatus]
+		, [SkySno_ClassStatus].[CSSStyle]
+		, [SkySno_ClassStatus].[HRef]
+	FROM [SkySno_DayTime] INNER JOIN [SkySno_ClassStatus] 
+		ON [SkySno_DayTime].[ClassStatusID] = [SkySno_ClassStatus].[ClassStatusID]
+	WHERE [Day] = DATENAME(weekday, DATEADD(hour, -8, GETUTCDATE())) 
+	ORDER BY [Day], [Time];
+END
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspUpdClassStatusEditForDay]    Script Date: 9/1/2013 5:49:10 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [SkySno_uspUpdClassStatusEditForDay] (
+	@ClassStatusID int,
+	@DayTimeID int
+)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+	EXECUTE [SkySno_uspCheckJobTime];
+
+	UPDATE [SkySno_DayTime] 
+	SET [ClassStatusID] = @ClassStatusID 
+	WHERE [DayTimeID] = @DayTimeID;
+END
+GO
+
+/************************************************************/
+/*****    Insert start values for Skydive Snohomish     *****/
+/************************************************************/
+SET NOCOUNT ON;
+
+SET IDENTITY_INSERT [SkySno_ClassStatus] ON;
+
+INSERT [SkySno_ClassStatus] ([ClassStatusID], [ClassStatus], [CSSStyle], [HRef]) VALUES (1, N'Undetermined', N'Undetermined', N'Undetermined')
+INSERT [SkySno_ClassStatus] ([ClassStatusID], [ClassStatus], [CSSStyle], [HRef]) VALUES (2, N'Come on out!', N'ComeOnOut', N'ComeOnOut')
+INSERT [SkySno_ClassStatus] ([ClassStatusID], [ClassStatus], [CSSStyle], [HRef]) VALUES (3, N'We’re optimistic, but…', N'Optimistic', N'Optimistic')
+INSERT [SkySno_ClassStatus] ([ClassStatusID], [ClassStatus], [CSSStyle], [HRef]) VALUES (4, N'50/50', N'Percentage', N'Percentage')
+INSERT [SkySno_ClassStatus] ([ClassStatusID], [ClassStatus], [CSSStyle], [HRef]) VALUES (5, N'Reschedule due to weather', N'Reschedule', N'Reschedule')
+
+SET IDENTITY_INSERT [SkySno_ClassStatus] OFF;
+GO
+
+SET IDENTITY_INSERT [SkySno_DayTime] ON;
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (1, N'Monday    ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (2, N'Monday    ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (3, N'Monday    ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (4, N'Monday    ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (5, N'Monday    ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (6, N'Monday    ', CAST('7:30PM' AS SmallDateTime), 1)
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (7, N'Tuesday   ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (8, N'Tuesday   ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (9, N'Tuesday   ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (10, N'Tuesday   ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (11, N'Tuesday   ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (12, N'Tuesday   ', CAST('7:30PM' AS SmallDateTime), 1)
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (13, N'Wednesday ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (14, N'Wednesday ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (15, N'Wednesday ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (16, N'Wednesday ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (17, N'Wednesday ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (18, N'Wednesday ', CAST('7:30PM' AS SmallDateTime), 1)
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (19, N'Thursday  ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (20, N'Thursday  ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (21, N'Thursday  ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (22, N'Thursday  ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (23, N'Thursday  ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (24, N'Thursday  ', CAST('7:30PM' AS SmallDateTime), 1)
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (25, N'Friday    ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (26, N'Friday    ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (27, N'Friday    ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (28, N'Friday    ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (29, N'Friday    ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (30, N'Friday    ', CAST('7:30PM' AS SmallDateTime), 1)
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (31, N'Saturday  ', CAST('9:00AM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (32, N'Saturday  ', CAST('10:30AM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (33, N'Saturday  ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (34, N'Saturday  ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (35, N'Saturday  ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (36, N'Saturday  ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (37, N'Saturday  ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (38, N'Saturday  ', CAST('7:30PM' AS SmallDateTime), 1)
+
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (39, N'Sunday    ', CAST('9:00AM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (40, N'Sunday    ', CAST('10:30AM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (41, N'Sunday    ', CAST('12:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (42, N'Sunday    ', CAST('1:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (43, N'Sunday    ', CAST('3:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (44, N'Sunday    ', CAST('4:30PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (45, N'Sunday    ', CAST('6:00PM' AS SmallDateTime), 1)
+INSERT [SkySno_DayTime] ([DayTimeID], [Day], [Time], [ClassStatusID]) VALUES (46, N'Sunday    ', CAST('7:30PM' AS SmallDateTime), 1)
+
+SET IDENTITY_INSERT [SkySno_DayTime] OFF;
+GO
+
+INSERT [SkySno_JobTime] ([Time]) VALUES (CAST('01/01/2000' AS SmallDateTime))
+GO

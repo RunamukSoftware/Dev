@@ -1,0 +1,3291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System" name="System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Assembly</value>
+  </data>
+  <data name="lblEmailResultsToAdmin.Text" xml:space="preserve">
+    <value>Email Response to Site Admin?</value>
+  </data>
+  <data name="lblEmailResultsToAdmin.Help" xml:space="preserve">
+    <value>Select if you would like to email the HTTP Post response to the site administrator.</value>
+  </data>
+  <data name="lblExtendedField.Text" xml:space="preserve">
+    <value>Dynamic Question</value>
+  </data>
+  <data name="lblExtendedField.Help" xml:space="preserve">
+    <value>Select the Dynamic Question / Field you want to edit</value>
+  </data>
+  <data name="lblQuestion.Text" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="lblQuestion.Help" xml:space="preserve">
+    <value>Enter the question / field label for this field.</value>
+  </data>
+  <data name="lblQuestionType.Text" xml:space="preserve">
+    <value>Question Type</value>
+  </data>
+  <data name="lblQuestionOptions.Text" xml:space="preserve">
+    <value>Question Options</value>
+  </data>
+  <data name="DNNQuestionSortOrder.Text" xml:space="preserve">
+    <value>Dynamic Questions Sort Order</value>
+  </data>
+  <data name="DNNSaveButton.Text" xml:space="preserve">
+    <value>Submit Link / Button</value>
+  </data>
+  <data name="DNNSaveForLaterButton.Text" xml:space="preserve">
+    <value>Save for Later Link / Button</value>
+  </data>
+  <data name="DNNClearButton.Text" xml:space="preserve">
+    <value>Clear Link / Button</value>
+  </data>
+  <data name="DNNStyleSheet.Text" xml:space="preserve">
+    <value>Style Sheet</value>
+  </data>
+  <data name="HeaderFooter.Text" xml:space="preserve">
+    <value>Header / Footer / System Messages</value>
+  </data>
+  <data name="OnlySubmitOnce.Text" xml:space="preserve">
+    <value>Single Submission Notice</value>
+  </data>
+  <data name="SystemLayout.Text" xml:space="preserve">
+    <value>General Settings - Common Settings, Layout, Question Order, Stylesheet</value>
+  </data>
+  <data name="lblSummaryField.Text" xml:space="preserve">
+    <value>Select the summary field</value>
+  </data>
+  <data name="lblSummaryField.Help" xml:space="preserve">
+    <value>Select the summary that would be displayed in the View form results grid.</value>
+  </data>
+  <data name="MessageUpdated.Text" xml:space="preserve">
+    <value>Message Updated</value>
+  </data>
+  <data name="lblSummaryLocation.Text" xml:space="preserve">
+    <value>Validation Summary Location</value>
+  </data>
+  <data name="lblSummaryLocation.Help" xml:space="preserve">
+    <value>Please select if you would like the validation summary/controls be displayed at the top of the form or the bottom of the form.</value>
+  </data>
+  <data name="lblGlobalValidationMessage.Text" xml:space="preserve">
+    <value>Display validation summary message</value>
+  </data>
+  <data name="lblGlobalValidationMessage.Help" xml:space="preserve">
+    <value>Please select if you would like a message to appear the validation summary within the form. This message will be displayed directly above either the client side or server side validation summary when at least one field criteria is not met.</value>
+  </data>
+  <data name="lblSetFocusAfterValidation.Text" xml:space="preserve">
+    <value>Set focus on first validation error field</value>
+  </data>
+  <data name="lblSetFocusAfterValidation.Help" xml:space="preserve">
+    <value>Select if you would like the form to set focus on the first field that is not valid.</value>
+  </data>
+  <data name="FormValidation.Text" xml:space="preserve">
+    <value>Validation Configuration</value>
+  </data>
+  <data name="ValidationConfiguration.Text" xml:space="preserve">
+    <value>Validation Configuration / View Results Configuration</value>
+  </data>
+
+
+  <data name="lblErrorCSSClass.Text" xml:space="preserve">
+    <value>Use custom CSS style sheet class for invalid validation fields.</value>
+  </data>
+  <data name="lblErrorCSSClass.Help" xml:space="preserve">
+    <value>Please select if you would like a custom style sheet class of DynamicRegistration_FieldError to be used for fields that are invalid and throw validation errors.</value>
+  </data>
+  <data name="lblShowHelpAsPopUp.Text" xml:space="preserve">
+    <value>Show help text as pop up text?</value>
+  </data>
+  <data name="lblShowHelpAsPopUp.Help" xml:space="preserve">
+    <value>Select if you would like to show the help text as pop up text to the right of the field.</value>
+  </data>
+  <data name="lblPopUpWidth.Text" xml:space="preserve">
+    <value>Pop up text width</value>
+  </data>
+  <data name="lblPopUpWidth.Help" xml:space="preserve">
+    <value>Select the width for the pop up text.</value>
+  </data>
+  <data name="lblScrollTopBottom.Text" xml:space="preserve">
+    <value>Force user to top or bottom of form after invalid validation?</value>
+  </data>
+  <data name="lblScrollTopBottom.Help" xml:space="preserve">
+    <value>Select if you would like to force the user to the top or bottom of the page after the server validation has fired and at least one field contains improper validation.</value>
+  </data>
+  <data name="lblTop.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="lblBottom.Text" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="lblNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblSortOrder.Text" xml:space="preserve">
+    <value>Sort Order</value>
+  </data>
+  <data name="lblSortOrder.Help" xml:space="preserve">
+    <value>Enter the numeric value to sort this question by (higher the number the further down the list the field displays).</value>
+  </data>
+  <data name="ControlTitle_extended.Text" xml:space="preserve">
+    <value>Manage Questions</value>
+  </data>
+  <data name="lblLabelVerticalAlignment.Text" xml:space="preserve">
+    <value>Label Vertical Alignment</value>
+  </data>
+  <data name="lblLabelVerticalAlignment.Help" xml:space="preserve">
+    <value>Select how you would like the label to be displayed vertically within the table cell.</value>
+  </data>
+  <data name="lblFieldVerticalAlignment.Text" xml:space="preserve">
+    <value>Field Vertical Alignment</value>
+  </data>
+  <data name="lblFieldVerticalAlignment.Help" xml:space="preserve">
+    <value>Select how you would like the field to be displayed vertically within the table cell.</value>
+  </data>
+  <data name="lblLabelCellWidth.Text" xml:space="preserve">
+    <value>Label Cell Width</value>
+  </data>
+  <data name="lblLabelCellWidth.Help" xml:space="preserve">
+    <value>Select the width that you would like the label column to be within the table.</value>
+  </data>
+  <data name="lblPasswordField.Text" xml:space="preserve">
+    <value>Password Field</value>
+  </data>
+  <data name="lblPasswordConfirmField.Help" xml:space="preserve">
+    <value>Select the dynamic field which represents the DNN Core Password confirm Field.</value>
+  </data>
+  <data name="lblPasswordConfirmField.Text" xml:space="preserve">
+    <value>Password Confirm Field</value>
+  </data>
+  <data name="lblDNNCoreField.Text" xml:space="preserve">
+    <value>DNN Core Field</value>
+  </data>
+  <data name="lblDNNCoreField.Help" xml:space="preserve">
+    <value>Select the DNN Core field you would to link to a dynamic field.</value>
+  </data>
+  <data name="lblDynamicField.Text" xml:space="preserve">
+    <value>Dynamic Field</value>
+  </data>
+  <data name="lblDynamicField.Help" xml:space="preserve">
+    <value>Select the DNN Core field you would to link to a dynamic field.</value>
+  </data>
+  <data name="lblSaveText.Text" xml:space="preserve">
+    <value>Submit Text</value>
+  </data>
+  <data name="lblSaveText.Hep" xml:space="preserve">
+    <value>Enter the text that you would like to use to represent the Submit link button.</value>
+  </data>
+  <data name="lblSaveForLaterText.Text" xml:space="preserve">
+    <value>Save for Later Text</value>
+  </data>
+  <data name="lblSaveForLaterText.Help" xml:space="preserve">
+    <value>Enter the text that you would like to use to represent the Save for Later link button.</value>
+  </data>
+  <data name="lblClearText.Text" xml:space="preserve">
+    <value>Clear / Reset Text</value>
+  </data>
+  <data name="lblClearImage.Text" xml:space="preserve">
+    <value>Clear / Reset Image</value>
+  </data>
+  <data name="lblRegText.Help" xml:space="preserve">
+    <value>Select the text you would like for the Update linkbutton.</value>
+  </data>
+  <data name="lblUpdateText.Text" xml:space="preserve">
+    <value>Update Text</value>
+  </data>
+  <data name="lblUpdateText.Help" xml:space="preserve">
+    <value>Select the text you would like for the Update linkbutton.</value>
+  </data>
+  <data name="lblAllowCancel.Text" xml:space="preserve">
+    <value>Allow Cancel</value>
+  </data>
+  <data name="lblAllowCancel.Help" xml:space="preserve">
+    <value>Can you user cancel their account?</value>
+  </data>
+  <data name="lblCancelText.Text" xml:space="preserve">
+    <value>Cancel Text</value>
+  </data>
+  <data name="lblCancelText.Help" xml:space="preserve">
+    <value>Select the text you would like for the Cancel linkbutton?</value>
+  </data>
+  <data name="lblAllignLinkButtons.Text" xml:space="preserve">
+    <value>Align Link Buttons</value>
+  </data>
+  <data name="lblAllignLinkButtons.Help" xml:space="preserve">
+    <value>Select if you would like the linkbuttons to be aligned to the left or right</value>
+  </data>
+  <data name="lblHideHelpImage.Text" xml:space="preserve">
+    <value>Hide help icons</value>
+  </data>
+  <data name="lblHideHelpImage.Help" xml:space="preserve">
+    <value>Would you like to hide the help icons for each dynamic question label?</value>
+  </data>
+  <data name="lblEnablePaymentGateway.Text" xml:space="preserve">
+    <value>Enable Payment Gateway</value>
+  </data>
+  <data name="lblEnablePaymentGateway.Help" xml:space="preserve">
+    <value>Select if you would like to enable the payment gateway for this form.</value>
+  </data>
+  <data name="lblPaymentGateway.Text" xml:space="preserve">
+    <value>Payment Gateway</value>
+  </data>
+  <data name="lblPaymentGateway.Help" xml:space="preserve">
+    <value>Select if you would like the payment gateway to be in test mode.</value>
+  </data>
+  <data name="AuthorizenetGateway.Text" xml:space="preserve">
+    <value>Authorizenet Gateway</value>
+  </data>
+   <data name="Authorizenetnet.Text" xml:space="preserve">
+    <value>Authorizenet Gateway</value>
+  </data>
+     <data name="PaymentsGateway.Text" xml:space="preserve">
+    <value>Payments Gateway (Forte)</value>
+  </data>
+  <data name="AuthorizenetARB.Text" xml:space="preserve">
+    <value>Authorize.NET ARB (Recurring Billing)</value>
+  </data>
+  <data name="IDEAL.Text" xml:space="preserve">
+    <value>Ideal</value>
+  </data>
+  <data name="Realex.Text" xml:space="preserve">
+    <value>Realex</value>
+  </data>
+  <data name="IPPay.Text" xml:space="preserve">
+    <value>IPPay</value>
+  </data>
+  <data name="PayPalGateway.Text" xml:space="preserve">
+    <value>PayPal Gateway</value>
+  </data>
+  <data name="lblPayPalPaymentLogin.Text" xml:space="preserve">
+    <value>PayPal Login (email)</value>
+  </data>
+  <data name="lblPayPalPaymentLogin.Help" xml:space="preserve">
+    <value>Select the email address that this payment should be sent to.</value>
+  </data>
+  <data name="lblEnableSQLValidation.Text" xml:space="preserve">
+    <value>Enable custom SQL Validation script</value>
+  </data>
+  <data name="lblEnableSQLValidation.Help" xml:space="preserve">
+    <value>Select if you would like to enable a custom SQL Validation Script. Validation via SQL should ALWAYS use stored procedures to prevent SQL Injection when referencing fields.</value>
+  </data>
+  <data name="lblEnableSQLValidationForField.Text" xml:space="preserve">
+    <value>Enable custom SQL Validation script for this specific field.</value>
+  </data>
+  <data name="lblEnableSQLValidationForField.Help" xml:space="preserve">
+    <value>Select if you would like to enable a custom SQL Validation Script for this specific vield. Validation via SQL should ALWAYS use stored procedures to prevent SQL Injection when referencing fields.</value>
+  </data>
+  <data name="lblASPErrorMessageLocation.Text" xml:space="preserve">
+    <value>ASP.NET error message location</value>
+  </data>
+  <data name="lblASPErrorMessageLocation.Help" xml:space="preserve">
+    <value>Select the location of the error messages that should appear next to ASP.NET Client Side validation controls. These are usually displayed as * next or below the field.</value>
+  </data>
+  <data name="RightField.Text" xml:space="preserve">
+    <value>Right of Field</value>
+  </data>
+  <data name="LeftField.Text" xml:space="preserve">
+    <value>Left of Field</value>
+  </data>
+  <data name="lblRoleEventType.Text" xml:space="preserve">
+    <value>Role Action Type</value>
+  </data>
+  <data name="lblRoleEventType.Help" xml:space="preserve">
+    <value>Select if you would like the user to be added or removed based on the user response, only added, or only removed</value>
+  </data>
+  <data name="StaticDate.Text" xml:space="preserve">
+    <value>Static Date</value>
+  </data>
+  <data name="BelowField.Text" xml:space="preserve">
+    <value>Below the Field</value>
+  </data>
+  <data name="lblSQLValidationQuery.Text" xml:space="preserve">
+    <value>Validation SQL Query (should return one column called IsValid)</value>
+  </data>
+  <data name="lblSQLValidationQuery.Help" xml:space="preserve">
+    <value>Enter a SQL query to perform custom validation for this field. The SQL query should return one column called IsValid. If the column returns 0 or False then the validation error message will be thrown, anything else and the user can continue. Validation via SQL should ALWAYS use stored procedures to prevent SQL Injection when referencing fields.</value>
+  </data>
+  <data name="lblSQLValidationQueryForField.Text" xml:space="preserve">
+    <value>Validation SQL Query (should return one column called IsValid)</value>
+  </data>
+  <data name="lblSQLValidationQueryForField.Help" xml:space="preserve">
+    <value>Enter a SQL query to perform custom validation for this field. The SQL query should return one column called IsValid. If the column returns 0 or False then the validation error message will be thrown, anything else and the user can continue. Validation via SQL should ALWAYS use stored procedures to prevent SQL Injection when referencing fields.</value>
+  </data>
+  <data name="lblSQLValidationErrorMessage.Text" xml:space="preserve">
+    <value>Validation Error Message</value>
+  </data>
+  <data name="lblSQLValidationErrorMessage.Help" xml:space="preserve">
+    <value>Enter a message the user will receive if the validation is thrown for the custom SQL Validation.</value>
+  </data>
+  <data name="lblSQLValidationErrorMessageForField.Text" xml:space="preserve">
+    <value>Validation Error Message</value>
+  </data>
+  <data name="lblSQLValidationErrorMessageForField.Help" xml:space="preserve">
+    <value>Enter a message the user will receive if the validation is thrown for the custom SQL Validation.</value>
+  </data>
+  <data name="PayPalSubscription.Text" xml:space="preserve">
+    <value>Subscription</value>
+  </data>
+  <data name="PayPalPurchase.Text" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+  <data name="PayPalDonation.Text" xml:space="preserve">
+    <value>Donation</value>
+  </data>
+  <data name="PayPalShoppingCart.Text" xml:space="preserve">
+    <value>Shopping Cart</value>
+  </data>
+  <data name="lblPayPalPaymentType.Text" xml:space="preserve">
+    <value>PayPal Payment Type</value>
+  </data>
+  <data name="lblPayPalPaymentType.Help" xml:space="preserve">
+    <value>Select if this PayPal purchase is for a one time purchase or a subscription.</value>
+  </data>
+  <data name="lblPayPalURL.Text" xml:space="preserve">
+    <value>PayPal URL (test or standard)</value>
+  </data>
+  <data name="lblPayPalURL.Help" xml:space="preserve">
+    <value>Select if you would like the payment to be processed from the standard PayPal gateway or the sandbox gateway.</value>
+  </data>
+  <data name="lblPayPalParameters.Text" xml:space="preserve">
+    <value>Additional Parameters (Required, should include no spaces)</value>
+  </data>
+  <data name="lblPayPalParameters.Help" xml:space="preserve">
+    <value>Enter the additional parameters for this PayPal transaction. This includes passing dynamic tokens for each optional PayPal token such as the users first and last name, the amount, the item name, etc... </value>
+  </data>
+  <data name="lblPayPalTokens.Text" xml:space="preserve">
+    <value>PayPal Tokens</value>
+  </data>
+  <data name="lblPayPalTokens.Help" xml:space="preserve">
+    <value>Select from the available PayPal tokens below. These tokens should be used within the PayPal additional parameters textbox.</value>
+  </data>
+  <data name="lblDynamicTokens2.Text" xml:space="preserve">
+    <value>Dynamic Tokens</value>
+  </data>
+  <data name="lblDynamicTokens2.Help" xml:space="preserve">
+    <value>Select the dynamic tokens below. These tokens should be used within the PayPal additional parameters area.</value>
+  </data>
+  <data name="lblDynamicTokens3.Text" xml:space="preserve">
+    <value>Dynamic Tokens</value>
+  </data>
+  <data name="lblDynamicTokens3.Help" xml:space="preserve">
+    <value>Select the dynamic tokens below. These tokens should be used within the PayFlow Pro additional parameters area.</value>
+  </data>
+  <data name="lblPaymentTestMode.Text" xml:space="preserve">
+    <value>Test Mode</value>
+  </data>
+  <data name="lblPaymentTestMode.Help" xml:space="preserve">
+    <value>Select if you would like to enable the payment gateway to be setup for Test Mode.</value>
+  </data>
+  <data name="lblAuthLogin.Text" xml:space="preserve">
+    <value>Authorizenet Login</value>
+  </data>
+  <data name="lblAuthLogin.Help" xml:space="preserve">
+    <value>Enter the authorizenet login information.</value>
+  </data>
+  <data name="lblVerificationCode.Text" xml:space="preserve">
+    <value>Verification Code</value>
+  </data>
+  <data name="lblVerificationCode.Help" xml:space="preserve">
+    <value>Enter the Authorizenet Verification Code.</value>
+  </data>
+  <data name="lblAdditionalParameters.Text" xml:space="preserve">
+    <value>Additional Parameters</value>
+  </data>
+  <data name="lblAdditionalParameters.Help" xml:space="preserve">
+    <value>Enter the additional parameters to pass along to the merchant to process the payment.</value>
+  </data>
+  <data name="lblInitiallyHide.Text" xml:space="preserve">
+    <value>Initially hide form submission button</value>
+  </data>
+  <data name="lblInitiallyHide.Help" xml:space="preserve">
+    <value>Hide form submission button until forced visible by client event.</value>
+  </data>
+  <data name="lblCalculationField.Text" xml:space="preserve">
+    <value>Calculation Total (optional)</value>
+  </data>
+  <data name="lblCalculationField.Help" xml:space="preserve">
+    <value>Enter the calculation field which can be used to process the payment price. Example: $(Quantity) * $(Price).</value>
+  </data>
+  <data name="PaymentGateway.Text" xml:space="preserve">
+    <value>Payment Gateway</value>
+  </data>
+  <data name="PaymentInfo.Text" xml:space="preserve">
+    <value>The Dynamic Forms payment gateway currently supports Authorize.net and PayPal.</value>
+  </data>
+  <data name="lblHelp.Text" xml:space="preserve">
+    <value>Help Text</value>
+  </data>
+  <data name="lblHelp.Help" xml:space="preserve">
+    <value>Enter the text to be displayed for the help icon of this question</value>
+  </data>
+  <data name="lblRequired.Text" xml:space="preserve">
+    <value>Required Field</value>
+  </data>
+  <data name="lblRequired.Help" xml:space="preserve">
+    <value>Select if you would like this field to be a required field</value>
+  </data>
+  <data name="lblTestMode.Text" xml:space="preserve">
+    <value>Enable Debug Mode</value>
+  </data>
+  <data name="lblTestMode.Help" xml:space="preserve">
+    <value>This setting will put the dynamic forms module in debug mode until the setting is disabled. Note: When this setting is enabled the user-facing administration interface to enable/disable debug mode will not function as the module will always be in debug mode at this time.</value>
+  </data>
+  <data name="lblAllowUserRename.Text" xml:space="preserve">
+    <value>User can change their username</value>
+  </data>
+  <data name="lblAllowUserRename.Help" xml:space="preserve">
+    <value>Can the user change their username?</value>
+  </data>
+  <data name="lblRedirectAfterSave.Text" xml:space="preserve">
+    <value>Redirect Page After Submit</value>
+  </data>
+  <data name="lblRedirectAfterSave.Help" xml:space="preserve">
+    <value>Which page should the user be redirected to after they submit the form?</value>
+  </data>
+  <data name="lblPrefixPasswordNumber.Text" xml:space="preserve">
+    <value>Password suffix number length</value>
+  </data>
+  <data name="lblPrefixPasswordNumber.Help" xml:space="preserve">
+    <value>Enter the number of random numbers to be used when creating the password for the user, this number will be used on conjunction with the password prefix.</value>
+  </data>
+  <data name="lblRedirectAfterUpdate.Text" xml:space="preserve">
+    <value>Redirect Page After Update</value>
+  </data>
+  <data name="lblRedirectAfterUpdate.Help" xml:space="preserve">
+    <value>Which page should the user be redirected to after they submit the form?</value>
+  </data>
+  <data name="lblRedirectAfterCancel.Text" xml:space="preserve">
+    <value>Redirect Page After Cancel</value>
+  </data>
+  <data name="lblRedirectAfterCancel.Help" xml:space="preserve">
+    <value>Which page should the user be redirected to after they cancel their membership?</value>
+  </data>
+  <data name="lblMessages.Text" xml:space="preserve">
+    <value>System Layout / Email Messages</value>
+  </data>
+  <data name="lblMessages.Help" xml:space="preserve">
+    <value>Select the layout details for your forms module below</value>
+  </data>
+  <data name="lblValidateEmail.Text" xml:space="preserve">
+    <value>Validate Email Address</value>
+  </data>
+  <data name="lblValidateEmail.Help" xml:space="preserve">
+    <value>Validate that the email address linked to the DNN Core email field is valid syntax.</value>
+  </data>
+  <data name="SystemEmails.Text" xml:space="preserve">
+    <value>Email Messages</value>
+  </data>
+  <data name="lblOptInInstalled.Text" xml:space="preserve">
+    <value>Opt In Email Module Installed?</value>
+  </data>
+  <data name="lblOptInInstalled.Help" xml:space="preserve">
+    <value>Select if the DataSprings Opt In Email module has been in installed.</value>
+  </data>
+  <data name="lblOptInList.Text" xml:space="preserve">
+    <value>Opt In Category</value>
+  </data>
+  <data name="lblOptInList.Help" xml:space="preserve">
+    <value>Select the dynamic field you would like linked to the above opt in category.</value>
+  </data>
+  <data name="lblDynamicFieldLink.Text" xml:space="preserve">
+    <value>Dynamic Field (tied to category)</value>
+  </data>
+  <data name="RegisterAccountEmail.Text" xml:space="preserve">
+    <value>Registered Account Email</value>
+  </data>
+  <data name="UpdateAccountEmail.Text" xml:space="preserve">
+    <value>Update Account Email</value>
+  </data>
+  <data name="CancelAccountEmail.Text" xml:space="preserve">
+    <value>Cancel Account Email</value>
+  </data>
+  <data name="OptLinkButton.Text" xml:space="preserve">
+    <value>Use Linkbutton</value>
+  </data>
+  <data name="OptImageButton.Text" xml:space="preserve">
+    <value>Use Custom Image Submit Button</value>
+  </data>
+  <data name="OptHTMLInputButton.Text" xml:space="preserve">
+    <value>Use HTML Input Button</value>
+  </data>
+  <data name="lblEnableClient.Text" xml:space="preserve">
+    <value>Enable Client Side Validation</value>
+  </data>
+  <data name="lblImage.Text" xml:space="preserve">
+    <value>Select Custom Submit Image</value>
+  </data>
+  <data name="lblImage.Help" xml:space="preserve">
+    <value>If you selected custom image submit link which image would you like to use? </value>
+  </data>
+  <data name="lblImageForLater.Text" xml:space="preserve">
+    <value>Select Custom Save for Later Image</value>
+  </data>
+  <data name="lblImageForLater.Help" xml:space="preserve">
+    <value>If you selected custom image submit link which image would you like to use? </value>
+  </data>
+  <data name="lblEnableClient.Help" xml:space="preserve">
+    <value>Would you like to enable client side validation?</value>
+  </data>
+  <data name="lblEnableServerValidation.Text" xml:space="preserve">
+    <value>Enable Server Validation</value>
+  </data>
+  <data name="lblEnableServerValidation.Help" xml:space="preserve">
+    <value>Would you like to enable server side validation? Server side validation fires after the user hits submit and the postback occurs on the form.</value>
+  </data>
+  <data name="Header.Text" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="Footer.Text" xml:space="preserve">
+    <value>Footer</value>
+  </data>
+  <data name="Register.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="UpdateAccount.Text" xml:space="preserve">
+    <value>Update Account Text</value>
+  </data>
+  <data name="DNNCore.Text" xml:space="preserve">
+    <value>DNN Core Integration</value>
+  </data>
+  <data name="DNNDatabaseProvider.Text" xml:space="preserve">
+    <value>Dynamic Forms Database Provider (SQL Server / Oracle)</value>
+  </data>
+  <data name="General.Text" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="OptInSettings.Text" xml:space="preserve">
+    <value>Opt In Settings / Integration</value>
+  </data>
+  <data name="DynamicQuestions.Text" xml:space="preserve">
+    <value>Dynamic Questions</value>
+  </data>
+  <data name="OptInDescription.Text" xml:space="preserve">
+    <value>Dynamic Forms can easily be integrated with the Data Springs Opt In Email Module. After the Opt In Email module has been installed simply select the opt in category you would like linked to a Dynamic Form checkbox field. For example, "would you like to opt into our newsletter?" can be a checkbox field setup within your form, which can then be linked directly to the opt in email module.</value>
+  </data>
+  <data name="SystemMessageDescription.Text" xml:space="preserve">
+    <value>Although you can add Text/HTML as form fields within your Dynamic Form, you can also maintain layout features such as a header and footer below.</value>
+  </data>
+  <data name="AJAXDescription.Text" xml:space="preserve">
+    <value>You can enable and disable AJAX and jQuery integration below. Some field types will not function properly when AJAX is enabled (These include file / image Upload, Rich Text Editor, and Captcha.). The modal popup message for AJAX forms will pop up a processing message during question events. jQuery is required for some field types such as masked edit textbox's, ability to add items to a dropdownlist, and enable features such as check all for check box groups.</value>
+  </data>
+  <data name="JavascriptDescription.Text" xml:space="preserve">
+    <value>JavaScript can be used throughout your Dynamic Forms implementation. For JavaScript you would like to be executed within the form loading (or after postback) you can enter JavaScript within the Initial JavaScript property. The JavaScript file is used for specific JavaScript functions. Some JavaScript functions have already been included within the application but if you need to include your own you can store them in this file. The JavaScript functions are used directly with client side events property within each field under advanced field settings. To find out more about client side events, or for examples, please visit the product forums on www.datasprings.com.</value>
+  </data>
+  <data name="InitialSQLBindDescription.Text" xml:space="preserve">
+    <value>The initial SQL rendering/ databind allows you to build more interactive form implementations. For example, a form that might be able offer something such as an insert, edit, delete type functionality with tables within your database. As with all SQL functionality, you should always use caution to avoid SQL injection and we strongly recommend using a stored procedure to retrieve your results. The initial SQL databind works similar to single field default value generation by SQL, however it can work for all fields with just this one query. The query should return a single data row and each column within the datarow that would like to retrieve should match a short field name within your query. For example, 'Select DateOfBirth from YourTable where ID = 1'. If you had a field on the form with a short field name of DateOfBirth and this table returned a value, it would render the value within the form load. </value>
+  </data>
+  <data name="DynamicFieldsDescription.Text" xml:space="preserve">
+    <value>Add or update your dynamic forms settings below. Dynamic forms fields can be either HTML or a form field such as textbox, dropdownlist, radio buttons, or a checkbox. Additional options allow you to mark some fields as required and others as optional, add JavaScript validation to a field, choose to take advantage of querystring and session variables, and much more. For a full list of available options and help please refer to the Dynamic Forms User Guide located at &lt;a href='http://www.datasprings.com'&gt;datasprings.com.&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;</value>
+  </data>
+  <data name="EventsInfo.Text" xml:space="preserve">
+    <value>Easily setup events for your dynamic forms. Based upon field values you can Send the user to a new URL, execute a SQL query, or distribute an email.</value>
+  </data>
+  <data name="RedirectionEventDetails.Text" xml:space="preserve">
+    <value>Select which DNN Field and field response for this event. Based upon the users response they will be redirected to this URL after the form is submitted.</value>
+  </data>
+  <data name="RoleEventDetails.Text" xml:space="preserve">
+    <value>Select which DNN field / field response should be linked to a DNN Role. Based upon the users response they will be added or removed from the selected role.</value>
+  </data>
+  <data name="SQLEventDetails.Text" xml:space="preserve">
+    <value>Select which DNN field / field response should be linked to a SQL query statement. A SQL query will be executed once the form is complete, you can also include parameters within the SQL query which will be replaced upon form submission.</value>
+  </data>
+  <data name="EmailEventDetails.Text" xml:space="preserve">
+    <value>Setup the email event below, specify who the email will be sent to along with a subject line and email message. Utilize field parameters within the email, subject, or message.</value>
+  </data>
+  <data name="PDFEventDetails.Text" xml:space="preserve">
+    <value>Setup the PDF event below, specify the PDF header, footer, and template along with the optional configuration settings. PDF files will be generated under your the directory DynamicForms_Uploads. PDF files can be included as links or attachments within email events, to find out more details please review the full user guide or product forums on www.datasprings.com</value>
+  </data>
+  <data name="GeneralDescription.Text" xml:space="preserve">
+    <value>Optimize your Dynamic Forms by updating the settings below.</value>
+  </data>
+  <data name="RequiredFields.Text" xml:space="preserve">
+    <value>Required Fields</value>
+  </data>
+  <data name="OptionalFields.Text" xml:space="preserve">
+    <value>Optional Fields</value>
+  </data>
+  <data name="UpdateMessage.Text" xml:space="preserve">
+    <value>Update Message</value>
+  </data>
+  <data name="UpdateFields.Text" xml:space="preserve">
+    <value>Update DNN/Dynamic Field</value>
+  </data>
+  <data name="Update.Text" xml:space="preserve">
+    <value>Update Field</value>
+  </data>
+  <data name="UpdateAndExit.Text" xml:space="preserve">
+    <value>Update Field / Exit</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="lnkUpdateOptInLink.Text" xml:space="preserve">
+    <value>Update Opt In/Dynamic Field</value>
+  </data>
+  <data name="lnkUpdateSettings.Text" xml:space="preserve">
+    <value>Update Settings</value>
+  </data>
+  <data name="lblSuffix.Text" xml:space="preserve">
+    <value>Question Suffix</value>
+  </data>
+  <data name="lblSuffix.Help" xml:space="preserve">
+    <value>Select the field suffix that will be displayed after each field label. The field suffix is typically a : or other prompt that is added to the end of each specific field label.</value>
+  </data>
+  <data name="CustomField.Text" xml:space="preserve">
+    <value>Custom HTML Field</value>
+  </data>
+  <data name="SelectDynamicField.Text" xml:space="preserve">
+    <value>- Select Dynamic Field -</value>
+  </data>
+  <data name="SelectSummaryField.Text" xml:space="preserve">
+    <value>- Select Summary Field -</value>
+  </data>
+  <data name="NewDynamicField.Text" xml:space="preserve">
+    <value>- New Dynamic Field - </value>
+  </data>
+  <data name="lblMinPassword.Text" xml:space="preserve">
+    <value>Minimum Password Length</value>
+  </data>
+  <data name="lblMinPassword.Help" xml:space="preserve">
+    <value>Enter the minimum password length requirements</value>
+  </data>
+  <data name="SelectOptInCategory.Text" xml:space="preserve">
+    <value>- Select Opt In Category -</value>
+  </data>
+  <data name="InitialRegister.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="InitialUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="InitialCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Exit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ControlTitle_edit.Text" xml:space="preserve">
+    <value>Manage Dynamic Questions</value>
+  </data>
+  <data name="OptIn_CategoryLoad.Text" xml:space="preserve">
+    <value>Unable to load Opt In Email Categories. Please contact Data Springs Support.</value>
+  </data>
+  <data name="SystemEvents.Text" xml:space="preserve">
+    <value>Form Completion Events</value>
+  </data>
+  <data name="lblEvent.Text" xml:space="preserve">
+    <value>Select Event</value>
+  </data>
+  <data name="lblEvent.Help" xml:space="preserve">
+    <value>Select the event you would like to manage, or create a new event</value>
+  </data>
+  <data name="lblEventName.Text" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="lblEventName.Help" xml:space="preserve">
+    <value>Enter a name for this event</value>
+  </data>
+  <data name="lblEventType.Text" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="lblEventType.Help" xml:space="preserve">
+    <value>What type of event is this for?</value>
+  </data>
+  <data name="lblEventDetails.Text" xml:space="preserve">
+    <value>Event Details</value>
+  </data>
+  <data name="lblEventDetails.Help" xml:space="preserve">
+    <value>Select the details for this event below.</value>
+  </data>
+  <data name="lblUserInputField.Text" xml:space="preserve">
+    <value>Dynamic Field</value>
+  </data>
+  <data name="lblUserInputField.Help" xml:space="preserve">
+    <value>Select the dynamic field that this event is based on</value>
+  </data>
+  <data name="lblUserInputResponse.Text" xml:space="preserve">
+    <value>User Response</value>
+  </data>
+  <data name="lblUserInputResponse.Help" xml:space="preserve">
+    <value>Select the response for this event that will cause the event to fire.</value>
+  </data>
+  <data name="lblLinkedAction.Text" xml:space="preserve">
+    <value>Event Actions</value>
+  </data>
+  <data name="lblLinkedAction.Help" xml:space="preserve">
+    <value>Enter the action details for this event.</value>
+  </data>
+  <data name="lblShortName.Text" xml:space="preserve">
+    <value>Short Name</value>
+  </data>
+  <data name="lblShortName.Help" xml:space="preserve">
+    <value>Enter a short name for this field. Shortnames are used for email and SQL parameters.</value>
+  </data>
+  <data name="lblRole.Text" xml:space="preserve">
+    <value>DNN Role</value>
+  </data>
+  <data name="lblRole.Help" xml:space="preserve">
+    <value>Select the role that will be added or removed based on users response.</value>
+  </data>
+  <data name="lblPage.Text" xml:space="preserve">
+    <value>Redirect Page</value>
+  </data>
+  <data name="lblPage.Help" xml:space="preserve">
+    <value>Select the page that the user will be redirected to based on the users response.</value>
+  </data>
+  <data name="lblSQLStatement.Text" xml:space="preserve">
+    <value>SQL Statement</value>
+  </data>
+  <data name="lblSQLStatement.Help" xml:space="preserve">
+    <value>Enter a SQL statement that will be executed based on the users response or after save.</value>
+  </data>
+  <data name="lblEmailMessage.Text" xml:space="preserve">
+    <value>Email Message</value>
+  </data>
+  <data name="lblEmailMessage.Help" xml:space="preserve">
+    <value>Enter the email message that will be distributed for this event.</value>
+  </data>
+  <data name="lblEmailTo.Text" xml:space="preserve">
+    <value>Email To</value>
+  </data>
+  <data name="lblEmailTo.Help" xml:space="preserve">
+    <value>Enter the email address that this email should be sent to. Note: You can use tokens with email fields to represent the email such as $(Email). To send to multiple emails include a semi-colon between email addresses.</value>
+  </data>
+  <data name="lblEmailSubject.Text" xml:space="preserve">
+    <value>Email Subject</value>
+  </data>
+  <data name="lblEmailSubject.Help" xml:space="preserve">
+    <value>Enter the email subject for this email.</value>
+  </data>
+  <data name="lblAltEncoding.Text" xml:space="preserve">
+    <value>Alternate Encoding</value>
+  </data>
+  <data name="lblAltEncoding.Help" xml:space="preserve">
+    <value>Enter an alternate encoding option for this email message.</value>
+  </data>
+  <data name="lblCC.Text" xml:space="preserve">
+    <value>Email CC</value>
+  </data>
+  <data name="lblCC.Help" xml:space="preserve">
+    <value>Enter the email carbon copy for this email.</value>
+  </data>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>Email Priority</value>
+  </data>
+  <data name="lblPriority.Help" xml:space="preserve">
+    <value>Select the priority for this email event.</value>
+  </data>
+  <data name="lblBCC.Text" xml:space="preserve">
+    <value>Email BCC</value>
+  </data>
+  <data name="lblBCC.Help" xml:space="preserve">
+    <value>Enter the email blank carbon copy for this email.</value>
+  </data>
+  <data name="lblFileAttachment.Text" xml:space="preserve">
+    <value>File Attachment</value>
+  </data>
+  <data name="lblFileAttachment.Help" xml:space="preserve">
+    <value>Select the file you would like to attach to this email event.</value>
+  </data>
+  <data name="AdvancedEmailProperties.Text" xml:space="preserve">
+    <value>Advanced Email Properties</value>
+  </data>
+  <data name="NewEvent.Text" xml:space="preserve">
+    <value> - New Event - </value>
+  </data>
+  <data name="SelectEvent.Text" xml:space="preserve">
+    <value> - Select Event - </value>
+  </data>
+  <data name="EventEmailType.Text" xml:space="preserve">
+    <value>Dynamic Email</value>
+  </data>
+  <data name="EventSQLType.Text" xml:space="preserve">
+    <value>Dynamic SQL Statement</value>
+  </data>
+  <data name="EventURLType.Text" xml:space="preserve">
+    <value>URL / Page Redirection</value>
+  </data>
+  <data name="EventRoleType.Text" xml:space="preserve">
+    <value>DNN Role</value>
+  </data>
+  <data name="lblHTTPPost.Text" xml:space="preserve">
+    <value>HTTP Post Details</value>
+  </data>
+  <data name="lblHTTPPost.Help" xml:space="preserve">
+    <value>Enter the details below for this HTTP Form Post</value>
+  </data>
+  <data name="lblHTTPEventURL.Text" xml:space="preserve">
+    <value>HTTP Post URL</value>
+  </data>
+  <data name="lblHTTPEventURL.Help" xml:space="preserve">
+    <value>Enter the URL Address that the form details will be posted to.</value>
+  </data>
+  <data name="lblHTTPEventPost.Text" xml:space="preserve">
+    <value>HTTP Post</value>
+  </data>
+  <data name="lblHTTPEventPost.Help" xml:space="preserve">
+    <value>Enter the HTTP Event Post details</value>
+  </data>
+  <data name="FormPost.Text" xml:space="preserve">
+    <value>HTTP Form Post</value>
+  </data>
+  <data name="AnyDynamicFields.Text" xml:space="preserve">
+    <value> - Any Field Response -</value>
+  </data>
+  <data name="AdvancedField.Text" xml:space="preserve">
+    <value>Advanced Field Options</value>
+  </data>
+  <data name="lblExampleText.Text" xml:space="preserve">
+    <value>Example Text</value>
+  </data>
+  <data name="lblExampleText.Help" xml:space="preserve">
+    <value>Select the text that will appear to the right of the field.</value>
+  </data>
+  <data name="lblRequiredFieldText.Text" xml:space="preserve">
+    <value>Required Field Text</value>
+  </data>
+  <data name="lblRequiredFieldText.Help" xml:space="preserve">
+    <value>Select the text that will appear by required fields.</value>
+  </data>
+  <data name="lblDefaultValue.Text" xml:space="preserve">
+    <value>Default Value</value>
+  </data>
+  <data name="lblDefaultValue.Help" xml:space="preserve">
+    <value>Select the default value for this field for new form save.</value>
+  </data>
+  <data name="SQLParametersTitle.Text" xml:space="preserve">
+    <value>SQL Parameters</value>
+  </data>
+  <data name="SQLParameterInstructions.Text" xml:space="preserve">
+    <value>Include these parameters below into your SQL query (some parameters are based on short field names for your questions), these parameters will be replaced when the SQL statement is executed.</value>
+  </data>
+  <data name="EmailParametersTitle.Text" xml:space="preserve">
+    <value>Email Parameters</value>
+  </data>
+  <data name="EmailParameterInstructions.Text" xml:space="preserve">
+    <value>Include these parameters below in your email to, subject, or email message. These parameters will be replaced with the email is sent.</value>
+  </data>
+  <data name="EmailRegTypeUpdate.Text" xml:space="preserve">
+    <value>Form Updated</value>
+  </data>
+  <data name="EmailRegTypeRegister.Text" xml:space="preserve">
+    <value>Registered</value>
+  </data>
+  <data name="lblPreviousURLRedirect.Text" xml:space="preserve">
+    <value>Redirect to previous url after save/update (Overrides Save/Update URL'S)</value>
+  </data>
+  <data name="lblPreviousURLRedirect.Help" xml:space="preserve">
+    <value>After the user has save or updated their account information they will be redirected to the page they were before save. Enabling this configuration will overright the save/update urls.</value>
+  </data>
+  <data name="lblTextboxMaxLength.Text" xml:space="preserve">
+    <value>Textbox Max Length</value>
+  </data>
+  <data name="lblTextboxMaxLength.Help" xml:space="preserve">
+    <value>Enter the maximum length allowed for the textbox field.</value>
+  </data>
+  <data name="lblHideFieldLabel.Text" xml:space="preserve">
+    <value>Hide Field Label</value>
+  </data>
+  <data name="lblHideFieldLabel.Help" xml:space="preserve">
+    <value>Select if you would like to hide the field label when the question is rendered.</value>
+  </data>
+  <data name="EnterOptions.Text" xml:space="preserve">
+    <value>Enter Options</value>
+  </data>
+  <data name="SQLDrivenOptions.Text" xml:space="preserve">
+    <value>SQL Driven Options</value>
+  </data>
+  <data name="SQLInstructions.Text" xml:space="preserve">
+    <value>You can query the database directly for question options. You MUST select only two columns for the query and those columns must be QuestionOption and QuestionOptionValue. (I.E. select Text as QuestionOption, Text as QuestionOptionValue from Lists where ListName= 'Region') </value>
+  </data>
+  <data name="lblReadOnly.Text" xml:space="preserve">
+    <value>Read Only Field</value>
+  </data>
+  <data name="lblReadOnly.Help" xml:space="preserve">
+    <value>Select if this textbox field is read only field.</value>
+  </data>
+  <data name="lblTextBoxLength.Text" xml:space="preserve">
+    <value>Field Width</value>
+  </data>
+  <data name="lblTextBoxLength.Help" xml:space="preserve">
+    <value>Select the length that this textbox should be.</value>
+  </data>
+  <data name="lblJavaScriptValidation.Text" xml:space="preserve">
+    <value>Client side event</value>
+  </data>
+  <data name="lblJavaScriptValidation.Help" xml:space="preserve">
+    <value>Enter the text for client side event that you would like. Example: $(DisplayName) = $(FirstNAme) + ' ' + $(LastName).</value>
+  </data>
+  <data name="lblHideQuestions.Text" xml:space="preserve">
+    <value>Hide / show field from these roles</value>
+  </data>
+  <data name="lblHideQuestions.Help" xml:space="preserve">
+    <value>Select which roles should not be able to visually add/update this questions.</value>
+  </data>
+  <data name="lblPullInValuesFromQueryString.Text" xml:space="preserve">
+    <value>Retrieve values from querystring variable for this question</value>
+  </data>
+  <data name="lblPullInValuesFromQueryString.Help" xml:space="preserve">
+    <value>Optionally select to retrieve values from the querystring variable (if available) for this field. Querystring values passed must represent the question shortfieldname.</value>
+  </data>
+  <data name="lblUpdateTextOption.Text" xml:space="preserve">
+    <value>Update Option Text</value>
+  </data>
+  <data name="lblUpdateTextOption.Help" xml:space="preserve">
+    <value>Please enter the text for this option.</value>
+  </data>
+  <data name="lblColSpan.Text" xml:space="preserve">
+    <value>Column Span (Default is 1)</value>
+  </data>
+  <data name="lblColSpan.Help" xml:space="preserve">
+    <value>Please enter the column span for this question. This feature can be useful when designing forms with multiple columns.</value>
+  </data>
+  <data name="lblRowSpan.Text" xml:space="preserve">
+    <value>Row Span (Default is 1)</value>
+  </data>
+  <data name="lblRowSpan.Help" xml:space="preserve">
+    <value>Please enter the row span for this question. This feature can be useful when designing forms with multiple columns.</value>
+  </data>
+  <data name="lblUpdateValueOption.Text" xml:space="preserve">
+    <value>Update Option Value</value>
+  </data>
+  <data name="lblUpdateValueOption.Help" xml:space="preserve">
+    <value>Please enter the value for this option.</value>
+  </data>
+  <data name="lblMoveOption.Text" xml:space="preserve">
+    <value>Move Option</value>
+  </data>
+  <data name="lblMoveOption.Help" xml:space="preserve">
+    <value>Please select the field you would like this option to be moved after.</value>
+  </data>
+  <data name="lblExpireType.Text" xml:space="preserve">
+    <value>Role Expire Type</value>
+  </data>
+  <data name="lblExpireType.Help" xml:space="preserve">
+    <value>Select the role expiration type. Would you like the users role to have a specific number of days added to their role, a static expire date, or leave blank for null (never expire).</value>
+  </data>
+  <data name="AddRemove.Text" xml:space="preserve">
+    <value>Add / Remove Role</value>
+  </data>
+  <data name="AddOnly.Text" xml:space="preserve">
+    <value>Add Role</value>
+  </data>
+  <data name="RemoveOnly.Text" xml:space="preserve">
+    <value>Remove Role</value>
+  </data>
+  <data name="EventHTTPPostType.Text" xml:space="preserve">
+    <value>HTTP Post</value>
+  </data>
+  <data name="DNNCustomJavaScript.Text" xml:space="preserve">
+    <value>Custom JavaScript File</value>
+  </data>
+  <data name="lblExpireDates.Text" xml:space="preserve">
+    <value>Expire Days / Date</value>
+  </data>
+  <data name="lblExpireDates.Help" xml:space="preserve">
+    <value>Please enter the number of days before this role expires for the user (leave empty if the role should never expire).</value>
+  </data>
+  <data name="lblDNNUserIntegration.Text" xml:space="preserve">
+    <value>DNN User Default</value>
+  </data>
+  <data name="lblDNNUserIntegration.Help" xml:space="preserve">
+    <value>Select if you would like this field to be defaulted with DNN User Information.</value>
+  </data>
+  <data name="lblDisableInLineEditor.Text" xml:space="preserve">
+    <value>Disable the in-line editor</value>
+  </data>
+  <data name="lblDisableInLineEditor.Help" xml:space="preserve">
+    <value>Select if you would like to disable the in-line editor for administrators. The in-line editor is the ability to change field labels, quesiton headers, footers, and other options from within the user-facing page.</value>
+  </data>
+  <data name="lblDisableDragDropAbility.Text" xml:space="preserve">
+    <value>Disable the Drag and Drop admin feature</value>
+  </data>
+  <data name="lblDisableDragDropAbility.Help" xml:space="preserve">
+    <value>Select if you would like to disable the drag and drop ability for administrators. The drag and drop feature is the ability to easily move fields to change the sort order, clone fields, and add fields to the recycling bin.</value>
+  </data>
+  <data name="lblDisableHelpQuick.Text" xml:space="preserve">
+    <value>Disable the help section of the admin menu</value>
+  </data>
+  <data name="lblDisableHelpQuick.Help" xml:space="preserve">
+    <value>Select if you would like to disable the help section that is build into the Dynamic Forms quick menu.
+        </value>
+  </data>
+  <data name="lblEnterKeyForcesSubmit.Text" xml:space="preserve">
+    <value>Enter key forces form submission</value>
+  </data>
+  <data name="lblEnterKeyForcesSubmit.Help" xml:space="preserve">
+    <value>Select if you would like the enter key to force form submission / save.</value>
+  </data>
+  <data name="lblFocusOnFirstField.Text" xml:space="preserve">
+    <value>Set focus to first field on form?</value>
+  </data>
+  <data name="lblFocusOnFirstField.Help" xml:space="preserve">
+    <value>Select if you would like the form to set focus to the first field upon loading.</value>
+  </data>
+  <data name="lblEventSortOrder.Text" xml:space="preserve">
+    <value>Event Sort Order</value>
+  </data>
+  <data name="lblEventSortOrder.Help" xml:space="preserve">
+    <value>Select the sort order for this event, the sort order will allow events to be fired in order based on the lowest number to highest number.</value>
+  </data>
+  <data name="lblTextAlign.Text" xml:space="preserve">
+    <value>Align field label on checkbox.</value>
+  </data>
+  <data name="lblTextAlign.Help" xml:space="preserve">
+    <value>Select if you would like to align the field label on the left or right of the checkbox.</value>
+  </data>
+  <data name="lblFromEmailName.Text" xml:space="preserve">
+    <value>From Email Name</value>
+  </data>
+  <data name="lblFromEmailName.Help" xml:space="preserve">
+    <value>Enter the name that you would like to appear as the from name when sending this email. If no name is present the system will default to the from email address.</value>
+  </data>
+  <data name="lblExternalConnection.Text" xml:space="preserve">
+    <value>External DB Connection</value>
+  </data>
+  <data name="lblExternalConnection.Help" xml:space="preserve">
+    <value>Enter an external DB Connection if you would like to connect to a database outside of the standard DNN database connection.</value>
+  </data>
+  <data name="lblFieldLabelSameLine.Text" xml:space="preserve">
+    <value>Display label and field in same column (Override general setting)</value>
+  </data>
+  <data name="lblFieldLabelSameLine.Help" xml:space="preserve">
+    <value>Select if you would like to override the default setting and force the field to be on the same column as the question label.</value>
+  </data>
+  <data name="lblPullSession.Text" xml:space="preserve">
+    <value>Retrieve values from session variable for this question</value>
+  </data>
+  <data name="lblPullSession.Help" xml:space="preserve">
+    <value>Optionally select to retrieve values from the session variable (if available) for this field. Session values passed must represent the question shortfieldname.</value>
+  </data>
+  <data name="lblDisplayLabelonField.Text" xml:space="preserve">
+    <value>Display label on checkbox field</value>
+  </data>
+  <data name="lblDisplayLabelOnField.Help" xml:space="preserve">
+    <value>Select if you would like to display the question label directly to the left or right of the checkbox.</value>
+  </data>
+  <data name="lblPassShortNameField.Text" xml:space="preserve">
+    <value>Pass values of this question to querystring variable</value>
+  </data>
+  <data name="lblPassShortNameField.Help" xml:space="preserve">
+    <value>Optionally select to pass values to the querystring after form submission for this field. Querystring values passed will represent the question shortfieldname.</value>
+  </data>
+  <data name="lblPassSession.Text" xml:space="preserve">
+    <value>Pass values of this question to session variable</value>
+  </data>
+  <data name="lblPassSession.Help" xml:space="preserve">
+    <value>Optionally select to pass values to a cookie variable after save/update for this field. Cookie values passed will represent the question shortfieldname.</value>
+  </data>
+  <data name="lblDisplayAfterMessage.Text" xml:space="preserve">
+    <value>Display message to user after initial save?</value>
+  </data>
+  <data name="AfterMessageParameterInstructions.Text" xml:space="preserve">
+    <value>Include these parameters below in your literal. These parameters will be replaced when the message is rendered.</value>
+  </data>
+  <data name="InitialDisplayAfterMessageLiteral.Text" xml:space="preserve">
+    <value>Site Administrator: Set this message up under Layout Settings. Specifically, you can navigate to the control panel under "Module Configuration", and then the "Header / Footer / System Messages". </value>
+  </data>
+  <data name="DisplayAfterSaveForLaterLiteral.Text" xml:space="preserve">
+    <value>Display After Save Message (Save for Later)</value>
+  </data>
+  <data name="InitialBlackListItemText.Text" xml:space="preserve">
+    <value>Site Administrator: Set this message up under Layout Settings.</value>
+  </data>
+  <data name="lblDisplayAfterMessage.Help" xml:space="preserve">
+    <value>Would you like to display a message to the user after initial save?</value>
+  </data>
+  <data name="lblAlignLabels.Text" xml:space="preserve">
+    <value>Align Question Labels</value>
+  </data>
+  <data name="lblAlignLabels.Help" xml:space="preserve">
+    <value>Select if you would like to align the labels to the left or right.</value>
+  </data>
+  <data name="lblDefaultShortTextbox.Text" xml:space="preserve">
+    <value>Default Short Field Length</value>
+  </data>
+  <data name="lblDefaultShortTextbox.Help" xml:space="preserve">
+    <value>Select the default field length for short textbox field types.</value>
+  </data>
+  <data name="lblDefaultLongTextbox.Text" xml:space="preserve">
+    <value>Default Long Field Length</value>
+  </data>
+  <data name="lblDefaultLongTextbox.Help" xml:space="preserve">
+    <value>Select the default field length for long textbox field types.</value>
+  </data>
+  <data name="lblDisplayAfterContinue.Text" xml:space="preserve">
+    <value>Link text to continue</value>
+  </data>
+  <data name="lblDisplayAfterContinue.Help" xml:space="preserve">
+    <value>Select the text you would like to display for the continue link button. This text goes along with the option to display a message to the user after initial form submission.</value>
+  </data>
+  <data name="lblCheckBlackList.Text" xml:space="preserve">
+    <value>Check blacklist for invalid responses</value>
+  </data>
+  <data name="lblCheckBlackList.Help" xml:space="preserve">
+    <value>Should the module check the list of invalid words that are not allowed?</value>
+  </data>
+  <data name="lblHideAnonymous.Text" xml:space="preserve">
+    <value>Hide from anonymous users</value>
+  </data>
+  <data name="lblHideAnonymous.Help" xml:space="preserve">
+    <value>Would you like to hide this question from anonymous users?</value>
+  </data>
+  <data name="lblAutoCreateUserType.Text" xml:space="preserve">
+    <value>Auto create user type</value>
+  </data>
+  <data name="lblAutoCreateUserType.Help" xml:space="preserve">
+    <value>Select how you would like users to be auto created.</value>
+  </data>
+  <data name="DisplayAfterLiteral.Text" xml:space="preserve">
+    <value>Display After Submit Message</value>
+  </data>
+  <data name="lblLimitBySubmissionCount.Text" xml:space="preserve">
+    <value>Limit form submissions to a specific number?</value>
+  </data>
+  <data name="lblFireThisEvent.Text" xml:space="preserve">
+    <value>Fire event on</value>
+  </data>
+  <data name="lblFireThisEvent.Help" xml:space="preserve">
+    <value>When would you like this event to fire?</value>
+  </data>
+  <data name="DNNCoreAdvanced.Text" xml:space="preserve">
+    <value>Advanced Core Integration Options</value>
+  </data>
+  <data name="InvalidResponse.Text" xml:space="preserve">
+    <value>Invalid Response</value>
+  </data>
+  <data name="BlackList.Text" xml:space="preserve">
+    <value>Dynamic Forms enables you the option to created a 'blacklist' of values or responses. During save or update the user will be notified that one of their responses has flagged the blacklisted flag and their responses were not saved. To enable the blacklist feature you must enable the setting 'Check blacklist for invalid responses' under general settings. Note: The message displayed to a user that their response was not accepted can be setup under Layout / Messages and choose the option Blacklist Failed Message. </value>
+  </data>
+  <data name="ValidationErrorMessage.Text" xml:space="preserve">
+    <value>Validation Error Message</value>
+  </data>
+  <data name="BlackListLiteral.Text" xml:space="preserve">
+    <value>BlackList Failed Message</value>
+  </data>
+  <data name="Blacklisted.Text" xml:space="preserve">
+    <value>Blacklisted Response</value>
+  </data>
+  <data name="litDNNAuthorizationLiteral.Text" xml:space="preserve">
+    <value>DNN Authorization</value>
+  </data>
+  <data name="AutoCreateType_FLAST.Text" xml:space="preserve">
+    <value>First initial last name</value>
+  </data>
+  <data name="AutoCreateType_FIRSTLAST.Text" xml:space="preserve">
+    <value>First /Last Name</value>
+  </data>
+  <data name="AutoCreateType_FIRSTLASTINITIAL.Text" xml:space="preserve">
+    <value>First Name / Last Initial</value>
+  </data>
+  <data name="AutoCreateType_EMAILADDRESS.Text" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="FireEvent_Save.Text" xml:space="preserve">
+    <value>Only Save</value>
+  </data>
+  <data name="DNNBlackList.Text" xml:space="preserve">
+    <value>Blacklist Responses</value>
+  </data>
+  <data name="litBlackList.Text" xml:space="preserve">
+    <value>Blacklist Responses Info</value>
+  </data>
+  <data name="dgupdatetext.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="dgcanceltext.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="BlackList.Header" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Description.Header" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Portal.Header" xml:space="preserve">
+    <value>Portal</value>
+  </data>
+  <data name="Blacklisted.Header" xml:space="preserve">
+    <value>Blacklist Responses</value>
+  </data>
+  <data name="Blacklist Responses.Header" xml:space="preserve">
+    <value>Blacklist Responses</value>
+  </data>
+  <data name="MoveAfter.Text" xml:space="preserve">
+    <value>After</value>
+  </data>
+  <data name="MoveToTop.Text" xml:space="preserve">
+    <value>Move to Top</value>
+  </data>
+  <data name="MoveToBottom.Text" xml:space="preserve">
+    <value>Move to Bottom</value>
+  </data>
+  <data name="MoveNothing.Text" xml:space="preserve">
+    <value>Same Location</value>
+  </data>
+  <data name="SelectCoreIntegration.Text" xml:space="preserve">
+    <value>- Select Core Integration Default Value -</value>
+  </data>
+  <data name="DNNFirstName.Text" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="DNNLastName.Text" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="DNNEmail.Text" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="DNNPhone.Text" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="DNNFax.Text" xml:space="preserve">
+    <value>Fax Number</value>
+  </data>
+  <data name="DNNCellText" xml:space="preserve">
+    <value>Cell Number</value>
+  </data>
+  <data name="DNNWebSite.Text" xml:space="preserve">
+    <value>Web Site</value>
+  </data>
+  <data name="DNNIM.Text" xml:space="preserve">
+    <value>Instant Messenger</value>
+  </data>
+  <data name="DNNADDRESS.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="DNNREGION.Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="DNNCITY.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="DNNUNIT.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="DNNPOSTAL.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="DNNCOUNTRY.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="NewQuestionWarning.Text" xml:space="preserve">
+    <value>Note: This is a new question, before adding and removing options for this question type please save or update the question first. Once you save the question the first time you can add or modify options to the question.</value>
+  </data>
+  <data name="lblHRRuleWidth.Text" xml:space="preserve">
+    <value>HR Ruler Width</value>
+  </data>
+  <data name="lblHRRuleThick.Text" xml:space="preserve">
+    <value>HR Rule Thickness</value>
+  </data>
+  <data name="lblDateDisplayType.Text" xml:space="preserve">
+    <value>Date Display Type</value>
+  </data>
+  <data name="lblSingleMultiple.Text" xml:space="preserve">
+    <value>Selection Type</value>
+  </data>
+  <data name="lblCloneQuestion.Text" xml:space="preserve">
+    <value>Clone Question</value>
+  </data>
+  <data name="lblCloneQuestion.Help" xml:space="preserve">
+    <value>Select if you would like to clone or copy values from another question for this question.</value>
+  </data>
+  <data name="lblSingleMultiple.Help" xml:space="preserve">
+    <value>Would you like this field to accept multiple selections?</value>
+  </data>
+  <data name="lblRowNumbers.Text" xml:space="preserve">
+    <value>Row Numbers</value>
+  </data>
+  <data name="lblRowNumbers.Help" xml:space="preserve">
+    <value>Enter the Row Numbers for this field.</value>
+  </data>
+  <data name="lblImageType.Text" xml:space="preserve">
+    <value>Image Type</value>
+  </data>
+  <data name="lblImageType.Help" xml:space="preserve">
+    <value>Select which type of image display you would like for the field.</value>
+  </data>
+  <data name="lblImageHeight.Text" xml:space="preserve">
+    <value>Thumbnail Height</value>
+  </data>
+  <data name="lblImageHeight.Help" xml:space="preserve">
+    <value>Select the thumbnail height for this image field.</value>
+  </data>
+  <data name="lblImageWidth.Text" xml:space="preserve">
+    <value>Thumbnail Width</value>
+  </data>
+  <data name="lblImageWidth.Help" xml:space="preserve">
+    <value>Select the thumbnail width for this image field.</value>
+  </data>
+  <data name="DateTypeZero.Text" xml:space="preserve">
+    <value>Textbox w/ Calendar</value>
+  </data>
+  <data name="DateTypeOne.Text" xml:space="preserve">
+    <value>Month and Day</value>
+  </data>
+  <data name="DateTypeTwo.Text" xml:space="preserve">
+    <value>Month and Year</value>
+  </data>
+  <data name="DateTypeThree.Text" xml:space="preserve">
+    <value>Month, Day, Year (Textbox)</value>
+  </data>
+  <data name="DateTypeFour.Text" xml:space="preserve">
+    <value>Month, Day, Year (Combo Box)</value>
+  </data>
+  <data name="lblWordWrapOfQuestions.Text" xml:space="preserve">
+    <value>Disable word wrap for labels?</value>
+  </data>
+  <data name="lblWordWrapOfQuestions.Help" xml:space="preserve">
+    <value>Would you like to disable word wrap turned on for the dynamic question labels?</value>
+  </data>
+  <data name="lblWordWrapOfHelpText.Text" xml:space="preserve">
+    <value>Word wrap help text</value>
+  </data>
+  <data name="lblHideValidationSummary.Text" xml:space="preserve">
+    <value>Hide Validation Summary</value>
+  </data>
+  <data name="lblHideValidationSummary.Help" xml:space="preserve">
+    <value>Would you like to hide the ASP.NET Validation summary above your form?</value>
+  </data>
+  <data name="lblWordWrapOfHelpText.Help" xml:space="preserve">
+    <value>Would you like word wrap turned on for dynamic question labels help text?</value>
+  </data>
+  <data name="lblOnlyAllowOneSubmission.Text" xml:space="preserve">
+    <value>Only allow form submission once per user</value>
+  </data>
+  <data name="lblOnlyAllowOneSubmission.Help" xml:space="preserve">
+    <value>This setting will only allow the user to submit the form one time. If the user navigates to the page again it will display the message setup for, 'Single Submission Message' setup within the layout/messages area of your settings.</value>
+  </data>
+  <data name="SortOrderDescription.Text" xml:space="preserve">
+    <value>Dynamic Questions are sorted based on a 'Sort Value' field. The sort value field is setup initially when creating or updating a dynamic question. To make sorting easier you can use the tool below to sort the question order, by setting the order here each fields sort order value will automatically be assigned.</value>
+  </data>
+  <data name="StyleSheetDescription.Text" xml:space="preserve">
+    <value>Dynamic Forms allows you to use both the standard DNN styles for your form or a custom Dynamic forms style sheet if you choose to. By selecting a custom style sheet you will be able to work from a default style sheet template and modify style classes within the forms module.</value>
+  </data>
+  <data name="UpdateStyleSheet.Text" xml:space="preserve">
+    <value>Update Style Sheet</value>
+  </data>
+  <data name="UpdateQuestionOrder.Text" xml:space="preserve">
+    <value>Update Question Order</value>
+  </data>
+  <data name="StyleSheetStandard.Text" xml:space="preserve">
+    <value>Use Standard DNN Style Sheet</value>
+  </data>
+  <data name="StyleSheetCustom.Text" xml:space="preserve">
+    <value>Use Custom Dynamic Forms Style Sheet</value>
+  </data>
+  <data name="SaveTypeDescription.Text" xml:space="preserve">
+    <value>Select if you would like to have the form submission feature display a submit linkbutton or a submit image button. If you select link button select the text that you would like the linkbutton to display. If you would like the submit button to be an image button select the image you would like to represent the control. </value>
+  </data>
+  <data name="SaveForLaterTypeDescription.Text" xml:space="preserve">
+    <value>If you enable the Save for Later link feature then the module will present both a submit / save button and also a linkbutton next to the submission icon that allows the user to save the form data and return later. When using the save for later feature the module will not make use of required field validation. You can use the $(EditURL) feature within email events to email the user a hyperlink so that they can return to the form in the previous state. A few field types are not currently supported within the save for later feature, these include Data Grids, Grid Views, and Images.</value>
+  </data>
+  <data name="UpdateQuestionEvent.Text" xml:space="preserve">
+    <value>Update Question Event</value>
+  </data>
+  <data name="DeleteQuestionEvent.Text" xml:space="preserve">
+    <value>Delete Question Event</value>
+  </data>
+  <data name="UpdateEvent.Text" xml:space="preserve">
+    <value>Update Event</value>
+  </data>
+  <data name="DeleteEvent.Text" xml:space="preserve">
+    <value>Delete Event</value>
+  </data>
+  <data name="AlignLeft.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="AlignCenter.Text" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="AlignRight.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="QuestionHeaderFooter.Text" xml:space="preserve">
+    <value>Question Header / Footer</value>
+  </data>
+  <data name="QuestionEvents.Text" xml:space="preserve">
+    <value>Question Events</value>
+  </data>
+  <data name="QuestionEventTypeOne.Text" xml:space="preserve">
+    <value>Hide question based on another questions response</value>
+  </data>
+  <data name="QuestionEventTypeTwo.Text" xml:space="preserve">
+    <value>Set question default / return SQL response based on another questions response</value>
+  </data>
+  <data name="QuestionEventTypeThree.Text" xml:space="preserve">
+    <value>Display hidden question based on another questions response</value>
+  </data>
+  <data name="QuestionEventFour.Text" xml:space="preserve">
+    <value>Execute Form Submission</value>
+  </data>
+  <data name="lblQuestionEvent.Text" xml:space="preserve">
+    <value>Question Event</value>
+  </data>
+  <data name="lblQuestionEvent.Help" xml:space="preserve">
+    <value>Select the Question event to manage or create a new question event</value>
+  </data>
+  <data name="lblQuestionEventName.Text" xml:space="preserve">
+    <value>Event Name</value>
+  </data>
+  <data name="lblQuestionEventName.Help" xml:space="preserve">
+    <value>Enter a unique name for this question event</value>
+  </data>
+  <data name="lblQuestionEventType.Text" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="lblQuestionEventType.Help" xml:space="preserve">
+    <value>Select the question event type you would like to use for this event</value>
+  </data>
+  <data name="lblCausesQuestion.Text" xml:space="preserve">
+    <value>Initiation / Postback Question</value>
+  </data>
+  <data name="lblCausesQuestion.Help" xml:space="preserve">
+    <value>Select the question that will initiate this event</value>
+  </data>
+  <data name="lblCausesQuestionResponse.Text" xml:space="preserve">
+    <value>Initiation Response</value>
+  </data>
+  <data name="lblCausesQuestionResponse.Help" xml:space="preserve">
+    <value>Select the response that will trigger this event.</value>
+  </data>
+  <data name="lblAffectedQuestion.Text" xml:space="preserve">
+    <value>Affected Question</value>
+  </data>
+  <data name="lblAffectedQuestion.Help" xml:space="preserve">
+    <value>Select the question that will be affected by the initiation question</value>
+  </data>
+  <data name="lnkDeleteQuestionEvent.Text" xml:space="preserve">
+    <value>Delete Question Event</value>
+  </data>
+  <data name="lnkUpdateQuestionEvent.Text" xml:space="preserve">
+    <value>Delete Question Event</value>
+  </data>
+  <data name="litQuestionEventDetails.Text" xml:space="preserve">
+    <value>Question events is an advanced feature, new in V2.1, that allows you to fire off events based on a particular questions response. At this time this feature is currently still in beta stages and should be utilized as a beta. Events can be fired on a number of different question types including dropdownlists/combo box's, radio button lists, and checkbox's. The purpose of these features are to either hide another question based on the results of this question, or to change the default value of a question based on the results of this question, etc.... </value>
+  </data>
+  <data name="QuestionValidation.Text" xml:space="preserve">
+    <value>Question Validation</value>
+  </data>
+  <data name="SelectQuestionEvent.Text" xml:space="preserve">
+    <value>- Select Question Event - </value>
+  </data>
+  <data name="NewQuestionEvent.Text" xml:space="preserve">
+    <value>- New Question Event - </value>
+  </data>
+  <data name="lblUseRegularExpression.Text" xml:space="preserve">
+    <value>Use regular expression?</value>
+  </data>
+  <data name="lblUseRegularExpression.Help" xml:space="preserve">
+    <value>Select if you would like to utilize a regular expression validation control</value>
+  </data>
+  <data name="lblRegularExpression.Text" xml:space="preserve">
+    <value>Regular Expression</value>
+  </data>
+  <data name="lblRegularExpression.Help" xml:space="preserve">
+    <value>Enter the text for the regular expression control.</value>
+  </data>
+  <data name="lblAffectedDefaultValue.Text" xml:space="preserve">
+    <value>Affected Question New Default Value</value>
+  </data>
+  <data name="lblAffectedDefaultValue.Help" xml:space="preserve">
+    <value>If you selected the option to change the value of a field based on another field you can set the new value here.</value>
+  </data>
+  <data name="QuestionEventsDescription.Text" xml:space="preserve">
+    <value>Question Events are new enhancements added within V2.3. Question events allow for users to be prompted with other new questions they were not previously privileged too, hide questions they were previously privileged to, or set the default value of a field. </value>
+  </data>
+  <data name="QuestionValidationDescription.Text" xml:space="preserve">
+    <value>Select if you would like this field to be required and any other custom validation for the field such as a regular expression validator. You will still need to verify within the general settings area to turn on either client validation, server side validation, or both. Client side validation is before the user hits submit and server side validation is after the user hits submit. Server validation is required for some field types. Note: If you select that a combo box or checkbox field is required you must enable server side validation. If a combo box is set to required the user will not be allowed to select the very first list item within the dropdownlist (i.e. - Select Field -).</value>
+  </data>
+  <data name="lblHideBasedOnEvent.Text" xml:space="preserve">
+    <value>Hide until forced visible by question event.</value>
+  </data>
+  <data name="lblHideBasedOnEvent.Help" xml:space="preserve">
+    <value>This option allows the question to be hidden until force to be displayed visible upon a question event.</value>
+  </data>
+  <data name="TypeZero.Text" xml:space="preserve">
+    <value>TextBox</value>
+  </data>
+  <data name="TypeOne.Text" xml:space="preserve">
+    <value>CheckBox</value>
+  </data>
+  <data name="TypeTwo.Text" xml:space="preserve">
+    <value>Combo Box</value>
+  </data>
+  <data name="TypeThree.Text" xml:space="preserve">
+    <value>Radio Buttons</value>
+  </data>
+  <data name="TypeFour.Text" xml:space="preserve">
+    <value>Text / HTML</value>
+  </data>
+  <data name="TypeFive.Text" xml:space="preserve">
+    <value>CheckBox Group</value>
+  </data>
+  <data name="TypeSix.Text" xml:space="preserve">
+    <value>Hidden Field</value>
+  </data>
+  <data name="TypeSeven.Text" xml:space="preserve">
+    <value>Listbox</value>
+  </data>
+  <data name="TypeEight.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="TypeNine.Text" xml:space="preserve">
+    <value>Horizontal Rule (Seperator)</value>
+  </data>
+  <data name="TypeTen.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="TypeEleven.Text" xml:space="preserve">
+    <value>File Attachment / Upload</value>
+  </data>
+  <data name="TypeTwelve.Text" xml:space="preserve">
+    <value>Captcha Image (Security Code)</value>
+  </data>
+  <data name="TypeThirteen.Text" xml:space="preserve">
+    <value>Rich Text Editor</value>
+  </data>
+  <data name="TypeFourteen.Text" xml:space="preserve">
+    <value>DNN Country</value>
+  </data>
+  <data name="TypeFifteen.Text" xml:space="preserve">
+    <value>DNN Region</value>
+  </data>
+  <data name="TypeSixTeen.Text" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="TypeSevenTeen.Text" xml:space="preserve">
+    <value>HTML Button</value>
+  </data>
+  <data name="TypeEighteen.Text" xml:space="preserve">
+    <value>GridView / Survey</value>
+  </data>
+  <data name="TypeNineteen.Text" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="TypeTwenty.Text" xml:space="preserve">
+    <value>Data Grid</value>
+  </data>
+  <data name="TypeTwentyOne.Text" xml:space="preserve">
+    <value>DNN Text Suggest</value>
+  </data>
+  <data name="TypeTwentyTwo.Text" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="DNNCoreZero.Text" xml:space="preserve">
+    <value>- Select DNN Core Field -</value>
+  </data>
+  <data name="DNNCoreOne.Text" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="DNNCoreTwo.Text" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="DNNCoreThree.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="DNNCoreFour.Text" xml:space="preserve">
+    <value>Web Site</value>
+  </data>
+  <data name="DNNCoreFive.Text" xml:space="preserve">
+    <value>IM</value>
+  </data>
+  <data name="DNNCoreSix.Text" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="DNNCoreSeven.Text" xml:space="preserve">
+    <value>Cell</value>
+  </data>
+  <data name="DNNCoreEight.Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="DNNCoreNine.Text" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="DNNCoreTen.Text" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="DNNCoreEleven.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="DNNCoreTwelve.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="DNNCoreThirteen.Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="DNNCoreFourteen.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="TextboxZero.Text" xml:space="preserve">
+    <value>Singleline textbox (Long)</value>
+  </data>
+  <data name="TextboxOne.Text" xml:space="preserve">
+    <value>Singleline textbox (Short)</value>
+  </data>
+  <data name="TextboxTwo.Text" xml:space="preserve">
+    <value>Multiline textbox</value>
+  </data>
+  <data name="QuestionEventZero.Text" xml:space="preserve">
+    <value>Hide question based on another questions response</value>
+  </data>
+  <data name="QuestionEventOne.Text" xml:space="preserve">
+    <value>Set question default / return SQL response based on another questions response</value>
+  </data>
+  <data name="QuestionEventTwo.Text" xml:space="preserve">
+    <value>Display hidden question based on another questions response</value>
+  </data>
+  <data name="QuestionEventThree.Text" xml:space="preserve">
+    <value>Disable question based on another questions response</value>
+  </data>
+  <data name="OnlySubmitTextOnceText.Text" xml:space="preserve">
+    <value>Hi. You have already submitted this form one time. The site administrator has setup this form to only allow you to submit the form one time. Site Admin: You can change this message under General Settings, System Layout and Messages area within Dynamic Forms settings.</value>
+  </data>
+  <data name="OptionsVertical.Text" xml:space="preserve">
+    <value>Options are vertical</value>
+  </data>
+  <data name="OptionsHorizontal.Text" xml:space="preserve">
+    <value>Options are horizontal</value>
+  </data>
+  <data name="lblRegularExpressErrorText.Text" xml:space="preserve">
+    <value>Regular Expression Error Message</value>
+  </data>
+  <data name="lblRegularExpressErrorText.Help" xml:space="preserve">
+    <value>Enter the text the user will receive if the regular expression validation is not met.</value>
+  </data>
+  <data name="lblQuestionHeader.Text" xml:space="preserve">
+    <value>Question Header</value>
+  </data>
+  <data name="lblQuestionFooter.Text" xml:space="preserve">
+    <value>Question Footer</value>
+  </data>
+  <data name="lblQuestionHeader.Help" xml:space="preserve">
+    <value>Enter a header to be displayed for this question.</value>
+  </data>
+  <data name="lblQuestionFooter.Help" xml:space="preserve">
+    <value>Please enter text that will display below the question footer.</value>
+  </data>
+  <data name="PayFlowPro.Text" xml:space="preserve">
+    <value>PayFlow Pro</value>
+  </data>
+  <data name="lblPayFlowProLogin.Text" xml:space="preserve">
+    <value>PayFlow Pro User Login</value>
+  </data>
+  <data name="lblPayFlowProLogin.Help" xml:space="preserve">
+    <value>Please enter your User login information for Pay Flow Pro account</value>
+  </data>
+  <data name="lblPayFlowProPassword.Text" xml:space="preserve">
+    <value>PayFlow Pro Password</value>
+  </data>
+  <data name="lblPayFlowProPassword.Help" xml:space="preserve">
+    <value>Please enter your User password information for Pay Flow Pro account</value>
+  </data>
+  <data name="lblPayFlowProPartner.Text" xml:space="preserve">
+    <value>PayFlow Pro Partner</value>
+  </data>
+  <data name="lblPayFlowProPartner.Help" xml:space="preserve">
+    <value>Please enter your partner information for Pay Flow Pro account</value>
+  </data>
+  <data name="PayFlowProPilot.Text" xml:space="preserve">
+    <value>Pilot Test Site</value>
+  </data>
+  <data name="PayFlowProProd.Text" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="lblPayFlowProVendor.Text" xml:space="preserve">
+    <value>PayFlow Pro Vendor</value>
+  </data>
+  <data name="lblPayFlowProVendor.Help" xml:space="preserve">
+    <value>Please enter your vendor information for Pay Flow Pro account</value>
+  </data>
+  <data name="lblPayFlowProURL.Text" xml:space="preserve">
+    <value>PayFlow Pro Post URL</value>
+  </data>
+  <data name="lblPayFlowProURL.Help" xml:space="preserve">
+    <value>Please specify the parameters that are passed to this payment gateway.</value>
+  </data>
+  <data name="lblPayFlowProParameters.Text" xml:space="preserve">
+    <value>PayFlow Pro Parameters</value>
+  </data>
+  <data name="lblPayFlowProTokens.Text" xml:space="preserve">
+    <value>PayFlow Pro Tokens</value>
+  </data>
+  <data name="lblPayFlowProTokens.Help" xml:space="preserve">
+    <value>Please select from the list of available PayFlow Pro tokens. Please visit the PayFlow Pro web site for the full list of available tokens.</value>
+  </data>
+  <data name="Top.Text" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="Middle.Text" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="Bottom.Text" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="SingleDisplay.Text" xml:space="preserve">
+    <value>Single Select</value>
+  </data>
+  <data name="MultipleDisplay.Text" xml:space="preserve">
+    <value>Multi Select</value>
+  </data>
+  <data name="lblFireForAny.Text" xml:space="preserve">
+    <value>Execute event for any response</value>
+  </data>
+  <data name="lblFireForAny.Help" xml:space="preserve">
+    <value>Would you like this question to fire a postback event no matter what the user responds?</value>
+  </data>
+  <data name="lblEmailFrom.Text" xml:space="preserve">
+    <value>From Email Address</value>
+  </data>
+  <data name="lblEmailFrom.Help" xml:space="preserve">
+    <value>Select the from email address for this email.</value>
+  </data>
+  <data name="DNNFormLocal.Text" xml:space="preserve">
+    <value>Form Localization</value>
+  </data>
+  <data name="DNNContentLocalization.Text" xml:space="preserve">
+    <value>Content Localization</value>
+  </data>
+  <data name="DatabaseProvider.Text" xml:space="preserve">
+    <value>Please select the database provider you would like throughout the instance of this module. This provider can currently be either SQL Server or an Oracle provider and requires an external connection string. This provider will be used as the default provider for areas such as SQL Options within fields. The provider can be overridden in several areas throughout the module such as SQL Events and Initial SQL Databind.</value>
+  </data>
+  <data name="ContentLocalization.Text" xml:space="preserve">
+    <value>Dynamic Forms now fully supports content localization. Content localization allows the site administrator to offer the same form for multiple languages. Each aspect of the form can now be modified based on the users language. Form localization includes the page header/footer and optional message displayed to the user after form submission. Additionally you can specify a different submit text or image button for the form. Question localization applies to each question setup within the form. You can modify the forms label, help text, header, footer, example text, and more. Setup all areas of content localization within the two sections below.</value>
+  </data>
+  <data name="DNNQuestionLocal.Text" xml:space="preserve">
+    <value>Question Localization</value>
+  </data>
+  <data name="lblFormLocalField.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="lblFormLocalField.Help" xml:space="preserve">
+    <value>Select the language for the localization you wish to manage.</value>
+  </data>
+  <data name="lblContinueLocal.Text" xml:space="preserve">
+    <value>Continue Text</value>
+  </data>
+  <data name="lblContinueLocal.Help" xml:space="preserve">
+    <value>Select the text for the continue link for this language.</value>
+  </data>
+  <data name="lblLocalMessages.Text" xml:space="preserve">
+    <value>System Header / Footer/ Message</value>
+  </data>
+  <data name="lblLocalMessages.Help" xml:space="preserve">
+    <value>Select the text for the different system templates such as the header, footer, and message displayed to the user after submitting the form.</value>
+  </data>
+  <data name="lblLocalSubmit.Text" xml:space="preserve">
+    <value>Submit Text</value>
+  </data>
+  <data name="lblLocalSubmit.Help" xml:space="preserve">
+    <value>Select the text for the submit link.</value>
+  </data>
+  <data name="lblLocalImage.Text" xml:space="preserve">
+    <value>Submit Image</value>
+  </data>
+  <data name="lblLocalImage.Help" xml:space="preserve">
+    <value>Select the image for the submit button.</value>
+  </data>
+  <data name="lblLocal.Text" xml:space="preserve">
+    <value>Localization Language</value>
+  </data>
+  <data name="lblLocal.Help" xml:space="preserve">
+    <value>Select the language you want to manage question localization for.</value>
+  </data>
+  <data name="lblLocalfield.Text" xml:space="preserve">
+    <value>Dynamic Field</value>
+  </data>
+  <data name="lblLocalfield.Help" xml:space="preserve">
+    <value>Select the dynamic field you want to manage question localization for.</value>
+  </data>
+  <data name="lblFieldLocal.Text" xml:space="preserve">
+    <value>Field Label</value>
+  </data>
+  <data name="lblFieldLocal.Help" xml:space="preserve">
+    <value>Select the dynamic field label you want to manage question localization for.</value>
+  </data>
+  <data name="lblHelpLocal.Text" xml:space="preserve">
+    <value>Help Local</value>
+  </data>
+  <data name="lblHelpLocal.Help" xml:space="preserve">
+    <value>Select the help text you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblExampleTextLocal.Text" xml:space="preserve">
+    <value>Example Text Local</value>
+  </data>
+  <data name="lblExampleTextLocal.Help" xml:space="preserve">
+    <value>Select the example you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblRequiredFieldLocal.Text" xml:space="preserve">
+    <value>Required Field Text</value>
+  </data>
+  <data name="lblRequiredFieldLocal.Help" xml:space="preserve">
+    <value>Select the required field text you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblRequiredValLocal.Text" xml:space="preserve">
+    <value>Required Validation Text</value>
+  </data>
+  <data name="lblRequiredValLocal.Help" xml:space="preserve">
+    <value>Select the required validation text you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblExpressionLocal.Text" xml:space="preserve">
+    <value>Regular Expression</value>
+  </data>
+  <data name="lblExpressionLocal.Help" xml:space="preserve">
+    <value>Select the regular expression you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblExpressionTextLocal.Text" xml:space="preserve">
+    <value>Regular Expression Text</value>
+  </data>
+  <data name="lblExpressionTextLocal.Help" xml:space="preserve">
+    <value>Select the regular expression text you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblQuestionHeaderLocal.Text" xml:space="preserve">
+    <value>Question Header</value>
+  </data>
+  <data name="lblQuestionHeaderLocal.Help" xml:space="preserve">
+    <value>Select the question header text you want for this question based on this localization language.</value>
+  </data>
+  <data name="lblQuestionFooterLocal.Text" xml:space="preserve">
+    <value>Question Footer</value>
+  </data>
+  <data name="lblQuestionFooterLocal.Help" xml:space="preserve">
+    <value>Select the question footer text you want for this question based on this localization language.</value>
+  </data>
+  <data name="DNNSQuestionHeaderFooterLocal.Text" xml:space="preserve">
+    <value>Question Header / Footer Localization</value>
+  </data>
+  <data name="SelectLanguage.Text" xml:space="preserve">
+    <value>- Select Language -</value>
+  </data>
+  <data name="UpdateFormLocal.Text" xml:space="preserve">
+    <value>Update Form Localization</value>
+  </data>
+  <data name="UpdateQuestionLocal.Text" xml:space="preserve">
+    <value>Update Question Localization</value>
+  </data>
+  <data name="ImageTypeZero.Text" xml:space="preserve">
+    <value>Full image only</value>
+  </data>
+  <data name="ImageTypeOne.Text" xml:space="preserve">
+    <value>Thumbnail only</value>
+  </data>
+  <data name="ImageTypeTwo.Text" xml:space="preserve">
+    <value>Thumbnail and Full Image Link</value>
+  </data>
+  <data name="lbllRequiredFieldErrorText.Text" xml:space="preserve">
+    <value>Required Field Error Text (i.e. *)</value>
+  </data>
+  <data name="lblEnableCompareValidator.Text" xml:space="preserve">
+    <value>Enable Compare Validator</value>
+  </data>
+  <data name="lblEnableCompareValidator.Help" xml:space="preserve">
+    <value>Select if you would like to enable a compare validator for this field. You would need to then select which other field you would like to compare this field too. This other field would need to first exist before you could enable this as a compare validator. </value>
+  </data>
+  <data name="lblCompareField.Text" xml:space="preserve">
+    <value>Compare field</value>
+  </data>
+  <data name="lblCompareField.Help" xml:space="preserve">
+    <value>Select the field that you want this field to be compared to. A validation control will be added to the form that will compare these two fields within the form.</value>
+  </data>
+  <data name="DNNDisplayName.Text" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="DNNUsername.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="DNNEmailAddress.Text" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="lblRequiredFieldErrorText.Text" xml:space="preserve">
+    <value>Required Field Error (i.e. *)</value>
+  </data>
+  <data name="lblRequiredFieldErrorText.Help" xml:space="preserve">
+    <value>Select the text that will display to the right of the field as an error. Typically this would be an * symbol.</value>
+  </data>
+  <data name="lblCompareText.Text" xml:space="preserve">
+    <value>Compare Validation Text</value>
+  </data>
+  <data name="lblCompareText.Help" xml:space="preserve">
+    <value>Enter the text the user will see if the validation occurs (i.e. Please enter the same values for both fields)</value>
+  </data>
+  <data name="lblCompareError.Text" xml:space="preserve">
+    <value>Compare Validation Error</value>
+  </data>
+  <data name="lblCompareError.Help" xml:space="preserve">
+    <value>Enter the text the user will see to the right of the field if the validation occurs (i.e. *)</value>
+  </data>
+  <data name="lblWordWrapFieldLabel.Text" xml:space="preserve">
+    <value>Word wrap field label?</value>
+  </data>
+  <data name="lblWordWrapFieldLabel.Help" xml:space="preserve">
+    <value>Would you like to wrap field labels?</value>
+  </data>
+  <data name="CannotCompareSameField.Text" xml:space="preserve">
+    <value>You cannot compare the same field. Please select a different field.</value>
+  </data>
+  <data name="CannotCompareThatField.Text" xml:space="preserve">
+    <value>You cannot compare a field where the sort order is greater than that of the current question. Please select a different field.</value>
+  </data>
+  <data name="lblForceSameLine.Text" xml:space="preserve">
+    <value>Add field to same row as previous question?</value>
+  </data>
+  <data name="lblForceSameLine.Help" xml:space="preserve">
+    <value>Would you like to add fields to the same row as the previous question?</value>
+  </data>
+  <data name="lblForceSameLineOnLabels.Text" xml:space="preserve">
+    <value>Force fields labels and fields on same column?</value>
+  </data>
+  <data name="lblForceSameLineOnLabels.Help" xml:space="preserve">
+    <value>Enable this option if you would like to force the field labels and field questions on the same column.</value>
+  </data>
+  <data name="lblPassUniqueCompletionID.Text" xml:space="preserve">
+    <value>Pass unique completionID?</value>
+  </data>
+  <data name="lblPassUniqueCompletionID.Help" xml:space="preserve">
+    <value>This feature is enabled for integration with other modules. If you turn this feature on a unique completion ID in the form of a session variable will be set after a form has been submitted.</value>
+  </data>
+  <data name="lblAttachFiletoEmail.Text" xml:space="preserve">
+    <value>Attach file to email?</value>
+  </data>
+  <data name="lblAttachFiletoEmailHelp" xml:space="preserve">
+    <value>Would you like to attach a file to this email? If so, attach the file selected below to this email.</value>
+  </data>
+  <data name="lblFieldVerticalAlignement.Text" xml:space="preserve">
+    <value>Field vertical alignment</value>
+  </data>
+  <data name="lblFieldVerticalAlignement.Help" xml:space="preserve">
+    <value>Select the vertical alignment of fields within the table cell</value>
+  </data>
+  <data name="lblOverRideLabelStyleClass.Text" xml:space="preserve">
+    <value>Override label cell style class?</value>
+  </data>
+  <data name="lblOverRideLabelStyleClass.Help" xml:space="preserve">
+    <value>Enter a style class if you would like to override the standard class</value>
+  </data>
+  <data name="lblMultiLineHeight.Text" xml:space="preserve">
+    <value>Multiline Textbox Height</value>
+  </data>
+  <data name="lblMultiLineHeight.Help" xml:space="preserve">
+    <value>Enter the height for this mulitline textbox field</value>
+  </data>
+  <data name="lblOverRideFieldStyleClass.Text" xml:space="preserve">
+    <value>Override field style class?</value>
+  </data>
+  <data name="lblOverRideFieldStyleClass.Help" xml:space="preserve">
+    <value>Enter a style class if you would like to override the standard class</value>
+  </data>
+  <data name="QuestionLookAndFeel.Text" xml:space="preserve">
+    <value>Question Look / Feel</value>
+  </data>
+  <data name="PleaseEnter.Text" xml:space="preserve">
+    <value>Please enter a value for the field </value>
+  </data>
+  <data name="SQLDefaultValueDescription.Text" xml:space="preserve">
+    <value>Note: To enable SQL as a default value for textbox or hidden field types you MUST select only one column from the database and that column must be named DefaultValue. i.e. Select count(*) As DefaultValue from users</value>
+  </data>
+  <data name="lblGatewayURL.Text" xml:space="preserve">
+    <value>Gateway URL</value>
+  </data>
+  <data name="lblGatewayURL.Help" xml:space="preserve">
+    <value>Select if you would like to use the developer or standard gateway. The developer gateway posts data to https://test.authorize.net/gateway/transact.dll and the standard gateway posts data to https://secure.authorize.net/gateway/transact.dll.</value>
+  </data>
+  <data name="AuthTestSite.Text" xml:space="preserve">
+    <value>Developer Test Gateway</value>
+  </data>
+  <data name="AuthProdSite.Text" xml:space="preserve">
+    <value>Standard Gateway</value>
+  </data>
+  <data name="PayPalProdSite.Text" xml:space="preserve">
+    <value>PayPal.com (production)</value>
+  </data>
+  <data name="PayPalTestSite.Text" xml:space="preserve">
+    <value>Sandbox.PayPal.com (test)</value>
+  </data>
+  <data name="ExamplePayPal.Text" xml:space="preserve">
+    <value>Example: %item_name=$(ItemName)%currency_code=USD %amount=$(amount)%no_shipping=1 %first_name=$(FNAme)%last_name=$(LName) %email=$(Email).</value>
+  </data>
+  <data name="ExamplePayPal2.Text" xml:space="preserve">
+    <value>For a full list of tokens and token descriptions please visit &lt;a target=_blank href='https://www.PayPal.com/cgi-bin/webscr?cmd=p/pdn/howto_checkout-outside#methodone'&gt;PayPal.com.&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;</value>
+  </data>
+  <data name="ExampleAuthorizenet.Text" xml:space="preserve">
+    <value>Example: %x_first_name=$(FName)%x_last_name=$(LName)%x_email=$(Email)%x_method='CC'%x_amount=20.00%x_card_num=$(CardNum)%x_exp_date=$(ExpDate)</value>
+  </data>
+  <data name="lblAuthTokens.Text" xml:space="preserve">
+    <value>Authorizenet Tokens</value>
+  </data>
+  <data name="lblAuthTokens.Help" xml:space="preserve">
+    <value>Select from the available authorizenet tokens below.</value>
+  </data>
+  <data name="Authorizenet.Text" xml:space="preserve">
+    <value>Authorizenet</value>
+  </data>
+  <data name="PayPal.Text" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="lblDynamicTokens.Text" xml:space="preserve">
+    <value>Field Tokens</value>
+  </data>
+  <data name="lblDynamicTokens.Help" xml:space="preserve">
+    <value>Select from the dynamic field tokens. Typically you would want to set authorizenet tokens equal to the dynamic field token that represents the value.</value>
+  </data>
+  <data name="SystemEventscp.Text" xml:space="preserve">
+    <value>Form Completion Events</value>
+  </data>
+  <data name="ControlPanel.Text" xml:space="preserve">
+    <value>Dynamic Forms Control Panel</value>
+  </data>
+  <data name="GeneralSettingscp.Text" xml:space="preserve">
+    <value>Module Configuration</value>
+  </data>
+  <data name="GenResults.Text" xml:space="preserve">
+    <value>Generate Results Template</value>
+  </data>
+  <data name="GenFullResults.Text" xml:space="preserve">
+    <value>Generate Full Results Template</value>
+  </data>
+  <data name="HTTPPostEventDetails.Text" xml:space="preserve">
+    <value>Setup the HTTP Form Post event below, specify the HTTP URL, the full HTTP Post, and if you would like the forms response to be emailed to the administrator. The HTTP Post should include parameters that you would like to post to the URL along with tokens from the registration form based on the short field name. For example, %26fname=$(firstname)%26lname=$(lastname). Note: The HTTP Post is a silent post and will not redirect and post to the URL.</value>
+  </data>
+  <data name="lblEnableClearButton.Text" xml:space="preserve">
+    <value>Enable Form Clear / Reset Button?</value>
+  </data>
+  <data name="lblEnableSaveForLaterButton.Text" xml:space="preserve">
+    <value>Enable Save for Later Button?</value>
+  </data>
+  <data name="lblEnableSaveForLaterButton.Help" xml:space="preserve">
+    <value>Select if you would like to enable a Save for Later link or image button for your form.</value>
+  </data>
+  <data name="lblEnableClearButton.Help" xml:space="preserve">
+    <value>Select if you would like to enable a clear link or image button for your form. The clear or reset button will clear out form results.</value>
+  </data>
+  <data name="UseClearLinkButton.Text" xml:space="preserve">
+    <value>Use Clear Link Button</value>
+  </data>
+  <data name="UseClearImageButton.Text" xml:space="preserve">
+    <value>Use Custom Image Clear Button</value>
+  </data>
+  <data name="lblClearButtonType.Text" xml:space="preserve">
+    <value>Clear Button Type</value>
+  </data>
+  <data name="lblClearButtonType.Help" xml:space="preserve">
+    <value>Select if you would like the the clear or reset button to be a link button or an image button</value>
+  </data>
+  <data name="lblClearFunctionality.Text" xml:space="preserve">
+    <value>Clear Button Functionality Type</value>
+  </data>
+  <data name="lblClearFunctionality.Help" xml:space="preserve">
+    <value>Select the clear button functionality type for this form. The JavaScript type is faster but will only work on forms that do not use postback / question events. The redirect or page refresh page will not be as fast but is required for forms that use question events.</value>
+  </data>
+  <data name="JavaScriptClear.Text" xml:space="preserve">
+    <value>JavaScript Form Reset (faster but will not work with question events)</value>
+  </data>
+  <data name="ReloadPage.Text" xml:space="preserve">
+    <value>Page Refresh (required for forms using question events)</value>
+  </data>
+  <data name="ClearButtonDescription.Text" xml:space="preserve">
+    <value>You can optionally include a form reset or clear button within your form. The clear button will appear directly next to the form submission button and will reset the form to its initial results when the form was loaded. The form clear or reset button can optionally by a link button, or an image button, and you can specify the clear text for the link button or image below. The reset button can either be setup to use AJAX / JavaScript client side code or can be simply refresh the page. The AJAX method is faster but is not available for forms that utilize features such as server side dynamic question events.</value>
+  </data>
+  <data name="lblClearMessage.Text" xml:space="preserve">
+    <value>Clear warning message</value>
+  </data>
+  <data name="lblClearMessage.Help" xml:space="preserve">
+    <value>The clear warning message is an optional message pop up that can ask the user if they are sure they want to reset the form. The clear warning message will not fire if this setting is left blank or if the page refresh option is checked (only the JavaScript reset feature includes this optional pop up message).</value>
+  </data>
+  <data name="lblFormCompletionEvents.Text" xml:space="preserve">
+    <value>Form Completion Events</value>
+  </data>
+  <data name="lblFormCompletionEvents.Help" xml:space="preserve">
+    <value>This dropdownlist represents the form completion events that have been setup for this form. Within this configuration area you can determine which completion events will be executed based on which specific payment status is returned from PayPal. Keep in mind that often these notifications from PayPal can happen multiple times throughout the users transaction and is not necessarily reflect when the user is returned to the form after payment. For example, if a user cancels their subscription months from the initial signup, the PayPal system will send notification back to your Dynamic Forms module and it will reflect the appropriate completion events to fire off.</value>
+  </data>
+  <data name="lblPayPalPaymentStatus.Text" xml:space="preserve">
+    <value>PayPal Payment Status</value>
+  </data>
+  <data name="lblPayPalPaymentStatus.Help" xml:space="preserve">
+    <value>Check the status which will enable this completion event to executed.</value>
+  </data>
+  <data name="lnkEventPayPalStatus.Text" xml:space="preserve">
+    <value>Save Completion Event / PayPal Status Setting</value>
+  </data>
+  <data name="PayPalStatusZero.Text" xml:space="preserve">
+    <value>Before redirection to PayPal</value>
+  </data>
+  <data name="PayPalStatusOne.Text" xml:space="preserve">
+    <value>Redirect Successfully</value>
+  </data>
+  <data name="PayPalStatusTwo.Text" xml:space="preserve">
+    <value>Redirect After Cancel</value>
+  </data>
+  <data name="PayPalStatusThree.Text" xml:space="preserve">
+    <value>Completed (Standard)</value>
+  </data>
+  <data name="PayPalStatusFour.Text" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="PayPalStatusFive.Text" xml:space="preserve">
+    <value>Completed (Subscription Sign Up)</value>
+  </data>
+  <data name="PayPalStatusSix.Text" xml:space="preserve">
+    <value>Completed (Subscription Payment)</value>
+  </data>
+  <data name="PayPalStatusSeven.Text" xml:space="preserve">
+    <value>Completed (Subscription Payment Failed)</value>
+  </data>
+  <data name="PayPalStatusEight.Text" xml:space="preserve">
+    <value>Completed (Subscription Cancellation)</value>
+  </data>
+  <data name="PayPalStatusNine.Text" xml:space="preserve">
+    <value>Completed (Subscription End of Terms)</value>
+  </data>
+  <data name="PayPalStatusTen.Text" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="PayPalStatusEleven.Text" xml:space="preserve">
+    <value>Denied</value>
+  </data>
+  <data name="PayPalStatusTwelve.Text" xml:space="preserve">
+    <value>Refunded</value>
+  </data>
+  <data name="PayPalStatusBefore.Text" xml:space="preserve">
+    <value>Before redirected to PayPal</value>
+  </data>
+  <data name="lblPullCookie.Text" xml:space="preserve">
+    <value>Retrieve values from cookie variable for this question</value>
+  </data>
+  <data name="lblPullCookie.Help" xml:space="preserve">
+    <value>Optionally select to retrieve values from the cookie variable (if available) for this field. Cookie values passed must represent the question shortfieldname.</value>
+  </data>
+  <data name="lblPassCookie.Text" xml:space="preserve">
+    <value>Pass values of this question to cookie variable</value>
+  </data>
+  <data name="lblPassCookie.Help" xml:space="preserve">
+    <value>Select if you would like to have the value of this field pass to a cookie with the same short field name as this field.</value>
+  </data>
+  <data name="lblNoResults.Text" xml:space="preserve">
+    <value>Do not display field results within the view results module</value>
+  </data>
+  <data name="lblNoResults.Help" xml:space="preserve">
+    <value>Optionally select to hide the results of this field from the view results section of Dynamic Forms. This setting will skip this field when viewing form results or exporting results to Excel.</value>
+  </data>
+  <data name="lblNoSave.Text" xml:space="preserve">
+    <value>Do not save field results to the database</value>
+  </data>
+  <data name="lblNoSave.Help" xml:space="preserve">
+    <value>Optionally select to not save the field results to the database. This property can be useful if you wish to process credit cards or other sensitive data and do not want that data to be stored to the database. </value>
+  </data>
+  <data name="lblCaptchaType.Text" xml:space="preserve">
+    <value>Captcha Field Type</value>
+  </data>
+  <data name="lblCaptchaType.Help" xml:space="preserve">
+    <value>Select the CAPTCHA field type you would like to use. You can select either the standard DNN Core Captcha field or an advanced Captcha field.</value>
+  </data>
+  <data name="CaptchaStandard.Text" xml:space="preserve">
+    <value>Standard DNN Captcha Field</value>
+  </data>
+  <data name="CaptchaAdvanced.Text" xml:space="preserve">
+    <value>Advanced DataSprings Captcha Field</value>
+  </data>
+  <data name="lblCaptchaStyle.Text" xml:space="preserve">
+    <value>Captcha Text Tyle</value>
+  </data>
+  <data name="lblCaptchaStyle.Help" xml:space="preserve">
+    <value>Select the CAPTCHA text style you would like. This style will render your Captcha image according to the selectred style.</value>
+  </data>
+  <data name="lblAdvancedCaptcha.Text" xml:space="preserve">
+    <value>Advanced Captcha Settings</value>
+  </data>
+  <data name="lblAdvancedCaptcha.Help" xml:space="preserve">
+    <value>The settings for Advanced Captcha are below and will be utilized if you choose the Advanced Data Springs Captcha field type.</value>
+  </data>
+  <data name="lblEnableRefresh.Text" xml:space="preserve">
+    <value>Enable Captcha Refresh?</value>
+  </data>
+  <data name="lblEnableRefresh.Help" xml:space="preserve">
+    <value>Select if you would like to enable the CAPTCHA refresh icon/feature within the Captcha control.</value>
+  </data>
+  <data name="lblEnableSound.Text" xml:space="preserve">
+    <value>Enable Captcha Sound?</value>
+  </data>
+  <data name="lblEnableSound.Help" xml:space="preserve">
+    <value>Select if you would like to enable the CAPTCHA sound icon/feature within the Captcha control.</value>
+  </data>
+  <data name="lblCaptchaHeight.Text" xml:space="preserve">
+    <value>Captcha Control Height</value>
+  </data>
+  <data name="lblCaptchaHeight.Help" xml:space="preserve">
+    <value>Enter the Captcha control height (in pixels) for this control.</value>
+  </data>
+  <data name="lblCaptchaWidth.Text" xml:space="preserve">
+    <value>Captcha ControlWidth</value>
+  </data>
+  <data name="lblCaptchaWidth.Help" xml:space="preserve">
+    <value>Enter the Captcha control width (in pixels) for this control.</value>
+  </data>
+  <data name="AdvancedCaptchaHelp.Text" xml:space="preserve">
+    <value>Note: Data Springs Advanced Captcha field requires additional setup within your portal. Please visit this &lt;a target='_blank' href='http://www.datasprings.com/Products/DNNModules/DynamicRegistration/DataSpringsAdvancedCaptchaPage/tabid/881/Default.aspx'&gt;web site for additional installation steps...&lt;/a&gt; &lt;BR&gt;&lt;BR&gt; </value>
+  </data>
+  <data name="NoDefaultvalue.Text" xml:space="preserve">
+    <value>No default value </value>
+  </data>
+  <data name="lblImagePreview.Text" xml:space="preserve">
+    <value>Preview Image Enabled</value>
+  </data>
+  <data name="lblImagePreview.Help" xml:space="preserve">
+    <value>Would you like to enable the ability to allow the user to preview the image?</value>
+  </data>
+  <data name="lblImagePreviewType.Text" xml:space="preserve">
+    <value>Image Preview Type</value>
+  </data>
+  <data name="lblImagePreviewType.Help" xml:space="preserve">
+    <value>Select how you would like the image preview to be enabled. You can select either to have a link button appear, an image, or automatically as soon as the user selects the file.</value>
+  </data>
+  <data name="PreviewLinkButton.Text" xml:space="preserve">
+    <value>Link Button</value>
+  </data>
+  <data name="PreviewImageButton.Text" xml:space="preserve">
+    <value>Image Button</value>
+  </data>
+  <data name="PreviewAutomatic.Text" xml:space="preserve">
+    <value>Automatically</value>
+  </data>
+  <data name="lblThumbnailType.Text" xml:space="preserve">
+    <value>Thumbnail Type</value>
+  </data>
+  <data name="lblThumbnailType.Help" xml:space="preserve">
+    <value>Select how you would like the image thumbnail to be created. If you choose to have it created as fixed, the thumbnail image will ALWAYS be generated based on the thumbnail width and height. If you choose to have it created based on relative parameters, the thumbnail will be created based on width and height of the image the user is uploading.</value>
+  </data>
+  <data name="Fixed.Text" xml:space="preserve">
+    <value>Fixed</value>
+  </data>
+  <data name="Relative.Text" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="DNNInitialSQLBind.Text" xml:space="preserve">
+    <value>Initial SQL Rendering/Bind</value>
+  </data>
+  <data name="lblInitialSQLBindEnabled.Text" xml:space="preserve">
+    <value>Enable initial SQL data bind</value>
+  </data>
+  <data name="lblInitialSQLBindEnabled.Help" xml:space="preserve">
+    <value>Would you like to enable the form to initially render / bind data from a SQL query? If enabled, the form will retrieve data based on the SQL table rendered and each fields short field name.</value>
+  </data>
+  <data name="lblInitialSQLBindAttachedToQuery.Text" xml:space="preserve">
+    <value>Only enable when querystring value is present?</value>
+  </data>
+  <data name="lblInitialSQLBindAttachedToQuery.Help" xml:space="preserve">
+    <value>Enter the querystring parameter you would like to enable the initial SQL database. For example, if you passed a querystring variable such as DBBind and a value of true it would enable the SQL binding feature, if it was not true it would not enable the binding feature. This is useful if you are wanting the binding feature to not be enabled for initial submission, however maybe you want to enable the binding feature to update a record. This feature only works if you already have enabled the initial SQL data bind feature. </value>
+  </data>
+  <data name="lblInitialSQLBind.Text" xml:space="preserve">
+    <value>Initial SQL Query</value>
+  </data>
+  <data name="lblInitialSQLBind.Help" xml:space="preserve">
+    <value>Select the initial SQL data bind query. The query should return a single data row and each column within the data row should be called the short field name of the form field.</value>
+  </data>
+  <data name="GenCreateTable.Text" xml:space="preserve">
+    <value>Generate Create Table SQL (One time only execution)</value>
+  </data>
+  <data name="GenInsert.Text" xml:space="preserve">
+    <value>Generate Insert SQL Query</value>
+  </data>
+  <data name="GenUpdate.Text" xml:space="preserve">
+    <value>Generate Update SQL Query</value>
+  </data>
+  <data name="GenDelete.Text" xml:space="preserve">
+    <value>Generate Delete SQL Query</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Low.Text" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="High.Text" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="Hide.Text" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Show.Text" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="SQLHelp.Text" xml:space="preserve">
+    <value>Assistance &lt;span STYLE='font-size: 6.5pt' &gt; &lt;a target='_blank' href='http://www.datasprings.com/tabid/886/language/en-US/Default.aspx'&gt; - What's this?&lt;/a&gt;&lt;BR&gt;&lt;BR&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="lblHideOrShow.Text" xml:space="preserve">
+    <value>Hide / show fields by role</value>
+  </data>
+  <data name="lblHideOrShow.Help" xml:space="preserve">
+    <value>Select if you would like to hide or fields by security roles within the form.</value>
+  </data>
+  <data name="lblEncyrptDecrypt.Text" xml:space="preserve">
+    <value>Encrypt / decrypt field results</value>
+  </data>
+  <data name="lblEncyrptDecrypt.Help" xml:space="preserve">
+    <value>Select if you would like for the form reults to be encrypted and then decrypted within the view results section of the module.</value>
+  </data>
+  <data name="lblPayPalLastStatus.Text" xml:space="preserve">
+    <value>PayPal Last Status</value>
+  </data>
+  <data name="lblPayPalLastStatus.Help" xml:space="preserve">
+    <value>Select the field you would like to represent the status field from the last PayPal IPN or status.</value>
+  </data>
+  <data name="lblCurrentRating.Text" xml:space="preserve">
+    <value>Current Rating</value>
+  </data>
+  <data name="lblCurrentRating.Help" xml:space="preserve">
+    <value>Select the rating that the module should initially render for the field.</value>
+  </data>
+  <data name="lblMaxRating.Text" xml:space="preserve">
+    <value>Max Rating</value>
+  </data>
+  <data name="lblMaxRating.Help" xml:space="preserve">
+    <value>Select the maximum rating that the module should render for the field.</value>
+  </data>
+  <data name="lblRatingAlign.Text" xml:space="preserve">
+    <value>Align Rating</value>
+  </data>
+  <data name="lblRatingAlign.Help" xml:space="preserve">
+    <value>Select the option for how the rating control should be aligned. This setting can either be horizontal or vertical. </value>
+  </data>
+  <data name="lblRatingDirection.Text" xml:space="preserve">
+    <value>Rating Direction</value>
+  </data>
+  <data name="lblRatingDirection.Help" xml:space="preserve">
+    <value>Select the option for how the rating control direction should be set. This setting can either be left to right top to bottom, or right to left bottom to top.</value>
+  </data>
+  <data name="Horizontal.Text" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="LeftToRightTopToBottom.Text" xml:space="preserve">
+    <value>Left To Right Top To Bottom</value>
+  </data>
+  <data name="Vertical.Text" xml:space="preserve">
+    <value>Vertical</value>
+  </data>
+  <data name="RightToLeftBottomToTop.Text" xml:space="preserve">
+    <value>Right To Left Bottom To Top</value>
+  </data>
+  <data name="lblHideHeader.Text" xml:space="preserve">
+    <value>Hide Grid Header</value>
+  </data>
+  <data name="lblHideHeader.Help" xml:space="preserve">
+    <value>Select if you would like to hide the grid view control header. </value>
+  </data>
+  <data name="lblGridType.Text" xml:space="preserve">
+    <value>Grid / Survey Inner Control Type</value>
+  </data>
+  <data name="lblGridType.Help" xml:space="preserve">
+    <value>Select the type of inner control that they survey / grid view will contain. This can either be a radio button for single selection implementation or a check box to allow the user to select multiple items. </value>
+  </data>
+  <data name="Radio.Text" xml:space="preserve">
+    <value>Radio Button</value>
+  </data>
+  <data name="CheckBox.Text" xml:space="preserve">
+    <value>Checkbox</value>
+  </data>
+  <data name="lblGridViewColumn.Text" xml:space="preserve">
+    <value>Represents Grid Column</value>
+  </data>
+  <data name="lblGridViewColumn.Help" xml:space="preserve">
+    <value>Select if you would like the column to be represented as a grid view initial column.</value>
+  </data>
+  <data name="lblGridViewDefault.Text" xml:space="preserve">
+    <value>Initially Selected Column</value>
+  </data>
+  <data name="lblGridViewDefault.Help" xml:space="preserve">
+    <value>Select if this radio button or checkbox field within the gridview should be initially selected.</value>
+  </data>
+  <data name="lblOptionColumnWidth.Text" xml:space="preserve">
+    <value>Option Column Width</value>
+  </data>
+  <data name="lblOptionColumnWidth.Help" xml:space="preserve">
+    <value>Select the width you would like for the option column. The grid width is set under the field look and feel settings.</value>
+  </data>
+  <data name="lblPDFHeader.Text" xml:space="preserve">
+    <value>PDF Header</value>
+  </data>
+  <data name="lblPDFHeader.Help" xml:space="preserve">
+    <value>Enter the text for the PDF Header</value>
+  </data>
+  <data name="lblPDFFooter.Text" xml:space="preserve">
+    <value>PDF Footer</value>
+  </data>
+  <data name="lblPDFFooter.Help" xml:space="preserve">
+    <value>Enter the text for the PDF Footer</value>
+  </data>
+  <data name="lblPDFDesc.Text" xml:space="preserve">
+    <value>PDF Summary</value>
+  </data>
+  <data name="lblPDFDesc.Help" xml:space="preserve">
+    <value>Enter the text for the PDF Footer</value>
+  </data>
+  <data name="lblShowPageNumbers.Text" xml:space="preserve">
+    <value>Display Page Numbers</value>
+  </data>
+  <data name="lblShowPageNumbers.Help" xml:space="preserve">
+    <value>Select if you would like the PDF document to display PDF documents</value>
+  </data>
+  <data name="lblPDFDoc.Text" xml:space="preserve">
+    <value>Generate PDF document</value>
+  </data>
+  <data name="lblPDFDoc.Help" xml:space="preserve">
+    <value>Select the settings below to create a PDF.</value>
+  </data>
+  <data name="CreatePDFFile.Text" xml:space="preserve">
+    <value>Create PDF File</value>
+  </data>
+  <data name="equals.Text" xml:space="preserve">
+    <value>Equals</value>
+  </data>
+  <data name="notequal.Text" xml:space="preserve">
+    <value>Not Equal</value>
+  </data>
+  <data name="lblRegularExpresstionValidationText.Text" xml:space="preserve">
+    <value>Regular Expression Validation Text</value>
+  </data>
+  <data name="lblRegularExpresstionValidationText.Help" xml:space="preserve">
+    <value>Please enter the regular expression validation text for this field. This is not the regular expression itself, but the error text that the user will receive when the validation is false.</value>
+  </data>
+  <data name="lblDisableQuickStats.Text" xml:space="preserve">
+    <value>Disable field quick stats info</value>
+  </data>
+  <data name="lblDisableQuickStats.Help" xml:space="preserve">
+    <value>Would you like to disable the quick statis field icon next to each field when in edit mode?.</value>
+  </data>
+  <data name="lblDisableFormAJAX.Text" xml:space="preserve">
+    <value>Form Processing / Submission AJAX</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="AJAXProcessing.Text" xml:space="preserve">
+    <value>Form Processing (Question Events Only)</value>
+  </data>
+  <data name="AJAXBoth.Text" xml:space="preserve">
+    <value>Form Processing and Form Submission</value>
+  </data>
+  <data name="lblDisableFormAJAX.Help" xml:space="preserve">
+    <value>Disable AJAX within the form for fields and question events? Sometimes some field types will not render properly or save properly if AJAX is enabled with a combination of some fields. </value>
+  </data>
+  <data name="lblEnablejQuery.Text" xml:space="preserve">
+    <value>Disable jQuery</value>
+  </data>
+  <data name="lblEnablejQuery.Help" xml:space="preserve">
+    <value>Select if you would like to disable the jQuery from rendering for use with the form. Some field types require jQuery such as the ratings control. If jQuery is enabled you can also utilize it for client side events. </value>
+  </data>
+  <data name="lblDisableAJAXWithinConfig.Text" xml:space="preserve">
+    <value>Disable AJAX within module configuration</value>
+  </data>
+  <data name="lblDisableAJAXWithinConfig.Help" xml:space="preserve">
+    <value>Disable AJAX features within the module configuration and control panel administration area. </value>
+  </data>
+  <data name="lblDisableEditMode.Text" xml:space="preserve">
+    <value>Disable editing results</value>
+  </data>
+  <data name="lblDisableEditMode.Help" xml:space="preserve">
+    <value>Disable editing form results</value>
+  </data>
+  <data name="Verifi.Text" xml:space="preserve">
+    <value>Verifi</value>
+  </data>
+  <data name="lblVerifiUsername.Text" xml:space="preserve">
+    <value>Verifi User Login</value>
+  </data>
+  <data name="lblVerifiLogin.Help" xml:space="preserve">
+    <value>Please enter your User login information for Verifi account</value>
+  </data>
+  <data name="lblVerifiPassword.Text" xml:space="preserve">
+    <value>Verifi Password</value>
+  </data>
+  <data name="lblVerifiPassword.Help" xml:space="preserve">
+    <value>Please enter your User password information for Verifi account</value>
+  </data>
+  <data name="lblVerifiParameters.Text" xml:space="preserve">
+    <value>Verifi Parameters</value>
+  </data>
+  <data name="lblVerifioURL.Help" xml:space="preserve">
+    <value>Please specify the parameters that are passed to this payment gateway.</value>
+  </data>
+  <data name="lblVerifiTokens.Text" xml:space="preserve">
+    <value>Verifi Tokens</value>
+  </data>
+  <data name="lblVerifiTokens.Help" xml:space="preserve">
+    <value>Please select from the list of available Verifi tokens. Please visit the Verifi web site for the full list of available tokens.</value>
+  </data>
+  <data name="lblFileUploadFileNameType.Text" xml:space="preserve">
+    <value>Filename Type</value>
+  </data>
+  <data name="lblFileUploadFileNameType.Help" xml:space="preserve">
+    <value>Please specify the how the name of the file will be stored, this can either be a unique name, a friendly name which is the name of the file with a date and time stamp, or the exact filename of the file. </value>
+  </data>
+  <data name="lblFileUploadSaveType.Text" xml:space="preserve">
+    <value>File Save Type</value>
+  </data>
+  <data name="lblFileUploadSaveType.Help" xml:space="preserve">
+    <value>Please specify how you would like the filename to be saved in the database, this can either be just the name of the file or it can be the full HTTP path to the file. </value>
+  </data>
+  <data name="lblFileUploadAltPath.Text" xml:space="preserve">
+    <value>Alternate Upload Folder</value>
+  </data>
+  <data name="lblFileUploadAltPath.Help" xml:space="preserve">
+    <value>Please specify an alternate upload folder. By default the files will be stored to the DynamicForms_Uploads folder within the portals home directory.</value>
+  </data>
+  <data name="lblImageFileNameType.Text" xml:space="preserve">
+    <value>Image Name Type</value>
+  </data>
+  <data name="lblImageFileNameType.Help" xml:space="preserve">
+    <value>Please specify the how the name of the file will be stored, this can either be a unique name, a friendly name which is the name of the file with a date and time stamp, or the exact filename of the file. </value>
+  </data>
+  <data name="lblImageSaveType.Text" xml:space="preserve">
+    <value>Image File Save Type</value>
+  </data>
+  <data name="lblImageSaveType.Help" xml:space="preserve">
+    <value>Please specify how you would like the filename to be saved in the database, this can either be just the name of the file or it can be the full HTTP path to the file. </value>
+  </data>
+  <data name="lblImageAltPath.Text" xml:space="preserve">
+    <value>Alternate Upload Folder</value>
+  </data>
+  <data name="lblImageAltPath.Help" xml:space="preserve">
+    <value>Please specify an alternate upload Folder. By default the files will be stored to the DynamicForms_Images directory within the portals home directory.</value>
+  </data>
+  <data name="UniqueFileName.Text" xml:space="preserve">
+    <value>Unique Name (system generated)</value>
+  </data>
+  <data name="FriendlyFileName.Text" xml:space="preserve">
+    <value>Friendly Name (filename w/ datetime)</value>
+  </data>
+  <data name="ExactFileName.Text" xml:space="preserve">
+    <value>Exact Filename (will overwrite existing)</value>
+  </data>
+  <data name="FileOnly.Text" xml:space="preserve">
+    <value>Filename only (i.e. yourfile.jpg)</value>
+  </data>
+  <data name="FullURL.Text" xml:space="preserve">
+    <value>Full path to file (i.e. http://www.yoursite.com/file.jpg)</value>
+  </data>
+  <data name="lblDataGridFieldType.Text" xml:space="preserve">
+    <value>Field Type</value>
+  </data>
+  <data name="lblDataGridFieldType.Help" xml:space="preserve">
+    <value>Select the field type for this particular data grid column.</value>
+  </data>
+  <data name="TextBox.Text" xml:space="preserve">
+    <value>Textbox</value>
+  </data>
+  <data name="MultiLine.Text" xml:space="preserve">
+    <value>MultiLine Textbox</value>
+  </data>
+  <data name="ComboBox.Text" xml:space="preserve">
+    <value>Combo Box</value>
+  </data>
+  <data name="RadioButtonList.Text" xml:space="preserve">
+    <value>Radio Button (Horizontal)</value>
+  </data>
+  <data name="RadioButtonListVertical.Text" xml:space="preserve">
+    <value>Radio Button (Vertical)</value>
+  </data>
+  <data name="lblDataGridListName.Text" xml:space="preserve">
+    <value>List Name</value>
+  </data>
+  <data name="lblDataGridListName.Help" xml:space="preserve">
+    <value>Please specify a list name. This setting is only used for each data grid column if you are using fields which can allow multiple items such as combo box fields and radio button fields. The list name will pull those values from the list which can be setup and defined under Host, Lists within your DNN portal.</value>
+  </data>
+  <data name="lblHideDataGridHeader.Text" xml:space="preserve">
+    <value>Hide Data Grid Header</value>
+  </data>
+  <data name="lblHideDataGridHeader.Help" xml:space="preserve">
+    <value>Please select if you would like to hide the header for this data grid field.</value>
+  </data>
+  <data name="lblDataGridColumnWidth.Text" xml:space="preserve">
+    <value>Column Width</value>
+  </data>
+  <data name="lblDataGridColumnWidth.Help" xml:space="preserve">
+    <value>Please specify a alternate column width (if not the width will be based on the entire data grid width.</value>
+  </data>
+  <data name="lblWrapDataGridHeader.Text" xml:space="preserve">
+    <value>Wrap Header</value>
+  </data>
+  <data name="lblWrapDataGridHeader.Help" xml:space="preserve">
+    <value>Please specify if you would like to wrap the header for the data grid field.</value>
+  </data>
+  <data name="lblHideDataGridBorder.Text" xml:space="preserve">
+    <value>Hide Border</value>
+  </data>
+  <data name="lblHideDataGridBorder.Help" xml:space="preserve">
+    <value>Select if you would like to hide the border that the data grid normally displays.</value>
+  </data>
+  <data name="lblShowCheckAll.Text" xml:space="preserve">
+    <value>Display Check All</value>
+  </data>
+  <data name="lblShowCheckAll.Help" xml:space="preserve">
+    <value>Please select if you would like to display a check all feature above or below the check box list.</value>
+  </data>
+  <data name="lblCheckAllText.Text" xml:space="preserve">
+    <value>Display Check All</value>
+  </data>
+  <data name="lblCheckAllText.Help" xml:space="preserve">
+    <value>Select the text for the check all feature. i.e. Select All. If no text is specified then the module will render a localized variable for this setting.</value>
+  </data>
+  <data name="lblStartingYears.Text" xml:space="preserve">
+    <value>Starting Years</value>
+  </data>
+  <data name="lblStartingYears.Help" xml:space="preserve">
+    <value>Please specify the number of years to go back, for example a -90 would start the years for the date field to start 90 years ago. The starting years property is only valid for date field types that use a years dropdownlist. </value>
+  </data>
+  <data name="lblEndingYears.Text" xml:space="preserve">
+    <value>Ending Years</value>
+  </data>
+  <data name="lblEndingYears.Help" xml:space="preserve">
+    <value>Please specify the number of years from now to add to the years dropdownlist, for example a -5 would start the years for the date field to stop 5 years ago. The starting years proprety is only valid for date field types that use a years dropdownlist. </value>
+  </data>
+  <data name="lblTextboxMaskEdit.Text" xml:space="preserve">
+    <value>Mask Edit</value>
+  </data>
+  <data name="NotDisplay.Text" xml:space="preserve">
+    <value>Not Displayed</value>
+  </data>
+  <data name="Above.Text" xml:space="preserve">
+    <value>Above</value>
+  </data>
+  <data name="Below.Text" xml:space="preserve">
+    <value>Below</value>
+  </data>
+  <data name="lblTextboxMaskEdit.Help" xml:space="preserve">
+    <value>Please enter a masked format that the textbox should use. Example: (999) 999-9999 or 99/99/9999. a represents an alpha character, 9 represents a numeric character, and * represents an alphanumeric character. Please refer to the user guide at www.datasprings.com for full instructions. </value>
+  </data>
+  <data name="lblAllowComboBoxEdit.Text" xml:space="preserve">
+    <value>Allow user ability to add item?</value>
+  </data>
+  <data name="lblAllowComboBoxEdit.Help" xml:space="preserve">
+    <value>Select if you would like to allow the user to add an item to the combo box directly. This feature will allow the user to click the combo box and type in an option within a textbox. If the item does not currently exist the item will be added. The option will only remain an item within the combo box during the users submission and will not add the item to the question for the future. </value>
+  </data>
+  <data name="lblShowDefaultAsWatermark.Text" xml:space="preserve">
+    <value>Display default value as watermark?</value>
+  </data>
+  <data name="lblShowDefaultAsWatermark.Help" xml:space="preserve">
+    <value>Select if you would like the default value of the field to be displayed as a watermark. Watermark values are displayed initially but are cleared out as user as the user clicks into the textbox.</value>
+  </data>
+  <data name="lblInitialJavascript.Text" xml:space="preserve">
+    <value>Initial JavaScript</value>
+  </data>
+  <data name="lblInitialJavascript.Help" xml:space="preserve">
+    <value>Need to execute JavaScript when the form loads or during a form post? Enter the initial JavaScript that will be executed when the initial form loads or when a post back occurs.</value>
+  </data>
+  <data name="lblSaveJavascript.Text" xml:space="preserve">
+    <value>Submit / Save JavaScript</value>
+  </data>
+  <data name="lblSaveJavascript.Help" xml:space="preserve">
+    <value>Need to execute JavaScript when the forms save or submit button is clicked? Enter the JavaScript that will be executed when the submission button is clicked.</value>
+  </data>
+  <data name="lblInitialJavascriptFile.Text" xml:space="preserve">
+    <value>JavaScript File</value>
+  </data>
+  <data name="lblInitialJavascriptFile.Help" xml:space="preserve">
+    <value>Enter any custom JavaScript functions into the JavaScript file for this Dynamic Forms instance.</value>
+  </data>
+  <data name="lblAutomaticallyShowAsterik.Text" xml:space="preserve">
+    <value>Display * next to field label</value>
+  </data>
+  <data name="lblAutomaticallyShowAsterik.Help" xml:space="preserve">
+    <value>Select if you would like an asterik (*) to appear to the right of each field label.</value>
+  </data>
+  <data name="GetProgressText.Text" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="AJAXTip1.Text" xml:space="preserve">
+    <value>Did you know that you can find demos and tutorials of many forms? Check out www.datasprings.com/formdemos for a list of tutorials.</value>
+  </data>
+  <data name="AJAXJQUERY.Text" xml:space="preserve">
+    <value>AJAX / jQuery Integration</value>
+  </data>
+  <data name="AJAXTip3.Text" xml:space="preserve">
+    <value>Did you know that you can find demos and tutorials of many forms? Check out www.datasprings.com/formdemos for a list of tutorials.</value>
+  </data>
+  <data name="lblHideModalPopup.Text" xml:space="preserve">
+    <value>Hide AJAX modal popup message?</value>
+  </data>
+  <data name="GenerateImage.Text" xml:space="preserve">
+    <value>Generate Image</value>
+  </data>
+  <data name="lblHideModalPopup.Help" xml:space="preserve">
+    <value>Select if you would like to hide the AJAX modal popup message that is displayed for AJAX interaction. This message will only be displayed if jQuery is enabled and AJAX is enabled.</value>
+  </data>
+  <data name="lblHideModalPopupImage.Text" xml:space="preserve">
+    <value>Hide progress image for AJAX modal popup.</value>
+  </data>
+  <data name="lblHideModalPopupImage.Help" xml:space="preserve">
+    <value>Select if you would like to hide the progress image displayed within the modal popup message. </value>
+  </data>
+  <data name="lblAltModalPopupImage.Text" xml:space="preserve">
+    <value>Alternate Modal Popup Image</value>
+  </data>
+  <data name="lblAltModalPopupImage.Help" xml:space="preserve">
+    <value>Select an image name that you would like to use as the alternate modal popup image for the display. By default the progress image will use the progress.gif file located in the Dynamic Forms folder under /desktopmodules/dynamic forms/. If you would like to enter an alternate image from that directory enter the name of that file here.</value>
+  </data>
+  <data name="lblAltModalPopupMessage.Text" xml:space="preserve">
+    <value>Alternate Modal Popup Message</value>
+  </data>
+  <data name="lblAltModalPopupMessage.Help" xml:space="preserve">
+    <value>Select an alternate message for display when the form is processing. By default the message will be displayed as 'Processing...'.</value>
+  </data>
+  <data name="lblEmailFormat.Text" xml:space="preserve">
+    <value>Email Format</value>
+  </data>
+  <data name="lblEmailFormat.Help" xml:space="preserve">
+    <value>Select the email format for this message. The format can either be in HTML or in plain TEXT. </value>
+  </data>
+  <data name="Text.Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="HTML.Text" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="lblIsDisabled.Text" xml:space="preserve">
+    <value>Is Disabled?</value>
+  </data>
+  <data name="lblIsDisabled.Help" xml:space="preserve">
+    <value>Select if you would like to disable this question event. </value>
+  </data>
+  <data name="lblDisplayToRight.Text" xml:space="preserve">
+    <value>Display submit button to the right of the last field?</value>
+  </data>
+  <data name="lblDisplayToRight.Help" xml:space="preserve">
+    <value>By selecting this feature the submit link, image, or html input button will be displayed to the right of the last field (same table row) instead of at the very bottom of the form.</value>
+  </data>
+  <data name="lblMinCharacterLookup.Text" xml:space="preserve">
+    <value>Minimum Character Lookup</value>
+  </data>
+  <data name="lblMinCharacterLookup.Help" xml:space="preserve">
+    <value>Select the minimum characters the user should type before the DNN Text Suggest control should being to check against the lookup query.</value>
+  </data>
+  <data name="lblMaxSuggestedRows.Text" xml:space="preserve">
+    <value>Maximum Suggested Rows</value>
+  </data>
+  <data name="lblMaxSuggestedRows.Help" xml:space="preserve">
+    <value>Select the maximum rows that should be returned at a time.</value>
+  </data>
+  <data name="lblLookupDelay.Text" xml:space="preserve">
+    <value>Lookup Delay</value>
+  </data>
+  <data name="lblLookupDelay.Help" xml:space="preserve">
+    <value>Select the delay (in milliseconds) the user should wait as they are typeing before the lookup occurs. For example, 300 would be for 3 seconds.</value>
+  </data>
+  <data name="lblLookupSQL.Text" xml:space="preserve">
+    <value>Lookup SQL</value>
+  </data>
+  <data name="lblLookupSQL.Help" xml:space="preserve">
+    <value>Enter the Lookup SQL or stored proceudre SQL to return the selected list of items for the query.The query should return two columns, one called ID and another column called Name. The ID column should be unique and typically would an integer. The Name column should return the text option.</value>
+  </data>
+  <data name="OptionType.Text" xml:space="preserve">
+    <value>Note: The Row Numbers setting should also be used and referenced when attempting to create horizontal or vertical options. For example, do you want 2 items across until the next row? If so set the row numbers value to 2. If you wanted 4 across with only one row you would still need to set this to 4.
+</value>
+  </data>
+  <data name="lblViewResultsSecurity.Text" xml:space="preserve">
+    <value>View Results Security Role</value>
+  </data>
+  <data name="lblViewResultsSecurity.Help" xml:space="preserve">
+    <value>Select the security role that should be allowed to view results within the module. If the feature is disabled only users with edit rights to the module can view the results.</value>
+  </data>
+  <data name="lblAllowNonAdminToDelete.Text" xml:space="preserve">
+    <value>Allow non admins the ability to purge form results?</value>
+  </data>
+  <data name="lblAllowNonAdminToDelete.Help" xml:space="preserve">
+    <value>If enabled, any users with view rights to the form results will also have the ability purge form results. </value>
+  </data>
+  <data name="lblAllowNonAdminToExport.Text" xml:space="preserve">
+    <value>Allow non admins the ability to export form results?</value>
+  </data>
+  <data name="lblAllowNonAdminToExport.Help" xml:space="preserve">
+    <value>If enabled, any users with view rights to the form results will also have the ability purge form results. </value>
+  </data>
+  <data name="lblAllowNonAdminToManageTemplate.Text" xml:space="preserve">
+    <value>Allow non admins the ability to manage the form results template?</value>
+  </data>
+  <data name="lblAllowNonAdminToManageTemplate.Help" xml:space="preserve">
+    <value>If enabled, any users with view results right will also have the ability manage the results template.</value>
+  </data>
+  <data name="lblDisplayResultsOnUserFacingModule.Text" xml:space="preserve">
+    <value>Display results directly within user-facing form display?</value>
+  </data>
+  <data name="lblDisplayResultsOnUserFacingModule.Help" xml:space="preserve">
+    <value>If enabled, the results will be displayed within the header or footer of the form. This is useful for instances of a module such as comments or ratings where you might want a user to be able leave feedback that would be displayed directly on the user-facing page.</value>
+  </data>
+  <data name="lblExternalConnectionDataBind.Text" xml:space="preserve">
+    <value>External DB Connection</value>
+  </data>
+  <data name="lblExternalConnectionDatabindHelp" xml:space="preserve">
+    <value>Enter an external DB Connection if you would like to connect to a database outside of the standard DNN database connection.</value>
+  </data>
+  <data name="ViewResultsAndOptions.Text" xml:space="preserve">
+    <value>View Results Options</value>
+  </data>
+  <data name="lblDisableQuickEdit.Text" xml:space="preserve">
+    <value>Disable form Quick Edit</value>
+  </data>
+  <data name="lblDisableQuickEdit.Help" xml:space="preserve">
+    <value>The Quickl Edit feature is a user-facing administration feature which can manage many form fields directly on the form. This feature is useful however there is a performance hit when enabled.</value>
+  </data>
+  <data name="lblForceSameCell.Help" xml:space="preserve">
+    <value>Would you like to add fields to the same cell as the previous question?</value>
+  </data>
+  <data name="lblForceSameCell.Text" xml:space="preserve">
+    <value>Add field to same cell as previous question?</value>
+  </data>
+  <data name="lblCloneEvents.Text" xml:space="preserve">
+    <value>Clone Dynamic Event</value>
+  </data>
+  <data name="lblCloneEvents.Help" xml:space="preserve">
+    <value>Select a previous completion event that you would like to clone when creating this completion event.</value>
+  </data>
+  <data name="lblExcelExportDelimiter.Text" xml:space="preserve">
+    <value>Alternate CSV Delimiter</value>
+  </data>
+  <data name="lblExcelExportDelimiter.Help" xml:space="preserve">
+    <value>Select an alternate CSV Delimiter for exporting results to Excel within the View Results area of the module. If no delimiter is selected the default delimiter will be a comma.</value>
+  </data>
+  <data name="lblExcelExportByShortFieldName.Text" xml:space="preserve">
+    <value>Export Excel w/ Short Field Names as Columns</value>
+  </data>
+  <data name="lblExcelExportByShortFieldName.Help" xml:space="preserve">
+    <value>Select if you would like to have the exported columns be represented based on short field name. If this feature is not enabled the question label itself will be used instead of the short field name.</value>
+  </data>
+  <data name="lblAlternateExportMapPath.Text" xml:space="preserve">
+    <value>Alternate Export Map Path</value>
+  </data>
+  <data name="lblAlternateExportMapPath.Help" xml:space="preserve">
+    <value>Please select an alternate map path for files that are exported via the View Results page. If no alternate map path is selected the default map path is the portals home directory (typically \portals\0\)</value>
+  </data>
+  <data name="lblAlternateExportFolder.Text" xml:space="preserve">
+    <value>Alternate Export Directory Folder</value>
+  </data>
+  <data name="lblAlternateExportFolder.Help" xml:space="preserve">
+    <value>Please select an alternate folder for files that are exported via the View Results page. If no alternate folter is selected the default directory is DynamicForms_Exports.</value>
+  </data>
+  <data name="lblFileUploadAltMapPath.Text" xml:space="preserve">
+    <value>Alternate File Upload Map Path</value>
+  </data>
+  <data name="lblFileUploadAltMapPath.Help" xml:space="preserve">
+    <value>Please select an alternate map path for files that are uploaded with this specific field. If no alternate map path is selected the default map path is the portals home directory (typically \portals\0\)</value>
+  </data>
+  <data name="lblAlternateAllowableExtensions.Text" xml:space="preserve">
+    <value>Alternate Allowable Extensions (comma seperated)</value>
+  </data>
+  <data name="lblAlternateAllowableExtensions.Help" xml:space="preserve">
+    <value>Please enter alternate extensions for this file upload (i.e. CSV,PDF,XLS). If no extensions are selected the module will use the allowable extensions defined under host, host settings.</value>
+  </data>
+  <data name="lblInvalidExtensionErrorMessage.Text" xml:space="preserve">
+    <value>Invalid Extensions Error Message</value>
+  </data>
+  <data name="lblInvalidExtensionErrorMessage.Help" xml:space="preserve">
+    <value>Please enter the email message the user will receive if they do not select a file type extension that is allowed.</value>
+  </data>
+  <data name="lblMaxFileSize.Text" xml:space="preserve">
+    <value>Maximum File Size (in KB)</value>
+  </data>
+  <data name="lblMaxFileSize.Help" xml:space="preserve">
+    <value>Please enter a maximum file size for this upload. Keep in mind that the file size is also based on the allowable file size settings setup in your web.config file.</value>
+  </data>
+  <data name="lblFieldTypeField.Text" xml:space="preserve">
+    <value>File Upload Field Type</value>
+  </data>
+  <data name="lblFieldTypeField.Help" xml:space="preserve">
+    <value>Select the field type for this file upload. Field types for file upload can currently include both a standard file upload and also the Telerik Async Upload field if you want to allow for AJAX processing and multiple file uploads.</value>
+  </data>
+  <data name="lblInitialFilesCount.Text" xml:space="preserve">
+    <value>Initial file upload count (Telerik only)</value>
+  </data>
+  <data name="lblInitialFilesCount.Help" xml:space="preserve">
+    <value>Select the initial count of file upload fields that will be allowed for this field. This property is setup only when using the Telerik Async File Upload option and will display the initial file upload count when the form renders.</value>
+  </data>
+  <data name="lblMaxNumberOfFiles.Text" xml:space="preserve">
+    <value>Maximum file uploads (Telerik only)</value>
+  </data>
+  <data name="lblMaxNumberOfFiles.Help" xml:space="preserve">
+    <value>Select the maximum number of files allowed for this file upload field. This property is setup only when using the Telerik Async File Upload option and will display an additional file upload field after each file is uploaded until the max count is reachced.</value>
+  </data>
+  <data name="StandardFileUpload.Text" xml:space="preserve">
+    <value>HTML File Input</value>
+  </data>
+  <data name="TelerikFileUpload.Text" xml:space="preserve">
+    <value>Telerik Async File Upload</value>
+  </data>
+  <data name="lblMaxImageHeight.Text" xml:space="preserve">
+    <value>Maximum image height allowed (optional)</value>
+  </data>
+  <data name="lblMaxImageHeight.Help" xml:space="preserve">
+    <value>Select the maxium height that is allowed for this image upload. If a user uploads an image with a height that is larger then the maximum height an error message will be displayed. </value>
+  </data>
+  <data name="lblMaxImageWidth.Text" xml:space="preserve">
+    <value>Maximum image width allowed (optional)</value>
+  </data>
+  <data name="lblMaxImageWidth.Help" xml:space="preserve">
+    <value>Select the maxium width that is allowed for this image upload. If a user uploads an image with a width that is larger then the maximum height an error message will be displayed. </value>
+  </data>
+  <data name="lblAlternateImageAllowableExtensions.Text" xml:space="preserve">
+    <value>Alternate Allowable Extensions (comma seperated)</value>
+  </data>
+  <data name="lblAlternateImageAllowableExtensions.Help" xml:space="preserve">
+    <value>Please enter alternate extensions for this file upload (i.e. CSV,PDF,XLS). If no extensions are selected the module will use the allowable extensions defined under host, host settings.</value>
+  </data>
+  <data name="lblInvalidImageExtensionErrorMessage.Text" xml:space="preserve">
+    <value>Invalid Extensions Error Message</value>
+  </data>
+  <data name="lblInvalidImageExtensionErrorMessage.Help" xml:space="preserve">
+    <value>Please enter the email message the user will receive if they do not select a file type extension that is allowed.</value>
+  </data>
+  <data name="lblMaxImageFileSize.Text" xml:space="preserve">
+    <value>Maximum File Size (in KB)</value>
+  </data>
+  <data name="lblMaxImageFileSize.Help" xml:space="preserve">
+    <value>Please enter a maximum file size for this upload. Keep in mind that the file size is also based on the allowable file size settings setup in your web.config file.</value>
+  </data>
+  <data name="DNNFileUpload.Text" xml:space="preserve">
+    <value>DNN File Upload Control</value>
+  </data>
+  <data name="FormPanels.Text" xml:space="preserve">
+    <value>Dynamic Panels / Tabs</value>
+  </data>
+  <data name="lblEnableFormPanelsWithinConfig.Text" xml:space="preserve">
+    <value>Enable Dynamic Panels Feature?</value>
+  </data>
+  <data name="lblEnableFormPanelsWithinConfig.Help" xml:space="preserve">
+    <value>Select if you would like to enable the Dynamic Panels feature of Dynamic Forms. The Dynamic Panels feature allows you to setup sections or tabs for Sets of fields within Dynamic Forms. You can choose to enable the standard DNN Sections control or for newer version of DNN you can enable the jQuery Panels or jQuery Tabs</value>
+  </data>
+  <data name="lblFormPanels.Text" xml:space="preserve">
+    <value>Dynamic form panel</value>
+  </data>
+  <data name="lblFormPanels.Help" xml:space="preserve">
+    <value>Select if you would like to create a new Dynamic Forms Panel or if you would like to update an existing panel.</value>
+  </data>
+  <data name="lblPanelName.Text" xml:space="preserve">
+    <value>Panel name</value>
+  </data>
+  <data name="lblPanelName.Help" xml:space="preserve">
+    <value>Enter the panel name for this Dynamic Panel. The panel name will be displayed at the top of the panel.</value>
+  </data>
+  <data name="lblPanelSortOrder.Text" xml:space="preserve">
+    <value>Panel sort order</value>
+  </data>
+  <data name="lblPanelSortOrder.Help" xml:space="preserve">
+    <value>Enter a sort order integer value that will represent the order in which panels are displayed. The lower the sort order number, the earlier the panel will be rendered in comparison to other panels.</value>
+  </data>
+  <data name="lblPanelQuestionStartSortOrder.Text" xml:space="preserve">
+    <value>Dynamic question starting sort order</value>
+  </data>
+  <data name="lblPanelQuestionStartSortOrder.Help" xml:space="preserve">
+    <value>This is a very important setting which will determine the first field that will be displayed within the Dynamic Panel. The starting sort order should be the integer/value of your Dynamic Question that you would like to include within this panel. Note: You cannot currently include the same questions on multiple panels.</value>
+  </data>
+  <data name="lblPanelQuestionendSortOrder.Text" xml:space="preserve">
+    <value>Dynamic question ending sort order</value>
+  </data>
+  <data name="lblPanelQuestionendSortOrder.Help" xml:space="preserve">
+    <value>This is a very important setting which will determine the last field that will be displayed within the Dynamic Panel. The ending sort order should be the integer/value of your Dynamic Question that you would like to include within this panel. Note: You cannot currently include the same questions on multiple panels.</value>
+  </data>
+  <data name="lblIncludeRule.Text" xml:space="preserve">
+    <value>Include ruler under title</value>
+  </data>
+  <data name="lblIncludeRule.Help" xml:space="preserve">
+    <value>Select if you would like to include the horizontal ruler / HR tag under the section title. Note: This setting is reflected on the standard DNN Section control only and not the DNN 6 Panel or DNN 6 Tabs option.</value>
+  </data>
+  <data name="lblIsExpanded.Text" xml:space="preserve">
+    <value>Initially expanded?</value>
+  </data>
+  <data name="lblIsExpanded.Help" xml:space="preserve">
+    <value>Select if you would like for this panel to initially be expanded.</value>
+  </data>
+  <data name="lblAltPanelCSS.Text" xml:space="preserve">
+    <value>Panel alternate CSS Class</value>
+  </data>
+  <data name="lblAltPanelCSS.Help" xml:space="preserve">
+    <value>Select if you would like to use an alternate CSS class for the panel.</value>
+  </data>
+  <data name="lblHideOrShowPanel.Text" xml:space="preserve">
+    <value>Hide / show panel by role</value>
+  </data>
+  <data name="lblHideOrShowPanel.Help" xml:space="preserve">
+    <value>Select if you would like to hide or fields by security roles within the form.</value>
+  </data>
+  <data name="lblHidePanels.Help" xml:space="preserve">
+    <value>Select which roles should not be able to view this panel.</value>
+  </data>
+  <data name="lblHidePanels.Text" xml:space="preserve">
+    <value>Hide / show panel from these roles</value>
+  </data>
+  <data name="lblHidePanelsAnonymous.Help" xml:space="preserve">
+    <value>Would you like to hide this question from anonymous users?</value>
+  </data>
+  <data name="lblHidePanelsAnonymous.Text" xml:space="preserve">
+    <value>Hide Panel from Anonymous Users?</value>
+  </data>
+  <data name="lblHidePanelsBasedOnEvent.Help" xml:space="preserve">
+    <value>This option allows the panel to be hidden until force to be displayed visible upon a question event.</value>
+  </data>
+  <data name="lblHidePanelsBasedOnEvent.Text" xml:space="preserve">
+    <value>Hide until forced visible by question event.</value>
+  </data>
+  <data name="DNNSection.Text" xml:space="preserve">
+    <value>DNN Section Control</value>
+  </data>
+  <data name="DNNPanel.Text" xml:space="preserve">
+    <value>DNN jQuery Panel (DNN 6+ Only)</value>
+  </data>
+  <data name="DNNTab.Text" xml:space="preserve">
+    <value>DNN jQuery Tabs (DNN 6+ Only)</value>
+  </data>
+  <data name="DNNDiv.Text" xml:space="preserve">
+    <value>HTML DIV</value>
+  </data>
+  <data name="SelectDynamicPanel.Text" xml:space="preserve">
+    <value>- Select Dynamic Panel - </value>
+  </data>
+  <data name="NewDynamicPanel.Text" xml:space="preserve">
+    <value>- New Dynamic Panel - </value>
+  </data>
+  <data name="UpdatePanel.Text" xml:space="preserve">
+    <value>Add / Update Panel</value>
+  </data>
+  <data name="DeletePanel.Text" xml:space="preserve">
+    <value>Delete Panel</value>
+  </data>
+  <data name="PanelLiteral.Text" xml:space="preserve">
+    <value>Dynamic Panels are a new featured released within the 4.0 release of Dynamic Forms. The Dynamic Forms Panels allow you to setup and define groups of fields within your forms instance along with various layouts and configuration options for these groups.&lt;BR&gt;&lt;BR&gt;Similar to questions, the panels can also take advantage of showing and hiding these groups of fields by role, anonymous users, or until forced visible within a question event. Panels utilizing question events can greatly increase performance by requiring fewer database checks for showing and hiding the fields.  For example, you might have 50 fields at a time that you want to show or hide and with a panel there is only one check against the system for this instead of 50 seperate checks. &lt;BR&gt;&lt;BR&gt; Dynamic Panels currently support three panel types including a DNN Section control (used heavily to group settings directly within the module configuration area here), the new DNN 6 jQuery Panels feature, along with the new DNN 6 jQuery Tabs feature. Each panel type provides its own unique look and individual features. Important: Once you have enabled panels, the panels must be setup before any other fields will appear on the form. If panels are enabled, all fields must exist within a panel configuration or those fields will not be displayed. </value>
+  </data>
+  <data name="PanelLiteral2.Text" xml:space="preserve">
+    <value>Note: At this time panels cannot utilizefields that are already present within another panel. You can get started below by enabling panels and choosing the first question you would like to be displayed and the last question you would like to be displayed within the panel based on that questions sort order. </value>
+  </data>
+  <data name="lblNoSaveResultsToDatabase.Text" xml:space="preserve">
+    <value>Do not save results to the database</value>
+  </data>
+  <data name="lblNoSaveResultsToDatabase.Help" xml:space="preserve">
+    <value>Select if you would like to not save the results to the default Dynamic Forms database tables. This setting can be defined per individual field but enabling this feature here will be specific to all fields within this module.</value>
+  </data>
+  <data name="lblDoNotSaveResultsToRepository.Text" xml:space="preserve">
+    <value>Opt Out of the Data Springs Global Repository (Global Setting)</value>
+  </data>
+  <data name="lblDoNotSaveResultsToRepository.Help" xml:space="preserve">
+    <value>The Data Springs global repository is a collection of questions, completion events, and form configurations that allow you to share the fields you setup with others in the Data Springs community. No private information is ever given out or any specific details related to your specific instance such as SQL, database passwords etc... All fields are approved by Data Springs staff before being published within the repository. If you would like to opt out of sharing these fields please check this box. This will opt you out sharing for for all objects setup on your entire DNN installation however you will still be able to utilize searching and using other objects within the repository. </value>
+  </data>
+  <data name="lblLogDetailsOfAllEvents.Text" xml:space="preserve">
+    <value>Log each completion event within the event log?</value>
+  </data>
+  <data name="lblLogDetailsOfAllEvents.Help" xml:space="preserve">
+    <value>This setting will log all completion events that fire and their details such as the SQL, Email, Role, PDF, or HTTP Post into the event log under Admin, Event Viewer within your website. You must enable DEBUG INFO as an event log type that is displayed under the Edit Log Settings area within DNN. If you need more information on enabling this feature please visit www.datasprings.com/debuginfo.</value>
+  </data>
+  <data name="LimitBySubmissionCountMessage.Text" xml:space="preserve">
+    <value>Limit Form Submissions Message</value>
+  </data>
+  <data name="lblLimitBySubmissionCount.Help" xml:space="preserve">
+    <value>This setting will allow you to limit form submissions to a specific number. For example, if you want to allow only 10 submissions for the entire form before displaying a message then enter 10 for this field. </value>
+  </data>
+  <data name="lblWrapAllFieldsWithinDiv.Text" xml:space="preserve">
+    <value>Wrap each field within an HTML DIV Tag</value>
+  </data>
+  <data name="lblWrapAllFieldsWithinDiv.Help" xml:space="preserve">
+    <value>This setting will wrap each field within an HTML DIV tag, this allows more control via CSS to control the location of each specific field and provides more flexibility with your forms layout with the ability to more easily show/hide specific fields.</value>
+  </data>
+  <data name="lblEnableEZCheckboxjQuery.Text" xml:space="preserve">
+    <value>Enable EZ Checkbox Plug In</value>
+  </data>
+  <data name="lblEnableEZCheckboxjQuery.Help" xml:space="preserve">
+    <value>Select if you would like to enable the EZ Checkbox Plug In. This plug in creates custom looking checkbox fields.</value>
+  </data>
+  <data name="lblEnablejQueryHighlights.Text" xml:space="preserve">
+    <value>Enable Form Highlights Plug In</value>
+  </data>
+  <data name="lblEnablejQueryHighlights.Help" xml:space="preserve">
+    <value>Select if you would like to enable the Form Highlights Plug In. This plug in creates custom looking fields.</value>
+  </data>
+  <data name="FireEvent_BOTH.Text" xml:space="preserve">
+    <value>Both Save / Save For Later</value>
+  </data>
+  <data name="FireEvent_SaveForLater.Text" xml:space="preserve">
+    <value>Only Save for Later</value>
+  </data>
+  <data name="GeneralFormValidation.Text" xml:space="preserve">
+    <value>General Form Validation</value>
+  </data>
+  <data name="FormLayout.Text" xml:space="preserve">
+    <value>Layout (Panels / Tabs, Header / Footer / System Messages, Sort Order)</value>
+  </data>
+  <data name="FormFormatting.Text" xml:space="preserve">
+    <value>Formatting (Stylesheet, Form Localization)</value>
+  </data>
+  <data name="FormLinks.Text" xml:space="preserve">
+    <value>Links (Submit, Save for Later, Clear)</value>
+  </data>
+  <data name="FormCoding.Text" xml:space="preserve">
+    <value>Advanced Coding Options (AJAX, jQuery, JavaScript, Initial SQL DataBind)</value>
+  </data>
+  <data name="Excel.Text" xml:space="preserve">
+    <value>CSV/Excel (.XLS)</value>
+  </data>
+  <data name="CSV.Text" xml:space="preserve">
+    <value>CSV (.TXT)</value>
+  </data>
+  <data name="lblExportType.Text" xml:space="preserve">
+    <value>Export File Type</value>
+  </data>
+  <data name="lblExportType.Help" xml:space="preserve">
+    <value>Select the export file type tha you would like to use. You can choose between the CSV/Excel file type and the CSV TEXT file type.</value>
+  </data>
+  <data name="lblDBType.Text" xml:space="preserve">
+    <value>Database Provider Type</value>
+  </data>
+  <data name="lblDBType.Help" xml:space="preserve">
+    <value>Select the database provider type (SQL Server or Oracle) you would like to use for this form instance.</value>
+  </data>
+  <data name="lblDatabaseProviderExternalConnectionDataBind.Text" xml:space="preserve">
+    <value>Database Provider Connection String</value>
+  </data>
+  <data name="lblDatabaseProviderExternalConnectionDataBind.Help" xml:space="preserve">
+    <value>Select the database provider type (SQL Server or Oracle) you would like to use for this form instance.</value>
+  </data>
+  <data name="lblSQLFailedRedirect.Text" xml:space="preserve">
+    <value>SQL Failure Redirect URL (Optional)</value>
+  </data>
+  <data name="lblSQLFailedRedirect.Help" xml:space="preserve">
+    <value>This is an optional configuration option that you can enable to automatically redirect the user to a seperate URL if the SQL Event comes back with a failure or error.</value>
+  </data>
+  <data name="lblFormLayoutMethod.Help" xml:space="preserve">
+    <value>The form layout method can either be responsive and utilize / render via DIV tags, or the layout method can be TABLES. Tables are the older method which render table rows and table cells.</value>
+  </data>
+  <data name="lblFormLayoutMethod.Text" xml:space="preserve">
+    <value>Form Layout Method</value>
+  </data>
+  <data name="lblLineBreakHTML.Help" xml:space="preserve">
+    <value>There are several areas within the form that is rendered that would commonly require a line break. This is typically a BR tag however this setting allows you to style the form without line breaks or to include your HTML for line breaks to be included.</value>
+  </data>
+  <data name="lblLineBreakHTML.Text" xml:space="preserve">
+    <value>Line Break HTML</value>
+  </data>
+  <data name="ResponsiveLayout.Text" xml:space="preserve">
+    <value>Responsive Layout</value>
+  </data>
+</root>

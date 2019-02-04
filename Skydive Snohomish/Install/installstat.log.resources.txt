@@ -1,0 +1,19 @@
+{"progress":0,"details":"Folder Creation Check","check0":"Running","check1":"NotStarted","check2":"NotStarted","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":2,"details":"File Creation Check","check0":"Running","check1":"NotStarted","check2":"NotStarted","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":4,"details":"File Deletion Check","check0":"Running","check1":"NotStarted","check2":"NotStarted","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":6,"details":"Folder Deletion Check","check0":"Running","check1":"NotStarted","check2":"NotStarted","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":10,"details":"Checking IIS configuration","check0":"Done","check1":"NotStarted","check2":"NotStarted","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":22,"details":"Upgrading Application","check0":"Done","check1":"Running","check2":"NotStarted","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":35,"details":"Install Packages for type - Module","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":35,"details":"Install Packages for type - Skin","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":36,"details":"Install Packages for type - Container","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":38,"details":"Install Packages for type - Language","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":39,"details":"Install Packages for type - Provider","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":41,"details":"Install Packages for type - AuthSystem","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":42,"details":"Install Packages for type - Package","check0":"Done","check1":"Done","check2":"Running","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":60,"details":"Initializing Host Settings","check0":"Done","check1":"Done","check2":"Done","check3":"NotStarted","check4":"NotStarted","check5":"NotStarted"}
+{"progress":70,"details":"Creating Site [www.abcd.com]","check0":"Done","check1":"Done","check2":"Done","check3":"Running","check4":"NotStarted","check5":"NotStarted"}
+{"progress":70,"details":"Portal Alias [www.skydivesnohomish.com] is already present. Skipping this step.","check0":"Done","check1":"Done","check2":"Done","check3":"Running","check4":"NotStarted","check5":"NotStarted"}
+{"progress":90,"details":"Create SuperUser","check0":"Done","check1":"Done","check2":"Done","check3":"Done","check4":"Running","check5":"NotStarted"}
+{"progress":90,"details":"Creating SuperUserhelloworld","check0":"Done","check1":"Done","check2":"Done","check3":"Done","check4":"Running","check5":"NotStarted"}
+{"progress":100,"details":"Done","check0":"Done","check1":"Done","check2":"Done","check3":"Done","check4":"Done","check5":"NotStarted"}

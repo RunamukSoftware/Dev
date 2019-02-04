@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?><content type="DNNReports" version="05.05.00"><title><![CDATA[Triple S Report]]></title>
+<description><![CDATA[]]></description>
+<converters>
+</converters>
+<datasource type="SqlServer" class="DotNetNuke.Modules.Reports.DataSources.SqlServer.SqlServerDataSource">
+<setting key="Password"><![CDATA[fSd!v6fTW]]></setting>
+<setting key="UseIntegratedSecurity"><![CDATA[False]]></setting>
+<setting key="Server"><![CDATA[72.3.204.155,4120]]></setting>
+<setting key="UserName"><![CDATA[581072_classstatus]]></setting>
+<setting key="Query"><![CDATA[DECLARE	@return_value int;
+
+EXEC	@return_value = [dbo].[uspSelClassStatusForDay];
+
+SELECT	'Return Value' = @return_value;
+]]></setting>
+<setting key="Database"><![CDATA[581072_classstatus]]></setting>
+<setting key="UseConnectionString"><![CDATA[False]]></setting>
+</datasource></content>

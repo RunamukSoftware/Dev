@@ -1,0 +1,19 @@
+Hi {Item1} <br>
+
+Thanks for entering your details and confirming that you understand what documents are required to jump at Skydive Snohomish.<br>
+
+The information entered has been sent to the drop zone and will allow for a quicker check-in process and avoid any confusions about Skydive Snohomish's "canopy policy". <br>
+
+When arriving ensure that you have with you the following documents:<br>
+	<ul>
+	<li>USPA membership card</li>
+    <li>Logbook to verify currency</li>
+    <li>In date reserve data card</li>
+    <li>Signed affidavit (if over 1.7 wingloading or under 100 sq ft and meet DZ canopy policy)</li>
+	</ul>
+If you have any more questions regarding coming out and jumping, then feel free to contact Skydive Snohomish.<br>
+
+Thanks and we look forward to seeing you.<br>
+
+
+Jordan McEldery<br>

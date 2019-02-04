@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	
+	<data name="ControlTitle_viewformsresults.Text">
+		<value>View Form Results</value>
+	</data>	
+
+        <data name="lnkExit.Text">
+		<value>Exit</value>
+	</data>	
+
+     <data name="lnkExport.Text">
+		<value>Export all results to Excel</value>
+	</data>	
+
+
+     <data name="lblFilter.Text">
+		<value>Filter</value>
+	</data>	
+
+
+
+     <data name="lblFilter.Help">
+		<value>Select to filter the the results</value>
+	</data>	
+
+
+   <data name="SelectItem.Text">
+		<value>Filter by Item</value>
+	</data>	
+
+   <data name="Search.Text">
+		<value>Search</value>
+	</data>	
+
+
+     <data name="lnkPurge.Text">
+		<value>Purge All Results</value>
+	</data>	
+
+
+     <data name="lnkBack.Text">
+		<value>Back</value>
+	</data>	
+
+     <data name="ConfirmPurge.Text">
+		<value>Are you sure you want to delete all records currently saved for this form?</value>
+	</data>	
+
+
+
+<data name="lblPageSize.Text">
+		<value>Page Size</value>
+	</data>	
+
+
+<data name="lblPageSize.Help">
+		<value>Select the number of Dynamic Forms results you would like preview within the grid.</value>
+	</data>	
+
+<data name="lblFilterBySaveForLater.Text">
+		<value>Save for Later Filter</value>
+	</data>	
+
+
+<data name="lblFilterBySaveForLater.Help">
+		<value>Select if you would like to display both submissions for Save for Later and Submission, only Save for Later, or only full submissions.</value>
+	</data>	
+
+
+
+
+ <data name="GenResults.Text">
+		<value>Generate Results Template</value>
+	</data>
+
+ <data name="GenFullResults.Text">
+		<value>Generate Full Results Template</value>
+	</data>
+
+
+<data name="ParametersTitle.Text">
+		<value>Template Parameters</value>
+	</data>	
+
+
+
+<data name="StandardTemplate.Text">
+		<value>Standard Template</value>
+	</data>	
+
+
+<data name="CustomTemplate.Text">
+		<value>Custom Template</value>
+	</data>	
+
+  <data name="View_BOTH.Text">
+		<value>Both Save / Save For Later</value>
+</data>
+  <data name="View_Save.Text">
+		<value>Only Save</value>
+</data>
+  <data name="View_SaveForLater.Text">
+		<value>Only Save for Later</value>
+</data>
+
+
+</root>

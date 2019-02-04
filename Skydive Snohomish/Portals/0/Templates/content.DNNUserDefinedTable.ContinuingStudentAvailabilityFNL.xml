@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8" ?><content type="DNNUserDefinedTable" version="06.00.04"><UserDefinedTable xmlns="DotNetNuke/UserDefinedTable">
+  <Data>
+    <UserDefinedRowId>4</UserDefinedRowId>
+    <First_x0020_Name>Tony</First_x0020_Name>
+    <Last_x0020_Name>Green</Last_x0020_Name>
+    <Phone_x0020_Number>425-313-7510</Phone_x0020_Number>
+    <Parachute_x0020_Rig_x0020_Size>L</Parachute_x0020_Rig_x0020_Size>
+    <Type_x0020_of_x0020_Next_x0020_Jump>Prcp #1</Type_x0020_of_x0020_Next_x0020_Jump>
+    <First_x0020_Available_x0020_Date>2013-09-14T00:00:00</First_x0020_Available_x0020_Date>
+    <Start_x0020_Time>10:30 am</Start_x0020_Time>
+    <End_x0020_Time>3:30 pm</End_x0020_Time>
+    <And_x002F_Or />
+    <Second_x0020_Available_x0020_Date>2013-09-15T00:00:00</Second_x0020_Available_x0020_Date>
+    <Second_x0020_Start_x0020_Time>9:00 am</Second_x0020_Start_x0020_Time>
+    <Second_x0020_End_x0020_Time>2:00 pm</Second_x0020_End_x0020_Time>
+    <Number_x0020_of_x0020_Jumps>5</Number_x0020_of_x0020_Jumps>
+    <Created_x0020_by>host</Created_x0020_by>
+    <Created_x0020_at>2013-09-13T00:10:57</Created_x0020_at>
+    <Changed_x0020_by>host</Changed_x0020_by>
+    <Changed_x0020_at>2013-09-13T00:10:57</Changed_x0020_at>
+  </Data>
+  <Data>
+    <UserDefinedRowId>5</UserDefinedRowId>
+    <First_x0020_Name>Tony</First_x0020_Name>
+    <Last_x0020_Name>Green</Last_x0020_Name>
+    <Phone_x0020_Number>999-999-9999</Phone_x0020_Number>
+    <Parachute_x0020_Rig_x0020_Size>L</Parachute_x0020_Rig_x0020_Size>
+    <Type_x0020_of_x0020_Next_x0020_Jump>Solo #1</Type_x0020_of_x0020_Next_x0020_Jump>
+    <First_x0020_Available_x0020_Date>2013-09-14T00:00:00</First_x0020_Available_x0020_Date>
+    <Start_x0020_Time>8:30 am</Start_x0020_Time>
+    <End_x0020_Time>1:00 pm</End_x0020_Time>
+    <And_x002F_Or>And (both days)</And_x002F_Or>
+    <Second_x0020_Available_x0020_Date>2013-09-15T00:00:00</Second_x0020_Available_x0020_Date>
+    <Second_x0020_Start_x0020_Time>9:00 am</Second_x0020_Start_x0020_Time>
+    <Second_x0020_End_x0020_Time>2:00 pm</Second_x0020_End_x0020_Time>
+    <Number_x0020_of_x0020_Jumps>5</Number_x0020_of_x0020_Jumps>
+    <Created_x0020_by>host</Created_x0020_by>
+    <Created_x0020_at>2013-09-13T00:54:49</Created_x0020_at>
+    <Changed_x0020_by>host</Changed_x0020_by>
+    <Changed_x0020_at>2013-09-13T00:54:49</Changed_x0020_at>
+  </Data>
+  <Data>
+    <UserDefinedRowId>6</UserDefinedRowId>
+    <First_x0020_Name>Tony</First_x0020_Name>
+    <Last_x0020_Name>Green</Last_x0020_Name>
+    <Phone_x0020_Number>425-313-7510</Phone_x0020_Number>
+    <Parachute_x0020_Rig_x0020_Size>M</Parachute_x0020_Rig_x0020_Size>
+    <Type_x0020_of_x0020_Next_x0020_Jump>15 Second #2</Type_x0020_of_x0020_Next_x0020_Jump>
+    <First_x0020_Available_x0020_Date>2013-09-14T00:00:00</First_x0020_Available_x0020_Date>
+    <Start_x0020_Time>9:30 am</Start_x0020_Time>
+    <End_x0020_Time>12:00 pm</End_x0020_Time>
+    <And_x002F_Or>And (both days)</And_x002F_Or>
+    <Second_x0020_Available_x0020_Date>2013-09-15T00:00:00</Second_x0020_Available_x0020_Date>
+    <Second_x0020_Start_x0020_Time>Open</Second_x0020_Start_x0020_Time>
+    <Second_x0020_End_x0020_Time>Close</Second_x0020_End_x0020_Time>
+    <Number_x0020_of_x0020_Jumps>6</Number_x0020_of_x0020_Jumps>
+    <Created_x0020_by>host</Created_x0020_by>
+    <Created_x0020_at>2013-09-13T02:02:50</Created_x0020_at>
+    <Changed_x0020_by>host</Changed_x0020_by>
+    <Changed_x0020_at>2013-09-13T02:02:50</Changed_x0020_at>
+  </Data>
+  <Data>
+    <UserDefinedRowId>7</UserDefinedRowId>
+    <First_x0020_Name>Tony</First_x0020_Name>
+    <Last_x0020_Name>Green</Last_x0020_Name>
+    <Phone_x0020_Number>425-313-7510</Phone_x0020_Number>
+    <Parachute_x0020_Rig_x0020_Size>M</Parachute_x0020_Rig_x0020_Size>
+    <Type_x0020_of_x0020_Next_x0020_Jump>Solo #1</Type_x0020_of_x0020_Next_x0020_Jump>
+    <First_x0020_Available_x0020_Date>2013-09-21T00:00:00</First_x0020_Available_x0020_Date>
+    <Start_x0020_Time>Open</Start_x0020_Time>
+    <End_x0020_Time>Close</End_x0020_Time>
+    <And_x002F_Or />
+    <Second_x0020_Available_x0020_Date />
+    <Second_x0020_Start_x0020_Time>Not Available</Second_x0020_Start_x0020_Time>
+    <Second_x0020_End_x0020_Time>Not Available</Second_x0020_End_x0020_Time>
+    <Number_x0020_of_x0020_Jumps>3</Number_x0020_of_x0020_Jumps>
+    <Created_x0020_by>Anonymous</Created_x0020_by>
+    <Created_x0020_at>2013-09-17T00:37:04</Created_x0020_at>
+    <Changed_x0020_by>Anonymous</Changed_x0020_by>
+    <Changed_x0020_at>2013-09-17T00:37:04</Changed_x0020_at>
+  </Data>
+  <Data>
+    <UserDefinedRowId>8</UserDefinedRowId>
+    <First_x0020_Name>Tony</First_x0020_Name>
+    <Last_x0020_Name>Green</Last_x0020_Name>
+    <Phone_x0020_Number>425-313-7510</Phone_x0020_Number>
+    <Parachute_x0020_Rig_x0020_Size>M</Parachute_x0020_Rig_x0020_Size>
+    <Type_x0020_of_x0020_Next_x0020_Jump>Solo #1</Type_x0020_of_x0020_Next_x0020_Jump>
+    <First_x0020_Available_x0020_Date>2013-09-21T00:00:00</First_x0020_Available_x0020_Date>
+    <Start_x0020_Time>Open</Start_x0020_Time>
+    <End_x0020_Time>Close</End_x0020_Time>
+    <And_x002F_Or />
+    <Second_x0020_Available_x0020_Date />
+    <Second_x0020_Start_x0020_Time>Not Available</Second_x0020_Start_x0020_Time>
+    <Second_x0020_End_x0020_Time>Not Available</Second_x0020_End_x0020_Time>
+    <Number_x0020_of_x0020_Jumps>3</Number_x0020_of_x0020_Jumps>
+    <Created_x0020_by>host</Created_x0020_by>
+    <Created_x0020_at>2013-09-17T17:54:43</Created_x0020_at>
+    <Changed_x0020_by>host</Changed_x0020_by>
+    <Changed_x0020_at>2013-09-17T17:54:43</Changed_x0020_at>
+  </Data>
+  <Fields>
+    <UserDefinedFieldId>24</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>First Name</FieldTitle>
+    <HelpText>Please enter your First Name</HelpText>
+    <Required>true</Required>
+    <FieldOrder>0</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>First_x0020_Name</ValueColumn>
+    <SortColumn>First_x0020_Name</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>25</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Last Name</FieldTitle>
+    <HelpText>Please enter your Last Name</HelpText>
+    <Required>true</Required>
+    <FieldOrder>1</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Last_x0020_Name</ValueColumn>
+    <SortColumn>Last_x0020_Name</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>26</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Phone Number</FieldTitle>
+    <HelpText>In the form of xxx-xxx-xxxx</HelpText>
+    <Required>true</Required>
+    <FieldOrder>2</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValidationRule>^[2-9]\d{2}-\d{3}-\d{4}$</ValidationRule>
+    <ValidationMessage>Please enter a valid phone number in the form xxx-xxx-xxxx</ValidationMessage>
+    <ValueColumn>Phone_x0020_Number</ValueColumn>
+    <SortColumn>Phone_x0020_Number</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>27</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Parachute Rig Size</FieldTitle>
+    <HelpText>Please enter the Parachute Rig Size</HelpText>
+    <Required>true</Required>
+    <FieldOrder>3</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <InputSettings>XS;S;M;L;Unknown-[[hRBL]]</InputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Parachute_x0020_Rig_x0020_Size</ValueColumn>
+    <SortColumn>Parachute_x0020_Rig_x0020_Size</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>28</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Type of Next Jump</FieldTitle>
+    <HelpText>Example: PRCP #3</HelpText>
+    <Required>true</Required>
+    <FieldOrder>4</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Type_x0020_of_x0020_Next_x0020_Jump</ValueColumn>
+    <SortColumn>Type_x0020_of_x0020_Next_x0020_Jump</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>29</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>First Available Date</FieldTitle>
+    <HelpText>Please enter your First Available Date</HelpText>
+    <Required>true</Required>
+    <FieldOrder>5</FieldOrder>
+    <FieldType>Date</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <OutputSettings>MM/dd/yyyy</OutputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>First_x0020_Available_x0020_Date</ValueColumn>
+    <SortColumn>First_x0020_Available_x0020_Date</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>30</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Start Time</FieldTitle>
+    <HelpText>Please enter your first Start Time</HelpText>
+    <Required>true</Required>
+    <FieldOrder>6</FieldOrder>
+    <FieldType>String</FieldType>
+    <default>Open</default>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <InputSettings>Open;8:30 am;9:00 am;9:30 am;10:00 am;10:30 am;11:00 am;11:30 am;12:00 pm;12:30 pm;1:00 pm;1:30 pm;2:00 pm;2:30 pm;3:00 pm;3:30 pm;4:00 pm;4:30 pm;5:00 pm;5:30 pm;6:00 pm;6:30 pm;7:00 pm</InputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Start_x0020_Time</ValueColumn>
+    <SortColumn>Start_x0020_Time</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>31</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>End Time</FieldTitle>
+    <HelpText>Please enter your first End Time</HelpText>
+    <Required>true</Required>
+    <FieldOrder>7</FieldOrder>
+    <FieldType>String</FieldType>
+    <default>10:30 am</default>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <InputSettings>10:30 am;11:00 am;11:30 am;12:00 pm;12:30 pm;1:00 pm;1:30 pm;2:00 pm;2:30 pm;3:00 pm;3:30 pm;4:00 pm;4:30 pm;5:00 pm;5:30 pm;6:00 pm;6:30 pm;7:00 pm;Close</InputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>End_x0020_Time</ValueColumn>
+    <SortColumn>End_x0020_Time</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>32</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>And/Or</FieldTitle>
+    <HelpText>Shall we schedule you for both days, or just one day?</HelpText>
+    <Required>false</Required>
+    <FieldOrder>8</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <InputSettings>And (both days);Or (one OR the other)-[[hRBL]]</InputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>And_x002F_Or</ValueColumn>
+    <SortColumn>And_x002F_Or</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>33</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Second Available Date</FieldTitle>
+    <HelpText>Please enter your Second Available Date</HelpText>
+    <Required>false</Required>
+    <FieldOrder>9</FieldOrder>
+    <FieldType>Date</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <OutputSettings>MM/dd/yyyy</OutputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Second_x0020_Available_x0020_Date</ValueColumn>
+    <SortColumn>Second_x0020_Available_x0020_Date</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>34</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Second Start Time</FieldTitle>
+    <HelpText>Please enter your Second Start Time</HelpText>
+    <Required>false</Required>
+    <FieldOrder>10</FieldOrder>
+    <FieldType>String</FieldType>
+    <default>Not Available;</default>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <InputSettings>Not Available;Open;8:30 am;9:00 am;9:30 am;10:00 am;10:30 am;11:00 am;11:30 am;12:00 pm;12:30 pm;1:00 pm;1:30 pm;2:00 pm;2:30 pm;3:00 pm;3:30 pm;4:00 pm;4:30 pm;5:00 pm;5:30 pm;6:00 pm;6:30 pm;7:00 pm</InputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Second_x0020_Start_x0020_Time</ValueColumn>
+    <SortColumn>Second_x0020_Start_x0020_Time</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>35</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Second End Time</FieldTitle>
+    <HelpText>Please enter your Second End Time</HelpText>
+    <Required>false</Required>
+    <FieldOrder>11</FieldOrder>
+    <FieldType>String</FieldType>
+    <default>Not Available</default>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <InputSettings>Not Available;10:30 am;11:00 am;11:30 am;12:00 pm;12:30 pm;1:00 pm;1:30 pm;2:00 pm;2:30 pm;3:00 pm;3:30 pm;4:00 pm;4:30 pm;5:00 pm;5:30 pm;6:00 pm;6:30 pm;7:00 pm;Close</InputSettings>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Second_x0020_End_x0020_Time</ValueColumn>
+    <SortColumn>Second_x0020_End_x0020_Time</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>36</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Number of Jumps</FieldTitle>
+    <HelpText>Example: 1, 2, 3, As many as possible</HelpText>
+    <Required>true</Required>
+    <FieldOrder>12</FieldOrder>
+    <FieldType>String</FieldType>
+    <Visible>true</Visible>
+    <ShowOnEdit>true</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Number_x0020_of_x0020_Jumps</ValueColumn>
+    <SortColumn>Number_x0020_of_x0020_Jumps</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>37</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Created by</FieldTitle>
+    <Required>true</Required>
+    <FieldOrder>13</FieldOrder>
+    <FieldType>CreatedBy</FieldType>
+    <Visible>false</Visible>
+    <ShowOnEdit>false</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Created_x0020_by</ValueColumn>
+    <SortColumn>Created_x0020_by</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>38</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Created at</FieldTitle>
+    <Required>true</Required>
+    <FieldOrder>14</FieldOrder>
+    <FieldType>CreatedAt</FieldType>
+    <Visible>false</Visible>
+    <ShowOnEdit>false</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Created_x0020_at</ValueColumn>
+    <SortColumn>Created_x0020_at</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>39</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Changed by</FieldTitle>
+    <Required>true</Required>
+    <FieldOrder>15</FieldOrder>
+    <FieldType>ChangedBy</FieldType>
+    <Visible>false</Visible>
+    <ShowOnEdit>false</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Changed_x0020_by</ValueColumn>
+    <SortColumn>Changed_x0020_by</SortColumn>
+  </Fields>
+  <Fields>
+    <UserDefinedFieldId>40</UserDefinedFieldId>
+    <ModuleID>433</ModuleID>
+    <FieldTitle>Changed at</FieldTitle>
+    <Required>true</Required>
+    <FieldOrder>16</FieldOrder>
+    <FieldType>ChangedAt</FieldType>
+    <Visible>false</Visible>
+    <ShowOnEdit>false</ShowOnEdit>
+    <Searchable>false</Searchable>
+    <PrivateField>false</PrivateField>
+    <MultipleValues>false</MultipleValues>
+    <NormalizeFlag>false</NormalizeFlag>
+    <ValueColumn>Changed_x0020_at</ValueColumn>
+    <SortColumn>Changed_x0020_at</SortColumn>
+  </Fields>
+  <Settings Setting="CalculatedColumnsRenderExpressionInForm" Value="True" />
+  <Settings Setting="UDT_EditOnlyOwnItems" Value="False" />
+  <Settings Setting="UDT_EditPrivateColumnsForAdmins" Value="True" />
+  <Settings Setting="UDT_ExcludeFromSearch" Value="True" />
+  <Settings Setting="UDT_ForceCaptchaForAnonymous" Value="False" />
+  <Settings Setting="UDT_ForceFiltering" Value="False" />
+  <Settings Setting="UDT_ShowAllColumnsForAdmins" Value="True" />
+  <Settings Setting="UDT_ShowSystemColumns" Value="False" />
+  <Settings Setting="UDT_TopCount" Value="" />
+  <Settings Setting="UDT_UserRecordQuota" Value="" />
+  <Settings Setting="UseButtonsInForm" Value="True" />
+</UserDefinedTable></content>

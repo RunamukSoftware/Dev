@@ -1,0 +1,46 @@
+@media only screen and (min-width: 960px) {.column, .columns {
+position: relative;
+padding-left: 0.49375em;
+padding-right: 0.49375em;
+float: left;
+}}
+
+@media only screen and (min-width:960px) {
+.testimonial blockquote {
+background-size: 100% auto;
+}}
+
+@media only screen and (min-width:960px) {
+.testimonial .author {
+background-size: 100% auto;
+}}
+
+img.img-centered { 
+margin-left: auto; 
+margin-right: auto; 
+display: block;
+}
+
+/* START - Correct for IE producing slightly wider text */
+@media only screen and (min-width: 58.75em)
+{
+.top-bar-section ul li a:not(.button) {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.top-bar-section li:first-child a:not(.button) {
+padding-left: 0;
+}
+
+.top-bar-section li:last-child a:not(.button) {
+padding-right: 0;
+}
+}
+/* END - Correct for IE producing slightly wider text */
+
+div #subNavz {
+    display: none !important;
+}
+
+

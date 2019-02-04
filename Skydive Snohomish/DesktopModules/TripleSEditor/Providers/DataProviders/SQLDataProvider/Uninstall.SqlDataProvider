@@ -1,0 +1,87 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
+
+/************************************************************/
+/*****            Triple 'S' Database                   *****/
+/*****           for Skydive Snohomish                  *****/
+/*****            Created: 09/12/2013                   *****/
+/************************************************************/
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[FK_SkySno_DayTime_SkySno_ClassStatus]') AND parent_object_id = OBJECT_ID(N'[SkySno_DayTime]'))
+ALTER TABLE [SkySno_DayTime] DROP CONSTRAINT [FK_SkySno_DayTime_SkySno_ClassStatus]
+GO
+
+/****** Object:  View [SkySno_vwDayTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.views WHERE object_id = OBJECT_ID(N'[SkySno_vwDayTime]'))
+DROP VIEW [SkySno_vwDayTime]
+GO
+
+/****** Object:  Table [SkySno_ClassStatus]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_ClassStatus]') AND type in (N'U'))
+DROP TABLE [SkySno_ClassStatus]
+GO
+
+/****** Object:  Table [SkySno_JobTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_JobTime]') AND type in (N'U'))
+DROP TABLE [SkySno_JobTime]
+GO
+
+/****** Object:  Table [SkySno_DayTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_DayTime]') AND type in (N'U'))
+DROP TABLE [SkySno_DayTime]
+GO
+
+/****** Object:  Table [dbo].[SkySno_DayTimeHistory]    Script Date: 9/4/2013 10:52:03 AM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SkySno_DayTimeHistory]') AND type in (N'U'))
+DROP TABLE [dbo].[SkySno_DayTimeHistory]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspUpdClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspUpdClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspUpdClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspSelClassStatusForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspSelClassStatusForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspSelClassStatusForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspSelClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspSelClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspSelClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspInsClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspInsClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspInsClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspDelClassStatusEditForDay]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspDelClassStatusEditForDay]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspDelClassStatusEditForDay]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspDayTimeResetClassStatus]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspDayTimeResetClassStatus]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspDayTimeResetClassStatus]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspCheckJobTime]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspCheckJobTime]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspCheckJobTime]
+GO
+
+/****** Object:  StoredProcedure [SkySno_uspInsDayTimeHistory]    Script Date: 9/1/2013 5:49:09 PM ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[SkySno_uspInsDayTimeHistory]') AND type in (N'P', N'PC'))
+DROP PROCEDURE [SkySno_uspInsDayTimeHistory] 
+GO

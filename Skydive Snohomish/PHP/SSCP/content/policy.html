@@ -1,0 +1,174 @@
+﻿<div>
+    <p>
+	    Skydive Snohomish has a canopy policy that provides reasonable and appropriate wing loading limits for various experience levels and currency. <br><br>
+				
+        For more information about our canopy policy please visit our webpage <a href="http://www.skydivesnohomish.com/Licensed_Skydivers/Canopy_Policy.aspx">here</a>.
+    </p>
+</div>
+
+
+<form>
+    <fieldset class="form-group">
+        <label for="jumps">Total Jumps</label>
+        <input type="number" max="20000" min="1" class="form-control" id="TotalJumps" placeholder="Enter Jumps">
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label for="txtPast12Months">Jumps in Past 12 Months</label>
+        <input type="number" max="1000" min="0" class="form-control" id="JumpsInPast12Months" placeholder="Enter Jumps in Past 12 month">
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label for="exitWeight">Exit Weight (lbs)</label>
+        <input type="number" max="300" min="60" class="form-control" id="ExitWeight" placeholder="Exit Weight">
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label for="ddl_canopies1">Canopy Type</label>
+        <select class="form-control" id="ddl_canopies1">
+            <option value="PD Sabre">PD Sabre</option>
+        </select>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label for="canopySize">Canopy Size</label>
+        <input type="number" class="form-control" id="CanopySize" max="400" min="69" placeholder="Enter canopy size">
+    </fieldset>
+
+</form>
+
+<div class="form-group">
+    <button class="btn btn-default" onclick="validate()">Validate Canopy Details</button>
+</div>
+<div>
+    <label id="PolicyResult" hidden></label>
+    <label id="CanopyPolicyResult"></label>
+</div>
+
+
+<script>
+    // A $( document ).ready() block.
+    //Used ther populate the policy form details when loaded
+	
+    $(document).ready(function () {
+        //Populate dropdown list entries dynamically
+        PopulateCanopyDropdown("ddl_canopies1");        
+		$("#confirmread").html('Confirm Details');
+
+		document.getElementById('CanopyPolicyResult').style.display = "block";
+        document.getElementById('CanopyPolicyResult').innerHTML = "";
+		localStorage.setItem(ls_reasoning,"");
+    });
+
+		
+
+    function validate() {
+        //Validate Inputs
+
+        var totalJumps = $("#TotalJumps").prop('value');
+        var jumpsInLastYear = $("#JumpsInPast12Months").prop('value');
+        var canopysize = $("#CanopySize").prop('value');
+        var exitWeight = $("#ExitWeight").prop('value');
+        var name = $("#name").prop('value');
+        var email = $("#email").prop('value');
+        var CanopyName = $("#ddl_canopies1 option:selected").text();; //the text content of the selected option
+
+        //Persist values for repopulation in future
+        PersistPolicyValue();
+
+        //Basic Validations
+        if (CanopyName.length == 0 || isNaN(parseInt(canopysize)) ||
+            isNaN(parseInt(totalJumps)) ||
+            isNaN(parseInt(jumpsInLastYear)) ||
+            isNaN(parseInt(exitWeight))) {
+        
+            document.getElementById('CanopyPolicyResult').style.display = "block";
+            document.getElementById('CanopyPolicyResult').innerHTML = "PROBLEM WITH INPUTS<br>You need to enter a value in all the fields.";
+			localStorage.setItem(ls_reasoning,"");
+        }
+        else {
+            //call validate
+            var xresult = ValidateEntries(totalJumps,
+                                          jumpsInLastYear,
+                                          CanopyName,
+                                          canopysize,
+                                          exitWeight,
+                                          name,
+                                          email);
+
+
+            //Display results
+            var sResult = "";
+            var policyresult = Result.NotOK;
+
+            switch (xresult) {
+                case Result.OK:
+                    policyresult = PolicyResult.OK;
+                    sResult = "You meet the canopy policy and are good to go."
+                    break;
+                case Result.HighPerformance_ExemptionPossible:
+                    policyresult = PolicyResult.Possible;
+                    sResult = "<p>You are on a ultra high performance canopy at a but exemption is possible.</p><br>You will need to have a signed <a href='http://www.skydivesnohomish.com/Portals/0/Files/SandTA%20Affidavit%20of%20Experience%20and%20Qualification%202014-05-01%20JM.pdf'>affadavit</a> before arriving at DZ";
+
+                    break;
+                case Result.Experience_TooLow:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>Experience too low for canopy</p>";
+                    break;
+                case Result.CanopySize_Under100_NonNegotiable:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>Under 1000 jumps, non-negotiable limit for sub 100 sq ft canopies.</p>";
+                    break;
+                case Result.Experience_BelowELipticalLimit:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>Under 300 jumps, non-negotiable limit for fully eliptical canopies.</p>";
+                    break;
+                case Result.CanopySize_TooSmallForExperience:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "Canopies is too small for experience level.</p>";
+                    break;
+                case Result.WingLoading_TooSmallForExperience:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>Wing loading is too high for experience level.</p>";
+                    break;
+                case Result.ExceedLimitsBasedUponCurrency:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>You meet the requirements based upon experience level but the amount of jumps in the last 12 months does not meet the policy.</p>";
+                    break;
+                case Result.InvalidInputs:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>Invalid Inputs have been entered.</p>";
+                    break;
+                default:
+                    policyresult = PolicyResult.NotOK;
+                    sResult = "<p>Unknown</p>";
+                    break;
+
+            }
+
+            if (ShowReasoning === true) {
+                sResult = sResult + localStorage.getItem(ls_reasoning);
+            }
+
+            //Update the policy immediately after submit because this can have impat on chk_policy
+            var chkPolicy = false;
+            if (xresult === Result.OK || xresult == Result.HighPerformance_ExemptionPossible) {
+                chkPolicy = true
+            }
+            
+            //Write the entries for localstorage
+            PersistPolicyValue();
+			
+			localStorage.setItem('chk_policy', chkPolicy);			
+            localStorage.setItem('policystate', policyresult);
+            reflectPolicyState('chk_policy');
+
+            //Display the output string
+            document.getElementById('CanopyPolicyResult').style.display = "block";
+            document.getElementById('CanopyPolicyResult').innerHTML = sResult           
+        }
+		
+		//Update the message
+        updatemessage();
+    }
+</script>

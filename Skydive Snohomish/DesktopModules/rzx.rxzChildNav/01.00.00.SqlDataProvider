@@ -1,0 +1,149 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Create Table **/
+
+if not exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YourCompany_rxzChildNav]') and OBJECTPROPERTY(id, N'IsTable') = 1)
+	BEGIN
+		CREATE TABLE {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav]
+		(
+			[ModuleID] [int] NOT NULL,
+			[ItemID] [int] NOT NULL IDENTITY(1, 1),
+			[Content] [ntext] NOT NULL,
+			[CreatedByUser] [int] NOT NULL,
+			[CreatedDate] [datetime] NOT NULL
+		)
+
+		ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav] ADD CONSTRAINT [PK_{objectQualifier}YourCompany_rxzChildNav] PRIMARY KEY CLUSTERED  ([ItemID])
+		CREATE NONCLUSTERED INDEX [IX_{objectQualifier}YourCompany_rxzChildNav] ON {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav] ([ModuleID])
+
+		ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_rxzChildNav] WITH NOCHECK ADD CONSTRAINT [FK_{objectQualifier}YourCompany_rxzChildNav_{objectQualifier}Modules] FOREIGN KEY ([ModuleID]) REFERENCES {databaseOwner}[{objectQualifier}Modules] ([ModuleID]) ON DELETE CASCADE NOT FOR REPLICATION
+	END
+GO
+
+
+/** Drop Existing Stored Procedures **/
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YourCompany_GetrxzChildNavs]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}YourCompany_GetrxzChildNavs
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YourCompany_GetrxzChildNav]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}YourCompany_GetrxzChildNav
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YourCompany_AddrxzChildNav]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}YourCompany_AddrxzChildNav
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YourCompany_UpdaterxzChildNav]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}YourCompany_UpdaterxzChildNav
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}[{objectQualifier}YourCompany_DeleterxzChildNav]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}YourCompany_DeleterxzChildNav
+GO
+
+/** Create Stored Procedures **/
+
+
+create procedure {databaseOwner}{objectQualifier}YourCompany_GetrxzChildNavs
+
+	@ModuleId int
+
+as
+
+select ModuleId,
+       ItemId,
+       Content,
+       CreatedByUser,
+       {objectQualifier}YourCompany_rxzChildNav.CreatedDate
+from {objectQualifier}YourCompany_rxzChildNav with (nolock)
+left outer join {objectQualifier}Users on {objectQualifier}YourCompany_rxzChildNav.CreatedByUser = {objectQualifier}Users.UserId
+where  ModuleId = @ModuleId
+GO
+
+create procedure {databaseOwner}{objectQualifier}YourCompany_GetrxzChildNav
+
+	@ModuleId int,
+        @ItemId int
+
+as
+
+select ModuleId,
+       ItemId,
+       Content,
+       CreatedByUser,
+       {objectQualifier}YourCompany_rxzChildNav.CreatedDate
+from {objectQualifier}YourCompany_rxzChildNav with (nolock)
+left outer join {objectQualifier}Users on {objectQualifier}YourCompany_rxzChildNav.CreatedByUser = {objectQualifier}Users.UserId
+where  ModuleId = @ModuleId
+and ItemId = @ItemId
+GO
+
+
+create procedure {databaseOwner}{objectQualifier}YourCompany_AddrxzChildNav
+
+	@ModuleId       int,
+	@Content        ntext,
+	@UserID         int
+
+as
+
+insert into {objectQualifier}YourCompany_rxzChildNav (
+	ModuleId,
+	Content,
+	CreatedByUser,
+	CreatedDate
+) 
+values (
+	@ModuleId,
+	@Content,
+	@UserID,
+	getdate()
+)
+
+GO
+
+create procedure {databaseOwner}{objectQualifier}YourCompany_UpdaterxzChildNav
+
+	@ModuleId       int,
+        @ItemId         int,
+	@Content        ntext,
+	@UserID         int
+
+as
+
+update {objectQualifier}YourCompany_rxzChildNav
+set    Content       = @Content,
+       CreatedByUser = @UserID,
+       CreatedDate   = getdate()
+where  ModuleId = @ModuleId
+and    ItemId = @ItemId
+
+GO
+
+create procedure {databaseOwner}{objectQualifier}YourCompany_DeleterxzChildNav
+
+	@ModuleId       int,
+        @ItemId         int
+
+as
+
+delete
+from   {objectQualifier}YourCompany_rxzChildNav
+where  ModuleId = @ModuleId
+and    ItemId = @ItemId
+
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

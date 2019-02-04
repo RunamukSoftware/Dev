@@ -1,0 +1,67 @@
+﻿<div>
+    <p>
+        DZ Info
+        <row>
+            (This is the old east field view but just using to put a media element in here.)
+        </row>
+    <p>
+        <br />
+        <hr />
+        <br />
+    <p>
+        
+
+		Additional video
+        <video id="myVideo" width="320" height="176" controls>
+                       <source src="content/test.mp4" type="video/mp4"> 
+            Your browser does not support HTML5 video.
+        </video>
+
+
+
+    </p>
+
+    </p>
+</div>
+
+<script>
+    // A $( document ).ready() block.
+    //Used ther populate the policy form details when loaded
+    $(document).ready(function () {
+    
+	debugger;
+		VideoState(false);
+		
+	if (localStorage.getItem(ls_chk_dz) === "true" ) {
+		VideoState(true);
+    }
+	
+	var vid = document.getElementById("myVideo");
+	vid.onended = function() {
+		localStorage.setItem(ls_chk_dz, true);
+		VideoState(true);
+	};
+
+	});
+	
+	// Used to determine the video button state
+	function VideoState(state) {
+		if (state === true){
+			$("#confirmread").html('Confirm video watched');			
+			$("#confirmread").removeClass("disabled");
+			$("#confirmread").addClass("active");		
+			$("#confirmread").removeClass("btn-primary");
+			$("#confirmread").addClass("btn-success");
+		}
+		else
+		{
+			$("#confirmread").removeClass("active");
+			$("#confirmread").addClass("disabled");
+			$("#confirmread").html('Not yet watched');
+			$("#confirmread").addClass("btn-primary");
+			$("#confirmread").removeClass("btn-success");
+		}
+	}
+    
+</script>
+

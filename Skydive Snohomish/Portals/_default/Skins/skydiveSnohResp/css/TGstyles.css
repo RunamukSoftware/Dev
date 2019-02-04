@@ -1,0 +1,42 @@
+﻿<style type="text/css" >
+/* width should be equivalent to 960px */
+.row {
+    max-width: 60em;  }
+
+/* width should be 720px */
+#main {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+/* width should be 240px */
+aside.large-3.columns {
+padding-right: 0px;
+padding-left: 1.25em; /* approx. 20px */
+}
+
+.top-bar-section ul li > a {
+font-size: 0.73em;
+}
+
+/* Correcting to approximately 10px */
+#dnn_ContentPane div div div div a  .panel {
+padding: 0.83em;
+}
+
+.orbit-slides-container {
+max-height: 293px;
+}
+
+#search {
+padding-left: 1.25em;
+padding-right: 0px;
+}
+
+#main_header .columns.large-3 {
+    padding-left: 1.25em;
+    padding-right: 0px;
+}
+</style>
+
+

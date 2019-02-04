@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap-min.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>   
+</head>
+<body>
+	<h2 id="heading">Congratulations</h2>
+	
+	<div>You have successfully submitted your details to Skydive Snohomish<br><br></div>
+
+	<div>This should speed up the process of checking in and getting in the air much quicker.</div>
+
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function () {
+		  var displayname = localStorage.getItem("name");
+			$("#heading").html("Congratulations " + displayname);
+		    console.log("ready!");
+        });
+
+    </script>
+</body>
+</html>
+
+
+
+

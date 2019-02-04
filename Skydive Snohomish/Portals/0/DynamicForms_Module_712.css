@@ -1,0 +1,62 @@
+/* DATA SPRINGS Inc. - DYNAMIC FORMS STYLE SHEET */
+
+.dynamicforms_requiredfield {
+color: #CC0202;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.DynamicForms_RequiredFieldAsterik {
+color: #CC0202;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.DynamicForms_HeaderTable {
+font-size: 0.87em;
+margin-bottom: 0;
+}
+
+#EntryForm table {
+border:0;
+}
+
+.DynamicForms_Label {
+font-weight: Bold;
+}
+
+.dnnForm .dnnFormItem {
+width: 250px;
+display: inline-block;
+vertical-align: top;
+}
+
+.DynamicForms_QuestionDiv {
+display: inline-block;
+}
+
+.DynamicForms_QuestionTopDiv {
+display: inline-block;
+}
+
+.DynamicForms_Summary {
+font-size: 0.87em;
+}
+
+.dynamicforms_serversidesummary {
+
+}
+
+input[type='text'], input[type='password'], input[type='date'], input[type='datetime'], input[type='datetime-local'], input[type='month'], input[type='week'], input[type='email'], input[type='number'], input[type='search'], input[type='tel'], input[type='time'], input[type='url'], textarea {
+padding-top: 0;
+padding-bottom: 0;
+}
+
+.DF-FieldRow.DF-Row0.DF-Field0.DF-SameLineFalse.DF-SameCell0.df-FieldLabelSame0 {
+height: 4em;
+}
+
+.HiddenPanel {
+display: none;
+}
+

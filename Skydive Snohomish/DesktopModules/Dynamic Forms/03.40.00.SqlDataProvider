@@ -1,0 +1,78 @@
+Alter Table {databaseOwner}{objectQualifier}DynamicForms_Question
+Add IsSameCell  integer null
+GO
+
+
+Update {databaseOwner}{objectQualifier}DynamicForms_Question
+Set IsSameCell = 0 
+GO
+
+Alter Table {databaseOwner}{objectQualifier}DynamicForms_Question
+Alter Column JavaValidation nvarchar(4000)
+GO
+
+Alter Table {databaseOwner}{objectQualifier}DynamicForms_Question
+Alter Column RegularExpression nvarchar(4000)
+GO
+
+
+--Need to add in response text for PayPal type implementations
+Alter Table {databaseOwner}{objectQualifier}DynamicForms_QuestionResponse
+Add ResponseText nvarchar(MAX) null
+
+GO
+
+Update {databaseOwner}{objectQualifier}DynamicForms_QuestionResponse
+Set ResponseText = '' 
+
+GO
+
+
+
+ALTER PROCEDURE {databaseOwner}[{objectQualifier}DynamicForms_UpdateDynamicResponse]
+@DynamicQuestionResponseID uniqueidentifier,
+@QuestionID as uniqueidentifier,
+@Response as nvarchar(MAX),
+@ResponseText as nvarchar(MAX),
+@UserID as integer,
+@UniqueResponseID as uniqueidentifier
+
+
+AS
+
+
+Declare @MyCount int
+Set @MyCount = (Select count(*) from DynamicForms_QuestionResponse Where UniqueResponseID = @UniqueResponseID AND DynamicQuestionID = @QuestionID)
+
+IF @MyCount = 0 
+BEGIN
+Insert Into {databaseOwner}[{objectQualifier}DynamicForms_QuestionResponse](DynamicQuestionID, Response, ResponseText, UserID, SortOrder, InActive, ResponseDateTime, UniqueResponseID)
+Values(@QuestionID, @Response, @ResponseText, @UserID, 0, 0, GetDate(), @UniqueResponseID)
+END
+ELSE
+BEGIN
+Update {databaseOwner}[{objectQualifier}DynamicForms_QuestionResponse]
+SET Response = @Response,
+ResponseText = @ResponseText,
+UserID = @UserID
+Where UniqueResponseID = @UniqueResponseID
+AND DynamicQuestionID = @QuestionID
+END
+
+GO
+
+ALTER PROCEDURE {databaseOwner}[{objectQualifier}DynamicForms_AddDynamicResponse]
+
+@QuestionID as uniqueidentifier,
+@Response as nvarchar(MAX),
+@ResponseText as nvarchar(MAX),
+@UserID as integer,
+@UniqueResponseID as uniqueidentifier
+
+AS
+Insert Into {databaseOwner}{objectQualifier}DynamicForms_QuestionResponse (DynamicQuestionID, Response, ResponseText, UserID, UniqueResponseID) Values(@QuestionID, @Response, @ResponseText, @UserID, @UniqueResponseID)
+
+GO
+
+
+

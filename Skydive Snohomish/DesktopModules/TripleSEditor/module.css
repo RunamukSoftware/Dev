@@ -1,0 +1,58 @@
+#TripleSEditor table {
+    border-collapse: collapse;
+    border-color: #999999;
+    color: #000000;
+}
+
+    #TripleSEditor table .Empty {
+        border-style: none;
+        border-width: 1px;
+    }
+
+    #TripleSEditor table .itemPlaceholderContainer {
+        border-style: solid;
+        border-width: 2px;
+    }
+
+        #TripleSEditor table .itemPlaceholderContainer .Heading {
+            background-color: #DCDCDC;
+        }
+
+    #TripleSEditor tr .Edit {
+        color: #FFFFFF;
+    }
+
+    #TripleSEditor tr .Selected {
+        font-weight: bold;
+    }
+
+#TripleSEditor td {
+    padding: 5px;
+    margin: 5px;
+}
+
+#TripleSEditor .DropDownList {
+    border-width: 0px;
+    margin: 1px;
+    padding: 1px;
+}
+
+#TripleSEditor .Undetermined {
+    background-color: #C0C0C0;
+}
+
+#TripleSEditor .ComeOnOut {
+    background-color: #00A000;
+}
+
+#TripleSEditor .Optimistic {
+    background-color: #FFCC00;
+}
+
+#TripleSEditor .Percentage {
+    background-color: #FF7D00;
+}
+
+#TripleSEditor .Reschedule {
+    background-color: #FF0000;
+}

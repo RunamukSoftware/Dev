@@ -1,0 +1,611 @@
+/* DATA SPRINGS Inc. - DYNAMIC FORMS STYLE SHEET */
+
+* {
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    font-size: medium;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 2px;
+}
+
+.DynamicForms_Maintable {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_TableRow {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+    .DynamicForms_TableRow td {
+        font-size: medium;
+        height: 22px;
+        line-height: 22px;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
+        .DynamicForms_TableRow td:hover {
+            font-size: medium;
+            height: 22px;
+            line-height: 22px;
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+
+.DynamicForms_QuestionTableRow {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    white-space: normal;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_QuestionTableCell {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    white-space: normal;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_RequiredFieldAsterik {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    font-size: medium;
+    color: #CC0202;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_AJAXModalMessage {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    color: #08498C;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_GridColumn {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    font-size: medium;
+    background-color: #6DBCDD;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_GridHeaderColumn {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    font-size: medium;
+    background-color: #FBF1A5;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_GridItem {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    font-size: medium;
+    background-color: #F1BC48;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_GridView {
+    font-size: medium;
+    line-height: 22px;
+    background-color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DataGrid {
+    font-size: medium;
+    line-height: 22px;
+    background-color: #6DBCDD;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.Dynamicforms_DataGridEdit {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #6DBCDD;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DataGridHeader {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #FBF1A5;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DataGridFooter {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #F1BC48;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DataGridItem {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #6DBCDD;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Label {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    font-weight: Bold;
+    color: #000000;
+    /*font-family: Tahoma, Arial, Helvetica;*/
+    text-decoration: none;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+/* Dynamic Forms jQuery Ratings Control */
+div.rating-cancel, div.star-rating {
+    float: left;
+    width: 17px;
+    height: 15px;
+    text-indent: -999em;
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+    div.rating-cancel, div.rating-cancel a {
+        background: url(/desktopmodules/Dynamic%20Forms/images/delete.gif) no-repeat 0 -16px;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
+    div.star-rating, div.star-rating a {
+        background: url(/desktopmodules/Dynamic%20Forms/images/star.gif) no-repeat 0 0px;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
+        div.rating-cancel a, div.star-rating a {
+            display: block;
+            width: 16px;
+            height: 100%;
+            background-position: 0 0px;
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+
+div.star-rating-on a {
+    background-position: 0 -16px!important;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+div.star-rating-hover a {
+    background-position: 0 -32px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+/* Read Only CSS */
+div.star-rating-readonly a {
+    cursor: default !important;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+/* Partial Star CSS */
+div.star-rating {
+    background: transparent!important;
+    overflow: hidden!important;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+/* END Dynamic Forms jQuery Ratings CSS */
+
+.DynamicForms_Link {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_RequiredField {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Compare {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_RegularExpression {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Textbox {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_NormalTextbox {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_ComboBox {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Dropdownlist {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Captcha {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_RadioButton {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Listbox {
+    font-size: medium;
+    /*height: 16px;*/
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_RichText {
+    font-size: medium;
+    /*height: 16px;*/
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Checkbox {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_Country {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_CheckBoxList {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DisabledCheckBoxList {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #efefef;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DisabledTextBox {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #efefef;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DisabledListBox {
+    font-size: medium;
+    /*height: 16px;*/
+    line-height: 22px;
+    background-color: #efefef;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DisabledRadioButton {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #efefef;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DisabledCountry {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: #efefef;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_DisabledRichTextbox {
+    font-size: medium;
+    /*height: 16px;*/
+    line-height: 22px;
+    background-color: #efefef;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.DynamicForms_FieldError {
+    font-size: medium;
+    height: 22px;
+    line-height: 22px;
+    background-color: red;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+#hintbox { /*CSS for pop up hint box */
+    position: absolute;
+    top: 0;
+    background-color: lightyellow;
+    width: 150px; /*Default width of hint.*/
+    padding: 3px;
+    border: 1px solid black;
+    /* font:normal 11px Verdana; */
+    font: normal small;
+    /* line-height:18px; */
+    line-height: 22px;
+    z-index: 100;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    visibility: hidden;
+}
+
+.hintanchor { /*CSS for link that shows hint onmouseover*/
+    font-weight: bold;
+    color: navy;
+    margin: 3px 8px;
+}
+
+
+/******** FOR THE AUTOSUGGEST BOX *******/
+.NodeDefault {
+    font-size: medium;
+    /*font-size: 12px;*/
+    cursor: hand;
+    text-decoration: none;
+    color: #555;
+}
+
+.NodeIconDefault {
+    /*cursor: hand;*/
+    cursor: pointer;
+}
+
+.ChildNodeDefault, .SpecialNode {
+    font-size: medium;
+    /*font-size: 12px;*/
+    /*cursor: hand;*/
+    cursor: pointer;
+    text-decoration: none;
+    color: #555;
+}
+
+.SpecialNodeHover {
+    background-color: green;
+    color: #ffffff;
+}
+
+.DisabledNode {
+    color: Gray;
+}
+
+.SelClass {
+    background-color: #fc2f00;
+    color: White;
+}
+
+.HoverClass {
+    background-color: #fc2f00;
+    color: #ffffff;
+}
+
+.MenuBarClass {
+    width: 140px;
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    background-color: #ededed;
+}
+
+.MenuClass {
+    background-color: silver;
+    border: 1px;
+}
+
+.SpecialNode {
+    color: yellow;
+}
+
+/**
+ * CSS File for ezMark jQuery Plugin
+ **/
+.ez-hide {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.ez-checkbox {
+    background: transparent url('/desktopmodules/Dynamic%20Forms/images/checkbox-red.png') 0 1px no-repeat;
+    display: inline-block;
+}
+
+.ez-radio {
+    background: transparent url('/desktopmodules/Dynamic%20Forms/imagesradio-black.png') 0 1px no-repeat;
+    display: inline-block;
+}
+
+.ez-checked {
+    background-position: 0 -18px;
+}
+
+.ez-selected {
+    background-position: 0 -19px;
+}
+
+.ez-checkbox-green {
+    background: transparent url('/desktopmodules/Dynamic%20Forms/images/checkbox-green.png') 0 1px no-repeat;
+    display: inline-block;
+    *display: inline;
+}
+
+.ez-checked-green {
+    background-position: 0 -18px;
+}
+
+.ez-checkbox, .ez-radio {
+    zoom: 1;
+    *display: inline;
+    _height: 30px;
+}
+

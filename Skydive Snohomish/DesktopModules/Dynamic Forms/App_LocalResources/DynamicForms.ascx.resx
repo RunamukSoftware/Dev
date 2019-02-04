@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ManageQuestions.Text" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="UserGuide.Text" xml:space="preserve">
+    <value>User Guide</value>
+  </data>
+  <data name="CommunityForums.Text" xml:space="preserve">
+    <value>Community Forums</value>
+  </data>
+  <data name="ViewFormResults.Text" xml:space="preserve">
+    <value>View Form Results</value>
+  </data>
+  <data name="HiddenFieldsControlPanel.Text" xml:space="preserve">
+    <value>Hidden Fields Control Panel</value>
+  </data>
+  <data name="TextMode.Text" xml:space="preserve">
+    <value>The system is currently in test mode so your information has not been saved. Please uncheck test mode within the administration settings if you are done testing.</value>
+  </data>
+  <data name="CompareValidation.Text" xml:space="preserve">
+    <value>The password and password confirm fields do not match.</value>
+  </data>
+  <data name="RequiredField.Text" xml:space="preserve">
+    <value>* Required Field</value>
+  </data>
+  <data name="ManageUsers.Text" xml:space="preserve">
+    <value>Manage Users</value>
+  </data>
+  <data name="RegistrationFailure.Text" xml:space="preserve">
+    <value>Registration Failure - UserID already exists.</value>
+  </data>
+  <data name="EmailValidation.Text" xml:space="preserve">
+    <value>Invalid Email Syntax (Email@Domain.com)</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PasswordLengthFailure.Text" xml:space="preserve">
+    <value>Password must be longer than 6 characters, please click the back button.</value>
+  </data>
+  <data name="hypBack.Text" xml:space="preserve">
+    <value>Return to form...</value>
+  </data>
+  <data name="SelectDate.Text" xml:space="preserve">
+    <value>Select Date</value>
+  </data>
+  <data name="Wizard.Text" xml:space="preserve">
+    <value>Question Wizard</value>
+  </data>
+  <data name="ImageFieldTypes.Text" xml:space="preserve">
+    <value>Warning! Your image did not upload. Please verify that the image was in the correct format (jpg, gif, png, bmp).</value>
+  </data>
+  <data name="FileUpload.Text" xml:space="preserve">
+    <value>Upload New File</value>
+  </data>
+  <data name="FileCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ControlPanel.Text" xml:space="preserve">
+    <value>&lt;B&gt;Dynamic Forms Quick Menu&lt;/B&gt;</value>
+  </data>
+  <data name="DisplayInitialMessage.Text" xml:space="preserve">
+    <value>&lt;p&gt;&lt;font size="3"&gt;Welcome to the Data Springs Dynamic Forms module, you have just 
+  taken your first step in setting up a new form for your DotNetNuke Portal. Please 
+  refer to the user guide at www.datasprings.com for full implementation instructions 
+  as well as product demonstrations, user forums, and support. To get started, 
+  we suggest that you use the 'Question Wizard' located within the main menu of 
+  the module.&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;font size="3"&gt;Ready to get started?&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;font size="3"&gt;Use the &lt;a href="%5BQuestionWizard%5D"&gt;Question Wizard&lt;/a&gt; 
+    to initially setup some basic field types and get started with your form.&lt;/font&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;font size="3"&gt;&lt;a href="http://www.datasprings.com/userguides/DataSprings_DynamicForms_UserGuide.pdf" target="_blank"&gt;Review 
+    Dynamic Forms User Guide&lt;/a&gt; &lt;/font&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;font size="3"&gt;&lt;a href="http://www.datasprings.com/Products/DNNModules/DynamicForms/DynamicFormsDemonstration1/tabid/754/Default.aspx" target="_blank"&gt;Review 
+    Dynamic Forms Demonstrations&lt;/a&gt; - Data Springs provides several demonstrations within www.datasprings.com that can help assist you while building your 
+    own form.&lt;/font&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;font size="3"&gt; Review, search, and post your questions on the &lt;a href="http://www.datasprings.com/Products/ProductForums/tabid/727/Default.aspx" target="_blank"&gt;Product 
+    Forums&lt;/a&gt; area.&lt;/font&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+</value>
+  </data>
+  <data name="CPQuestions.Text" xml:space="preserve">
+    <value>Manage your dynamic forms fields. </value>
+  </data>
+  <data name="CPSettings.Text" xml:space="preserve">
+    <value>Setup the module configuration.</value>
+  </data>
+  <data name="CPEvents.Text" xml:space="preserve">
+    <value>Setup completion events after the users has submitted the form.</value>
+  </data>
+  <data name="CPQuestionEvents.Text" xml:space="preserve">
+    <value>Setup question events to fire off while the user is filling out the form.</value>
+  </data>
+  <data name="FileUploadFieldTypes.Text" xml:space="preserve">
+    <value>Warning! Your file did not upload. Please verify that the file upload was an allowable format.</value>
+  </data>
+  <data name="InvalidForm.Text" xml:space="preserve">
+    <value>Your form is not valid</value>
+  </data>
+  <data name="PreviewImage.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="InvalidImageUpload.Text" xml:space="preserve">
+    <value>The file you uploaded is not allowed! Please check the file type and confirm that the file is an image.</value>
+  </data>
+  <data name="AdvancedFeatures.Text" xml:space="preserve">
+    <value>Advanced Features</value>
+  </data>
+  <data name="AdvancedWizard.Text" xml:space="preserve">
+    <value>Advanced Wizard</value>
+  </data>
+  <data name="RecycleBin.Text" xml:space="preserve">
+    <value>Recycle Bin</value>
+  </data>
+  <data name="DragDrop.Text" xml:space="preserve">
+    <value>&lt;B&gt;Drag Drop Menu&lt;/B&gt;</value>
+  </data>
+  <data name="DragDropInstructions.Text" xml:space="preserve">
+    <value>Drag and drop fields into the new fields icon to clone them. Drag and drop fields into the recycle bin to delete them.</value>
+  </data>
+  <data name="DragDropCloneInstructions.Text" xml:space="preserve">
+    <value>Drag and drop field icons here to create a copy/clone of the field.</value>
+  </data>
+  <data name="DragDropRecycleInstructions.Text" xml:space="preserve">
+    <value>Drag and drop field icons here to delete the fields and move them to the recycling bin. </value>
+  </data>
+  <data name="QuickHelp.Text" xml:space="preserve">
+    <value>&lt;B&gt;Quick Help&lt;/B&gt;</value>
+  </data>
+  <data name="Demonstrations.Text" xml:space="preserve">
+    <value>Demonstrations / Tutorials</value>
+  </data>
+  <data name="Forums.Text" xml:space="preserve">
+    <value>Community Forums</value>
+  </data>
+  <data name="QuickAdd.Text" xml:space="preserve">
+    <value>&lt;B&gt;Quick Add (Drag / Drop)&lt;/B&gt;</value>
+  </data>
+  <data name="FieldLabel.Text" xml:space="preserve">
+    <value>Field Label</value>
+  </data>
+  <data name="NewTextBox.Text" xml:space="preserve">
+    <value>New Textbox field</value>
+  </data>
+  <data name="NewCheckBox.Text" xml:space="preserve">
+    <value>New Checkbox field</value>
+  </data>
+  <data name="NewComboBox.Text" xml:space="preserve">
+    <value>New Combo Box (Dropdownlist) field</value>
+  </data>
+  <data name="NewRadioButton.Text" xml:space="preserve">
+    <value>New Radio Button field</value>
+  </data>
+  <data name="NewCheckBoxList.Text" xml:space="preserve">
+    <value>New Check Box List field</value>
+  </data>
+  <data name="NewListBox.Text" xml:space="preserve">
+    <value>New Listbox field</value>
+  </data>
+  <data name="NewDate.Text" xml:space="preserve">
+    <value>New Date field</value>
+  </data>
+  <data name="NewCaptcha.Text" xml:space="preserve">
+    <value>New CAPTCHA (Security image) field</value>
+  </data>
+  <data name="NewImage.Text" xml:space="preserve">
+    <value>New Image field</value>
+  </data>
+  <data name="NewFile.Text" xml:space="preserve">
+    <value>New File Attachment field</value>
+  </data>
+  <data name="NewDNNRegion.Text" xml:space="preserve">
+    <value>New DNN Region field</value>
+  </data>
+  <data name="NewTextHTML.Text" xml:space="preserve">
+    <value>New Text / HTML field</value>
+  </data>
+  <data name="NewLabel.Text" xml:space="preserve">
+    <value>New Label field</value>
+  </data>
+  <data name="NewHTMLInputButton.Text" xml:space="preserve">
+    <value>New HTML Input Button field</value>
+  </data>
+  <data name="NewRichText.Text" xml:space="preserve">
+    <value>New Rich Text Box field</value>
+  </data>
+  <data name="NewDNNCountry.Text" xml:space="preserve">
+    <value>New DNN Country field</value>
+  </data>
+  <data name="NewHidden.Text" xml:space="preserve">
+    <value>New Hidden field</value>
+  </data>
+  <data name="EnableDebugMode.Text" xml:space="preserve">
+    <value>Enable Debug Mode</value>
+  </data>
+  <data name="DisableDebugMode.Text" xml:space="preserve">
+    <value>Disable Debug Mode</value>
+  </data>
+  <data name="NewHRRuler.Text" xml:space="preserve">
+    <value>New HR Ruler (divider) field</value>
+  </data>
+  <data name="NewGridView.Text" xml:space="preserve">
+    <value>New Gridview field</value>
+  </data>
+  <data name="NewRating.Text" xml:space="preserve">
+    <value>New Rating (AJAX) field</value>
+  </data>
+  <data name="HiddenFieldControlPanel.Text" xml:space="preserve">
+    <value>Hidden Field Control Panel</value>
+  </data>
+  <data name="ViewResults.Text" xml:space="preserve">
+    <value>Review Results</value>
+  </data>
+  <data name="EditResults.Text" xml:space="preserve">
+    <value>Edit Form Results</value>
+  </data>
+  <data name="Resources.Text" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="CheckAll.Text" xml:space="preserve">
+    <value>Check all items...</value>
+  </data>
+ <data name="GetProgressText.Text">
+    <value>Processing...</value>
+  </data>
+<data name="QuickEdit_FieldType.Text">
+<value>Field Type</value>
+  </data>
+
+<data name="QuickEdit_Actions.Text">
+<value>Actions</value>
+  </data>
+<data name="QuickEdit_MapField.Text">
+<value>DNN Default</value>
+  </data>
+<data name="QuickEdit_ShowHide.Text">
+<value>Show Hide</value>
+  </data>
+<data name="QuickEdit_Textbox.Text">
+<value>Textbox</value>
+  </data>
+<data name="QuickEdit_Hidden.Text">
+<value>Hidden</value>
+  </data>
+<data name="QuickEdit_CheckBox.Text">
+<value>Checkbox</value>
+  </data>
+<data name="QuickEdit_ComboBox.Text">
+<value>Combo Box (Dropdownlist)</value>
+  </data>
+<data name="QuickEdit_RadioButton.Text">
+<value>Radio Button</value>
+  </data>
+
+<data name="QuickEdit_TextHTML.Text">
+<value>Text / HTML</value>
+  </data>
+<data name="QuickEdit_CheckBoxList.Text">
+<value>CheckBoxList</value>
+  </data>
+<data name="QuickEdit_Date.Text">
+<value>Date</value>
+  </data>
+<data name="QuickEdit_ListBox.Text">
+<value>ListBox</value>
+  </data>
+<data name="QuickEdit_HR.Text">
+<value>HR.</value>
+  </data>
+<data name="QuickEdit_Image.Text">
+<value>Image</value>
+  </data>
+<data name="QuickEdit_FileUpload.Text">
+<value>File Upload</value>
+  </data>
+<data name="QuickEdit_CAPTCHA.Text">
+<value>CAPTCHA</value>
+  </data>
+<data name="QuickEdit_RichText.Text">
+<value>Rich Text Editor</value>
+  </data>
+<data name="QuickEdit_Country.Text">
+<value>Country</value>
+  </data>
+<data name="QuickEdit_Region.Text">
+<value>Region</value>
+  </data>
+<data name="QuickEdit_Label.Text">
+<value>Label</value>
+  </data>
+<data name="QuickEdit_HTMLButton.Text">
+<value>HTML Button</value>
+  </data>
+<data name="QuickEdit_Rating.Text">
+<value>Rating</value>
+  </data>
+<data name="QuickEdit_DNNTextSuggest.Text">
+<value>DNN Text Suggest</value>
+  </data>
+<data name="QuickEdit.Text">
+<value>Quick Edit</value>
+  </data>
+<data name="QuickEdit_RequiredField.Text">
+<value>Required Field</value>
+  </data>
+<data name="QuickEdit_ReadOnlyUnauthenticated.Text">
+<value>Read Only (unauthenticated)</value>
+  </data>
+<data name="QuickEdit_ReadOnlyAuthenticated.Text">
+<value>Read Only (authenticated)</value>
+  </data>
+<data name="QuickEdit_Hidefromanonymoususers.Text">
+<value>Hide from anonymous users</value>
+  </data>
+<data name="QuickEdit_Hideuntilforcedvisible.Text">
+<value>Hide until forced visible</value>
+  </data>
+<data name="QuickEdit_Retrievefromquerystring.Text">
+<value>Retrieve from querystring</value>
+  </data>
+<data name="QuickEdit_Retrievefromsession.Text">
+<value>Retrieve from session</value>
+  </data>
+<data name="QuickEdit_Retrievefromcookie.Text">
+<value>Retrieve from cookie</value>
+  </data>
+<data name="QuickEdit_Passtoquerystring.Text">
+<value>Pass to querystring</value>
+  </data>
+<data name="QuickEdit_Passtosession.Text">
+<value>Pass to session</value>
+  </data>
+<data name="QuickEdit_Passtocookie.Text">
+<value>Pass to cookie</value>
+  </data>
+<data name="QuickEdit_Donotsaveresults.Text">
+<value>Do not save field results</value>
+  </data>
+<data name="QuickEdit_Encryptfield.Text">
+<value>Encrypt field data</value>
+  </data>
+<data name="QuickEdit_HideShowbyRoleHide.Text">
+<value>Hide(x) / Show by role</value>
+  </data>
+<data name="QuickEdit_HideShowbyRoleShow.Text">
+<value>Hide / Show(x) by role</value>
+  </data>
+
+<data name="LicenseProduct.Text">
+<value>Dynamic Forms License</value>
+  </data>
+
+<data name="FileUploadSizeIssues.Text">
+<value>Sorry - The file you are attempting to upload is too large.</value>
+  </data>
+
+<data name="FileUploadSizeIssues2.Text">
+<value>Note: Some of your file(s) were too large and did not meet the size requirements. You will need to clear your files and upload this file again.</value>
+  </data>
+
+
+
+<data name="FileUploadFieldTypes.Text">
+<value>Sorry - The file you are attempting to upload is now allowed. Please check the file type and verify its an allowable file.</value>
+  </data>
+
+
+<data name="ClearFiles.Text">
+<value>Clear / Upload New Files</value>
+  </data>
+
+<data name="FilesUploaded.Text">
+<value>The following files have been uploaded to the server:</value>
+  </data>
+
+<data name="ImageUploadFailedByWidthHeight.Text">
+<value>Sorry - The image you uploaded is too large. Please check the size width and size height requirements.</value>
+  </data>
+
+<data name="ClearCache.Action">
+		<value>Clear Form Cache</value>
+  </data>
+
+
+
+ <data name="ClearCache.Text">
+		<value>Clear Cache</value>
+  </data>
+
+
+
+</root>

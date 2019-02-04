@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="js/jquery.js"></script>
+    <script src="js/repro.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>abc</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <div id="mainpanel" class="well bs-component panel panel-default">
+                    <h2>Jumper Details</h2>
+                    <form>                        
+                        <!-- can potentially change to dynamically load from array of known KnownChkItems -->
+                        <fieldset class="form-group">
+                            <!-- USPA Content In Panel-->
+                            <div class="checkbox">
+                                <img id="chk_repro1_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('repro1')">Membership</a>
+                            </div>
+
+                            <!-- Policy Content In Panel -->
+                            <div class="checkbox">
+                                <img id="chk_repro2_img" src="content/Checkmarks/no-th.jpg" width="50" />
+                                <a href="#" onclick="displayContent('repro2')">Policy</a>
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </div>
+            </div>
+
+            <!-- THIS IS THE RIGHT HAND PANEL WHICH WILL CHANGE CONTENT DEPENDING UPON THE  CHECKBOX LINK CLICKED -->
+            <div class="col-md-6">
+                <div id="contentpanel" class="panel panel-default ">
+                    <div id="cp_inner" >
+                        <div class="panel-heading">
+                            <h3 id="cp_heading">Content Panel Heading</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <div id="cp_content">
+                                <!--Content will be displayed in here..... -->
+                            </div>
+                        </div>
+                        <div class="panel-footer ">
+                            <!--   Possible Button to be clicked to confirm that you have read and checkbox will be updated -->
+                            <button>OK (TO BE IMPLEMENTED)</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // A $( document ).ready() block.
+        $(document).ready(function () {
+           console.log("ready!");
+           window.event.cancelBubble = true;
+
+        });
+
+    </script>
+
+</body>
+</html>

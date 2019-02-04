@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.TrayAutoArrange" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="ACTIONBUTTON1">
+    <value>Add User</value>
+  </data>
+
+	
+	<data name="lblWizardQuestions.Text">
+		<value>Standard Questions</value>
+	</data>
+	<data name="lblWizardExtendedQuestions.Text">
+		<value>Other Common Questions</value>
+	</data>
+<data name="lblWizardQuestions.Help">
+		<value>Select which standard questions you would automatically like to have the setup wizard create for your Forms.</value>
+	</data>
+	<data name="lblWizardExtendedQuestions.Help">
+		<value>Select which extended questions you would automatically like to have the setup wizard create for your Forms.</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>Please visit www.datasprings.com for the full user guide for Dynamic Forms</value>
+	</data>
+	<data name="ControlTitle_SetupWizard.Text">
+		<value>Setup Wizard</value>
+	</data>
+<data name="RunWizard.Text">
+		<value>Run Wizard</value>
+	</data>
+
+<data name="Exit.Text">
+		<value>Exit</value>
+	</data>
+
+<data name="HeaderDesc.Text">
+		<value>Welcome to the Dynamic Forms Advanced Field Wizard. From the wizard below, you can manipulate and maintain properties for multiple fields easily. This wizard will allow you to maintain multiple fields properties without having to manually edit each individual fields properties. For example, you could select all of the fields you want required and specify that the group of fields should be required. Then use the wizard again to specify the required field text, required field error message, or any of the other actions from within the dropdownlist below. Note: You can use the parameter $(FieldLabel) within the options as a parameter that will be replaced when the wizard executes. For example you could set the required field text for each property and include the field label such as: * The field $(FieldLabel) is a required field.</value>
+	</data>
+
+<data name="InitialDisplayAfterMessageLiteral.Text">
+		<value>Site Administrator: Set this message up under Layout Settings.</value>
+</data>
+<data name="InitialBlackListItemText.Text">
+		<value>Site Administrator: Set this message up under Layout Settings.</value>
+</data>
+
+<data name="lblDisplayAfterMessage.Help">
+		<value>Would you like to display a message to the user after initial Forms?</value>
+</data>
+  <data name="DefaultContinueMessage.Text">
+		<value>Continue...</value>
+ </data>
+
+  <data name="lblWizardActions.Text">
+		<value>Action</value>
+ </data>
+
+  <data name="ControlTitle_advancedwizard.Text">
+		<value>Advanced Field Wizard</value>
+ </data>
+
+  <data name="lblWizardActionTypes.Text">
+		<value>Question Action Type</value>
+ </data>
+
+
+
+
+
+ <data name="InitialRegister.Text">
+		<value>Submit</value>
+	</data>
+
+  <data name="ControlTitle_wizard.Text">
+		<value>Dynamic Forms Setup Wizard</value>
+</data>
+
+<data name="SelectAction.Text"><value> - Select Action - </value></data>
+<data name="ShortFieldName.Text"><value>Short field name</value></data>
+<data name="HelpText.Text"><value>Help text</value></data>
+<data name="DefaultValue.Text"><value>Default value</value></data>
+<data name="ExampleText.Text"><value>Example text</value></data>
+ <data name="ClientSideEvent.Text"><value>Client side event</value></data>
+<data name="HideQuestionsFromRoles.Text"><value>Hide question from these roles</value></data>
+<data name="HideFromAnonymous.Text"><value>Hide from anonymous users</value></data>
+ <data name="HideUntilForcedVisible.Text"><value>Hide until forced visible by question event</value></data>
+<data name="PassToQuerystring.Text"><value>Pass values of this question to querystring variable</value></data>
+ <data name="RetrieveFromQuerystring.Text"><value>Retrieve values from querystring variable for this question</value></data>
+ <data name="PassToSession.Text"><value>Pass values of this question to session variable</value></data>
+ <data name="RetrieveFromSession.Text"><value>Retrieve values from session variable for this question</value></data>
+<data name="PassToCookie.Text"><value>Pass values of this question to cookie variable</value></data>
+<data name="RetrieveFromCookie.Text"><value>Retrieve values from cookie variable for this question</value></data>
+ <data name="HideFromViewResults.Text"><value>Do not display field results within the view results module</value></data>
+ <data name="NoSave.Text"><value>Do not save field results to the database</value></data>
+ <data name="LabelCellClass.Text"><value>Label class</value></data>
+ <data name="FieldClass.Text"><value>Field class</value></data>
+ <data name="ColSpan.Text"><value>Column span</value></data>
+<data name="RowSpan.Text"><value>Row span</value></data>
+ <data name="FieldWidth.Text"><value>Field Width</value></data>
+ <data name="SameRow.Text"><value>Add field to same row as previous question?</value></data>
+ <data name="LabelFieldSameColumn.Text"><value>Display label and field in same column (Overide general setting)</value></data>
+ <data name="ShowHelpTextAsPopUp.Text"><value>Show help text as pop up text</value></data>
+ <data name="PopUpTextWidth.Text"><value>Pop up text width</value></data>
+<data name="TextboxMaxLength.Text"><value>Textbox max length</value></data>
+<data name="RequiredField.Text"><value>Required field</value></data>
+ <data name="RequiredFieldText.Text"><value>Required field error text</value></data>
+<data name="RequiredFieldErrorMessage.Text"><value>Required field error message</value></data>
+<data name="UseRegularExpression.Text"><value>Enable regular expression</value></data>
+ <data name="ReqularExpression.Text"><value>Regular expression</value></data>
+<data name="RegularExpressionText.Text"><value>Regular expression error message</value></data>
+
+
+
+<data name="UseSQLOptions.Text"><value>Use SQL options for field</value></data>
+<data name="SQLOptionsQuery.Text"><value>SQL query for field options</value></data>
+<data name="DeleteField.Text"><value>Delete Question / Field</value></data>
+<data name="lnkSelectUnSelectAll.Text"><value>Select / De-Select All</value></data>
+
+<data name="CustomField.Text">
+		<value>Custom HTML Field</value>
+	</data>
+
+</root>

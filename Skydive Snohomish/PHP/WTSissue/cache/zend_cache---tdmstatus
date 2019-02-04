@@ -1,0 +1,110 @@
+s:4775:"<font color="#000080" face="arial" size="2">
+
+	<p>
+	
+		<table class="ms-classic3-main">
+		<tr>
+			<td class="ms-classic3-tl" style="width: 160px">Class Time</td>
+			<td class="ms-classic3-top" style="width: 382px">Class Status</td>
+		</tr>
+	
+			<tr>
+			<td class="ms-classic3-left" style="width: 160px">
+			<img alt="Time clock" height="20" src="http://tdmclassstatus.skydivesnohomish.com/images/clock.gif" width="30" /> 12:30PM  </td>
+			<td class="Undetermined" style="width: 382px"><a href="#Undetermined"> Undetermined </a>
+			</td>
+		</tr>
+	
+			<tr>
+			<td class="ms-classic3-left" style="width: 160px">
+			<img alt="Time clock" height="20" src="http://tdmclassstatus.skydivesnohomish.com/images/clock.gif" width="30" />  2:15PM  </td>
+			<td class="Undetermined" style="width: 382px"><a href="#Undetermined"> Undetermined </a>
+			</td>
+		</tr>
+	
+			<tr>
+			<td class="ms-classic3-left" style="width: 160px">
+			<img alt="Time clock" height="20" src="http://tdmclassstatus.skydivesnohomish.com/images/clock.gif" width="30" />  4:00PM  </td>
+			<td class="Undetermined" style="width: 382px"><a href="#Undetermined"> Undetermined </a>
+			</td>
+		</tr>
+	
+			<tr>
+			<td class="ms-classic3-left" style="width: 160px">
+			<img alt="Time clock" height="20" src="http://tdmclassstatus.skydivesnohomish.com/images/clock.gif" width="30" />  5:45PM  </td>
+			<td class="Undetermined" style="width: 382px"><a href="#Undetermined"> Undetermined </a>
+			</td>
+		</tr>
+	
+			<tr>
+			<td class="ms-classic3-left" style="width: 160px">
+			<img alt="Time clock" height="20" src="http://tdmclassstatus.skydivesnohomish.com/images/clock.gif" width="30" />  7:30PM  </td>
+			<td class="Undetermined" style="width: 382px"><a href="#Undetermined"> Undetermined </a>
+			</td>
+		</tr>
+	
+		</table>
+	
+	</p>
+
+	<p>&nbsp;</p>
+
+	<h2>Class Status Explanations</h2>
+	<h3 class="Undetermined" style="width: 100%;"><a name="Undetermined">Undetermined</a></h3>
+	<ul>
+		<li>Status is posted approximately 2 hours prior to the class time. Please check back closer to your scheduled class time.</li>
+		<li>If you need to leave more than 2 hours prior to the class time, call 360.568.7703 for status.</li>
+	</ul>
+	<h3 class="ComeOnOut" style="width: 100%;"><a name="ComeOnOut">Come on out!</a></h3>
+	<ul>
+		<li>Weather is forecasted to be suitable for skydiving.</li>
+		<li>Plan to arrive 45 minutes prior to your class time to take care of paperwork 
+		and payment. </li>
+		<li>Late arrivals may forfeit their deposit and opportunity to skydive.</li>
+	</ul>
+	<h3 class="Percentage" style="width: 100%;"><a name="Optimistic">We&#39;re optimistic 
+	but...</a></h3>
+	<ul>
+		<li>Aviation weather forecasts and actual conditions are inconsistent.
+		</li>
+		<li>We are optimistic based on current weather conditions, but we cannot 
+		guarantee tandem skydiving will be possible during your class time.</li>
+		<li>You need to make one of two choices at least one hour prior to your 
+		class time:
+		<ul type="circle">
+			<li>1) Come out, go through training, and hope weather is suitable for skydiving.  In the event you do not get to skydive during your class time, we will proceed with the rescheduling process outlined below.<br /></li>
+			- OR -
+			<li>2) Reschedule to a later class time (space permitting), or for another day.</li>
+		</ul>
+		</li>
+		<li>To retain your deposit for future use, <b>you must call us</b> at 360.568.7703 
+		at least one hour prior to your class time to let us know your decision.</li>
+	</ul>
+	<h3 class="Percentage" style="width: 100%;"><a name="50/50">50/50</a></h3>
+	<ul>
+		<li>Aviation weather forecasts and actual conditions are inconsistent.
+		</li>
+		<li>Due to weather, we cannot guarantee tandem skydiving will be possible 
+		during your class time.</li>
+		<li>You need to make one of two choices at least one hour prior to your 
+		class time:
+		<ul>
+			<li>1) Come out, go through training, and hope weather is suitable for skydiving.  In the event you do not get to skydive during your class time, we will proceed with the rescheduling process outlined below.<br /></li>
+			- OR -
+			<li>2) Reschedule to a later class time (space permitting), or for another day.</li>
+		</ul>
+		</li>
+		<li>To retain your deposit for future use, <b>you must call us</b> at 360.568.7703 
+		at least one hour prior to your class time to let us know your decision.</li>
+	</ul>
+	<h3 class="Reschedule" style="width: 100%;"><a name="Reschedule">Reschedule 
+	due to weather</a></h3>
+	<ul>
+		<li>Your class is cancelled due to weather.</li>
+		<li>Please call us at 360.568.7703 when you&#39;re ready to reschedule your 
+		skydive. </li>
+		<li>Your deposit will remain on account for one year.</li>
+		<li>Thanks for your patience. We promise it&#39;s worth the wait!</li>
+	</ul>
+	<p>&nbsp;</p>
+";

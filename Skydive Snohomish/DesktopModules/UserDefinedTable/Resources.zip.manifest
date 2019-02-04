@@ -1,0 +1,172 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>CaptionValueEditor.js</name>
+    </file>
+    <file>
+      <path />
+      <name>Cleanup_06.00.00.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>configuration.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>datatypes.config</name>
+    </file>
+    <file>
+      <path />
+      <name>Default.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>ExportCSV.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>FieldEditor.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Form.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>HelpPopup.aspx</name>
+    </file>
+    <file>
+      <path />
+      <name>icon_fnl_32px.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>ImportCSV.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>License.htm</name>
+    </file>
+    <file>
+      <path />
+      <name>list.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>MakeThumbnail.ashx</name>
+    </file>
+    <file>
+      <path />
+      <name>module.css</name>
+    </file>
+    <file>
+      <path />
+      <name>releasenotes.htm</name>
+    </file>
+    <file>
+      <path />
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>ShowXml.ashx</name>
+    </file>
+    <file>
+      <path />
+      <name>Template.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>templatelist.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Token2Xsl.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>UpgradeLog2.htm</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>configuration.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Default.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>ExportCSV.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>FieldEditor.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Form.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>HelpPopup.aspx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>ImportCSV.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>list.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>sharedresources.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>TabId.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Template.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>TemplateList.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Token2Xsl.ascx.resx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>Field.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>Fields.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>FieldSettings.ascx</name>
+    </file>
+    <file>
+      <path>XslStyleSheets/</path>
+      <name>XSLScripts.xml</name>
+    </file>
+    <file>
+      <path>XslStyleSheets/Tracking/</path>
+      <name>Auto.xsl</name>
+    </file>
+    <file>
+      <path>_UpgradeReport_Files/</path>
+      <name>UpgradeReport.css</name>
+    </file>
+  </files>
+</dotnetnuke>

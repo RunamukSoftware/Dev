@@ -1,0 +1,46 @@
+﻿    <div>
+        <p>
+		    You must be a current and valid USPA member. Bring a copy of your USPA membership card and present it to manifest when checking in on arrival. <br>			
+			Due to airport restrictions, jumpers currently must have a C or D license to be able to jump at Skydive Snohomish. <br>			
+		    <i>If you do not have both items, then unfortunately you will not be able to jump.</i>
+        </p>
+    </div>
+	
+	<form>
+
+	
+        <fieldset class="form-group">
+            <label for="LicenceType">License Number</label>
+            <select  class="form-control" id="LicenceType">
+                <option value="C">C</option>
+                <option value="D">D</option>                
+            </select> 
+			<label for="LicenseNumber">License Number</label>
+            <input type="text" class="form-control" id="LicenseNumber" maxlength="6" placeholder="Enter License Number" required>
+        </fieldset>
+
+
+		<fieldset class="form-group">
+			<label for="MembershipNumber">Membership Number</label>
+			<input type="text"  class="form-control" id="MembershipNumber" maxlength="7" placeholder="Enter USPA Membership Number" required>
+		</fieldset>
+
+		<fieldset class="form-group">
+			<label for="Expiration">Expiration Date (yyyy-mm-dd) </label>
+			<input type="datetime"  class="form-control" id="Expiration"  min="2014-01-01" placeholder="Enter USPA Expiration Date" required>
+		</fieldset>
+	
+	</form>
+	<div>		
+		<label id="USPAResult"> </label>
+	</div>
+<script>
+    // A $( document ).ready() block.
+    //Used ther populate the USPA form details when loaded
+    $(document).ready(function () {       
+	
+		
+		$("#confirmread").html('Confirm USPA Details');
+		
+    });	
+</script>

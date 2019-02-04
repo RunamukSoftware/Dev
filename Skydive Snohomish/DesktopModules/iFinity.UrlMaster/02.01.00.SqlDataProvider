@@ -1,0 +1,535 @@
+﻿/************************************************************/
+/*****              SQLDataProvider		                *****/
+/*****              iFinity.Url Master 02.01.00			*****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}	*****/
+/************************************************************/
+
+/* 736 : new addTabAndTabModule for 5.5 compatibiltiy changes */
+
+/****** Object:  StoredProcedure {databaseOwner}[ifty_AddTabAndTabModule]    Script Date: 07/14/2010 12:42:21 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+declare @action nvarchar(10)
+IF EXISTS (SELECT * FROM sysobjects WHERE id = OBJECT_ID(N'{databaseOwner}[ifty_AddTabAndTabModule]') AND type in (N'P', N'PC'))
+	DROP PROCEDURE {databaseOwner}[ifty_AddTabAndTabModule]
+/* now create/alter the sp */
+BEGIN
+EXEC sp_executesql @statement = N'CREATE PROCEDURE {databaseOwner}[ifty_AddTabAndTabModule] 
+	@moduleDefId int, 
+	@moduleControlId int
+AS
+BEGIN
+-- =============================================
+-- Author:		Bruce Chapman
+-- Create date: 5 Mar 2008
+-- Description:	Creates a Module, Tab and TabModule from stored values
+--	26 May 08 : Add in permissions when creating admin tabs
+--  06 Jan 09 : Add in Webslice parameter for DNN 5.x tabs
+--  22 Jan 09 : New logic to set level to zero when no parent tab
+--				Capture created tab/module ids to stop result
+--				sets from passing back wrong value to calling ''addModule''
+--				stored procedure
+--	19 Feb 09	Add in extra field for 4.9.2 AddTab stored proc
+--  10 Jun 09	Add in extra field for 5.1.0 AddTab stored proc
+--  27 Nov 09	Add in extra fields for 5.2.0 AddTab stored proc
+--	19 mar 10	Add in extra fields for 5.3.0 content items
+--  20 Apr 10	Add in extra tabmodulesetting for ''hideadminborder'' (new 5.4 setting)
+--  31 May 10	Ignore ifty_TAbModuleCreation records where portal id no longer exists
+--  29 Jun 10	Add in IconFileLarge for 5.3+ installs
+--  13 Jul 10	Changes for 5.5 in AddTab, AddTabModule and AddModule
+-- =============================================
+	SET NOCOUNT ON
+
+	/* declare individual values for creating tab/module/tab module values */
+	DECLARE @PortalId int 
+	   , @ControlSource nvarchar(256) 
+	   , @TabName nvarchar(255) 
+	   , @IsVisible bit
+	   , @DisableLink bit
+	   , @ParentId int 
+	   , @TabIconFile nvarchar(100) 
+	   , @tabIconFileLarge nvarchar(100)
+	   , @Title nvarchar(200) 
+	   , @Description nvarchar(255)
+	   , @KeyWords nvarchar(500)
+	   , @SkinSrc nvarchar(200)
+	   , @ContainerSrc nvarchar(200)
+	   , @TabPath nvarchar(255) 
+	   , @StartDate datetime
+	   , @EndDate datetime
+	   , @RefreshInterval int
+	   , @PageHeadText nvarchar(500)
+	   , @IsSecure bit
+	   , @TabOrder int 
+	   , @IsAdmin bit 
+	   , @PaneName nvarchar(50) 
+	   , @CacheTime int
+	   , @Alignment nvarchar(10) 
+	   , @Color nvarchar(20)
+	   , @Border nvarchar(1)
+	   , @ModuleIconFile nvarchar(100)
+	   , @Visibility int
+	   , @DisplayTitle bit
+	   , @DisplayPrint bit
+	   , @DisplaySyndicate bit
+	   , @SetDesktopModuleAdmin bit
+	   , @DeleteTabOnModuleRemove bit
+	   , @TabId int 
+	   , @ModuleId int 
+	   , @Completed bit
+	   , @CultureCode nvarchar(10)
+	   , @level int
+	   , @desktopModuleId int
+	   , @dnnMajorVersion int
+	   , @dnnMinorVersion int
+	   , @dnnBuildVersion int
+	   , @tabUniqueId uniqueidentifier
+	   , @tabVersionGuid uniqueidentifier
+	   , @tabDefaultLanguageGuid uniqueidentifier
+	   , @tabLocalizedVersionGuid uniqueIdentifier
+	   , @tabModuleUniqueId				uniqueidentifier
+	   , @tabModuleVersionGuid			uniqueidentifier
+	   , @tabModuleDefaultLanguageGuid	uniqueidentifier
+	   , @tabModuleLocalizedVersionGuid	uniqueidentifier	   
+	   
+	/* get the DNN Major version */
+	SELECT DISTINCT @dnnMajorVersion = major  
+	FROM {databaseOwner}{objectQualifier}Version 
+	WHERE Major = (select max(major) FROM {databaseOwner}{objectQualifier}Version)
+
+	/* get the dnn minor version max for the major */
+	SELECT DISTINCT @dnnMinorVersion = Coalesce(max(minor),0)
+	FROM {databaseOwner}{objectQualifier}Version 
+	WHERE Major = @dnnMajorVersion
+
+	/* get the latest build */
+	SELECT DISTINCT @dnnBuildVersion = COALESCE(Max(Build),0)
+	FROM {databaseOwner}{objectQualifier}Version
+	WHERE Major = @dnnMajorVersion
+	  AND Minor = @dnnMinorVersion
+
+	/* create table to hold output from tab and module creation procs*/	
+	/* 577 : shift to outside loop for multiple portal installs */
+	/* 680 : Added in cultureCode value for tabs */
+	create table #tabid (tabId int)
+	create table #moduleId (moduleId int)
+	create table #contentItemId (contentItemId int)
+	declare @contentTypeId int, @contentItemId int
+	declare @sql nvarchar(500)
+	
+	DECLARE Tab_Curs CURSOR FOR
+	SELECT   PortalId 
+	   , tmc.ControlSource 
+	   , TabName 
+	   , IsVisible 
+	   , DisableLink 
+	   , ParentId 
+	   , TabIconFile 
+	   , Title 
+	   , [Description]
+	   , KeyWords 
+	   , SkinSrc 
+	   , ContainerSrc 
+	   , TabPath 
+	   , StartDate 
+	   , EndDate 
+	   , RefreshInterval 
+	   , PageHeadText 
+	   , IsSecure 
+	   , TabOrder 
+	   , IsAdmin 
+	   , PaneName 
+	   , CacheTime 
+	   , Alignment 
+	   , Color 
+	   , Border 
+	   , ModuleIconFile 
+	   , Visibility 
+	   , DisplayTitle 
+	   , DisplayPrint 
+	   , DisplaySyndicate 
+	   , SetDesktopModuleAdmin 
+	   , DeleteTabOnModuleRemove 
+	   , Completed 
+	   , CultureCode
+	FROM {databaseOwner}[ifty_TabModuleCreation] tmc
+	INNER JOIN {databaseOwner}{objectQualifier}ModuleControls mc
+	   ON mc.ControlSrc = tmc.ControlSource collate database_default
+	  AND mc.ModuleControlId = @ModuleCOntrolId
+	  AND mc.ModuleDefId = @moduleDefId
+	WHERE Completed = 0
+	  AND (exists (select PortalId from {databaseOwner}{objectQualifier}POrtals p where p.PortalID = tmc.PortalID)
+           OR tmc.PortalId is null)
+	  
+	OPEN Tab_Curs
+	FETCH FROM Tab_Curs INTO
+		 @PortalId 
+	   , @ControlSource 
+	   , @TabName 
+	   , @IsVisible 
+	   , @DisableLink 
+	   , @ParentId 
+	   , @TabIconFile 
+	   , @Title 
+	   , @Description 
+	   , @KeyWords 
+	   , @SkinSrc 
+	   , @ContainerSrc 
+	   , @TabPath 
+	   , @StartDate 
+	   , @EndDate 
+	   , @RefreshInterval 
+	   , @PageHeadText 
+	   , @IsSecure 
+	   , @TabOrder 
+	   , @IsAdmin 
+	   , @PaneName 
+	   , @CacheTime 
+	   , @Alignment 
+	   , @Color 
+	   , @Border 
+	   , @ModuleIconFile 
+	   , @Visibility 
+	   , @DisplayTitle 
+	   , @DisplayPrint 
+	   , @DisplaySyndicate 
+	   , @SetDesktopModuleAdmin 
+	   , @DeleteTabOnModuleRemove 
+	   , @Completed 
+	   , @CultureCode
+	WHILE @@Fetch_Status = 0
+	BEGIN
+		/* cursor inner loop */
+		if (@dnnMajorVersion > 4)
+		BEGIN
+			set @tabIconFile = ''~/images/'' + @tabIconFile
+			if (@dnnMinorVersion > 4)
+			BEGIN
+				/* dnn 5.5 and later unique Ids for ML content */
+			   SELECT @tabUniqueId  = newid()
+				   , @tabVersionGuid  = newid()
+				   , @tabDefaultLanguageGuid  = NULL
+				   , @tabLocalizedVersionGuid  = newid()
+				   , @tabModuleUniqueId				 = newid()
+				   , @tabModuleVersionGuid			 = newid()
+				   , @tabModuleDefaultLanguageGuid	 = NULL
+				   , @tabModuleLocalizedVersionGuid	 = newid()	   
+			END
+		END
+		
+		/*add in a new tab */
+
+		if (@dnnMajorVersion = 4 and @dnnMinorVersion = 9 and @dnnBuildVersion >= 2)
+		or (@dnnMajorVersion = 5 and @dnnMinorVersion = 0 and @dnnBuildVersion >= 1)
+		BEGIN 
+			--dnn 4.9.2 or 5.0.1 versions
+			insert into #tabid exec {databaseOwner}{objectQualifier}AddTab @portalId, @TabName, @isVIsible, @disableLink, @parentId, @TabIconFile, @title, @Description,@KeyWords
+						,NULL, @skinSrc, @containerSrc, @TabPath, @startDate, @endDate, @refreshInterval, @pageHeadText, @isSecure, 0 /* @permanentRedirect = 0 */
+
+		END
+		ELSE
+		BEGIN
+			/* 630 : 5.1 compatibility : new sitemap priority field */
+	
+			IF (@dnnMajorVersion = 5 and @dnnMinorVersion >= 1 and @dnnBuildVersion >= 0)
+			BEGIN
+				/* temp table used to get value from scope of dynamic sql.  Dynamic sql used for backwards compatibility for DNN versions 
+				   that don''t have the createdByUserId column */
+				create table #createdBy (createdByUserId int)
+				set @sql = ''insert into #createdby (createdByUserId) select CreatedByUserId from {databaseOwner}{objectQualifier}Packages where Name in (''''iFinity Url Master'''', ''''iFinityv.UrlMaster'''')''
+				exec (@sql)
+				declare @createdByUserId int
+				select @createdByUserId = min(CreatedByUserID) from #createdBy
+				drop table #createdBy
+
+				--dnn 5.1.x 
+				if (@dnnMinorVersion = 1)
+				BEGIN				
+					insert into #tabid exec {databaseOwner}{objectQualifier}AddTab @portalId, @TabName, @isVIsible, @disableLink, @parentId, @TabIconFile, @tabIconFile, @title, @Description,@KeyWords
+								,NULL, @skinSrc, @containerSrc, @TabPath, @startDate, @endDate, @refreshInterval, @pageHeadText, @isSecure, 0 , 0, @createdByUserId /*sitemap priority, createdByUserId */
+				END
+				ELSE
+					--dnn 5.2.0 
+					if (@dnnMinorVersion = 2)
+					BEGIN
+						insert into #tabid exec {databaseOwner}{objectQualifier}AddTab @portalId, @TabName, @isVIsible, @disableLink, @parentId, @TabIconFile, @tabIconFile, @title, @Description,@KeyWords
+									,NULL, @skinSrc, @containerSrc, @TabPath, @startDate, @endDate, @refreshInterval, @pageHeadText, @isSecure, 0 , 0, @createdByUserId, @cultureCode /*+ cultureCode*/
+					END
+					ELSE
+					--dnn 5.3.0 onwards - content items
+					BEGIN
+						set @tabIconFileLarge = replace(@tabIconFile, ''16'','''') --relies on file-name16.gif format and file-name.gif format
+						set @contentItemId = null
+						if (@dnnMinorVersion < 5)
+						BEGIN
+						insert into #tabid exec {databaseOwner}{objectQualifier}AddTab @contentItemId, @portalId, @TabName, @isVIsible, @disableLink, @parentId, @TabIconFile, @tabIconFileLarge, @title, @Description,@KeyWords
+									,NULL, @skinSrc, @containerSrc, @TabPath, @startDate, @endDate, @refreshInterval, @pageHeadText, @isSecure, 0 , 0, @createdByUserId, @cultureCode /*+ contentItemId*/
+						END
+						ELSE
+						BEGIN
+						/* 5.5 onwards, adds in new unique Ids */
+						insert into #tabid exec {databaseOwner}{objectQualifier}AddTab @contentItemId, @portalId, @tabUniqueId , @tabVersionGuid , @tabDefaultLanguageGuid , @tabLocalizedVersionGuid , @TabName
+									, @isVIsible, @disableLink, @parentId, @TabIconFile, @tabIconFileLarge, @title, @Description, @KeyWords
+									,NULL, @skinSrc, @containerSrc, @TabPath, @startDate, @endDate, @refreshInterval, @pageHeadText, @isSecure, 0 , 0, @createdByUserId, @cultureCode /*+ contentItemId*/
+						
+						END
+						--create content item for this record
+						select @tabId = Tabid from #tabId
+						select @contentTypeId = contentTypeId from {databaseOwner}{objectQualifier}ContentTypes where ContentType = ''Tab''
+						insert into #contentItemId exec {databaseOwner}{objectQualifier}AddContentItem @tabName, @contentTypeId, @tabId, -1, NULL, 0, -1
+						--update tabrecord with contentItemItd
+						set @sql = ''update {databaseOwner}{objectQualifier}Tabs set ContentItemId = (select top 1 contentItemId from #contentItemId) where tabId = '' + convert(nvarchar(10), @tabId)
+						exec (@sql)
+						delete from #contentItemId
+					END
+			END
+			ELSE
+			BEGIN
+				--dnn 4.9.1 or earlier version, or dnn 5.0.0 version
+				insert into #tabid exec {databaseOwner}{objectQualifier}AddTab @portalId, @TabName, @isVIsible, @disableLink, @parentId, @TabIconFile, @title, @Description,@KeyWords
+							,NULL, @skinSrc, @containerSrc, @TabPath, @startDate, @endDate, @refreshInterval, @pageHeadText, @isSecure
+
+			END
+		END
+
+		SELECT @TabId = Max(TabId)
+		FROM {databaseOwner}{objectQualifier}vw_Tabs 
+		WHERE (PortalId = @portalId OR (PortalId IS NULL and @portalId is NULL))
+		  AND TabName = @tabName
+		  AND TabPath = @tabPath
+
+		IF NOT @tabId IS NULL OR NOT @TabID = NULL
+		BEGIN
+			/* get the level of the parent tab and add one */
+			/* if parent is  level = 0 (-1 + 1) */
+
+			SELECT @level = [level] + 1
+			FROM {databaseOwner}{objectQualifier}vw_Tabs
+			WHERE TabId = @ParentID
+			
+			if @level is null or @level = null
+				set @level = 1
+
+
+			/* OK, tab is created, now update the order and IsAdmin flag */
+			/* 904 : no more Level column in Tabs */
+			if NOT exists (select * from sysobjects o inner join syscolumns c on o.id = c.Id and o.id = object_id(''dnn_Tabs'') and c.name = ''Level'')
+			BEGIN
+				set @Sql = ''update dbo.dnn_Tabs
+							set Level = '' + convert(nvarchar(10), @level) + 
+							''where tabId = '' + convert(nvarchar(10), @TabId)
+				execute (@sql)
+			END
+			else
+			BEGIN
+ 				/* dnn 6.2 and later, just update order */
+				UPDATE dbo.dnn_Tabs
+				Set TabOrder = @TabOrder
+				where tabId = @TabId
+			END
+						
+			/* for admin tabs, add permissions */
+			if Exists (select TabId 
+					   from {databaseOwner}{objectQualifier}vw_Tabs
+					   where @ParentId = TabId 
+						 and TabName = ''Admin'')
+			BEGIN
+			
+				INSERT into {databaseOwner}{objectQualifier}TabPermission
+				(TabId, PermissionId, AllowAccess, RoleId, UserId)
+				select @TabId, 1, 1, 0, null
+			END
+			/* now create the module */
+			/* 630 : 5.1 compatibility : new sitemap priority field */
+			IF (@dnnMajorVersion = 5 and @dnnMinorVersion >= 1  and @dnnBuildVersion >= 0)
+			BEGIN
+				if @dnnMinorVersion < 3	
+				begin 
+					insert into #moduleId exec {databaseOwner}{objectQualifier}AddModule @portalId, @moduleDefId, @title, 0,NULL , NULL , @startDate, @endDate, 1, 0,@createdByUserId
+				end
+				else
+				begin
+					--5.3.0 to 5.4.x
+					set @contentItemId = null
+					if @dnnMinorVersion < 5
+					BEGIN
+						insert into #moduleId exec {databaseOwner}{objectQualifier}AddModule @contentItemId, @portalId, @moduleDefId, @title, 0,NULL , NULL , @startDate, @endDate, 1, 0,@createdByUserId
+					END
+					ELSE
+					BEGIN
+						--5.5.x upwards - no more title in modules
+						insert into #moduleId exec {databaseOwner}{objectQualifier}AddModule @contentItemId, @portalId, @moduleDefId, 0,@startDate, @endDate, 1, 0,@createdByUserId
+					END
+					--add content type and update module record
+					select @contentTypeId = contentTypeId from {databaseOwner}{objectQualifier}ContentTypes where ContentType = ''Module''
+					set @moduleId = (select top 1 ModuleId from #moduleid)
+					insert into #contentItemId exec {databaseOwner}{objectQualifier}AddContentItem @title, @contentTypeId, @tabId, @moduleId, NULL, 0, -1
+					--update module record with contentItemId
+					set @sql = ''update {databaseOwner}{objectQualifier}Modules set ContentItemId = (select top 1 contentItemId from #contentItemId) where moduleId = '' + convert(nvarchar(10), @moduleId)
+					exec (@sql)
+					delete from #contentItemId
+				end
+			END
+			ELSE
+			BEGIN
+				insert into #moduleId exec {databaseOwner}{objectQualifier}AddModule @portalId, @moduleDefId, @title, 0,NULL , NULL , @startDate, @endDate, 1, 0
+			END
+
+			/* retrieve the newly added module ID */
+			SELECT @ModuleId = ModuleId
+			FROM {databaseOwner}{objectQualifier}Modules
+			WHERE moduleDefId = @moduleDefId /* 736 : only identify by moduledefid */
+
+			/* OK now we need to set the desktop Module Id definitions to IsAdmin=1 
+			so that they don''t appear in the drop-down list */
+			if (@SetDesktopModuleAdmin = 1)
+			BEGIN
+				select @desktopModuleId= DesktopModuleId
+				from {databaseOwner}{objectQualifier}ModuleDefinitions
+				where ModuleDefId = @moduleDefId
+
+				if (NOT @desktopModuleId = null or NOT @desktopModuleId is null)
+				BEGIN
+					update {databaseOwner}{objectQualifier}DesktopModules
+					Set IsAdmin = 1
+					where DesktopModuleId = @desktopModuleId
+				END
+			END
+
+			/* finally, add the tab module */
+			if @dnnMajorVersion > 4
+			begin
+				--dnn 5.x version
+					declare @isWebSlice bit, @webSliceTitle nvarchar(256), @webSliceExpiryDate dateTime, @webSliceTTL int
+					select @webSliceTTL = 0, @isWebSlice = 0
+					set @moduleIconFIle = ''~/images/'' + @moduleIconFile
+
+				IF (@dnnMajorVersion = 5 and @dnnMinorVersion >= 1 and @dnnBuildVersion >= 0)
+				BEGIN
+					 If (@dnnMinorVersion =1)
+					 BEGIN
+						exec {databaseOwner}{objectQualifier}AddTabModule @tabID, @ModuleId, 0, @paneName, @cacheTime, @alignment, @color, @border
+							,@moduleIconFile, @visibility, @containerSrc, @displayTitle, @displayPrint, @displaySyndicate
+							,@isWebSlice, @webSliceTitle, @webSliceExpiryDate, @webSliceTTL, @createdByUserId
+					 END
+					 ELSE
+					 BEGIN
+						--dnn 5.2 and higher
+						declare @tabModuleId int, @tabModuleIdChar nvarchar(6)
+						if (@dnnMinorVersion < 5)
+						BEGIN
+							-- 682 : Add in ''CacheMethod'' value (null)
+							exec {databaseOwner}{objectQualifier}AddTabModule @tabID, @ModuleId, 0, @paneName, @cacheTime, NULL, @alignment, @color, @border
+								,@moduleIconFile, @visibility, @containerSrc, @displayTitle, @displayPrint, @displaySyndicate
+								,@isWebSlice, @webSliceTitle, @webSliceExpiryDate, @webSliceTTL, @createdByUserId
+						END
+						ELSE
+						BEGIN
+							-- 5.5 or later 
+							-- 736 : 5.5 compatibility : new uniqueid fields in tabmodule
+							exec {databaseOwner}{objectQualifier}AddTabModule @tabID, @ModuleId, @title, NULL, NULL, 0, @paneName, @cacheTime, NULL, @alignment, @color, @border
+								,@moduleIconFile, @visibility, @containerSrc, @displayTitle, @displayPrint, @displaySyndicate
+								,@isWebSlice, @webSliceTitle, @webSliceExpiryDate, @webSliceTTL, @tabModuleUniqueId, @tabModuleVersionGuid, @tabModuleDefaultLanguageGuid, @tabModuleLocalizedVersionGuid, NULL, @createdByUserId
+							
+						END
+						if (@dnnMinorVersion >= 4)
+						BEGIN
+							-- for dnn 5.4 and higher, retrieve the tabmodule id and insert new settings for ''hideadminborder''
+							select @tabModuleId = TabModuleId
+							from {objectQualifier}TabModules 
+							where TabId = @TabId
+							  and ModuleId = @ModuleId
+							
+							if (@tabModuleId > 0)
+							BEGIN
+								if not exists (select * from {databaseOwner}{objectQualifier}TabModuleSettings where TabModuleId = @TabModuleId and SettingName = ''hideadminborder'')
+								BEGIN
+									set @TabmoduleIdChar = Convert(nvarchar(6), @TabModuleId)
+									set @sql = ''insert into {databaseOwner}{objectQualifier}TabModuleSettings (TabModuleId,SettingName,SettingValue,CreatedByUserID,CreatedOnDate,LastModifiedByUserId,LastModifiedOnDate) 
+												values ('' + @TabModuleIDChar + '',''''hideadminborder'''',''''True'''',-1,GetDate(),-1,GetDate())''
+									exec (@sql)
+								END
+							END
+						END
+					 END
+				END
+				ELSE
+				BEGIN
+						-- 4.x versions
+						exec {databaseOwner}{objectQualifier}AddTabModule @tabID, @ModuleId, 0, @paneName, @cacheTime, @alignment, @color, @border
+							,@moduleIconFile, @visibility, @containerSrc, @displayTitle, @displayPrint, @displaySyndicate
+							,@isWebSlice, @webSliceTitle, @webSliceExpiryDate, @webSliceTTL
+				END
+			end
+			else
+			begin
+				--dnn 4.x version
+				exec {databaseOwner}{objectQualifier}AddTabModule @tabID, @ModuleId, 0, @paneName, @cacheTime, @alignment, @color, @border
+					,@moduleIconFile, @visibility, @containerSrc, @displayTitle, @displayPrint, @displaySyndicate
+			
+			end
+			/* update the table to say it is completed */
+			UPDATE {databaseOwner}[ifty_TabModuleCreation] 
+			SET  ModuleID = @moduleId
+				,ModuleDefId = @moduleDefId
+				,TabId = @tabId
+				,Completed = 1
+			WHERE ControlSource = @controlSource
+			  AND (PortalID = @portalId OR (PortalID is null and @portalId IS NULL))
+			  AND TabName = @TabName
+		END
+
+		FETCH FROM Tab_Curs INTO
+			 @PortalId 
+		   , @ControlSource 
+		   , @TabName 
+		   , @IsVisible 
+		   , @DisableLink 
+		   , @ParentId 
+		   , @TabIconFile 
+		   , @Title 
+		   , @Description 
+		   , @KeyWords 
+		   , @SkinSrc 
+		   , @ContainerSrc 
+		   , @TabPath 
+		   , @StartDate 
+		   , @EndDate 
+		   , @RefreshInterval 
+		   , @PageHeadText 
+		   , @IsSecure 
+		   , @TabOrder 
+		   , @IsAdmin 
+		   , @PaneName 
+		   , @CacheTime 
+		   , @Alignment 
+		   , @Color 
+		   , @Border 
+		   , @ModuleIconFile 
+		   , @Visibility 
+		   , @DisplayTitle 
+		   , @DisplayPrint 
+		   , @DisplaySyndicate 
+		   , @SetDesktopModuleAdmin 
+		   , @DeleteTabOnModuleRemove 
+		   , @Completed 
+		   , @CultureCode
+	END
+	CLOSE Tab_Curs
+	DEALLOCATE Tab_Curs
+	
+
+	SET NOCOUNT OFF
+END
+
+' 
+END
+GO
+
+/* 736 : ifty_OnNewModule refactored to not use module title anymore */
+/* 904 : ifty_OnNewModule removed */

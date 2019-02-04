@@ -1,0 +1,44 @@
+/* DATA SPRINGS Inc. - DYNAMIC FORMS STYLE SHEET */
+
+.DynamicForms_RequiredFieldAsterik {
+color: #CC0202;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.DynamicForms_HeaderTable {
+margin-bottom: 0;
+}
+
+#EntryForm table {
+border:0;
+}
+
+.DynamicForms_Label {
+/*    height: 1.0em;
+    line-height: 22px; */
+    font-weight: Bold;
+/*    color: #000000;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: 0;
+    border: 0;
+    padding: 0; */
+}
+
+.dnnForm .dnnFormItem {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.DynamicForms_QuestionTopDiv {
+    display: inline-block;
+}
+
+input[type='text'], input[type='password'], input[type='date'], input[type='datetime'], input[type='datetime-local'], input[type='month'], input[type='week'], input[type='email'], input[type='number'], input[type='search'], input[type='tel'], input[type='time'], input[type='url'], textarea {
+padding-top: 0;
+padding-bottom: 0;
+}
+
+
