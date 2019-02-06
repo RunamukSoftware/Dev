@@ -1,54 +1,58 @@
-/*
- * Button mixin- creates 3d-ish button effect with correct
- * highlights/shadows, based on a base color.
- */
-@mixin button( $button-color, $text-color: #fff ) {
-	background: $button-color;
-	border-color: darken( $button-color, 10% ) darken( $button-color, 15% ) darken( $button-color, 15% );
-	color: $text-color;
-	box-shadow: 0 1px 0 darken( $button-color, 15% );
-	text-shadow: 0 -1px 1px darken( $button-color, 15% ),
-		1px 0 1px darken( $button-color, 15% ),
-		0 1px 1px darken( $button-color, 15% ),
-		-1px 0 1px darken( $button-color, 15% );
+// assign default value to all undefined variables
 
-	&:hover,
-	&:focus {
-		background: lighten( $button-color, 3% );
-		border-color: darken( $button-color, 15% );
-		color: $text-color;
-		box-shadow: 0 1px 0 darken( $button-color, 15% );
-	}
 
-	&:focus {
-		box-shadow: inset 0 1px 0 darken( $button-color, 10% ),
-					0 0 2px 1px #33b3db;
-	}
+// core variables
 
-	&:active,
-	&.active,
-	&.active:focus,
-	&.active:hover {
-		background: darken( $button-color, 10% );
-		border-color: darken( $button-color, 15% );
-	 	box-shadow: inset 0 2px 0 darken( $button-color, 15% );
-	}
+$text-color: #fff !default;
+$base-color: #23282d !default;
+$icon-color: hsl( hue( $base-color ), 7%, 95% ) !default;
+$highlight-color: #0073aa !default;
+$notification-color: #d54e21 !default;
 
-	&[disabled],
-	&:disabled,
-	&.button-primary-disabled,
-	&.disabled {
-		color: hsl( hue( $button-color ), 10%, 80% ) !important;
-		background: darken( $button-color, 8% ) !important;
-		border-color: darken( $button-color, 15% ) !important;
-		text-shadow: none !important;
-	}
 
-	&.button-hero {
-		box-shadow: 0 2px 0 darken( $button-color, 15% ) !important;
-		&:active {
-		 	box-shadow: inset 0 3px 0 darken( $button-color, 15% ) !important;
-		}
-	}
+// global
 
-}
+$body-background: #f1f1f1 !default;
+
+$link: #0073aa !default;
+$link-focus: lighten( $link, 10% ) !default;
+
+$button-color: $highlight-color !default;
+$form-checked: $highlight-color !default;
+
+
+// admin menu & admin-bar
+
+$menu-text: $text-color !default;
+$menu-icon: $icon-color !default;
+$menu-background: $base-color !default;
+
+$menu-highlight-text: $text-color !default;
+$menu-highlight-icon: $text-color !default;
+$menu-highlight-background: $highlight-color !default;
+
+$menu-current-text: $menu-highlight-text !default;
+$menu-current-icon: $menu-highlight-icon !default;
+$menu-current-background: $menu-highlight-background !default;
+
+$menu-submenu-text: mix( $base-color, $text-color, 30% ) !default;
+$menu-submenu-background: darken( $base-color, 7% ) !default;
+$menu-submenu-background-alt: desaturate( lighten( $menu-background, 7% ), 7% ) !default;
+
+$menu-submenu-focus-text: $highlight-color !default;
+$menu-submenu-current-text: $text-color !default;
+
+$menu-bubble-text: $text-color !default;
+$menu-bubble-background: $notification-color !default;
+$menu-bubble-current-text: $text-color !default;
+$menu-bubble-current-background: $menu-submenu-background !default;
+
+$menu-collapse-text: $menu-icon !default;
+$menu-collapse-icon: $menu-icon !default;
+$menu-collapse-focus-text: $text-color !default;
+$menu-collapse-focus-icon: $menu-highlight-icon !default;
+
+$adminbar-avatar-frame: lighten( $menu-background, 7% ) !default;
+$adminbar-input-background: lighten( $menu-background, 7% ) !default;
+
+$menu-customizer-text: mix( $base-color, $text-color, 40% ) !default;
