@@ -1,0 +1,375 @@
+0000.039 (0) Opened log file at time: Thu, 29 Nov 2018 20:52:42 +0000 on http://snohomishhelicopters.com
+0000.046 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.8 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux155 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.41 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10M | 10.5M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.050 (0) Free space on disk containing Updraft's temporary directory: 3132822.4 MB
+0000.351 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.357 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.386 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1542922533, seconds_ago=602229)
+0000.396 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2018-11-29 20:52:42
+0000.402 (0) Semaphore (fd, wp_options) reset to 1
+0000.408 (0) Set semaphore last lock (fd) time to 2018-11-29 20:52:42
+0000.411 (0) Semaphore lock (fd) complete
+0000.430 (0) Backup run: resumption=0, nonce=88503f7d2797, begun at=1543524762 (0s ago), job type=backup
+0000.439 (0) Scheduling a resumption (1) after 300 seconds (1543525062) in case this run gets aborted
+0000.500 (0) Checking if we have a zip executable available
+0000.504 (0) Testing: /usr/bin/zip
+0000.532 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.536 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.539 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.542 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.545 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.564 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.567 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.637 (0) Working binary zip found: /usr/bin/zip
+0000.643 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.646 (0) Creation of backups of directories: beginning
+0000.660 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0018.816 (0) Total entities for the zip file: 683 directories, 4538 files (0 skipped as non-modified), 69.4 MB
+0018.825 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0018.909 (0) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: size is now: 0.20 MB
+0019.141 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 100 files added (on-disk size: 155 KB)
+0019.287 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 200 files added (on-disk size: 155 KB)
+0019.443 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 300 files added (on-disk size: 155 KB)
+0020.115 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 400 files added (on-disk size: 155 KB)
+0020.274 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 500 files added (on-disk size: 155 KB)
+0020.281 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.9 MB, 4538 files batched, 501 (502) added so far); re-opening (prior size: 155 KB)
+0033.916 (0) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: size is now: 5.00 MB
+0034.066 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 600 files added (on-disk size: 5138.4 KB)
+0034.756 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 700 files added (on-disk size: 5138.4 KB)
+0034.929 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 800 files added (on-disk size: 5138.4 KB)
+0035.585 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 900 files added (on-disk size: 5138.4 KB)
+0035.717 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1000 files added (on-disk size: 5138.4 KB)
+0035.724 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 4538 files batched, 501 (1003) added so far); re-opening (prior size: 5138.4 KB)
+0043.222 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1100 files added (on-disk size: 5877.4 KB)
+0043.369 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1200 files added (on-disk size: 5877.4 KB)
+0043.502 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1300 files added (on-disk size: 5877.4 KB)
+0043.649 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1400 files added (on-disk size: 5877.4 KB)
+0044.110 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1500 files added (on-disk size: 5877.4 KB)
+0044.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 4538 files batched, 501 (1504) added so far); re-opening (prior size: 5877.4 KB)
+0050.615 (0) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: size is now: 7.40 MB
+0050.774 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1600 files added (on-disk size: 7595.6 KB)
+0050.972 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1700 files added (on-disk size: 7595.6 KB)
+0051.138 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1800 files added (on-disk size: 7595.6 KB)
+0051.301 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1900 files added (on-disk size: 7595.6 KB)
+0051.493 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2000 files added (on-disk size: 7595.6 KB)
+0051.505 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 4538 files batched, 501 (2005) added so far); re-opening (prior size: 7595.6 KB)
+0060.755 (0) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: size is now: 10.10 MB
+0060.928 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2100 files added (on-disk size: 10345.7 KB)
+0061.130 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2200 files added (on-disk size: 10345.7 KB)
+0061.271 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2300 files added (on-disk size: 10345.7 KB)
+0061.398 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2400 files added (on-disk size: 10345.7 KB)
+0061.554 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2500 files added (on-disk size: 10345.7 KB)
+0061.566 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 4538 files batched, 501 (2506) added so far); re-opening (prior size: 10345.7 KB)
+0071.296 (0) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: size is now: 13.40 MB
+0071.456 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2600 files added (on-disk size: 13679.8 KB)
+0071.598 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2700 files added (on-disk size: 13679.8 KB)
+0072.230 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2800 files added (on-disk size: 13679.8 KB)
+0072.361 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2900 files added (on-disk size: 13679.8 KB)
+0073.021 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3000 files added (on-disk size: 13679.8 KB)
+0073.033 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 4538 files batched, 501 (3007) added so far); re-opening (prior size: 13679.8 KB)
+0079.043 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3100 files added (on-disk size: 14773.6 KB)
+0079.945 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3200 files added (on-disk size: 14773.6 KB)
+0080.106 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3300 files added (on-disk size: 14773.6 KB)
+0080.287 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3400 files added (on-disk size: 14773.6 KB)
+0080.489 (0) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3500 files added (on-disk size: 14773.6 KB)
+0080.508 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 4538 files batched, 501 (3508) added so far); re-opening (prior size: 14773.6 KB)
+1230.083 (1) Opened log file at time: Thu, 29 Nov 2018 21:13:12 +0000 on http://snohomishhelicopters.com
+1230.087 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.8 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux156 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.41 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.5M | 11M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1230.090 (1) Free space on disk containing Updraft's temporary directory: 3131438 MB
+1230.096 (1) Backup run: resumption=1, nonce=88503f7d2797, begun at=1543524762 (1230s ago), job type=backup, previous check-in=85.8s
+1230.098 (1) Long time past since expected resumption time: approx expected=1543525148.4, now=1543525992.3, diff=843.9
+1230.105 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1230.111 (1) Scheduling a resumption (2) after 300 seconds (1543526292) in case this run gets aborted
+1230.156 (1) Checking if we have a zip executable available
+1230.159 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1230.162 (1) Creation of backups of directories: had begun; will resume
+1230.172 (1) Beginning creation of dump of plugins (split every: 400 MB)
+1230.179 (1) File exists (/data/21/4/144/152/4470804/user/5301889/htdocs/snohomishhelicopters/wp-content/updraft/backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1543524853, time_now=1543525992, diff=1139)
+1230.572 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: Zip file already exists, with 3508 files
+1239.959 (1) Total entities for the zip file: 683 directories, 4538 files (0 skipped as non-modified), 69.4 MB
+1239.970 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 100 files added (on-disk size: 18086.1 KB)
+1239.975 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 200 files added (on-disk size: 18086.1 KB)
+1239.980 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 300 files added (on-disk size: 18086.1 KB)
+1239.985 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 400 files added (on-disk size: 18086.1 KB)
+1239.991 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 500 files added (on-disk size: 18086.1 KB)
+1239.997 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 600 files added (on-disk size: 18086.1 KB)
+1240.004 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 700 files added (on-disk size: 18086.1 KB)
+1240.011 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 800 files added (on-disk size: 18086.1 KB)
+1240.017 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 900 files added (on-disk size: 18086.1 KB)
+1240.023 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1000 files added (on-disk size: 18086.1 KB)
+1240.032 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1100 files added (on-disk size: 18086.1 KB)
+1240.039 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1200 files added (on-disk size: 18086.1 KB)
+1240.045 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1300 files added (on-disk size: 18086.1 KB)
+1240.052 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1400 files added (on-disk size: 18086.1 KB)
+1240.060 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1500 files added (on-disk size: 18086.1 KB)
+1240.067 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1600 files added (on-disk size: 18086.1 KB)
+1240.073 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1700 files added (on-disk size: 18086.1 KB)
+1240.079 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1800 files added (on-disk size: 18086.1 KB)
+1240.086 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 1900 files added (on-disk size: 18086.1 KB)
+1240.093 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2000 files added (on-disk size: 18086.1 KB)
+1240.101 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2100 files added (on-disk size: 18086.1 KB)
+1240.107 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2200 files added (on-disk size: 18086.1 KB)
+1240.113 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2300 files added (on-disk size: 18086.1 KB)
+1240.120 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2400 files added (on-disk size: 18086.1 KB)
+1240.125 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2500 files added (on-disk size: 18086.1 KB)
+1240.131 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2600 files added (on-disk size: 18086.1 KB)
+1240.137 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2700 files added (on-disk size: 18086.1 KB)
+1240.142 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2800 files added (on-disk size: 18086.1 KB)
+1240.148 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 2900 files added (on-disk size: 18086.1 KB)
+1240.154 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3000 files added (on-disk size: 18086.1 KB)
+1240.166 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3100 files added (on-disk size: 18086.1 KB)
+1240.172 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3200 files added (on-disk size: 18086.1 KB)
+1240.178 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3300 files added (on-disk size: 18086.1 KB)
+1240.184 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3400 files added (on-disk size: 18086.1 KB)
+1240.190 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3500 files added (on-disk size: 18086.1 KB)
+1240.297 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3600 files added (on-disk size: 18086.1 KB)
+1240.397 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3700 files added (on-disk size: 18086.1 KB)
+1240.480 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3800 files added (on-disk size: 18086.1 KB)
+1240.567 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 3900 files added (on-disk size: 18086.1 KB)
+1240.808 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 4000 files added (on-disk size: 18086.1 KB)
+1240.821 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 4538 files batched, 501 (501) added so far); re-opening (prior size: 18086.1 KB)
+1247.236 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 4100 files added (on-disk size: 19127.9 KB)
+1247.322 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 4200 files added (on-disk size: 19127.9 KB)
+1247.404 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 4300 files added (on-disk size: 19127.9 KB)
+1247.498 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 4400 files added (on-disk size: 19127.9 KB)
+1247.596 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: 4500 files added (on-disk size: 19127.9 KB)
+1247.609 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.7 MB, 4538 files batched, 501 (1002) added so far); re-opening (prior size: 19127.9 KB)
+1257.620 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip.tmp: size is now: 22.40 MB
+1259.815 (1) Created plugins zip (0) - 23022.5 KB in 29.6 s (777 KB/s) (sha1: 52e155821db92b2edb32a80c73962feffe53342c, sha256: 5924ab00bcaa89402a2bb6eb6badc9837a16784ffbd4bf812b71acb8cb5d178d)
+1259.833 (1) Beginning creation of dump of themes (split every: 400 MB)
+1265.262 (1) Total entities for the zip file: 171 directories, 1981 files (0 skipped as non-modified), 20.1 MB
+1265.270 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+1265.321 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: size is now: 0.00 MB
+1265.419 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 100 files added (on-disk size: 32.3 KB)
+1265.497 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 200 files added (on-disk size: 32.3 KB)
+1265.588 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 300 files added (on-disk size: 32.3 KB)
+1265.681 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 400 files added (on-disk size: 32.3 KB)
+1265.796 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 500 files added (on-disk size: 32.3 KB)
+1265.802 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 1981 files batched, 501 (502) added so far); re-opening (prior size: 32.3 KB)
+1275.257 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: size is now: 4.40 MB
+1275.371 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 600 files added (on-disk size: 4458.7 KB)
+1275.462 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 700 files added (on-disk size: 4458.7 KB)
+1275.559 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 800 files added (on-disk size: 4458.7 KB)
+1275.675 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 900 files added (on-disk size: 4458.7 KB)
+1275.802 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1000 files added (on-disk size: 4458.7 KB)
+1275.808 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 1981 files batched, 501 (1003) added so far); re-opening (prior size: 4458.7 KB)
+1283.669 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: size is now: 5.80 MB
+1283.814 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1100 files added (on-disk size: 5976.2 KB)
+1284.174 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1200 files added (on-disk size: 5976.2 KB)
+1284.348 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1300 files added (on-disk size: 5976.2 KB)
+1284.503 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1400 files added (on-disk size: 5976.2 KB)
+1284.680 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1500 files added (on-disk size: 5976.2 KB)
+1284.691 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 1981 files batched, 501 (1504) added so far); re-opening (prior size: 5976.2 KB)
+1292.091 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: size is now: 7.60 MB
+1292.231 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1600 files added (on-disk size: 7771.9 KB)
+1292.899 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1700 files added (on-disk size: 7771.9 KB)
+1293.236 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1800 files added (on-disk size: 7771.9 KB)
+1293.682 (1) Zip: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: 1900 files added (on-disk size: 7771.9 KB)
+1302.314 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip.tmp: size is now: 12.90 MB
+1302.705 (1) Created themes zip (0) - 13237.8 KB in 42.9 s (308.9 KB/s) (sha1: 476d2c021fd467f57dcf3db8a87aae4aab21f993, sha256: d23b963587db2a351414a6e2cc82731904df4660a2a0be93468618fbbe8f2084)
+1303.223 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1303.226 (1) Looking for candidates to back up in: /data/21/4/144/152/4470804/user/5301889/htdocs/snohomishhelicopters/wp-content/uploads
+1303.233 (1) finding files: .htaccess: adding to list (1)
+1303.235 (1) finding files: 2018: adding to list (2)
+1303.238 (1) finding files: index.php: adding to list (3)
+1303.240 (1) Beginning creation of dump of uploads (split every: 400 MB)
+1303.384 (1) Total entities for the zip file: 9 directories, 7 files (0 skipped as non-modified), 0.1 MB
+1303.474 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-uploads.zip.tmp: size is now: 0.10 MB
+1303.496 (1) Created uploads zip (0) - 66.2 KB in 0.2 s (272.1 KB/s) (sha1: 81e941a6454c27fe562a1e28ea606e9b80c01204, sha256: 2419d97cdc5297a3b8442c9194e9a053df321ca14d396891d3c451388def7c3d)
+1303.512 (1) Beginning backup of other directories found in the content directory (index: 0)
+1303.515 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1303.517 (1) Looking for candidates to back up in: /data/21/4/144/152/4470804/user/5301889/htdocs/snohomishhelicopters/wp-content
+1303.537 (1) finding files: themes: skipping: this is the themes directory
+1303.541 (1) finding files: plugins: skipping: this is the plugins directory
+1303.544 (1) finding files: index.php: adding to list (1)
+1303.547 (1) finding files: install.php: adding to list (2)
+1303.551 (1) finding files: upgrade: skipping: excluded by options
+1303.554 (1) finding files: uploads: skipping: this is the uploads directory
+1303.557 (1) finding files: updraft: skipping: this is the updraft directory
+1303.560 (1) finding files: wp-vcnfics.php: adding to list (3)
+1303.563 (1) finding files: wp-mbrxsmrs.php: adding to list (4)
+1303.566 (1) finding files: temp_82cceea212a50d2c23f8f516ed55cf06: adding to list (5)
+1303.599 (1) Total entities for the zip file: 1 directories, 5 files (0 skipped as non-modified), 0.1 MB
+1303.669 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-others.zip.tmp: size is now: 0.00 MB
+1303.690 (1) Created others zip (0) - 18.9 KB in 0.1 s (175.4 KB/s) (sha1: ecaf820e4e3437b407a47ad17f9782942cfe0901, sha256: 6e09ebd0c82a402651517ff2860d14c891284e7f1b11b96d509d9be04ad44865)
+1303.714 (1) Saving backup status to database (elements: 8)
+1303.732 (1) Resuming creation of database dump (WordPress DB)
+1303.742 (1) Testing: /usr/bin/mysqldump
+1303.815 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1218 bytes total)
+1303.824 (1) Working binary mysqldump found: /usr/bin/mysqldump
+1303.876 (1) Table wp_options: Total expected rows (approximate): 324
+1303.928 (1) Table wp_options: Total rows added: 320 in 0.05 seconds
+1303.934 (1) Table wp_options: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_options.table.gz - 31.1 KB)
+1303.957 (1) Table wp_users: Total expected rows (approximate): 1
+1303.969 (1) Table wp_users: Total rows added: 1 in 0.01 seconds
+1303.973 (1) Table wp_users: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_users.table.gz - 0.5 KB)
+1303.992 (1) Table wp_usermeta: Total expected rows (approximate): 24
+1304.006 (1) Table wp_usermeta: Total rows added: 24 in 0.01 seconds
+1304.011 (1) Table wp_usermeta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_usermeta.table.gz - 3.6 KB)
+1304.037 (1) Table wp_commentmeta: Total expected rows (approximate): 0
+1304.047 (1) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+1304.051 (1) Table wp_commentmeta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_commentmeta.table.gz - 0.4 KB)
+1304.070 (1) Table wp_comments: Total expected rows (approximate): 0
+1304.080 (1) Table wp_comments: Total rows added: 1 in 0.01 seconds
+1304.085 (1) Table wp_comments: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_comments.table.gz - 0.7 KB)
+1304.107 (1) Table wp_links: Total expected rows (approximate): 0
+1304.117 (1) Table wp_links: Total rows added: 0 in 0.01 seconds
+1304.615 (1) Table wp_links: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_links.table.gz - 0.4 KB)
+1304.638 (1) Table wp_postmeta: Total expected rows (approximate): 46
+1304.652 (1) Table wp_postmeta: Total rows added: 46 in 0.01 seconds
+1304.656 (1) Table wp_postmeta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_postmeta.table.gz - 1.2 KB)
+1304.677 (1) Table wp_posts: Total expected rows (approximate): 25
+1304.699 (1) Table wp_posts: Total rows added: 23 in 0.02 seconds
+1304.704 (1) Table wp_posts: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_posts.table.gz - 4.2 KB)
+1304.734 (1) Table wp_term_relationships: Total expected rows (approximate): 0
+1304.744 (1) Table wp_term_relationships: Total rows added: 2 in 0.01 seconds
+1304.747 (1) Table wp_term_relationships: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_term_relationships.table.gz - 0.4 KB)
+1304.767 (1) Table wp_term_taxonomy: Total expected rows (approximate): 0
+1304.777 (1) Table wp_term_taxonomy: Total rows added: 2 in 0.01 seconds
+1304.781 (1) Table wp_term_taxonomy: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+1304.803 (1) Table wp_termmeta: Total expected rows (approximate): 0
+1304.813 (1) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+1304.818 (1) Table wp_termmeta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_termmeta.table.gz - 0.4 KB)
+1304.836 (1) Table wp_terms: Total expected rows (approximate): 0
+1304.846 (1) Table wp_terms: Total rows added: 2 in 0.01 seconds
+1304.850 (1) Table wp_terms: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_terms.table.gz - 0.4 KB)
+1304.871 (1) Table wp_nf3_action_meta: Total expected rows (approximate): 82
+1304.885 (1) Table wp_nf3_action_meta: Total rows added: 88 in 0.01 seconds
+1304.890 (1) Table wp_nf3_action_meta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_action_meta.table.gz - 1.5 KB)
+1304.912 (1) Table wp_nf3_actions: Total expected rows (approximate): 4
+1304.922 (1) Table wp_nf3_actions: Total rows added: 4 in 0.01 seconds
+1304.927 (1) Table wp_nf3_actions: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+1304.950 (1) Table wp_nf3_field_meta: Total expected rows (approximate): 252
+1304.973 (1) Table wp_nf3_field_meta: Total rows added: 271 in 0.02 seconds
+1304.978 (1) Table wp_nf3_field_meta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_field_meta.table.gz - 2.1 KB)
+1305.000 (1) Table wp_nf3_fields: Total expected rows (approximate): 4
+1305.011 (1) Table wp_nf3_fields: Total rows added: 4 in 0.01 seconds
+1305.015 (1) Table wp_nf3_fields: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_fields.table.gz - 0.5 KB)
+1305.036 (1) Table wp_nf3_form_meta: Total expected rows (approximate): 96
+1305.050 (1) Table wp_nf3_form_meta: Total rows added: 100 in 0.01 seconds
+1305.054 (1) Table wp_nf3_form_meta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_form_meta.table.gz - 1.2 KB)
+1305.080 (1) Table wp_nf3_forms: Total expected rows (approximate): 0
+1305.089 (1) Table wp_nf3_forms: Total rows added: 1 in 0.01 seconds
+1305.092 (1) Table wp_nf3_forms: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_forms.table.gz - 0.4 KB)
+1305.110 (1) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+1305.118 (1) Table wp_nf3_object_meta: Total rows added: 0 in 0.01 seconds
+1305.121 (1) Table wp_nf3_object_meta: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+1305.146 (1) Table wp_nf3_objects: Total expected rows (approximate): 0
+1305.155 (1) Table wp_nf3_objects: Total rows added: 0 in 0.01 seconds
+1305.158 (1) Table wp_nf3_objects: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_objects.table.gz - 0.3 KB)
+1305.176 (1) Table wp_nf3_relationships: Total expected rows (approximate): 0
+1305.184 (1) Table wp_nf3_relationships: Total rows added: 0 in 0.01 seconds
+1305.187 (1) Table wp_nf3_relationships: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_relationships.table.gz - 0.4 KB)
+1305.208 (1) Table wp_nf3_upgrades: Total expected rows (approximate): 0
+1305.216 (1) Table wp_nf3_upgrades: Total rows added: 0 in 0.01 seconds
+1305.220 (1) Table wp_nf3_upgrades: finishing file (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_upgrades.table.gz - 0.3 KB)
+1305.229 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_options.table.gz (1/22): adding to final database dump
+1305.245 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_users.table.gz (2/22): adding to final database dump
+1305.249 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_usermeta.table.gz (3/22): adding to final database dump
+1305.254 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_commentmeta.table.gz (4/22): adding to final database dump
+1305.259 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_comments.table.gz (5/22): adding to final database dump
+1305.263 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_links.table.gz (6/22): adding to final database dump
+1305.268 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_postmeta.table.gz (7/22): adding to final database dump
+1305.273 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_posts.table.gz (8/22): adding to final database dump
+1305.278 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_term_relationships.table.gz (9/22): adding to final database dump
+1305.283 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_term_taxonomy.table.gz (10/22): adding to final database dump
+1305.287 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_termmeta.table.gz (11/22): adding to final database dump
+1305.291 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_terms.table.gz (12/22): adding to final database dump
+1305.297 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_action_meta.table.gz (13/22): adding to final database dump
+1305.302 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_actions.table.gz (14/22): adding to final database dump
+1305.307 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_field_meta.table.gz (15/22): adding to final database dump
+1305.315 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_fields.table.gz (16/22): adding to final database dump
+1305.321 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_form_meta.table.gz (17/22): adding to final database dump
+1305.326 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_forms.table.gz (18/22): adding to final database dump
+1305.331 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_object_meta.table.gz (19/22): adding to final database dump
+1305.336 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_objects.table.gz (20/22): adding to final database dump
+1305.340 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_relationships.table.gz (21/22): adding to final database dump
+1305.348 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db-table-wp_nf3_upgrades.table.gz (22/22): adding to final database dump
+1305.861 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db.gz: finished writing out complete database file (16 KB)
+1305.901 (1) Total database tables backed up: 22 (backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db.gz, size: 45867, sha256)
+1305.930 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1305.932 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1305.938 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1305.942 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-others.zip: others: This file has not yet been successfully uploaded: will queue
+1305.945 (1) backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db.gz: db: This file has not yet been successfully uploaded: will queue
+1305.947 (1) Saving backup history. Total backup size: 35.5 MB
+1305.959 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+1305.967 (1) Cloud backup selection (1/1):  with instance (1/1) (last)
+1305.970 (1) No remote despatch: user chose no remote backup service
+1305.976 (1) Recording as successfully uploaded: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-plugins.zip (b20ce0cfca5a9f83dc9d0783684abcc4)
+1305.989 (1) Recording as successfully uploaded: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-themes.zip (d6dcd262bd681faa6b66a547e6a2e4db)
+1305.999 (1) Recording as successfully uploaded: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-uploads.zip (7094323501194e3068ebbe50de199f47)
+1306.008 (1) Recording as successfully uploaded: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-others.zip (196ca20e2600ac94efa0d3e8e6761582)
+1306.018 (1) Recording as successfully uploaded: backup_2018-11-29-1252_Snohomish_Helicopters_88503f7d2797-db.gz (454bb4b655b8b40cdd9078969e8a96b6)
+1306.028 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+1306.034 (1) Number of backup sets in history: 11; groups (db): 1
+1306.036 (1) Examining (for databases) backup set with group_id=0, nonce=88503f7d2797, datestamp=1543524762 (Nov 29 2018 20:52:42)
+1306.038 (1) This backup set is the backup set just made, so will not be deleted.
+1306.038 (1) Examining (for databases) backup set with group_id=0, nonce=810b9676b80c, datestamp=1542922532 (Nov 22 2018 21:35:32)
+1306.038 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.041 (1) Examining (for databases) backup set with group_id=0, nonce=fb5b8df35deb, datestamp=1542326558 (Nov 16 2018 00:02:38)
+1306.041 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.041 (1) Examining (for databases) backup set with group_id=0, nonce=fb00c63804c2, datestamp=1541709166 (Nov 08 2018 20:32:46)
+1306.041 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.042 (1) Examining (for databases) backup set with group_id=0, nonce=d6e1ab46ff41, datestamp=1541105760 (Nov 01 2018 20:56:00)
+1306.042 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.042 (1) Examining (for databases) backup set with group_id=0, nonce=c94c4c687e0f, datestamp=1540502272 (Oct 25 2018 21:17:52)
+1306.042 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.042 (1) Examining (for databases) backup set with group_id=0, nonce=9a9a2f72fb28, datestamp=1539895236 (Oct 18 2018 20:40:36)
+1306.043 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.043 (1) Examining (for databases) backup set with group_id=0, nonce=a746e16eaa5e, datestamp=1539292031 (Oct 11 2018 21:07:11)
+1306.043 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.043 (1) Examining (for databases) backup set with group_id=0, nonce=06d425389a57, datestamp=1538685044 (Oct 04 2018 20:30:44)
+1306.043 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.044 (1) Examining (for databases) backup set with group_id=0, nonce=d98039fb1b1d, datestamp=1538080302 (Sep 27 2018 20:31:42)
+1306.044 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.044 (1) Examining (for databases) backup set with group_id=0, nonce=4a8d06a55413, datestamp=1537478291 (Sep 20 2018 21:18:11)
+1306.044 (1) 1537478291: db: this set includes a database (backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-db.gz); db count is now 10
+1306.044 (1) 1537478291: db: over retain limit (10); will delete this database
+1306.044 (1) Delete file: backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-db.gz, service=none
+1306.047 (1) Deleting local copy (backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-db.gz)
+1306.053 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1306.056 (1) Number of backup sets in history: 11; groups (files): 1
+1306.058 (1) Examining (for files) backup set with nonce=88503f7d2797, datestamp=1543524762 (Nov 29 2018 20:52:42)
+1306.058 (1) This backup set is the backup set just made, so will not be deleted.
+1306.060 (1) This backup set is the backup set just made, so will not be deleted.
+1306.060 (1) This backup set is the backup set just made, so will not be deleted.
+1306.061 (1) This backup set is the backup set just made, so will not be deleted.
+1306.061 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.063 (1) Examining (for files) backup set with nonce=810b9676b80c, datestamp=1542922532 (Nov 22 2018 21:35:32)
+1306.063 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.064 (1) Examining (for files) backup set with nonce=fb5b8df35deb, datestamp=1542326558 (Nov 16 2018 00:02:38)
+1306.064 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.064 (1) Examining (for files) backup set with nonce=fb00c63804c2, datestamp=1541709166 (Nov 08 2018 20:32:46)
+1306.064 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.065 (1) Examining (for files) backup set with nonce=d6e1ab46ff41, datestamp=1541105760 (Nov 01 2018 20:56:00)
+1306.065 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.065 (1) Examining (for files) backup set with nonce=c94c4c687e0f, datestamp=1540502272 (Oct 25 2018 21:17:52)
+1306.065 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.066 (1) Examining (for files) backup set with nonce=9a9a2f72fb28, datestamp=1539895236 (Oct 18 2018 20:40:36)
+1306.066 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.066 (1) Examining (for files) backup set with nonce=a746e16eaa5e, datestamp=1539292031 (Oct 11 2018 21:07:11)
+1306.066 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.066 (1) Examining (for files) backup set with nonce=06d425389a57, datestamp=1538685044 (Oct 04 2018 20:30:44)
+1306.067 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.067 (1) Examining (for files) backup set with nonce=d98039fb1b1d, datestamp=1538080302 (Sep 27 2018 20:31:42)
+1306.067 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1306.067 (1) Examining (for files) backup set with nonce=4a8d06a55413, datestamp=1537478291 (Sep 20 2018 21:18:11)
+1306.067 (1) plugins: over retain limit (10); will delete this file entity
+1306.067 (1) themes: over retain limit (10); will delete this file entity
+1306.067 (1) uploads: over retain limit (10); will delete this file entity
+1306.068 (1) others: over retain limit (10); will delete this file entity
+1306.068 (1) Delete file: backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-plugins.zip, service=none
+1306.070 (1) Deleting local copy (backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-plugins.zip)
+1306.073 (1) Delete file: backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-themes.zip, service=none
+1306.075 (1) Deleting local copy (backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-themes.zip)
+1306.079 (1) Delete file: backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-uploads.zip, service=none
+1306.081 (1) Deleting local copy (backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-uploads.zip)
+1306.084 (1) Delete file: backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-others.zip, service=none
+1306.086 (1) Deleting local copy (backup_2018-09-20-1418_Snohomish_Helicopters_4a8d06a55413-others.zip)
+1306.093 (1) This backup set is now empty; will remove from history
+1306.095 (1) Deleting log file (log.4a8d06a55413.txt)
+1306.101 (1) Retain: saving new backup history (sets now: 10) and finishing retain operation
+1306.113 (1) Resume backup (88503f7d2797, 1): finish run
+1306.117 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+1306.126 (1) No email will/can be sent - the user has not configured an email address.
+1306.128 (1) The backup apparently succeeded (with warnings) and is now complete

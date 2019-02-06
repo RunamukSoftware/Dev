@@ -1,0 +1,351 @@
+0000.003 (0) Opened log file at time: Thu, 24 Jan 2019 22:00:11 +0000 on http://03d5fd9.netsolhost.com/otemb
+0000.009 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.0 WP: 5.0.3 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux182 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.42-84.2-56-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.1M | 11.5M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.014 (0) Free space on disk containing Updraft's temporary directory: 2948432.1 MB
+0000.028 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.032 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.051 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1548280780, seconds_ago=86431)
+0000.057 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-01-24 22:00:11
+0000.062 (0) Semaphore (fd, wp_options) reset to 1
+0000.066 (0) Set semaphore last lock (fd) time to 2019-01-24 22:00:11
+0000.069 (0) Semaphore lock (fd) complete
+0000.086 (0) Backup run: resumption=0, nonce=2848d7596965, file_nonce=2848d7596965 begun at=1548367211 (0s ago), job type=backup
+0000.092 (0) Scheduling a resumption (1) after 300 seconds (1548367511) in case this run gets aborted
+0000.158 (0) Checking if we have a zip executable available
+0000.162 (0) Testing: /usr/bin/zip
+0000.264 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.272 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.276 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.280 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.283 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.814 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.821 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.905 (0) Working binary zip found: /usr/bin/zip
+0000.913 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.917 (0) Creation of backups of directories: beginning
+0001.016 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0036.940 (0) Total entities for the zip file: 1135 directories, 6230 files (0 skipped as non-modified), 100.3 MB
+0037.021 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0037.234 (0) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: size is now: 0.20 MB
+0037.712 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 100 files added (on-disk size: 248.8 KB)
+0037.854 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 200 files added (on-disk size: 248.8 KB)
+0038.065 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 300 files added (on-disk size: 248.8 KB)
+0038.331 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 400 files added (on-disk size: 248.8 KB)
+0038.571 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 500 files added (on-disk size: 248.8 KB)
+0038.578 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 6230 files batched, 501 (502) added so far); re-opening (prior size: 248.8 KB)
+0050.229 (0) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: size is now: 2.50 MB
+0051.006 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 600 files added (on-disk size: 2524 KB)
+0051.266 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 700 files added (on-disk size: 2524 KB)
+0051.424 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 800 files added (on-disk size: 2524 KB)
+0051.629 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 900 files added (on-disk size: 2524 KB)
+0051.774 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1000 files added (on-disk size: 2524 KB)
+0051.784 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 6230 files batched, 501 (1003) added so far); re-opening (prior size: 2524 KB)
+0061.397 (0) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: size is now: 6.00 MB
+0061.587 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1100 files added (on-disk size: 6093.2 KB)
+0061.780 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1200 files added (on-disk size: 6093.2 KB)
+0061.936 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1300 files added (on-disk size: 6093.2 KB)
+0062.111 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1400 files added (on-disk size: 6093.2 KB)
+0062.273 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1500 files added (on-disk size: 6093.2 KB)
+0062.282 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.5 MB, 6230 files batched, 501 (1504) added so far); re-opening (prior size: 6093.2 KB)
+0073.413 (0) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: size is now: 8.90 MB
+0074.632 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1600 files added (on-disk size: 9113 KB)
+0074.929 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1700 files added (on-disk size: 9113 KB)
+0075.126 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1800 files added (on-disk size: 9113 KB)
+0075.330 (0) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1900 files added (on-disk size: 9113 KB)
+0075.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (2.1 MB, 401 (1905) files added so far); re-opening (prior size: 9113 KB)
+0495.831 (1) Opened log file at time: Thu, 24 Jan 2019 22:08:27 +0000 on http://03d5fd9.netsolhost.com/otemb
+0495.838 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.0 WP: 5.0.3 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux156 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.42-84.2-56-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.1M | 11.5M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0495.843 (1) Free space on disk containing Updraft's temporary directory: 2947732 MB
+0495.853 (1) Backup run: resumption=1, nonce=2848d7596965, file_nonce=2848d7596965 begun at=1548367211 (496s ago), job type=backup, previous check-in=73.4s
+0495.862 (1) Scheduling a resumption (2) after 300 seconds (1548368007) in case this run gets aborted
+0495.928 (1) Checking if we have a zip executable available
+0495.933 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0495.938 (1) Creation of backups of directories: had begun; will resume
+0495.955 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0495.972 (1) File exists (/data/21/4/144/152/4470804/user/5301889/htdocs/otemb/wp-content/updraft/backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1548367292, time_now=1548367707, diff=415)
+0496.353 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: Zip file already exists, with 1905 files
+0510.279 (1) Total entities for the zip file: 1135 directories, 6230 files (0 skipped as non-modified), 100.3 MB
+0510.292 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 100 files added (on-disk size: 9842.5 KB)
+0510.298 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 200 files added (on-disk size: 9842.5 KB)
+0510.305 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 300 files added (on-disk size: 9842.5 KB)
+0510.311 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 400 files added (on-disk size: 9842.5 KB)
+0510.317 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 500 files added (on-disk size: 9842.5 KB)
+0510.323 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 600 files added (on-disk size: 9842.5 KB)
+0510.330 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 700 files added (on-disk size: 9842.5 KB)
+0510.336 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 800 files added (on-disk size: 9842.5 KB)
+0510.341 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 900 files added (on-disk size: 9842.5 KB)
+0510.348 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1000 files added (on-disk size: 9842.5 KB)
+0510.357 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1100 files added (on-disk size: 9842.5 KB)
+0510.363 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1200 files added (on-disk size: 9842.5 KB)
+0510.370 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1300 files added (on-disk size: 9842.5 KB)
+0510.376 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1400 files added (on-disk size: 9842.5 KB)
+0510.382 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1500 files added (on-disk size: 9842.5 KB)
+0510.420 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1600 files added (on-disk size: 9842.5 KB)
+0510.426 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1700 files added (on-disk size: 9842.5 KB)
+0510.446 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1800 files added (on-disk size: 9842.5 KB)
+0510.452 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 1900 files added (on-disk size: 9842.5 KB)
+0510.542 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2000 files added (on-disk size: 9842.5 KB)
+0510.638 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2100 files added (on-disk size: 9842.5 KB)
+0510.714 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2200 files added (on-disk size: 9842.5 KB)
+0510.811 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2300 files added (on-disk size: 9842.5 KB)
+0510.901 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2400 files added (on-disk size: 9842.5 KB)
+0510.909 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.6 MB, 6230 files batched, 501 (501) added so far); re-opening (prior size: 9842.5 KB)
+0521.363 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: size is now: 17.50 MB
+0521.524 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2500 files added (on-disk size: 17963.3 KB)
+0521.676 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2600 files added (on-disk size: 17963.3 KB)
+0521.813 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2700 files added (on-disk size: 17963.3 KB)
+0521.959 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2800 files added (on-disk size: 17963.3 KB)
+0523.037 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 2900 files added (on-disk size: 17963.3 KB)
+0523.056 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.2 MB, 6230 files batched, 501 (1002) added so far); re-opening (prior size: 17963.3 KB)
+0536.166 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: size is now: 22.70 MB
+0536.297 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3000 files added (on-disk size: 23199.2 KB)
+0536.429 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3100 files added (on-disk size: 23199.2 KB)
+0536.575 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3200 files added (on-disk size: 23199.2 KB)
+0536.704 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3300 files added (on-disk size: 23199.2 KB)
+0536.848 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3400 files added (on-disk size: 23199.2 KB)
+0536.863 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 6230 files batched, 501 (1503) added so far); re-opening (prior size: 23199.2 KB)
+0543.936 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3500 files added (on-disk size: 23942.2 KB)
+0544.681 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3600 files added (on-disk size: 23942.2 KB)
+0545.304 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3700 files added (on-disk size: 23942.2 KB)
+0545.470 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3800 files added (on-disk size: 23942.2 KB)
+0545.671 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 3900 files added (on-disk size: 23942.2 KB)
+0545.686 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 6230 files batched, 501 (2004) added so far); re-opening (prior size: 23942.2 KB)
+0556.525 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4000 files added (on-disk size: 26185.2 KB)
+0556.703 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4100 files added (on-disk size: 26185.2 KB)
+0556.875 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4200 files added (on-disk size: 26185.2 KB)
+0557.007 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4300 files added (on-disk size: 26185.2 KB)
+0557.153 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4400 files added (on-disk size: 26185.2 KB)
+0557.174 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 6230 files batched, 501 (2505) added so far); re-opening (prior size: 26185.2 KB)
+0565.427 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4500 files added (on-disk size: 28799.5 KB)
+0565.604 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4600 files added (on-disk size: 28799.5 KB)
+0565.750 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4700 files added (on-disk size: 28799.5 KB)
+0565.929 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4800 files added (on-disk size: 28799.5 KB)
+0566.089 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 4900 files added (on-disk size: 28799.5 KB)
+0566.109 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9 MB, 6230 files batched, 501 (3006) added so far); re-opening (prior size: 28799.5 KB)
+0576.414 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5000 files added (on-disk size: 33429.2 KB)
+0576.565 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5100 files added (on-disk size: 33429.2 KB)
+0576.720 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5200 files added (on-disk size: 33429.2 KB)
+0577.370 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5300 files added (on-disk size: 33429.2 KB)
+0577.602 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5400 files added (on-disk size: 33429.2 KB)
+0577.627 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 6230 files batched, 501 (3507) added so far); re-opening (prior size: 33429.2 KB)
+0586.426 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5500 files added (on-disk size: 36589 KB)
+0586.587 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5600 files added (on-disk size: 36589 KB)
+0587.097 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5700 files added (on-disk size: 36589 KB)
+0587.253 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5800 files added (on-disk size: 36589 KB)
+0587.392 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 5900 files added (on-disk size: 36589 KB)
+0587.414 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 6230 files batched, 501 (4008) added so far); re-opening (prior size: 36589 KB)
+0594.916 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 6000 files added (on-disk size: 39605.7 KB)
+0595.605 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 6100 files added (on-disk size: 39605.7 KB)
+0595.791 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip.tmp: 6200 files added (on-disk size: 39605.7 KB)
+0601.850 (1) Created plugins zip (0) - 40262.7 KB in 105.9 s (380.3 KB/s) (sha1: d1372a9496f0c13796b5c14860e0c7e2660cd6e4, sha256: 6058b69337bf9b8b50195cc579f5085db6eedcf22780d7cd2ed8c02004309fda)
+0601.872 (1) Beginning creation of dump of themes (split every: 400 MB)
+0605.903 (1) Total entities for the zip file: 274 directories, 1502 files (0 skipped as non-modified), 22.1 MB
+0605.910 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0605.972 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: size is now: 0.10 MB
+0606.082 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 100 files added (on-disk size: 80.6 KB)
+0606.333 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 200 files added (on-disk size: 80.6 KB)
+0606.422 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 300 files added (on-disk size: 80.6 KB)
+0607.048 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 400 files added (on-disk size: 80.6 KB)
+0607.151 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 500 files added (on-disk size: 80.6 KB)
+0607.158 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 1502 files batched, 501 (502) added so far); re-opening (prior size: 80.6 KB)
+0613.046 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: size is now: 4.20 MB
+0613.170 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 600 files added (on-disk size: 4331.6 KB)
+0613.258 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 700 files added (on-disk size: 4331.6 KB)
+0613.364 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 800 files added (on-disk size: 4331.6 KB)
+0613.477 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 900 files added (on-disk size: 4331.6 KB)
+0613.577 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 1000 files added (on-disk size: 4331.6 KB)
+0613.585 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 1502 files batched, 501 (1003) added so far); re-opening (prior size: 4331.6 KB)
+0620.981 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: size is now: 7.90 MB
+0621.241 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 1100 files added (on-disk size: 8106.5 KB)
+0621.469 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 1200 files added (on-disk size: 8106.5 KB)
+0621.646 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 1300 files added (on-disk size: 8106.5 KB)
+0621.906 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 1400 files added (on-disk size: 8106.5 KB)
+0622.165 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: 1500 files added (on-disk size: 8106.5 KB)
+0629.459 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip.tmp: size is now: 9.80 MB
+0630.814 (1) Created themes zip (0) - 10081.9 KB in 28.9 s (348.5 KB/s) (sha1: 9dc37b1ad4f6d6b42fe5b86cb6176c123d705eca, sha256: 40f17e5feb9f5338f7e53ce5b0e52e02fad77cfd1c8567cb1c5e896e4ce72d83)
+0630.839 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0630.843 (1) Looking for candidates to backup in: /data/21/4/144/152/4470804/user/5301889/htdocs/otemb/wp-content/uploads
+0630.851 (1) finding files: .htaccess: adding to list (1)
+0630.857 (1) finding files: 2017: adding to list (2)
+0630.861 (1) finding files: siteorigin-widgets: adding to list (3)
+0630.865 (1) finding files: redux: adding to list (4)
+0630.869 (1) finding files: profiles: adding to list (5)
+0630.872 (1) finding files: 2018: adding to list (6)
+0630.876 (1) finding files: 2019: adding to list (7)
+0630.879 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0632.574 (1) Total entities for the zip file: 12 directories, 649 files (0 skipped as non-modified), 11.8 MB
+0632.756 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0632.874 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0632.973 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0633.601 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0633.678 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (7.4 MB, 428 (428) files added so far); re-opening (prior size: 0 KB)
+0639.234 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: size is now: 7.50 MB
+0639.318 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: 500 files added (on-disk size: 7697.3 KB)
+0639.420 (1) Zip: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: 600 files added (on-disk size: 7697.3 KB)
+0641.838 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip.tmp: size is now: 11.90 MB
+0642.163 (1) Created uploads zip (0) - 12210.3 KB in 11.3 s (1083.6 KB/s) (sha1: 33ed0a0a5e777ebc1677320450f06b22e3c072b7, sha256: ba3268a9003feae5ea64ae682de61145d0f4c37099b36874080994f76c393bff)
+0642.179 (1) Beginning backup of other directories found in the content directory (index: 0)
+0642.181 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0642.184 (1) Looking for candidates to backup in: /data/21/4/144/152/4470804/user/5301889/htdocs/otemb/wp-content
+0642.187 (1) finding files: themes: skipping: this is the themes directory
+0642.190 (1) finding files: plugins: skipping: this is the plugins directory
+0642.193 (1) finding files: index.php: adding to list (1)
+0642.195 (1) finding files: install.php: adding to list (2)
+0642.198 (1) finding files: uploads: skipping: this is the uploads directory
+0642.201 (1) finding files: upgrade: skipping: excluded by options
+0642.203 (1) finding files: updraft: skipping: this is the updraft directory
+0642.206 (1) finding files: mu-plugins: adding to list (3)
+0642.225 (1) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 0 MB
+0642.245 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-others.zip.tmp: size is now: 0.00 MB
+0642.261 (1) Created others zip (0) - 1.2 KB in 0 s (26.4 KB/s) (sha1: 219f4501e96938c757e63e16974c3cf881cf7940, sha256: c106fc603f77fe5d44f441b9c2352d79f1962ca0cfad621eb1379f0d864f857b)
+0642.283 (1) Saving backup status to database (elements: 8)
+0642.311 (1) Resuming creation of database dump (WordPress DB)
+0642.319 (1) Testing potential mysqldump binary: /usr/bin/mysqldump
+0642.372 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1221 bytes total)
+0642.381 (1) Working binary mysqldump found: /usr/bin/mysqldump
+0642.414 (1) Table wp_options: Total expected rows (approximate): 432
+0642.464 (1) Table wp_options: Total rows added: 367 in 0.05 seconds
+0642.468 (1) Table wp_options: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_options.table.gz - 38.9 KB)
+0642.486 (1) Table wp_users: Total expected rows (approximate): 2
+0642.496 (1) Table wp_users: Total rows added: 2 in 0.01 seconds
+0642.500 (1) Table wp_users: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_users.table.gz - 0.7 KB)
+0642.519 (1) Table wp_usermeta: Total expected rows (approximate): 49
+0642.531 (1) Table wp_usermeta: Total rows added: 49 in 0.01 seconds
+0642.536 (1) Table wp_usermeta: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_usermeta.table.gz - 2.1 KB)
+0642.554 (1) Table wp_commentmeta: Total expected rows (approximate): 0
+0642.562 (1) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0642.566 (1) Table wp_commentmeta: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0642.585 (1) Table wp_comments: Total expected rows (approximate): 0
+0642.594 (1) Table wp_comments: Total rows added: 1 in 0.01 seconds
+0642.598 (1) Table wp_comments: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_comments.table.gz - 0.7 KB)
+0642.614 (1) Table wp_links: Total expected rows (approximate): 0
+0642.623 (1) Table wp_links: Total rows added: 0 in 0.01 seconds
+0642.627 (1) Table wp_links: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_links.table.gz - 0.4 KB)
+0642.643 (1) Table wp_postmeta: Total expected rows (approximate): 458
+0642.696 (1) Table wp_postmeta: Total rows added: 488 in 0.05 seconds
+0642.700 (1) Table wp_postmeta: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_postmeta.table.gz - 12.8 KB)
+0642.718 (1) Table wp_posts: Total expected rows (approximate): 156
+0642.770 (1) Table wp_posts: Total rows added: 174 in 0.05 seconds
+0642.775 (1) Table wp_posts: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_posts.table.gz - 11 KB)
+0642.793 (1) Table wp_term_relationships: Total expected rows (approximate): 13
+0642.801 (1) Table wp_term_relationships: Total rows added: 13 in 0.01 seconds
+0642.806 (1) Table wp_term_relationships: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0642.836 (1) Table wp_term_taxonomy: Total expected rows (approximate): 2
+0642.846 (1) Table wp_term_taxonomy: Total rows added: 2 in 0.01 seconds
+0642.851 (1) Table wp_term_taxonomy: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0642.868 (1) Table wp_termmeta: Total expected rows (approximate): 0
+0643.377 (1) Table wp_termmeta: Total rows added: 0 in 0.51 seconds
+0643.383 (1) Table wp_termmeta: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_termmeta.table.gz - 0.4 KB)
+0643.408 (1) Table wp_terms: Total expected rows (approximate): 2
+0643.419 (1) Table wp_terms: Total rows added: 2 in 0.01 seconds
+0643.424 (1) Table wp_terms: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_terms.table.gz - 0.4 KB)
+0643.928 (1) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0643.938 (1) Table wp_yoast_seo_links: Total rows added: 0 in 0.01 seconds
+0644.427 (1) Table wp_yoast_seo_links: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0644.443 (1) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0644.452 (1) Table wp_yoast_seo_meta: Total rows added: 1 in 0.01 seconds
+0644.455 (1) Table wp_yoast_seo_meta: finishing file (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0644.467 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_options.table.gz (1/14): adding to final database dump
+0644.486 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_users.table.gz (2/14): adding to final database dump
+0644.492 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_usermeta.table.gz (3/14): adding to final database dump
+0644.498 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_commentmeta.table.gz (4/14): adding to final database dump
+0644.505 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_comments.table.gz (5/14): adding to final database dump
+0644.511 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_links.table.gz (6/14): adding to final database dump
+0644.517 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_postmeta.table.gz (7/14): adding to final database dump
+0644.539 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_posts.table.gz (8/14): adding to final database dump
+0644.551 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_term_relationships.table.gz (9/14): adding to final database dump
+0644.559 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_term_taxonomy.table.gz (10/14): adding to final database dump
+0644.565 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_termmeta.table.gz (11/14): adding to final database dump
+0644.570 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_terms.table.gz (12/14): adding to final database dump
+0644.574 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_yoast_seo_links.table.gz (13/14): adding to final database dump
+0644.579 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db-table-wp_yoast_seo_meta.table.gz (14/14): adding to final database dump
+0644.584 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db.gz: finished writing out complete database file (40 KB)
+0646.748 (1) Total database tables backed up: 14 (backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db.gz, size: 68094, sha256)
+0646.797 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0646.802 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0646.808 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0646.813 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-others.zip: others: This file has not yet been successfully uploaded: will queue
+0646.818 (1) backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db.gz: db: This file has not yet been successfully uploaded: will queue
+0646.823 (1) Saving backup history. Total backup size: 61.2 MB
+0646.845 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0646.865 (1) Cloud backup selection (1/1): none with instance (1/1) (last)
+0646.869 (1) No remote despatch: user chose no remote backup service
+0646.873 (1) Recording as successfully uploaded: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-plugins.zip
+0646.885 (1) Recording as successfully uploaded: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-themes.zip
+0646.897 (1) Recording as successfully uploaded: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-uploads.zip
+0646.908 (1) Recording as successfully uploaded: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-others.zip
+0646.919 (1) Recording as successfully uploaded: backup_2019-01-24-1400_Often_Touched_Embroidery_2848d7596965-db.gz
+0646.937 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+0646.947 (1) Number of backup sets in history: 11; groups (db): 1
+0646.952 (1) Examining (for databases) backup set with group_id=0, nonce=2848d7596965, datestamp=1548367211 (Jan 24 2019 22:00:11)
+0646.957 (1) This backup set is the backup set just made, so will not be deleted.
+0646.957 (1) Examining (for databases) backup set with group_id=0, nonce=628f5915a745, datestamp=1548280780 (Jan 23 2019 21:59:40)
+0646.958 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.963 (1) Examining (for databases) backup set with group_id=0, nonce=77ba547bda45, datestamp=1548194449 (Jan 22 2019 22:00:49)
+0646.964 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.965 (1) Examining (for databases) backup set with group_id=0, nonce=387d0331019c, datestamp=1548107956 (Jan 21 2019 21:59:16)
+0646.965 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.966 (1) Examining (for databases) backup set with group_id=0, nonce=3788247674b3, datestamp=1548021842 (Jan 20 2019 22:04:02)
+0646.966 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.967 (1) Examining (for databases) backup set with group_id=0, nonce=fe5119ae825b, datestamp=1547935137 (Jan 19 2019 21:58:57)
+0646.967 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.968 (1) Examining (for databases) backup set with group_id=0, nonce=3773288d85bc, datestamp=1547849000 (Jan 18 2019 22:03:20)
+0646.969 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.970 (1) Examining (for databases) backup set with group_id=0, nonce=6e7c47da7a87, datestamp=1547762626 (Jan 17 2019 22:03:46)
+0646.970 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.971 (1) Examining (for databases) backup set with group_id=0, nonce=ace3f249ef44, datestamp=1547676068 (Jan 16 2019 22:01:08)
+0646.971 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.972 (1) Examining (for databases) backup set with group_id=0, nonce=b7c8c11a5ab1, datestamp=1547589860 (Jan 15 2019 22:04:20)
+0646.972 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0646.973 (1) Examining (for databases) backup set with group_id=0, nonce=894158e8fc56, datestamp=1547503118 (Jan 14 2019 21:58:38)
+0646.974 (1) 1547503118: db: this set includes a database (backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-db.gz); db count is now 10
+0646.974 (1) 1547503118: db: over retain limit (10); will delete this database
+0646.974 (1) Delete file: backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-db.gz, service=none
+0646.979 (1) Deleting local copy (backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-db.gz)
+0646.991 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+0646.995 (1) Number of backup sets in history: 11; groups (files): 1
+0646.999 (1) Examining (for files) backup set with nonce=2848d7596965, datestamp=1548367211 (Jan 24 2019 22:00:11)
+0646.999 (1) This backup set is the backup set just made, so will not be deleted.
+0647.002 (1) This backup set is the backup set just made, so will not be deleted.
+0647.003 (1) This backup set is the backup set just made, so will not be deleted.
+0647.004 (1) This backup set is the backup set just made, so will not be deleted.
+0647.004 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.008 (1) Examining (for files) backup set with nonce=628f5915a745, datestamp=1548280780 (Jan 23 2019 21:59:40)
+0647.008 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.008 (1) Examining (for files) backup set with nonce=77ba547bda45, datestamp=1548194449 (Jan 22 2019 22:00:49)
+0647.008 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.009 (1) Examining (for files) backup set with nonce=387d0331019c, datestamp=1548107956 (Jan 21 2019 21:59:16)
+0647.009 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.010 (1) Examining (for files) backup set with nonce=3788247674b3, datestamp=1548021842 (Jan 20 2019 22:04:02)
+0647.010 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.010 (1) Examining (for files) backup set with nonce=fe5119ae825b, datestamp=1547935137 (Jan 19 2019 21:58:57)
+0647.010 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.011 (1) Examining (for files) backup set with nonce=3773288d85bc, datestamp=1547849000 (Jan 18 2019 22:03:20)
+0647.011 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.012 (1) Examining (for files) backup set with nonce=6e7c47da7a87, datestamp=1547762626 (Jan 17 2019 22:03:46)
+0647.012 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.012 (1) Examining (for files) backup set with nonce=ace3f249ef44, datestamp=1547676068 (Jan 16 2019 22:01:08)
+0647.012 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.013 (1) Examining (for files) backup set with nonce=b7c8c11a5ab1, datestamp=1547589860 (Jan 15 2019 22:04:20)
+0647.013 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0647.014 (1) Examining (for files) backup set with nonce=894158e8fc56, datestamp=1547503118 (Jan 14 2019 21:58:38)
+0647.014 (1) plugins: over retain limit (10); will delete this file entity
+0647.014 (1) themes: over retain limit (10); will delete this file entity
+0647.014 (1) uploads: over retain limit (10); will delete this file entity
+0647.014 (1) others: over retain limit (10); will delete this file entity
+0647.014 (1) Delete file: backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-plugins.zip, service=none
+0647.017 (1) Deleting local copy (backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-plugins.zip)
+0647.022 (1) Delete file: backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-themes.zip, service=none
+0647.026 (1) Deleting local copy (backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-themes.zip)
+0647.030 (1) Delete file: backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-uploads.zip, service=none
+0647.033 (1) Deleting local copy (backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-uploads.zip)
+0647.038 (1) Delete file: backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-others.zip, service=none
+0647.041 (1) Deleting local copy (backup_2019-01-14-1358_Often_Touched_Embroidery_894158e8fc56-others.zip)
+0647.051 (1) This backup set is now empty; will remove from history
+0647.054 (1) Deleting log file (log.894158e8fc56.txt)
+0647.065 (1) Retain: saving new backup history (sets now: 10) and finishing retain operation
+0647.084 (1) Resume backup (2848d7596965, 1): finish run
+0647.091 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0647.107 (1) Fetching RSS news feed
+0647.659 (1) Fetched RSS news feed; result is a: SimplePie
+0648.197 (1) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: runam...
+0648.360 (1) The backup apparently succeeded and is now complete
