@@ -1,0 +1,499 @@
+0000.008 (0) Opened log file at time: Sat, 27 Oct 2018 12:13:15 +0000 on http://03d61b6.netsolhost.com/wordpress1
+0000.015 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.5 WP: 4.9.8 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux105 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.41 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.6M | 12.8M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.020 (0) Free space on disk containing Updraft's temporary directory: 389382.5 MB
+0000.060 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.064 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.079 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1540003510, seconds_ago=638885)
+0000.087 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2018-10-27 12:13:15
+0000.094 (0) Semaphore (fd, wp_options) reset to 1
+0000.100 (0) Set semaphore last lock (fd) time to 2018-10-27 12:13:15
+0000.105 (0) Semaphore lock (fd) complete
+0000.122 (0) Backup run: resumption=0, nonce=32f906d3e2df, begun at=1540642395 (0s ago), job type=backup
+0000.130 (0) Scheduling a resumption (1) after 300 seconds (1540642695) in case this run gets aborted
+0000.185 (0) Checking if we have a zip executable available
+0000.188 (0) Testing: /usr/bin/zip
+0000.211 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.215 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.219 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.222 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.224 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.239 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.242 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.300 (0) Working binary zip found: /usr/bin/zip
+0000.308 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.312 (0) Creation of backups of directories: beginning
+0000.339 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0007.332 (0) Total entities for the zip file: 1091 directories, 7050 files (0 skipped as non-modified), 105.6 MB
+0007.343 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.433 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: size is now: 0.30 MB
+0007.496 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 100 files added (on-disk size: 262.1 KB)
+0007.562 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 200 files added (on-disk size: 262.1 KB)
+0007.621 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 300 files added (on-disk size: 262.1 KB)
+0007.688 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 400 files added (on-disk size: 262.1 KB)
+0007.769 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 500 files added (on-disk size: 262.1 KB)
+0007.775 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 7050 files batched, 501 (502) added so far); re-opening (prior size: 262.1 KB)
+0009.562 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: size is now: 2.50 MB
+0009.644 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 600 files added (on-disk size: 2601.2 KB)
+0009.719 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 700 files added (on-disk size: 2601.2 KB)
+0009.833 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 800 files added (on-disk size: 2601.2 KB)
+0009.909 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 900 files added (on-disk size: 2601.2 KB)
+0009.985 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1000 files added (on-disk size: 2601.2 KB)
+0009.992 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 7050 files batched, 501 (1003) added so far); re-opening (prior size: 2601.2 KB)
+0012.048 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: size is now: 8.20 MB
+0012.649 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1100 files added (on-disk size: 8432.7 KB)
+0012.742 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1200 files added (on-disk size: 8432.7 KB)
+0012.827 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1300 files added (on-disk size: 8432.7 KB)
+0012.908 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1400 files added (on-disk size: 8432.7 KB)
+0013.482 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1500 files added (on-disk size: 8432.7 KB)
+0013.488 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 7050 files batched, 501 (1504) added so far); re-opening (prior size: 8432.7 KB)
+0015.221 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: size is now: 10.80 MB
+0015.320 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1600 files added (on-disk size: 11010.9 KB)
+0015.399 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1700 files added (on-disk size: 11010.9 KB)
+0015.461 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1800 files added (on-disk size: 11010.9 KB)
+0015.528 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 1900 files added (on-disk size: 11010.9 KB)
+0015.597 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2000 files added (on-disk size: 11010.9 KB)
+0015.604 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 7050 files batched, 501 (2005) added so far); re-opening (prior size: 11010.9 KB)
+0019.170 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: size is now: 14.80 MB
+0019.280 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2100 files added (on-disk size: 15168.5 KB)
+0019.394 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2200 files added (on-disk size: 15168.5 KB)
+0019.511 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2300 files added (on-disk size: 15168.5 KB)
+0019.621 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2400 files added (on-disk size: 15168.5 KB)
+0019.728 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2500 files added (on-disk size: 15168.5 KB)
+0019.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 7050 files batched, 501 (2506) added so far); re-opening (prior size: 15168.5 KB)
+0021.287 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2600 files added (on-disk size: 16733.3 KB)
+0021.419 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2700 files added (on-disk size: 16733.3 KB)
+0021.531 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2800 files added (on-disk size: 16733.3 KB)
+0021.650 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 2900 files added (on-disk size: 16733.3 KB)
+0021.758 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3000 files added (on-disk size: 16733.3 KB)
+0021.769 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 7050 files batched, 501 (3007) added so far); re-opening (prior size: 16733.3 KB)
+0024.471 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3100 files added (on-disk size: 18172.9 KB)
+0024.574 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3200 files added (on-disk size: 18172.9 KB)
+0024.677 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3300 files added (on-disk size: 18172.9 KB)
+0024.781 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3400 files added (on-disk size: 18172.9 KB)
+0024.893 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3500 files added (on-disk size: 18172.9 KB)
+0024.905 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 7050 files batched, 501 (3508) added so far); re-opening (prior size: 18172.9 KB)
+0027.748 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3600 files added (on-disk size: 20945.8 KB)
+0027.877 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3700 files added (on-disk size: 20945.8 KB)
+0027.991 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3800 files added (on-disk size: 20945.8 KB)
+0028.130 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 3900 files added (on-disk size: 20945.8 KB)
+0028.230 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4000 files added (on-disk size: 20945.8 KB)
+0028.241 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 7050 files batched, 501 (4009) added so far); re-opening (prior size: 20945.8 KB)
+0031.716 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4100 files added (on-disk size: 24350.5 KB)
+0031.823 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4200 files added (on-disk size: 24350.5 KB)
+0031.945 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4300 files added (on-disk size: 24350.5 KB)
+0032.105 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4400 files added (on-disk size: 24350.5 KB)
+0032.224 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4500 files added (on-disk size: 24350.5 KB)
+0032.240 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 7050 files batched, 501 (4510) added so far); re-opening (prior size: 24350.5 KB)
+0038.172 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4600 files added (on-disk size: 27333 KB)
+0038.312 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4700 files added (on-disk size: 27333 KB)
+0038.458 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4800 files added (on-disk size: 27333 KB)
+0038.585 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 4900 files added (on-disk size: 27333 KB)
+0038.710 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5000 files added (on-disk size: 27333 KB)
+0038.725 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 7050 files batched, 501 (5011) added so far); re-opening (prior size: 27333 KB)
+0045.135 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5100 files added (on-disk size: 28139.2 KB)
+0045.258 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5200 files added (on-disk size: 28139.2 KB)
+0045.395 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5300 files added (on-disk size: 28139.2 KB)
+0045.510 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5400 files added (on-disk size: 28139.2 KB)
+0046.120 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5500 files added (on-disk size: 28139.2 KB)
+0046.136 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 7050 files batched, 501 (5512) added so far); re-opening (prior size: 28139.2 KB)
+0050.053 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5600 files added (on-disk size: 31982.9 KB)
+0050.207 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5700 files added (on-disk size: 31982.9 KB)
+0050.343 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5800 files added (on-disk size: 31982.9 KB)
+0050.481 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 5900 files added (on-disk size: 31982.9 KB)
+0050.618 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6000 files added (on-disk size: 31982.9 KB)
+0050.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 7050 files batched, 501 (6013) added so far); re-opening (prior size: 31982.9 KB)
+0054.183 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6100 files added (on-disk size: 35143.8 KB)
+0054.316 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6200 files added (on-disk size: 35143.8 KB)
+0054.454 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6300 files added (on-disk size: 35143.8 KB)
+0054.601 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6400 files added (on-disk size: 35143.8 KB)
+0054.727 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6500 files added (on-disk size: 35143.8 KB)
+0054.749 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 7050 files batched, 501 (6514) added so far); re-opening (prior size: 35143.8 KB)
+0056.734 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6600 files added (on-disk size: 37411.2 KB)
+0056.866 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6700 files added (on-disk size: 37411.2 KB)
+0057.239 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6800 files added (on-disk size: 37411.2 KB)
+0057.369 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 6900 files added (on-disk size: 37411.2 KB)
+0057.526 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip.tmp: 7000 files added (on-disk size: 37411.2 KB)
+0057.550 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 7050 files batched, 501 (7015) added so far); re-opening (prior size: 37411.2 KB)
+0067.598 (0) Created plugins zip (0) - 41055.4 KB in 67.2 s (610.6 KB/s) (sha1: d0baf88d6f388d2014bd9155b4c5dad5c0a53dbd, sha256: 3286acd0df96410e3a0b505cbd6ad6848ed9b0dc427a578ee6fb4e842370441b)
+0067.626 (0) Beginning creation of dump of themes (split every: 400 MB)
+0075.392 (0) Total entities for the zip file: 575 directories, 4687 files (0 skipped as non-modified), 74.1 MB
+0075.399 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0075.464 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: size is now: 0.10 MB
+0075.556 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 100 files added (on-disk size: 113.8 KB)
+0075.643 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 200 files added (on-disk size: 113.8 KB)
+0075.737 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 300 files added (on-disk size: 113.8 KB)
+0075.827 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 400 files added (on-disk size: 113.8 KB)
+0075.912 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 500 files added (on-disk size: 113.8 KB)
+0075.918 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.1 MB, 4687 files batched, 501 (502) added so far); re-opening (prior size: 113.8 KB)
+0077.841 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: size is now: 2.50 MB
+0077.926 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 600 files added (on-disk size: 2580 KB)
+0078.001 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 700 files added (on-disk size: 2580 KB)
+0078.071 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 800 files added (on-disk size: 2580 KB)
+0078.141 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 900 files added (on-disk size: 2580 KB)
+0078.216 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1000 files added (on-disk size: 2580 KB)
+0078.222 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 4687 files batched, 501 (1003) added so far); re-opening (prior size: 2580 KB)
+0080.399 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: size is now: 6.80 MB
+0080.476 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1100 files added (on-disk size: 6999.2 KB)
+0080.558 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1200 files added (on-disk size: 6999.2 KB)
+0080.645 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1300 files added (on-disk size: 6999.2 KB)
+0080.739 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1400 files added (on-disk size: 6999.2 KB)
+0081.204 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1500 files added (on-disk size: 6999.2 KB)
+0081.212 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.2 MB, 4687 files batched, 501 (1504) added so far); re-opening (prior size: 6999.2 KB)
+0085.900 (0) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: size is now: 16.40 MB
+0086.015 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1600 files added (on-disk size: 16754.9 KB)
+0086.126 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1700 files added (on-disk size: 16754.9 KB)
+0086.250 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1800 files added (on-disk size: 16754.9 KB)
+0086.322 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1900 files added (on-disk size: 16754.9 KB)
+0086.396 (0) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2000 files added (on-disk size: 16754.9 KB)
+0086.405 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 4687 files batched, 501 (2005) added so far); re-opening (prior size: 16754.9 KB)
+7144.699 (1) Opened log file at time: Sat, 27 Oct 2018 14:12:20 +0000 on http://03d61b6.netsolhost.com/wordpress1
+7144.704 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.5 WP: 4.9.8 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux103 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.41 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.4M | 13.3M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+7144.710 (1) Free space on disk containing Updraft's temporary directory: 382867.3 MB
+7144.718 (1) Backup run: resumption=1, nonce=32f906d3e2df, begun at=1540642395 (7145s ago), job type=backup, previous check-in=85.9s
+7144.722 (1) Long time past since expected resumption time: approx expected=1540642781.6, now=1540649540.3, diff=6758.7
+7144.730 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7144.738 (1) Scheduling a resumption (2) after 300 seconds (1540649840) in case this run gets aborted
+7145.292 (1) Checking if we have a zip executable available
+7145.296 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+7145.300 (1) Creation of backups of directories: had begun; will resume
+7145.321 (1) Beginning creation of dump of plugins (split every: 400 MB)
+7145.324 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip: this file has already been created (age: 7080 s)
+7145.348 (1) Beginning creation of dump of themes (split every: 400 MB)
+7145.357 (1) File exists (/data/57/4/147/91/4473906/user/5305344/htdocs/wordpress1/wp-content/updraft/backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1540642485, time_now=1540649540, diff=7055)
+7145.626 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: Zip file already exists, with 2005 files
+7150.209 (1) Total entities for the zip file: 575 directories, 4687 files (0 skipped as non-modified), 74.1 MB
+7150.220 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 100 files added (on-disk size: 19125 KB)
+7150.226 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 200 files added (on-disk size: 19125 KB)
+7150.232 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 300 files added (on-disk size: 19125 KB)
+7150.238 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 400 files added (on-disk size: 19125 KB)
+7150.245 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 500 files added (on-disk size: 19125 KB)
+7150.251 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 600 files added (on-disk size: 19125 KB)
+7150.257 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 700 files added (on-disk size: 19125 KB)
+7150.263 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 800 files added (on-disk size: 19125 KB)
+7150.269 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 900 files added (on-disk size: 19125 KB)
+7150.276 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1000 files added (on-disk size: 19125 KB)
+7150.285 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1100 files added (on-disk size: 19125 KB)
+7150.291 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1200 files added (on-disk size: 19125 KB)
+7150.297 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1300 files added (on-disk size: 19125 KB)
+7150.304 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1400 files added (on-disk size: 19125 KB)
+7150.310 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1500 files added (on-disk size: 19125 KB)
+7150.317 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1600 files added (on-disk size: 19125 KB)
+7150.323 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1700 files added (on-disk size: 19125 KB)
+7150.330 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1800 files added (on-disk size: 19125 KB)
+7150.337 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 1900 files added (on-disk size: 19125 KB)
+7150.345 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2000 files added (on-disk size: 19125 KB)
+7150.409 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2100 files added (on-disk size: 19125 KB)
+7150.490 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2200 files added (on-disk size: 19125 KB)
+7150.577 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2300 files added (on-disk size: 19125 KB)
+7150.793 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2400 files added (on-disk size: 19125 KB)
+7150.872 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2500 files added (on-disk size: 19125 KB)
+7150.879 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 4687 files batched, 501 (501) added so far); re-opening (prior size: 19125 KB)
+7153.946 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2600 files added (on-disk size: 21885.1 KB)
+7154.150 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2700 files added (on-disk size: 21885.1 KB)
+7154.227 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2800 files added (on-disk size: 21885.1 KB)
+7154.310 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 2900 files added (on-disk size: 21885.1 KB)
+7154.391 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3000 files added (on-disk size: 21885.1 KB)
+7154.401 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 4687 files batched, 501 (1002) added so far); re-opening (prior size: 21885.1 KB)
+7158.632 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: size is now: 25.80 MB
+7158.731 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3100 files added (on-disk size: 26458.2 KB)
+7159.333 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3200 files added (on-disk size: 26458.2 KB)
+7159.423 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3300 files added (on-disk size: 26458.2 KB)
+7160.011 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3400 files added (on-disk size: 26458.2 KB)
+7160.094 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3500 files added (on-disk size: 26458.2 KB)
+7160.103 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 4687 files batched, 501 (1503) added so far); re-opening (prior size: 26458.2 KB)
+7163.053 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3600 files added (on-disk size: 30538.4 KB)
+7163.134 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3700 files added (on-disk size: 30538.4 KB)
+7163.223 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3800 files added (on-disk size: 30538.4 KB)
+7163.817 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 3900 files added (on-disk size: 30538.4 KB)
+7163.901 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4000 files added (on-disk size: 30538.4 KB)
+7163.911 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 4687 files batched, 501 (2004) added so far); re-opening (prior size: 30538.4 KB)
+7168.607 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4100 files added (on-disk size: 35629.8 KB)
+7168.720 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4200 files added (on-disk size: 35629.8 KB)
+7169.000 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4300 files added (on-disk size: 35629.8 KB)
+7169.109 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4400 files added (on-disk size: 35629.8 KB)
+7169.218 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4500 files added (on-disk size: 35629.8 KB)
+7169.230 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 4687 files batched, 501 (2505) added so far); re-opening (prior size: 35629.8 KB)
+7173.545 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip.tmp: 4600 files added (on-disk size: 41757.2 KB)
+7180.337 (1) Created themes zip (0) - 43027.9 KB in 35 s (1230.4 KB/s) (sha1: 90a9cd3b1c3fad18766e95b0893fd423d4c95f7e, sha256: 7a85720eae4c160da250578b0ee505e58f73066f7ef1445c32d5d362fc81d7a2)
+7180.351 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+7180.353 (1) Looking for candidates to back up in: /data/57/4/147/91/4473906/user/5305344/htdocs/wordpress1/wp-content/uploads
+7180.358 (1) finding files: 2016: adding to list (1)
+7180.360 (1) finding files: 2017: adding to list (2)
+7180.362 (1) finding files: backwpup-446b24-backups: skipping: excluded by options (glob)
+7180.365 (1) finding files: backwpup-446b24-backups: skipping: excluded by options (glob)
+7180.365 (1) finding files: backwpup-446b24-logs: skipping: excluded by options (glob)
+7180.367 (1) finding files: backwpup-446b24-temp: skipping: excluded by options (glob)
+7180.369 (1) finding files: broken-link-checker: adding to list (3)
+7180.372 (1) finding files: redux: adding to list (4)
+7180.374 (1) finding files: wp-security-audit-log: adding to list (5)
+7180.377 (1) finding files: 2018: adding to list (6)
+7180.379 (1) finding files: .htaccess: adding to list (7)
+7180.381 (1) Beginning creation of dump of uploads (split every: 400 MB)
+7181.104 (1) Total entities for the zip file: 41 directories, 295 files (0 skipped as non-modified), 36.6 MB
+7181.189 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+7181.279 (1) Zip: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+7181.364 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (36.6 MB, 295 files batched, 291 (291) added so far); re-opening (prior size: 0 KB)
+7186.971 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-uploads.zip.tmp: size is now: 10.40 MB
+7186.981 (1) A useful amount of data was added after this amount of zip processing: 7.6 s (normalised: 5.2 s, rate: 4942.9 KB/s)
+7186.991 (1) Performance is good - will increase the amount of data we attempt to batch (time=7.5856618881226, normalised_time=5.1791404745169, max_time=86, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+7188.244 (1) Created uploads zip (0) - 10653.4 KB in 7.9 s (1356.7 KB/s) (sha1: 35466df5ea02e76554ab700f14cbf9074b8b96f4, sha256: e63a744c1d638d8acd7065a9cf9624a381aed093b48d29a6f51bbaf49c93bf49)
+7188.265 (1) Beginning backup of other directories found in the content directory (index: 0)
+7188.268 (1) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+7188.271 (1) Looking for candidates to back up in: /data/57/4/147/91/4473906/user/5305344/htdocs/wordpress1/wp-content
+7188.276 (1) finding files: backupwordpress-cd34881682-backups: skipping: excluded by options (glob)
+7188.279 (1) finding files: backupwordpress-cd34881682-backups: skipping: excluded by options (glob)
+7188.280 (1) finding files: plugins: skipping: this is the plugins directory
+7188.283 (1) finding files: themes: skipping: this is the themes directory
+7188.286 (1) finding files: index.php: adding to list (1)
+7188.289 (1) finding files: install.php: adding to list (2)
+7188.292 (1) finding files: wp-cache-config.php: adding to list (3)
+7188.296 (1) finding files: updraft: skipping: this is the updraft directory
+7188.301 (1) finding files: upgrade: skipping: excluded by options
+7188.307 (1) finding files: uploads: skipping: this is the uploads directory
+7188.329 (1) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+7188.359 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-others.zip.tmp: size is now: 0.00 MB
+7188.877 (1) Created others zip (0) - 2.9 KB in 0.6 s (5.3 KB/s) (sha1: cc26a373bbb3a9976d8454d31b4b9a16f0380663, sha256: 8edbbd396cd62fc8837102c7c4b2d22c39b91768281dc8ddb0b41762ab1b29bb)
+7188.903 (1) Saving backup status to database (elements: 8)
+7188.923 (1) Resuming creation of database dump (WordPress DB)
+7188.933 (1) Testing: /usr/bin/mysqldump
+7189.023 (1) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1211 bytes total)
+7189.032 (1) Working binary mysqldump found: /usr/bin/mysqldump
+7189.167 (1) Table wp_options: Total expected rows (approximate): 545
+7189.233 (1) Table wp_options: Total rows added: 523 in 0.06 seconds
+7189.665 (1) Table wp_options: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_options.table.gz - 49.2 KB)
+7189.691 (1) Table wp_users: Total expected rows (approximate): 0
+7189.705 (1) Table wp_users: Total rows added: 3 in 0.01 seconds
+7189.711 (1) Table wp_users: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_users.table.gz - 0.7 KB)
+7189.734 (1) Table wp_usermeta: Total expected rows (approximate): 93
+7189.751 (1) Table wp_usermeta: Total rows added: 105 in 0.01 seconds
+7189.757 (1) Table wp_usermeta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_usermeta.table.gz - 4.4 KB)
+7189.773 (1) Table wp_commentmeta: Total expected rows (approximate): 0
+7189.782 (1) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+7189.786 (1) Table wp_commentmeta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_commentmeta.table.gz - 0.4 KB)
+7189.808 (1) Table wp_comments: Total expected rows (approximate): 0
+7189.818 (1) Table wp_comments: Total rows added: 0 in 0.01 seconds
+7189.822 (1) Table wp_comments: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_comments.table.gz - 0.5 KB)
+7189.849 (1) Table wp_links: Total expected rows (approximate): 0
+7189.859 (1) Table wp_links: Total rows added: 0 in 0.01 seconds
+7189.863 (1) Table wp_links: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_links.table.gz - 0.4 KB)
+7189.879 (1) Table wp_postmeta: Total expected rows (approximate): 3446
+7190.205 (1) Table wp_postmeta: Total rows added: 4076 in 0.32 seconds
+7190.211 (1) Table wp_postmeta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_postmeta.table.gz - 98.2 KB)
+7190.236 (1) Table wp_posts: Total expected rows (approximate): 533
+7190.461 (1) Table wp_posts: Total rows added: 547 in 0.22 seconds
+7190.467 (1) Table wp_posts: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_posts.table.gz - 69.2 KB)
+7190.485 (1) Table wp_term_relationships: Total expected rows (approximate): 165
+7190.501 (1) Table wp_term_relationships: Total rows added: 165 in 0.01 seconds
+7190.505 (1) Table wp_term_relationships: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_term_relationships.table.gz - 0.7 KB)
+7190.524 (1) Table wp_term_taxonomy: Total expected rows (approximate): 11
+7190.552 (1) Table wp_term_taxonomy: Total rows added: 12 in 0.02 seconds
+7190.557 (1) Table wp_term_taxonomy: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+7190.586 (1) Table wp_termmeta: Total expected rows (approximate): 0
+7190.597 (1) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+7190.601 (1) Table wp_termmeta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_termmeta.table.gz - 0.4 KB)
+7190.619 (1) Table wp_terms: Total expected rows (approximate): 12
+7190.631 (1) Table wp_terms: Total rows added: 12 in 0.01 seconds
+7190.637 (1) Table wp_terms: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_terms.table.gz - 0.5 KB)
+7190.666 (1) Table wp_blc_filters: Total expected rows (approximate): 0
+7190.680 (1) Table wp_blc_filters: Total rows added: 0 in 0.01 seconds
+7190.686 (1) Table wp_blc_filters: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_filters.table.gz - 0.3 KB)
+7190.712 (1) Table wp_blc_instances: Total expected rows (approximate): 149
+7190.752 (1) Table wp_blc_instances: Total rows added: 149 in 0.03 seconds
+7190.757 (1) Table wp_blc_instances: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_instances.table.gz - 3.6 KB)
+7190.787 (1) Table wp_blc_links: Total expected rows (approximate): 82
+7190.833 (1) Table wp_blc_links: Total rows added: 82 in 0.04 seconds
+7190.839 (1) Table wp_blc_links: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_links.table.gz - 12.3 KB)
+7190.873 (1) Table wp_blc_synch: Total expected rows (approximate): 35
+7190.922 (1) Table wp_blc_synch: Total rows added: 35 in 0.04 seconds
+7190.927 (1) Table wp_blc_synch: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_synch.table.gz - 0.7 KB)
+7191.359 (1) Table wp_nf3_action_meta: Total expected rows (approximate): 145
+7191.385 (1) Table wp_nf3_action_meta: Total rows added: 145 in 0.02 seconds
+7191.391 (1) Table wp_nf3_action_meta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_action_meta.table.gz - 1.7 KB)
+7191.427 (1) Table wp_nf3_actions: Total expected rows (approximate): 6
+7191.443 (1) Table wp_nf3_actions: Total rows added: 7 in 0.01 seconds
+7191.450 (1) Table wp_nf3_actions: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_actions.table.gz - 0.5 KB)
+7191.480 (1) Table wp_nf3_field_meta: Total expected rows (approximate): 252
+7191.515 (1) Table wp_nf3_field_meta: Total rows added: 278 in 0.03 seconds
+7191.521 (1) Table wp_nf3_field_meta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_field_meta.table.gz - 2.9 KB)
+7191.561 (1) Table wp_nf3_fields: Total expected rows (approximate): 8
+7191.576 (1) Table wp_nf3_fields: Total rows added: 8 in 0.01 seconds
+7191.581 (1) Table wp_nf3_fields: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_fields.table.gz - 0.6 KB)
+7191.610 (1) Table wp_nf3_form_meta: Total expected rows (approximate): 109
+7191.633 (1) Table wp_nf3_form_meta: Total rows added: 114 in 0.02 seconds
+7191.639 (1) Table wp_nf3_form_meta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_form_meta.table.gz - 1.4 KB)
+7191.672 (1) Table wp_nf3_forms: Total expected rows (approximate): 0
+7191.693 (1) Table wp_nf3_forms: Total rows added: 2 in 0.02 seconds
+7192.160 (1) Table wp_nf3_forms: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_forms.table.gz - 0.5 KB)
+7192.196 (1) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+7192.207 (1) Table wp_nf3_object_meta: Total rows added: 0 in 0.01 seconds
+7192.216 (1) Table wp_nf3_object_meta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+7192.241 (1) Table wp_nf3_objects: Total expected rows (approximate): 0
+7192.252 (1) Table wp_nf3_objects: Total rows added: 0 in 0.01 seconds
+7192.256 (1) Table wp_nf3_objects: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_objects.table.gz - 0.4 KB)
+7192.280 (1) Table wp_nf3_relationships: Total expected rows (approximate): 0
+7192.292 (1) Table wp_nf3_relationships: Total rows added: 0 in 0.01 seconds
+7192.297 (1) Table wp_nf3_relationships: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_relationships.table.gz - 0.4 KB)
+7192.324 (1) Table wp_phppc_functions: Total expected rows (approximate): 0
+7192.336 (1) Table wp_phppc_functions: Total rows added: 4 in 0.01 seconds
+7192.341 (1) Table wp_phppc_functions: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_phppc_functions.table.gz - 1.1 KB)
+7192.375 (1) Table wp_smush_dir_images: Total expected rows (approximate): 0
+7192.387 (1) Table wp_smush_dir_images: Total rows added: 0 in 0.01 seconds
+7192.391 (1) Table wp_smush_dir_images: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_smush_dir_images.table.gz - 0.4 KB)
+7192.418 (1) Table wp_wsal_metadata: Total expected rows (approximate): 1642
+7192.590 (1) Table wp_wsal_metadata: Total rows added: 2436 in 0.17 seconds
+7192.941 (1) Table wp_wsal_metadata: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_wsal_metadata.table.gz - 32.7 KB)
+7192.969 (1) Table wp_wsal_occurrences: Total expected rows (approximate): 280
+7193.028 (1) Table wp_wsal_occurrences: Total rows added: 439 in 0.05 seconds
+7193.035 (1) Table wp_wsal_occurrences: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_wsal_occurrences.table.gz - 5.3 KB)
+7193.060 (1) Table wp_wsal_options: Total expected rows (approximate): 28
+7193.072 (1) Table wp_wsal_options: Total rows added: 30 in 0.01 seconds
+7193.076 (1) Table wp_wsal_options: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_wsal_options.table.gz - 0.7 KB)
+7193.099 (1) Table wp_yoast_seo_links: Total expected rows (approximate): 114
+7193.116 (1) Table wp_yoast_seo_links: Total rows added: 114 in 0.01 seconds
+7193.121 (1) Table wp_yoast_seo_links: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_yoast_seo_links.table.gz - 1.7 KB)
+7193.146 (1) Table wp_yoast_seo_meta: Total expected rows (approximate): 35
+7193.159 (1) Table wp_yoast_seo_meta: Total rows added: 36 in 0.01 seconds
+7193.164 (1) Table wp_yoast_seo_meta: finishing file (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_yoast_seo_meta.table.gz - 0.5 KB)
+7193.176 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_options.table.gz (1/32): adding to final database dump
+7193.208 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_users.table.gz (2/32): adding to final database dump
+7193.214 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_usermeta.table.gz (3/32): adding to final database dump
+7193.223 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_commentmeta.table.gz (4/32): adding to final database dump
+7193.230 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_comments.table.gz (5/32): adding to final database dump
+7193.236 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_links.table.gz (6/32): adding to final database dump
+7193.241 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_postmeta.table.gz (7/32): adding to final database dump
+7193.341 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_posts.table.gz (8/32): adding to final database dump
+7193.390 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_term_relationships.table.gz (9/32): adding to final database dump
+7193.399 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_term_taxonomy.table.gz (10/32): adding to final database dump
+7193.406 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_termmeta.table.gz (11/32): adding to final database dump
+7193.412 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_terms.table.gz (12/32): adding to final database dump
+7193.418 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_filters.table.gz (13/32): adding to final database dump
+7193.424 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_instances.table.gz (14/32): adding to final database dump
+7193.433 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_links.table.gz (15/32): adding to final database dump
+7193.446 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_blc_synch.table.gz (16/32): adding to final database dump
+7193.452 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_action_meta.table.gz (17/32): adding to final database dump
+7193.460 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_actions.table.gz (18/32): adding to final database dump
+7193.466 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_field_meta.table.gz (19/32): adding to final database dump
+7193.476 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_fields.table.gz (20/32): adding to final database dump
+7193.483 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_form_meta.table.gz (21/32): adding to final database dump
+7193.491 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_forms.table.gz (22/32): adding to final database dump
+7193.497 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_object_meta.table.gz (23/32): adding to final database dump
+7193.503 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_objects.table.gz (24/32): adding to final database dump
+7193.509 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_nf3_relationships.table.gz (25/32): adding to final database dump
+7193.514 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_phppc_functions.table.gz (26/32): adding to final database dump
+7193.522 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_smush_dir_images.table.gz (27/32): adding to final database dump
+7193.528 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_wsal_metadata.table.gz (28/32): adding to final database dump
+7193.579 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_wsal_occurrences.table.gz (29/32): adding to final database dump
+7193.592 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_wsal_options.table.gz (30/32): adding to final database dump
+7193.599 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_yoast_seo_links.table.gz (31/32): adding to final database dump
+7193.606 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db-table-wp_yoast_seo_meta.table.gz (32/32): adding to final database dump
+7193.616 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db.gz: finished writing out complete database file (256 KB)
+7193.685 (1) Total database tables backed up: 32 (backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db.gz, size: 292477, sha256)
+7193.735 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7193.738 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+7193.741 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+7193.744 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-others.zip: others: This file has not yet been successfully uploaded: will queue
+7193.747 (1) backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db.gz: db: This file has not yet been successfully uploaded: will queue
+7193.750 (1) Saving backup history. Total backup size: 92.8 MB
+7193.773 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+7193.784 (1) Cloud backup selection (1/1):  with instance (1/1) (last)
+7193.787 (1) No remote despatch: user chose no remote backup service
+7193.795 (1) Recording as successfully uploaded: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-plugins.zip (39a79e0c304249f5ef0628ddbe61dc56)
+7193.811 (1) Recording as successfully uploaded: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-themes.zip (82c60672f8128e9e2af64084929ea363)
+7193.823 (1) Recording as successfully uploaded: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-uploads.zip (aa3c762297c0f08853a9441b5e3fc532)
+7193.836 (1) Recording as successfully uploaded: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-others.zip (945d183fac6fed7ae1ee3baba37a5a66)
+7193.849 (1) Recording as successfully uploaded: backup_2018-10-27-0513_Harvey_Field_32f906d3e2df-db.gz (4b54b0754800fffc56b63373f3d3c212)
+7193.861 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=15, retain_db=15
+7193.869 (1) Number of backup sets in history: 16; groups (db): 1
+7193.872 (1) Examining (for databases) backup set with group_id=0, nonce=32f906d3e2df, datestamp=1540642395 (Oct 27 2018 12:13:15)
+7193.875 (1) This backup set is the backup set just made, so will not be deleted.
+7193.875 (1) Examining (for databases) backup set with group_id=0, nonce=2294b6ca963a, datestamp=1540003510 (Oct 20 2018 02:45:10)
+7193.875 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.878 (1) Examining (for databases) backup set with group_id=0, nonce=c4a0804908f9, datestamp=1539303259 (Oct 12 2018 00:14:19)
+7193.878 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.879 (1) Examining (for databases) backup set with group_id=0, nonce=42438bbe6b1f, datestamp=1538697680 (Oct 05 2018 00:01:20)
+7193.879 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.880 (1) Examining (for databases) backup set with group_id=0, nonce=ae167d59e891, datestamp=1538161820 (Sep 28 2018 19:10:20)
+7193.880 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.881 (1) Examining (for databases) backup set with group_id=0, nonce=bc7d494deff5, datestamp=1537516247 (Sep 21 2018 07:50:47)
+7193.881 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.882 (1) Examining (for databases) backup set with group_id=0, nonce=8d505880073b, datestamp=1536956665 (Sep 14 2018 20:24:25)
+7193.882 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.882 (1) Examining (for databases) backup set with group_id=0, nonce=836b22e305d0, datestamp=1536276542 (Sep 06 2018 23:29:02)
+7193.882 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.883 (1) Examining (for databases) backup set with group_id=0, nonce=4dc5f2963a79, datestamp=1535690529 (Aug 31 2018 04:42:09)
+7193.883 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.884 (1) Examining (for databases) backup set with group_id=0, nonce=0ac682970bd8, datestamp=1535063878 (Aug 23 2018 22:37:58)
+7193.884 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.885 (1) Examining (for databases) backup set with group_id=0, nonce=eb9d693684cb, datestamp=1534470434 (Aug 17 2018 01:47:14)
+7193.885 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.886 (1) Examining (for databases) backup set with group_id=0, nonce=73006acb8269, datestamp=1532915459 (Jul 30 2018 01:50:59)
+7193.886 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.886 (1) Examining (for databases) backup set with group_id=0, nonce=b2eed9c537da, datestamp=1532092106 (Jul 20 2018 13:08:26)
+7193.886 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.887 (1) Examining (for databases) backup set with group_id=0, nonce=d3a1f826c1d0, datestamp=1531436503 (Jul 12 2018 23:01:43)
+7193.887 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.888 (1) Examining (for databases) backup set with group_id=0, nonce=eb092b3af6f0, datestamp=1530908311 (Jul 06 2018 20:18:31)
+7193.888 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7193.889 (1) Examining (for databases) backup set with group_id=0, nonce=5bcaeee77e33, datestamp=1529648318 (Jun 22 2018 06:18:38)
+7193.889 (1) 1529648318: db: this set includes a database (backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-db.gz); db count is now 15
+7193.889 (1) 1529648318: db: over retain limit (15); will delete this database
+7193.889 (1) Delete file: backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-db.gz, service=none
+7193.892 (1) Deleting local copy (backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-db.gz)
+7194.269 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+7194.273 (1) Number of backup sets in history: 16; groups (files): 1
+7194.276 (1) Examining (for files) backup set with nonce=32f906d3e2df, datestamp=1540642395 (Oct 27 2018 12:13:15)
+7194.276 (1) This backup set is the backup set just made, so will not be deleted.
+7194.279 (1) This backup set is the backup set just made, so will not be deleted.
+7194.280 (1) This backup set is the backup set just made, so will not be deleted.
+7194.280 (1) This backup set is the backup set just made, so will not be deleted.
+7194.281 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.285 (1) Examining (for files) backup set with nonce=2294b6ca963a, datestamp=1540003510 (Oct 20 2018 02:45:10)
+7194.285 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.285 (1) Examining (for files) backup set with nonce=c4a0804908f9, datestamp=1539303259 (Oct 12 2018 00:14:19)
+7194.286 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.286 (1) Examining (for files) backup set with nonce=42438bbe6b1f, datestamp=1538697680 (Oct 05 2018 00:01:20)
+7194.286 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.287 (1) Examining (for files) backup set with nonce=ae167d59e891, datestamp=1538161820 (Sep 28 2018 19:10:20)
+7194.287 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.288 (1) Examining (for files) backup set with nonce=bc7d494deff5, datestamp=1537516247 (Sep 21 2018 07:50:47)
+7194.288 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.289 (1) Examining (for files) backup set with nonce=8d505880073b, datestamp=1536956665 (Sep 14 2018 20:24:25)
+7194.289 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.289 (1) Examining (for files) backup set with nonce=836b22e305d0, datestamp=1536276542 (Sep 06 2018 23:29:02)
+7194.290 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.290 (1) Examining (for files) backup set with nonce=4dc5f2963a79, datestamp=1535690529 (Aug 31 2018 04:42:09)
+7194.290 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.291 (1) Examining (for files) backup set with nonce=0ac682970bd8, datestamp=1535063878 (Aug 23 2018 22:37:58)
+7194.291 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.292 (1) Examining (for files) backup set with nonce=eb9d693684cb, datestamp=1534470434 (Aug 17 2018 01:47:14)
+7194.292 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.293 (1) Examining (for files) backup set with nonce=73006acb8269, datestamp=1532915459 (Jul 30 2018 01:50:59)
+7194.293 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.293 (1) Examining (for files) backup set with nonce=b2eed9c537da, datestamp=1532092106 (Jul 20 2018 13:08:26)
+7194.293 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.294 (1) Examining (for files) backup set with nonce=d3a1f826c1d0, datestamp=1531436503 (Jul 12 2018 23:01:43)
+7194.294 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.295 (1) Examining (for files) backup set with nonce=eb092b3af6f0, datestamp=1530908311 (Jul 06 2018 20:18:31)
+7194.295 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+7194.296 (1) Examining (for files) backup set with nonce=5bcaeee77e33, datestamp=1529648318 (Jun 22 2018 06:18:38)
+7194.296 (1) plugins: over retain limit (15); will delete this file entity
+7194.296 (1) themes: over retain limit (15); will delete this file entity
+7194.296 (1) uploads: over retain limit (15); will delete this file entity
+7194.296 (1) others: over retain limit (15); will delete this file entity
+7194.296 (1) Delete file: backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-plugins.zip, service=none
+7194.299 (1) Deleting local copy (backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-plugins.zip)
+7194.303 (1) Delete file: backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-themes.zip, service=none
+7194.307 (1) Deleting local copy (backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-themes.zip)
+7194.311 (1) Delete file: backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-uploads.zip, service=none
+7194.314 (1) Deleting local copy (backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-uploads.zip)
+7194.319 (1) Delete file: backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-others.zip, service=none
+7194.323 (1) Deleting local copy (backup_2018-06-21-2318_Harvey_Field_5bcaeee77e33-others.zip)
+7194.334 (1) This backup set is now empty; will remove from history
+7194.337 (1) Deleting log file (log.5bcaeee77e33.txt)
+7194.342 (1) Retain: saving new backup history (sets now: 15) and finishing retain operation
+7194.364 (1) Resume backup (32f906d3e2df, 1): finish run
+7194.371 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+7194.384 (1) Fetching RSS news feed
+7194.676 (1) Fetched RSS news feed; result is a: SimplePie
+7194.764 (1) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 55.7 KB) to: runam...
+7225.393 (1) The backup apparently succeeded (with warnings) and is now complete

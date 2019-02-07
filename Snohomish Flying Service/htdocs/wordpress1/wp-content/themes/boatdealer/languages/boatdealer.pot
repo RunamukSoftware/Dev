@@ -1,0 +1,854 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: boatdealer\n"
+"POT-Creation-Date: 2017-03-17 16:53-0000\n"
+"PO-Revision-Date: 2017-03-17 16:53-0000\n"
+"Last-Translator: Bill <sergiominozzi@gmail.com>\n"
+"Language-Team: Bill <sergiominozzi@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x;_nx;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: F:\\boatdealerthemes.com\\versao_110\n"
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/archive.php:41
+#: F:\boatdealerthemes.com\versao_110/boatdealer/index.php:38
+#: F:\boatdealerthemes.com\versao_110/boatdealer/search.php:38
+msgid "Previous page"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/archive.php:42
+#: F:\boatdealerthemes.com\versao_110/boatdealer/index.php:39
+#: F:\boatdealerthemes.com\versao_110/boatdealer/search.php:39
+msgid "Next page"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/archive.php:43
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-link.php:36
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-page.php:26
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content.php:38
+#: F:\boatdealerthemes.com\versao_110/boatdealer/image.php:51
+#: F:\boatdealerthemes.com\versao_110/boatdealer/index.php:40
+#: F:\boatdealerthemes.com\versao_110/boatdealer/search.php:40
+msgid "Page"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/author-bio.php:30
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/comments.php:25
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-link.php:28
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content.php:30
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:209
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-link.php:32
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-page.php:22
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content.php:34
+#: F:\boatdealerthemes.com\versao_110/boatdealer/image.php:47
+msgid "Pages:"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-link.php:50
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-page.php:31
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-search.php:23
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-search.php:26
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content.php:51
+#: F:\boatdealerthemes.com\versao_110/boatdealer/image.php:58
+msgid "Edit"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:206
+msgid "expand child menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:207
+msgid "collapse child menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:262
+msgid "Top Menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:263
+msgid "Primary Menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:264
+msgid "Social Links Menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:312
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:314
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:321
+msgid "First Footer Widget"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:323
+msgid "Add widgets here to appear in your left footer."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:330
+msgid "Second Footer Widget"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:332
+msgid "Add widgets here to appear in your center footer."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:339
+msgid "Third Footer Widget"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/functions.php:341
+msgid "Add widgets here to appear in your right."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/header.php:46
+msgid "Menu and widgets"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/header.php:140
+msgid ""
+"Please, Setup or disable the Top Menu. Dashboard => Appearence => Customize"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/image.php:19
+msgid "Previous Image"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/image.php:19
+msgid "Next Image"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/image.php:68
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/back-compat.php:35
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/back-compat.php:44
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/back-compat.php:56
+#, php-format
+msgid ""
+"boatdealer requires at least WordPress version 4.1. You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:387
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. translators: %s: version number
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:50
+msgid "Logo Margin From Top"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:53
+msgid "Choose from -20px to 100px"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:69
+msgid "Logo Height"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:70
+msgid "Choose from 20 to 300 Pixels."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:82
+msgid "Layout"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:85
+msgid "Change General options here."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:98
+msgid "Menu enabled"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:101
+msgid "Vertical Left Menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:102
+msgid "Horizontal Top Menu"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:117
+msgid "Website Layout"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:132
+msgid "Background transparency (opacity)"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:133
+msgid "Choose from .6 to 1"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:150
+msgid "Show entry-title"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:165
+msgid "Code"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:168
+msgid "Analytics."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:176
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:179
+msgid "For example: UA-99999999-9 (no javascript)"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:186
+msgid "Footer Copyright"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:198
+msgid "Copyright Footer Text Here"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:209
+msgid "Copyright Background Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:223
+msgid "Copyright Text Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:241
+msgid "Base Color Scheme"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:254
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:255
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:279
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:283
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:266
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:533
+msgid "Menu Text Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:278
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:288
+msgid "Top Page Settings"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:300
+msgid "Top Info Phone"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:309
+msgid "Top Info eMail"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:318
+msgid "Top Info Hours"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:332
+msgid "Top Page Info Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:335
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:355
+msgid "White"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:336
+msgid "Gray"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:337
+msgid "Black"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:351
+msgid "My Search Icon Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:352
+msgid "Find this icon at bottom right corner of the header."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:356
+msgid "Light Gray"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:357
+msgid "Hidden"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:366
+msgid "Mobile Navigation Design"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:380
+msgid "Mobile Background Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:394
+msgid "Mobile Text Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:408
+msgid "Mobile Separator Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:422
+msgid "Mobile Bar Icon Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:436
+msgid "Mobile Menu Name Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:448
+msgid "Top Navigation Design"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:451
+msgid ""
+"Change Top Navigation detais here. <br />If you install WooCommerce, maybe "
+"you will need set this Top Margin around 50 pixels to left space for their "
+"menu."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:464
+msgid "Menu Margin Top"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:465
+msgid "Choose from 0 to 50 Pixels."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:481
+msgid "Menu Font Size"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:482
+msgid "Choose from 12 to 18 Pixels."
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:509
+msgid "Check to Use Background Navigation Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:519
+msgid "Background Navigation Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:547
+msgid "Menu Text Hover Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:561
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:575
+msgid "Sub Menu Background"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:589
+msgid "Sub Menu Hover color"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:603
+msgid "Sub Menu Hover Background"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:696
+msgid "Default"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:708
+msgid "Dark"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:720
+msgid "Green"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:732
+msgid "Red"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:744
+msgid "Orange"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:756
+msgid "Blue"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/customizer.php:768
+msgid "Brown"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:38
+msgid "Bill Minozzi"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:41
+msgid ""
+"Hello, my name is Bill Minozzi, and I am developer of Theme <b>Boat Dealer</"
+"b>.<br>"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:42
+msgid ""
+"If you like this theme, please write a few words about it. It will help "
+"other people find this useful theme more quickly.<br><b>Thank you!</b>"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:44
+msgid "Rate or Share"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:45
+msgid "No, dismiss"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:46
+msgid "or"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/feedback.php:47
+msgid "Remind me later"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/pinstaller.php:106
+msgid "boatdealer"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:25
+msgid "Older Comments"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:46
+msgid "Featured"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:51
+msgid "Format"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:68
+msgid "Posted on"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:76
+msgid "Author"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:81
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:88
+msgid ", "
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:84
+msgid "Categories"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:91
+msgid "Tags"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:100
+msgid "Full size"
+msgstr ""
+
+#. translators: %s: post title
+#: F:\boatdealerthemes.com\versao_110/boatdealer/inc/template-tags.php:109
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/sidebar.php:27
+msgid ""
+"Please, Setup or disable the boatdealer. Dashboard => Appearence => Customize"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/single.php:27
+msgid "Next"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/single.php:28
+msgid "Next post:"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/single.php:30
+msgid "Previous"
+msgstr ""
+
+#: F:\boatdealerthemes.com\versao_110/boatdealer/single.php:31
+msgid "Previous post:"
+msgstr ""

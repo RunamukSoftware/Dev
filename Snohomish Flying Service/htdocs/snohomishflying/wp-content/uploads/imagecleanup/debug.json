@@ -1,0 +1,20 @@
+[0.0080] Info: WP_Query results written to log
+[0.0017] Registered sizes: ["thumbnail","medium","medium_large","large","post-thumbnail","50x50","clients-slider","slider-content","testimonials","blog-navi","portfolio-mf","portfolio-mf-w","portfolio-mf-t","portfolio-list","blog-portfolio","blog-single","full"]
+[0.0039] Meta indexed so far: 1 / 254
+[0.0087] Sample meta:
+{"width":101,"height":108,"file":"2018\/01\/7.Dr_.20Brown.jpg","sizes":{"50x50":{"file":"7.Dr_.20Brown-47x50.jpg","width":47,"height":50,"mime-type":"image\/jpeg"},"clients-slider":{"file":"7.Dr_.20Brown-70x75.jpg","width":70,"height":75,"mime-type":"image\/jpeg"},"testimonials":{"file":"7.Dr_.20Brown-85x85.jpg","width":85,"height":85,"mime-type":"image\/jpeg"},"blog-navi":{"file":"7.Dr_.20Brown-80x80.jpg","width":80,"height":80,"mime-type":"image\/jpeg"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0","keywords":[]}}
+[9.0307] Meta indexed so far: 254 / 254
+[0.0045] Meta indexed so far: 101 / 254
+[0.0014] Meta indexed so far: 201 / 254
+[0.9553] Meta indexed so far: 254 / 254
+[0.9988] Info: Valid and Invalid meta results written to log
+[0.0795] Info: Loaded attachments to memory [22.5 mb]
+[0.8206] Info: 2981 Images found [25 mb]
+[1.7434] Info: 655 Invalid images found [25.25 mb]
+[1.8489] Info: Retrieved attachment images from DB [20.25 mb]
+[2.9654] Info: Backup meta results written to log [20.25 mb]
+[0.0154] Posts checked for used images 1/2
+[0.3436] Info: Invalid post image meta results written to log
+Warning: skipping script index because of too many image files
+[0.0101] Warning: skipping attachment index because of too many image files
+[0.0277] Info: Unreferenced image file results written to log

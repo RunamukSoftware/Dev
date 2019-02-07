@@ -1,0 +1,88 @@
+0000.008 (0) Opened log file at time: Fri, 03 Aug 2018 18:03:01 +0000 on http://03d61b6.netsolhost.com/wordpress1
+0000.017 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.5 WP: 4.9.7 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux171 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.40 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 17.3M | 20.3M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.021 (0) Free space on disk containing Updraft's temporary directory: 613644.6 MB
+0000.054 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.060 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.088 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1532915459, seconds_ago=403922)
+0000.113 (0) Set semaphore last lock (fd) time to 2018-08-03 18:03:01
+0000.121 (0) Semaphore lock (fd) complete
+0000.169 (0) Backup run: resumption=0, nonce=ff1582063a61, begun at=1533319381 (0s ago), job type=backup
+0000.183 (0) Scheduling a resumption (1) after 300 seconds (1533319681) in case this run gets aborted
+0000.228 (0) Checking if we have a zip executable available
+0000.237 (0) Testing: /usr/bin/zip
+0000.264 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.274 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.283 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.292 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.301 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.321 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.328 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.362 (0) Working binary zip found: /usr/bin/zip
+0000.372 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.378 (0) Creation of backups of directories: beginning
+0000.403 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0012.516 (0) Total entities for the zip file: 1091 directories, 7050 files (0 skipped as non-modified), 105.6 MB
+0012.530 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0012.711 (0) backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: size is now: 0.30 MB
+0012.789 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 100 files added (on-disk size: 262.1 KB)
+0012.859 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 200 files added (on-disk size: 262.1 KB)
+0013.435 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 300 files added (on-disk size: 262.1 KB)
+0014.006 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 400 files added (on-disk size: 262.1 KB)
+0014.079 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 500 files added (on-disk size: 262.1 KB)
+0014.083 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 7050 files batched, 501 (502) added so far); re-opening (prior size: 262.1 KB)
+0016.443 (0) backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: size is now: 2.50 MB
+0016.552 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 600 files added (on-disk size: 2601.2 KB)
+0016.633 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 700 files added (on-disk size: 2601.2 KB)
+0016.708 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 800 files added (on-disk size: 2601.2 KB)
+0016.792 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 900 files added (on-disk size: 2601.2 KB)
+0016.863 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1000 files added (on-disk size: 2601.2 KB)
+0016.868 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 7050 files batched, 501 (1003) added so far); re-opening (prior size: 2601.2 KB)
+0019.248 (0) backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: size is now: 8.20 MB
+0019.315 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1100 files added (on-disk size: 8432.7 KB)
+0019.384 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1200 files added (on-disk size: 8432.7 KB)
+0019.450 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1300 files added (on-disk size: 8432.7 KB)
+0019.513 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1400 files added (on-disk size: 8432.7 KB)
+0019.585 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1500 files added (on-disk size: 8432.7 KB)
+0019.590 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 7050 files batched, 501 (1504) added so far); re-opening (prior size: 8432.7 KB)
+0022.012 (0) backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: size is now: 10.80 MB
+0022.069 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1600 files added (on-disk size: 11010.9 KB)
+0022.147 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1700 files added (on-disk size: 11010.9 KB)
+0022.218 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1800 files added (on-disk size: 11010.9 KB)
+0022.307 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 1900 files added (on-disk size: 11010.9 KB)
+0022.384 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2000 files added (on-disk size: 11010.9 KB)
+0022.391 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 7050 files batched, 501 (2005) added so far); re-opening (prior size: 11010.9 KB)
+0024.112 (0) backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: size is now: 14.80 MB
+0024.178 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2100 files added (on-disk size: 15168.5 KB)
+0024.251 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2200 files added (on-disk size: 15168.5 KB)
+0024.328 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2300 files added (on-disk size: 15168.5 KB)
+0024.403 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2400 files added (on-disk size: 15168.5 KB)
+0024.479 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2500 files added (on-disk size: 15168.5 KB)
+0024.486 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 7050 files batched, 501 (2506) added so far); re-opening (prior size: 15168.5 KB)
+0028.266 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2600 files added (on-disk size: 16733.3 KB)
+0028.332 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2700 files added (on-disk size: 16733.3 KB)
+0028.933 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2800 files added (on-disk size: 16733.3 KB)
+0029.019 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 2900 files added (on-disk size: 16733.3 KB)
+0029.103 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3000 files added (on-disk size: 16733.3 KB)
+0029.112 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 7050 files batched, 501 (3007) added so far); re-opening (prior size: 16733.3 KB)
+0033.689 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3100 files added (on-disk size: 18172.9 KB)
+0033.778 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3200 files added (on-disk size: 18172.9 KB)
+0034.354 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3300 files added (on-disk size: 18172.9 KB)
+0034.435 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3400 files added (on-disk size: 18172.9 KB)
+0034.509 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3500 files added (on-disk size: 18172.9 KB)
+0034.517 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 7050 files batched, 501 (3508) added so far); re-opening (prior size: 18172.9 KB)
+0037.257 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3600 files added (on-disk size: 20945.8 KB)
+0037.375 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3700 files added (on-disk size: 20945.8 KB)
+0037.504 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3800 files added (on-disk size: 20945.8 KB)
+0037.682 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 3900 files added (on-disk size: 20945.8 KB)
+0037.876 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 4000 files added (on-disk size: 20945.8 KB)
+0037.893 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 7050 files batched, 501 (4009) added so far); re-opening (prior size: 20945.8 KB)
+0041.802 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 4100 files added (on-disk size: 24350.5 KB)
+0042.034 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 4200 files added (on-disk size: 24350.5 KB)
+0042.154 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 4300 files added (on-disk size: 24350.5 KB)
+0042.279 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 4400 files added (on-disk size: 24350.5 KB)
+0042.936 (0) Zip: backup_2018-08-03-1103_Harvey_Field_ff1582063a61-plugins.zip.tmp: 4500 files added (on-disk size: 24350.5 KB)
+0042.967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 7050 files batched, 501 (4510) added so far); re-opening (prior size: 24350.5 KB)
+199604.975 (1) Opened log file at time: Mon, 06 Aug 2018 01:29:46 +0000 on http://03d61b6.netsolhost.com/wordpress1
+199604.977 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.5 WP: 4.9.8 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux171 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.40 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.6M | 12.8M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+199604.980 (1) Free space on disk containing Updraft's temporary directory: 614108.2 MB
+199604.982 (1) This backup task (ff1582063a61) is either complete or began over 2 days ago: ending (1533518986.2916, 1533319381) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, run_times, useful_checkin)

@@ -1,0 +1,811 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: verticalmenu\n"
+"POT-Creation-Date: 2017-02-13 17:59-0000\n"
+"PO-Revision-Date: 2017-02-13 17:59-0000\n"
+"Last-Translator: Bill <sergiominozzi@gmail.com>\n"
+"Language-Team: Bill <sergiominozzi@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x;_nx;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: F:\\verticalmenu\\versao_116\\verticalmenu\n"
+
+#: F:\verticalmenu\versao_116\verticalmenu/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/archive.php:41
+#: F:\verticalmenu\versao_116\verticalmenu/index.php:38
+#: F:\verticalmenu\versao_116\verticalmenu/search.php:31
+msgid "Previous page"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/archive.php:42
+#: F:\verticalmenu\versao_116\verticalmenu/index.php:39
+#: F:\verticalmenu\versao_116\verticalmenu/search.php:32
+msgid "Next page"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/archive.php:43
+#: F:\verticalmenu\versao_116\verticalmenu/content-link.php:36
+#: F:\verticalmenu\versao_116\verticalmenu/content-page.php:26
+#: F:\verticalmenu\versao_116\verticalmenu/content.php:38
+#: F:\verticalmenu\versao_116\verticalmenu/image.php:51
+#: F:\verticalmenu\versao_116\verticalmenu/index.php:40
+#: F:\verticalmenu\versao_116\verticalmenu/search.php:33
+msgid "Page"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/author-bio.php:30
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/comments.php:25
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: F:\verticalmenu\versao_116\verticalmenu/content-link.php:28
+#: F:\verticalmenu\versao_116\verticalmenu/content.php:30
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:209
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/content-link.php:32
+#: F:\verticalmenu\versao_116\verticalmenu/content-page.php:22
+#: F:\verticalmenu\versao_116\verticalmenu/content.php:34
+#: F:\verticalmenu\versao_116\verticalmenu/image.php:47
+msgid "Pages:"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/content-link.php:50
+#: F:\verticalmenu\versao_116\verticalmenu/content-page.php:31
+#: F:\verticalmenu\versao_116\verticalmenu/content-search.php:23
+#: F:\verticalmenu\versao_116\verticalmenu/content-search.php:26
+#: F:\verticalmenu\versao_116\verticalmenu/content.php:51
+#: F:\verticalmenu\versao_116\verticalmenu/image.php:58
+msgid "Edit"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:198
+msgid "expand child menu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:199
+msgid "collapse child menu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:250
+msgid "Primary Menu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:251
+msgid "Social Links Menu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:298
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:300
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:307
+msgid "First Footer Widget"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:309
+msgid "Add widgets here to appear in your left footer."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:316
+msgid "Second Footer Widget"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:318
+msgid "Add widgets here to appear in your center footer."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:325
+msgid "Third Footer Widget"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/functions.php:327
+msgid "Add widgets here to appear in your right."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/header.php:37
+msgid "Menu and widgets"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/header.php:93
+msgid "products"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/header.php:97
+msgid "product"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/image.php:19
+msgid "Previous Image"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/image.php:19
+msgid "Next Image"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/image.php:68
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/back-compat.php:35
+#: F:\verticalmenu\versao_116\verticalmenu/inc/back-compat.php:44
+#: F:\verticalmenu\versao_116\verticalmenu/inc/back-compat.php:56
+#, php-format
+msgid ""
+"verticalmenu requires at least WordPress version 4.1. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:387
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#. translators: %s: version number
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: F:\verticalmenu\versao_116\verticalmenu/inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:35
+msgid "Logo Margin From Top"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:38
+msgid "Choose from -20px to 100px"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:54
+msgid "Logo Height"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:55
+msgid "Choose from 20 to 350 Pixels."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:67
+msgid "Layout"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:70
+msgid "Change General options here."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:83
+msgid "Menu enabled"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:86
+msgid "Vertical Left Menu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:87
+msgid "Horizontal Top Menu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:102
+msgid "Website Layout"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:117
+msgid "Background transparency (opacity)"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:118
+msgid "Choose from .6 to 1"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:135
+msgid "Show entry-title"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:149
+msgid "Footer Copyright"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:161
+msgid "Copyright Footer Text Here"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:172
+msgid "Copyright Background Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:186
+msgid "Copyright Text Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:204
+msgid "Base Color Scheme"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:217
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:218
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:241
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:245
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:228
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:452
+msgid "Menu Text Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:240
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:250
+msgid "Top Page Settings"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:262
+msgid "Top Info Phone"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:271
+msgid "Top Info eMail"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:280
+msgid "Top Info Hours"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:294
+msgid "Top Page Info Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:297
+msgid "White"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:298
+msgid "Gray"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:299
+msgid "Black"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:308
+msgid "Mobile Navigation Design"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:322
+msgid "Mobile Background Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:336
+msgid "Mobile Text Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:350
+msgid "Mobile Separator Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:364
+msgid "Mobile Bar Icon Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:378
+msgid "Mobile Menu Name Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:390
+msgid "Top Navigation Design"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:393
+msgid ""
+"Change Top Navigation detais here. <br />If you install WooCommerce, maybe "
+"you will need set this Top Margin around 50 pixels to left space for their "
+"menu."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:406
+msgid "Menu Margin Top"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:407
+msgid "Choose from 0 to 50 Pixels."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:423
+msgid "Menu Font Size"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:424
+msgid "Choose from 12 to 18 Pixels."
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:438
+msgid "Background Navigation Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:466
+msgid "Menu Text Hover Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:480
+msgid "Sub Menu Text Color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:494
+msgid "Sub Menu Background"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:508
+msgid "Sub Menu Hover color"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:522
+msgid "Sub Menu Hover Background"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:605
+msgid "Default"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:617
+msgid "Dark"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:629
+msgid "Green"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:641
+msgid "Red"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:653
+msgid "Orange"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:665
+msgid "Blue"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/customizer.php:677
+msgid "Brown"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:38
+msgid "Bill Minozzi"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:41
+msgid ""
+"Hello, my name is Bill Minozzi, and I am developer of Theme <b>Vertical "
+"Menu</b>.<br>"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:42
+msgid ""
+"If you like this theme, please write a few words about it. It will help "
+"other people find this useful theme more quickly.<br><b>Thank you!</b>"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:44
+msgid "Rate or Share"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:45
+msgid "No, dismiss"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:46
+msgid "or"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/feedback.php:47
+msgid "Remind me later"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/pinstaller.php:99
+msgid "verticalmenu"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:25
+msgid "Older Comments"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:46
+msgid "Featured"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:51
+msgid "Format"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:68
+msgid "Posted on"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:76
+msgid "Author"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:81
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:88
+msgid ", "
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:84
+msgid "Categories"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:91
+msgid "Tags"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:100
+msgid "Full size"
+msgstr ""
+
+#. translators: %s: post title
+#: F:\verticalmenu\versao_116\verticalmenu/inc/template-tags.php:109
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/single.php:27
+msgid "Next"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/single.php:28
+msgid "Next post:"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/single.php:30
+msgid "Previous"
+msgstr ""
+
+#: F:\verticalmenu\versao_116\verticalmenu/single.php:31
+msgid "Previous post:"
+msgstr ""

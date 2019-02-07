@@ -1,0 +1,815 @@
+0000.011 (0) Opened log file at time: Sat, 02 Feb 2019 21:40:05 +0000 on http://www.snohomishflying.com
+0000.020 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.0.3 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux104 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.42-84.2-56-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24M | 25M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.031 (0) Free space on disk containing Updraft's temporary directory: 421030.3 MB
+0000.065 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.070 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.083 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1549057119, seconds_ago=86486)
+0000.090 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2019-02-02 21:40:05
+0000.097 (0) Semaphore (fd, wp_options) reset to 1
+0000.102 (0) Set semaphore last lock (fd) time to 2019-02-02 21:40:05
+0000.107 (0) Semaphore lock (fd) complete
+0000.123 (0) Backup run: resumption=0, nonce=68e4353a4062, file_nonce=68e4353a4062 begun at=1549143605 (0s ago), job type=backup
+0000.130 (0) Scheduling a resumption (1) after 300 seconds (1549143905) in case this run gets aborted
+0000.175 (0) Checking if we have a zip executable available
+0000.179 (0) Testing: /usr/bin/zip
+0000.210 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.219 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.221 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.224 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.227 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.253 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.258 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.300 (0) Working binary zip found: /usr/bin/zip
+0000.307 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.311 (0) Creation of backups of directories: beginning
+0000.330 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0017.415 (0) Total entities for the zip file: 1362 directories, 9516 files (0 skipped as non-modified), 132.3 MB
+0017.426 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0017.569 (0) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: size is now: 0.30 MB
+0017.712 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 100 files added (on-disk size: 301.5 KB)
+0017.897 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 200 files added (on-disk size: 301.5 KB)
+0018.069 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 300 files added (on-disk size: 301.5 KB)
+0018.251 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 400 files added (on-disk size: 301.5 KB)
+0018.365 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 500 files added (on-disk size: 301.5 KB)
+0018.372 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 9516 files batched, 501 (502) added so far); re-opening (prior size: 301.5 KB)
+0020.770 (0) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: size is now: 2.80 MB
+0020.867 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 600 files added (on-disk size: 2869.5 KB)
+0021.006 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 700 files added (on-disk size: 2869.5 KB)
+0021.134 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 800 files added (on-disk size: 2869.5 KB)
+0021.282 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 900 files added (on-disk size: 2869.5 KB)
+0021.443 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1000 files added (on-disk size: 2869.5 KB)
+0021.454 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 9516 files batched, 501 (1003) added so far); re-opening (prior size: 2869.5 KB)
+0025.453 (0) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: size is now: 6.50 MB
+0025.625 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1100 files added (on-disk size: 6607.5 KB)
+0025.797 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1200 files added (on-disk size: 6607.5 KB)
+0026.055 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1300 files added (on-disk size: 6607.5 KB)
+0026.190 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1400 files added (on-disk size: 6607.5 KB)
+0026.344 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1500 files added (on-disk size: 6607.5 KB)
+0026.354 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 9516 files batched, 501 (1504) added so far); re-opening (prior size: 6607.5 KB)
+0028.516 (0) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: size is now: 9.50 MB
+0028.616 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1600 files added (on-disk size: 9755.2 KB)
+0028.718 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1700 files added (on-disk size: 9755.2 KB)
+0028.815 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1800 files added (on-disk size: 9755.2 KB)
+0028.909 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1900 files added (on-disk size: 9755.2 KB)
+0029.009 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2000 files added (on-disk size: 9755.2 KB)
+0029.019 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9516 files batched, 501 (2005) added so far); re-opening (prior size: 9755.2 KB)
+0031.669 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2100 files added (on-disk size: 11014.2 KB)
+0031.812 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2200 files added (on-disk size: 11014.2 KB)
+0031.942 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2300 files added (on-disk size: 11014.2 KB)
+0032.087 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2400 files added (on-disk size: 11014.2 KB)
+0032.222 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2500 files added (on-disk size: 11014.2 KB)
+0032.235 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 9516 files batched, 501 (2506) added so far); re-opening (prior size: 11014.2 KB)
+0036.061 (0) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: size is now: 13.20 MB
+0036.179 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2600 files added (on-disk size: 13467.3 KB)
+0036.327 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2700 files added (on-disk size: 13467.3 KB)
+0036.494 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2800 files added (on-disk size: 13467.3 KB)
+0036.665 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2900 files added (on-disk size: 13467.3 KB)
+0036.833 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3000 files added (on-disk size: 13467.3 KB)
+0036.849 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9516 files batched, 501 (3007) added so far); re-opening (prior size: 13467.3 KB)
+0040.445 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3100 files added (on-disk size: 14954.3 KB)
+0040.633 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3200 files added (on-disk size: 14954.3 KB)
+0040.790 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3300 files added (on-disk size: 14954.3 KB)
+0040.929 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3400 files added (on-disk size: 14954.3 KB)
+0041.106 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3500 files added (on-disk size: 14954.3 KB)
+0041.152 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 9516 files batched, 501 (3508) added so far); re-opening (prior size: 14954.3 KB)
+0045.287 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3600 files added (on-disk size: 16941.2 KB)
+0046.203 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3700 files added (on-disk size: 16941.2 KB)
+0046.363 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3800 files added (on-disk size: 16941.2 KB)
+0046.533 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3900 files added (on-disk size: 16941.2 KB)
+0046.703 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4000 files added (on-disk size: 16941.2 KB)
+0046.721 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 9516 files batched, 501 (4009) added so far); re-opening (prior size: 16941.2 KB)
+0049.875 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4100 files added (on-disk size: 19938.8 KB)
+0050.005 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4200 files added (on-disk size: 19938.8 KB)
+0050.160 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4300 files added (on-disk size: 19938.8 KB)
+0050.809 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4400 files added (on-disk size: 19938.8 KB)
+0050.960 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4500 files added (on-disk size: 19938.8 KB)
+0050.980 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 9516 files batched, 501 (4510) added so far); re-opening (prior size: 19938.8 KB)
+0054.511 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4600 files added (on-disk size: 22426.5 KB)
+0054.690 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4700 files added (on-disk size: 22426.5 KB)
+0054.853 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4800 files added (on-disk size: 22426.5 KB)
+0054.977 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4900 files added (on-disk size: 22426.5 KB)
+0055.105 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5000 files added (on-disk size: 22426.5 KB)
+0055.126 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.5 MB, 9516 files batched, 501 (5011) added so far); re-opening (prior size: 22426.5 KB)
+0058.995 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5100 files added (on-disk size: 23779.6 KB)
+0059.174 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5200 files added (on-disk size: 23779.6 KB)
+0059.336 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5300 files added (on-disk size: 23779.6 KB)
+0059.561 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5400 files added (on-disk size: 23779.6 KB)
+0059.721 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5500 files added (on-disk size: 23779.6 KB)
+0059.750 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.2 MB, 9516 files batched, 501 (5512) added so far); re-opening (prior size: 23779.6 KB)
+0061.436 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5600 files added (on-disk size: 24014.3 KB)
+0061.556 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5700 files added (on-disk size: 24014.3 KB)
+0061.697 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5800 files added (on-disk size: 24014.3 KB)
+0061.843 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5900 files added (on-disk size: 24014.3 KB)
+0061.998 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6000 files added (on-disk size: 24014.3 KB)
+0062.021 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.2 MB, 9516 files batched, 501 (6013) added so far); re-opening (prior size: 24014.3 KB)
+0067.018 (0) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: size is now: 29.80 MB
+0067.231 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6100 files added (on-disk size: 30486.9 KB)
+0067.417 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6200 files added (on-disk size: 30486.9 KB)
+0067.591 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6300 files added (on-disk size: 30486.9 KB)
+0067.907 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6400 files added (on-disk size: 30486.9 KB)
+0068.274 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6500 files added (on-disk size: 30486.9 KB)
+0068.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 9516 files batched, 501 (6514) added so far); re-opening (prior size: 30486.9 KB)
+0071.677 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6600 files added (on-disk size: 31213.5 KB)
+0071.814 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6700 files added (on-disk size: 31213.5 KB)
+0071.970 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6800 files added (on-disk size: 31213.5 KB)
+0072.148 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6900 files added (on-disk size: 31213.5 KB)
+0072.310 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7000 files added (on-disk size: 31213.5 KB)
+0072.335 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 9516 files batched, 501 (7015) added so far); re-opening (prior size: 31213.5 KB)
+0076.188 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7100 files added (on-disk size: 32336.3 KB)
+0076.340 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7200 files added (on-disk size: 32336.3 KB)
+0076.475 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7300 files added (on-disk size: 32336.3 KB)
+0076.595 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7400 files added (on-disk size: 32336.3 KB)
+0076.727 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7500 files added (on-disk size: 32336.3 KB)
+0076.750 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 9516 files batched, 501 (7516) added so far); re-opening (prior size: 32336.3 KB)
+0081.166 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7600 files added (on-disk size: 33225.1 KB)
+0081.341 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7700 files added (on-disk size: 33225.1 KB)
+0081.563 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7800 files added (on-disk size: 33225.1 KB)
+0081.771 (0) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7900 files added (on-disk size: 33225.1 KB)
+0462.021 (1) Opened log file at time: Sat, 02 Feb 2019 21:47:47 +0000 on http://www.snohomishflying.com
+0462.026 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.0.3 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux106 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.42-84.2-56-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.4M | 25.5M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0462.030 (1) Free space on disk containing Updraft's temporary directory: 420919.4 MB
+0462.036 (1) Backup run: resumption=1, nonce=68e4353a4062, file_nonce=68e4353a4062 begun at=1549143605 (462s ago), job type=backup, previous check-in=81s
+0462.044 (1) Scheduling a resumption (2) after 300 seconds (1549144367) in case this run gets aborted
+0462.077 (1) Checking if we have a zip executable available
+0462.081 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0462.084 (1) Creation of backups of directories: had begun; will resume
+0462.096 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0462.110 (1) File exists (/data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content/updraft/backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1549143687, time_now=1549144067, diff=380)
+0463.113 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: Zip file already exists, with 7516 files
+0473.746 (1) Total entities for the zip file: 1362 directories, 9516 files (0 skipped as non-modified), 132.3 MB
+0473.766 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 100 files added (on-disk size: 33225.1 KB)
+0473.776 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 200 files added (on-disk size: 33225.1 KB)
+0473.784 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 300 files added (on-disk size: 33225.1 KB)
+0473.790 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 400 files added (on-disk size: 33225.1 KB)
+0473.797 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 500 files added (on-disk size: 33225.1 KB)
+0473.804 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 600 files added (on-disk size: 33225.1 KB)
+0473.810 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 700 files added (on-disk size: 33225.1 KB)
+0473.817 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 800 files added (on-disk size: 33225.1 KB)
+0473.824 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 900 files added (on-disk size: 33225.1 KB)
+0473.831 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1000 files added (on-disk size: 33225.1 KB)
+0473.841 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1100 files added (on-disk size: 33225.1 KB)
+0473.847 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1200 files added (on-disk size: 33225.1 KB)
+0473.854 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1300 files added (on-disk size: 33225.1 KB)
+0473.860 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1400 files added (on-disk size: 33225.1 KB)
+0473.867 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1500 files added (on-disk size: 33225.1 KB)
+0473.874 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1600 files added (on-disk size: 33225.1 KB)
+0473.880 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1700 files added (on-disk size: 33225.1 KB)
+0473.887 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1800 files added (on-disk size: 33225.1 KB)
+0473.893 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 1900 files added (on-disk size: 33225.1 KB)
+0473.900 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2000 files added (on-disk size: 33225.1 KB)
+0473.913 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2100 files added (on-disk size: 33225.1 KB)
+0473.921 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2200 files added (on-disk size: 33225.1 KB)
+0473.929 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2300 files added (on-disk size: 33225.1 KB)
+0473.938 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2400 files added (on-disk size: 33225.1 KB)
+0473.945 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2500 files added (on-disk size: 33225.1 KB)
+0473.952 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2600 files added (on-disk size: 33225.1 KB)
+0473.959 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2700 files added (on-disk size: 33225.1 KB)
+0473.966 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2800 files added (on-disk size: 33225.1 KB)
+0473.973 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 2900 files added (on-disk size: 33225.1 KB)
+0473.980 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3000 files added (on-disk size: 33225.1 KB)
+0473.990 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3100 files added (on-disk size: 33225.1 KB)
+0473.997 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3200 files added (on-disk size: 33225.1 KB)
+0474.004 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3300 files added (on-disk size: 33225.1 KB)
+0474.011 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3400 files added (on-disk size: 33225.1 KB)
+0474.018 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3500 files added (on-disk size: 33225.1 KB)
+0474.025 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3600 files added (on-disk size: 33225.1 KB)
+0474.032 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3700 files added (on-disk size: 33225.1 KB)
+0474.038 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3800 files added (on-disk size: 33225.1 KB)
+0474.045 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 3900 files added (on-disk size: 33225.1 KB)
+0474.052 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4000 files added (on-disk size: 33225.1 KB)
+0474.063 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4100 files added (on-disk size: 33225.1 KB)
+0474.069 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4200 files added (on-disk size: 33225.1 KB)
+0474.076 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4300 files added (on-disk size: 33225.1 KB)
+0474.084 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4400 files added (on-disk size: 33225.1 KB)
+0474.091 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4500 files added (on-disk size: 33225.1 KB)
+0474.098 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4600 files added (on-disk size: 33225.1 KB)
+0474.105 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4700 files added (on-disk size: 33225.1 KB)
+0474.112 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4800 files added (on-disk size: 33225.1 KB)
+0474.119 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 4900 files added (on-disk size: 33225.1 KB)
+0474.127 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5000 files added (on-disk size: 33225.1 KB)
+0474.138 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5100 files added (on-disk size: 33225.1 KB)
+0474.145 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5200 files added (on-disk size: 33225.1 KB)
+0474.152 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5300 files added (on-disk size: 33225.1 KB)
+0474.159 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5400 files added (on-disk size: 33225.1 KB)
+0474.166 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5500 files added (on-disk size: 33225.1 KB)
+0474.173 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5600 files added (on-disk size: 33225.1 KB)
+0474.180 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5700 files added (on-disk size: 33225.1 KB)
+0474.186 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5800 files added (on-disk size: 33225.1 KB)
+0474.193 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 5900 files added (on-disk size: 33225.1 KB)
+0474.199 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6000 files added (on-disk size: 33225.1 KB)
+0474.210 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6100 files added (on-disk size: 33225.1 KB)
+0474.218 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6200 files added (on-disk size: 33225.1 KB)
+0474.225 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6300 files added (on-disk size: 33225.1 KB)
+0474.233 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6400 files added (on-disk size: 33225.1 KB)
+0474.240 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6500 files added (on-disk size: 33225.1 KB)
+0474.248 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6600 files added (on-disk size: 33225.1 KB)
+0474.255 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6700 files added (on-disk size: 33225.1 KB)
+0474.262 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6800 files added (on-disk size: 33225.1 KB)
+0474.270 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 6900 files added (on-disk size: 33225.1 KB)
+0474.277 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7000 files added (on-disk size: 33225.1 KB)
+0474.287 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7100 files added (on-disk size: 33225.1 KB)
+0474.294 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7200 files added (on-disk size: 33225.1 KB)
+0474.300 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7300 files added (on-disk size: 33225.1 KB)
+0474.307 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7400 files added (on-disk size: 33225.1 KB)
+0474.313 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7500 files added (on-disk size: 33225.1 KB)
+0474.391 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7600 files added (on-disk size: 33225.1 KB)
+0474.489 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7700 files added (on-disk size: 33225.1 KB)
+0474.585 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7800 files added (on-disk size: 33225.1 KB)
+0474.679 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 7900 files added (on-disk size: 33225.1 KB)
+0474.770 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8000 files added (on-disk size: 33225.1 KB)
+0474.792 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 9516 files batched, 501 (501) added so far); re-opening (prior size: 33225.1 KB)
+0479.231 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8100 files added (on-disk size: 36314 KB)
+0479.352 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8200 files added (on-disk size: 36314 KB)
+0479.426 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8300 files added (on-disk size: 36314 KB)
+0479.501 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8400 files added (on-disk size: 36314 KB)
+0479.580 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8500 files added (on-disk size: 36314 KB)
+0479.598 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 9516 files batched, 501 (1002) added so far); re-opening (prior size: 36314 KB)
+0481.326 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8600 files added (on-disk size: 38109 KB)
+0481.403 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8700 files added (on-disk size: 38109 KB)
+0481.490 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8800 files added (on-disk size: 38109 KB)
+0481.579 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 8900 files added (on-disk size: 38109 KB)
+0481.672 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 9000 files added (on-disk size: 38109 KB)
+0481.693 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.6 MB, 9516 files batched, 501 (1503) added so far); re-opening (prior size: 38109 KB)
+0485.555 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 9100 files added (on-disk size: 44047.8 KB)
+0485.647 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 9200 files added (on-disk size: 44047.8 KB)
+0485.743 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 9300 files added (on-disk size: 44047.8 KB)
+0485.894 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 9400 files added (on-disk size: 44047.8 KB)
+0485.976 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip.tmp: 9500 files added (on-disk size: 44047.8 KB)
+0495.401 (1) Created plugins zip (0) - 48830.5 KB in 33.3 s (1467.2 KB/s) (sha1: 1b4e29f60848ce2e6ca378e406ca708896ed8836, sha256: 497e5e252ca86effa06d6ef69b366ba9549813fd94b4ab7abf8b1fbf85c934b3)
+0495.419 (1) Beginning creation of dump of themes (split every: 400 MB)
+0498.132 (1) Total entities for the zip file: 410 directories, 1759 files (0 skipped as non-modified), 52 MB
+0498.139 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0498.203 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: size is now: 0.10 MB
+0498.302 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 100 files added (on-disk size: 92.9 KB)
+0498.403 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 200 files added (on-disk size: 92.9 KB)
+0498.489 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 300 files added (on-disk size: 92.9 KB)
+0498.576 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 400 files added (on-disk size: 92.9 KB)
+0498.666 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 500 files added (on-disk size: 92.9 KB)
+0498.673 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.6 MB, 1759 files batched, 501 (502) added so far); re-opening (prior size: 92.9 KB)
+0500.477 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: size is now: 3.60 MB
+0500.573 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 600 files added (on-disk size: 3657.1 KB)
+0500.662 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 700 files added (on-disk size: 3657.1 KB)
+0500.758 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 800 files added (on-disk size: 3657.1 KB)
+0500.845 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 900 files added (on-disk size: 3657.1 KB)
+0500.934 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1000 files added (on-disk size: 3657.1 KB)
+0500.941 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 1759 files batched, 501 (1003) added so far); re-opening (prior size: 3657.1 KB)
+0502.354 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: size is now: 8.10 MB
+0502.445 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1100 files added (on-disk size: 8291.5 KB)
+0502.525 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1200 files added (on-disk size: 8291.5 KB)
+0502.614 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1300 files added (on-disk size: 8291.5 KB)
+0502.701 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1400 files added (on-disk size: 8291.5 KB)
+0502.785 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1500 files added (on-disk size: 8291.5 KB)
+0502.792 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (24.6 MB, 1759 files batched, 501 (1504) added so far); re-opening (prior size: 8291.5 KB)
+0510.696 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: size is now: 27.20 MB
+0510.804 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1600 files added (on-disk size: 27826 KB)
+0510.909 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: 1700 files added (on-disk size: 27826 KB)
+0516.186 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip.tmp: size is now: 41.10 MB
+0518.621 (1) Created themes zip (0) - 42107.3 KB in 23.2 s (1815.9 KB/s) (sha1: 0b22bc5d60462691f6d076de6b9c8e1a9b20d25c, sha256: 20656881b896e5c32d5221576c669650d0b1e891ecac734112dce2040dccbdce)
+0518.640 (1) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0518.643 (1) Looking for candidates to backup in: /data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content/uploads
+0518.648 (1) finding files: 2015: adding to list (1)
+0518.651 (1) finding files: 2017: adding to list (2)
+0518.653 (1) finding files: js_composer1501272035.zip: adding to list (3)
+0518.655 (1) finding files: .htaccess: adding to list (4)
+0518.657 (1) finding files: et_temp: adding to list (5)
+0518.659 (1) finding files: js_composer1501760154.zip: adding to list (6)
+0518.662 (1) finding files: js_composer: adding to list (7)
+0518.664 (1) finding files: revslider: adding to list (8)
+0518.667 (1) finding files: wp-migrate-db: adding to list (9)
+0518.671 (1) finding files: wp-security-audit-log: adding to list (10)
+0518.673 (1) finding files: 2018: adding to list (11)
+0518.676 (1) finding files: js_composer1508074500.zip: adding to list (12)
+0518.678 (1) finding files: js_composer1511036160.zip: adding to list (13)
+0518.680 (1) finding files: js_composer1512424144.zip: adding to list (14)
+0518.682 (1) finding files: imagecleanup: adding to list (15)
+0518.684 (1) finding files: 2019: adding to list (16)
+0518.687 (1) finding files: js_composer1522282588.zip: adding to list (17)
+0518.689 (1) finding files: js_composer1536670071.zip: adding to list (18)
+0518.691 (1) finding files: js_composer1539347941.zip: adding to list (19)
+0518.694 (1) finding files: js_composer1543959210.zip: adding to list (20)
+0518.696 (1) Beginning creation of dump of uploads (split every: 400 MB)
+0522.369 (1) Total entities for the zip file: 226 directories, 4106 files (0 skipped as non-modified), 343.4 MB
+0522.375 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0522.423 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: size is now: 0.10 MB
+0522.518 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 100 files added (on-disk size: 80.4 KB)
+0522.606 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 200 files added (on-disk size: 80.4 KB)
+0522.706 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 300 files added (on-disk size: 80.4 KB)
+0523.385 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 400 files added (on-disk size: 80.4 KB)
+0523.483 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 500 files added (on-disk size: 80.4 KB)
+0523.489 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.1 MB, 4106 files batched, 501 (502) added so far); re-opening (prior size: 80.4 KB)
+0526.010 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: size is now: 19.20 MB
+0526.099 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 600 files added (on-disk size: 19638.6 KB)
+0526.172 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 700 files added (on-disk size: 19638.6 KB)
+0526.244 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 800 files added (on-disk size: 19638.6 KB)
+0526.299 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 4106 files batched, 374 (876) added so far); re-opening (prior size: 19638.6 KB)
+0532.518 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: size is now: 43.70 MB
+0532.527 (1) A useful amount of data was added after this amount of zip processing: 6.8 s (normalised: 6.7 s, rate: 3798.3 KB/s)
+0532.532 (1) Performance is good - will increase the amount of data we attempt to batch (time=6.7617650032043, normalised_time=6.7398327281618, max_time=81, data points known=1, old_max_bytes=26214400, new_max_bytes=189028406)
+0532.557 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 900 files added (on-disk size: 44796.1 KB)
+0532.645 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1000 files added (on-disk size: 44796.1 KB)
+0532.916 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1100 files added (on-disk size: 44796.1 KB)
+0533.020 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1200 files added (on-disk size: 44796.1 KB)
+0533.494 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1300 files added (on-disk size: 44796.1 KB)
+0533.564 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (42 MB, 4106 files batched, 501 (1377) added so far); re-opening (prior size: 44796.1 KB)
+0542.130 (1) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: size is now: 85.50 MB
+0542.184 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1400 files added (on-disk size: 87563.1 KB)
+0542.337 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1500 files added (on-disk size: 87563.1 KB)
+0542.474 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1600 files added (on-disk size: 87563.1 KB)
+0542.598 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1700 files added (on-disk size: 87563.1 KB)
+0542.722 (1) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1800 files added (on-disk size: 87563.1 KB)
+0542.823 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (48.8 MB, 4106 files batched, 501 (1878) added so far); re-opening (prior size: 87563.1 KB)
+1259.373 (2) Opened log file at time: Sat, 02 Feb 2019 22:01:04 +0000 on https://www.snohomishflying.com
+1259.377 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.0.3 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux104 4.4.5-hardened-r2 #1 SMP Fri Oct 21 20:48:01 EDT 2016 x86_64) MySQL: 5.6.42-84.2-56-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24M | 25M) multisite: N openssl: OpenSSL 1.0.1r  28 Jan 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1259.382 (2) Free space on disk containing Updraft's temporary directory: 420692.2 MB
+1259.390 (2) Backup run: resumption=2, nonce=68e4353a4062, file_nonce=68e4353a4062 begun at=1549143605 (1259s ago), job type=backup, previous check-in=80.1s
+1259.397 (2) Scheduling a resumption (3) after 300 seconds (1549145164) in case this run gets aborted
+1259.430 (2) Checking if we have a zip executable available
+1259.434 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1259.437 (2) Creation of backups of directories: had begun; will resume
+1259.452 (2) Beginning creation of dump of plugins (split every: 400 MB)
+1259.456 (2) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip: this file has already been created (age: 768 s)
+1259.475 (2) Beginning creation of dump of themes (split every: 400 MB)
+1259.478 (2) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip: this file has already been created (age: 743 s)
+1259.498 (2) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1259.501 (2) Looking for candidates to backup in: /data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content/uploads
+1259.507 (2) finding files: 2015: adding to list (1)
+1259.510 (2) finding files: 2017: adding to list (2)
+1259.513 (2) finding files: js_composer1501272035.zip: adding to list (3)
+1259.517 (2) finding files: .htaccess: adding to list (4)
+1259.520 (2) finding files: et_temp: adding to list (5)
+1259.523 (2) finding files: js_composer1501760154.zip: adding to list (6)
+1259.526 (2) finding files: js_composer: adding to list (7)
+1259.529 (2) finding files: revslider: adding to list (8)
+1259.533 (2) finding files: wp-migrate-db: adding to list (9)
+1259.536 (2) finding files: wp-security-audit-log: adding to list (10)
+1259.539 (2) finding files: 2018: adding to list (11)
+1259.542 (2) finding files: js_composer1508074500.zip: adding to list (12)
+1259.545 (2) finding files: js_composer1511036160.zip: adding to list (13)
+1259.549 (2) finding files: js_composer1512424144.zip: adding to list (14)
+1259.553 (2) finding files: imagecleanup: adding to list (15)
+1259.557 (2) finding files: 2019: adding to list (16)
+1259.561 (2) finding files: js_composer1522282588.zip: adding to list (17)
+1259.565 (2) finding files: js_composer1536670071.zip: adding to list (18)
+1259.569 (2) finding files: js_composer1539347941.zip: adding to list (19)
+1259.572 (2) finding files: js_composer1543959210.zip: adding to list (20)
+1259.575 (2) Beginning creation of dump of uploads (split every: 400 MB)
+1259.586 (2) File exists (/data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content/updraft/backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1549144159, time_now=1549144864, diff=705)
+1259.796 (2) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: Zip file already exists, with 1878 files
+1264.278 (2) Total entities for the zip file: 226 directories, 4106 files (0 skipped as non-modified), 343.4 MB
+1264.288 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 100 files added (on-disk size: 137073.2 KB)
+1264.296 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 200 files added (on-disk size: 137073.2 KB)
+1264.304 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 300 files added (on-disk size: 137073.2 KB)
+1264.312 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 400 files added (on-disk size: 137073.2 KB)
+1264.322 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 500 files added (on-disk size: 137073.2 KB)
+1264.331 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 600 files added (on-disk size: 137073.2 KB)
+1264.339 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 700 files added (on-disk size: 137073.2 KB)
+1264.348 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 800 files added (on-disk size: 137073.2 KB)
+1264.356 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 900 files added (on-disk size: 137073.2 KB)
+1264.365 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1000 files added (on-disk size: 137073.2 KB)
+1264.378 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1100 files added (on-disk size: 137073.2 KB)
+1264.386 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1200 files added (on-disk size: 137073.2 KB)
+1264.394 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1300 files added (on-disk size: 137073.2 KB)
+1264.403 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1400 files added (on-disk size: 137073.2 KB)
+1264.412 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1500 files added (on-disk size: 137073.2 KB)
+1264.420 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1600 files added (on-disk size: 137073.2 KB)
+1264.429 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1700 files added (on-disk size: 137073.2 KB)
+1264.437 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1800 files added (on-disk size: 137073.2 KB)
+1264.495 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1900 files added (on-disk size: 137073.2 KB)
+1264.742 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2000 files added (on-disk size: 137073.2 KB)
+1264.851 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2100 files added (on-disk size: 137073.2 KB)
+1265.357 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2200 files added (on-disk size: 137073.2 KB)
+1265.443 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2300 files added (on-disk size: 137073.2 KB)
+1265.520 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (48.3 MB, 4106 files batched, 501 (501) added so far); re-opening (prior size: 137073.2 KB)
+1276.132 (2) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: size is now: 182.20 MB
+1276.251 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2400 files added (on-disk size: 186615.1 KB)
+1276.977 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2500 files added (on-disk size: 186615.1 KB)
+1277.075 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2600 files added (on-disk size: 186615.1 KB)
+1277.175 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2700 files added (on-disk size: 186615.1 KB)
+1277.286 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2800 files added (on-disk size: 186615.1 KB)
+1277.379 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (28.6 MB, 4106 files batched, 501 (1002) added so far); re-opening (prior size: 186615.1 KB)
+1290.572 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2900 files added (on-disk size: 216026.1 KB)
+1290.777 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3000 files added (on-disk size: 216026.1 KB)
+1291.005 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3100 files added (on-disk size: 216026.1 KB)
+1291.169 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3200 files added (on-disk size: 216026.1 KB)
+1291.338 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3300 files added (on-disk size: 216026.1 KB)
+1291.479 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 4106 files batched, 501 (1503) added so far); re-opening (prior size: 216026.1 KB)
+1304.967 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3400 files added (on-disk size: 219231.1 KB)
+1305.209 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3500 files added (on-disk size: 219231.1 KB)
+1305.984 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3600 files added (on-disk size: 219231.1 KB)
+1306.260 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3700 files added (on-disk size: 219231.1 KB)
+1306.460 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3800 files added (on-disk size: 219231.1 KB)
+1306.616 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (70 MB, 4106 files batched, 501 (2004) added so far); re-opening (prior size: 219231.1 KB)
+1329.214 (2) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: size is now: 283.60 MB
+1329.348 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3900 files added (on-disk size: 290394.4 KB)
+1329.551 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 4000 files added (on-disk size: 290394.4 KB)
+1329.726 (2) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 4100 files added (on-disk size: 290394.4 KB)
+1754.454 (3) Opened log file at time: Sat, 02 Feb 2019 22:09:19 +0000 on https://www.snohomishflying.com
+1754.457 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.0.3 PHP: 5.6.17-pl0-gentoo (cgi-fcgi, Linux atl4vux184 4.7.10-hardened #1 SMP Wed Jun 21 18:27:35 EDT 2017 x86_64) MySQL: 5.6.42-84.2-56-log WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.2M | 25.3M) multisite: N openssl: OpenSSL 1.0.2h  3 May 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1754.459 (3) Free space on disk containing Updraft's temporary directory: 420327.3 MB
+1754.462 (3) Backup run: resumption=3, nonce=68e4353a4062, file_nonce=68e4353a4062 begun at=1549143605 (1754s ago), job type=backup, previous check-in=69.8s
+1754.466 (3) Scheduling a resumption (4) after 300 seconds (1549145659) in case this run gets aborted
+1754.481 (3) Checking if we have a zip executable available
+1754.484 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1754.485 (3) Creation of backups of directories: had begun; will resume
+1754.493 (3) Beginning creation of dump of plugins (split every: 400 MB)
+1754.495 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip: this file has already been created (age: 1263 s)
+1754.505 (3) Beginning creation of dump of themes (split every: 400 MB)
+1754.508 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip: this file has already been created (age: 1238 s)
+1754.517 (3) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+1754.519 (3) Looking for candidates to backup in: /data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content/uploads
+1754.521 (3) finding files: 2015: adding to list (1)
+1754.523 (3) finding files: 2017: adding to list (2)
+1754.525 (3) finding files: js_composer1501272035.zip: adding to list (3)
+1754.526 (3) finding files: .htaccess: adding to list (4)
+1754.528 (3) finding files: et_temp: adding to list (5)
+1754.530 (3) finding files: js_composer1501760154.zip: adding to list (6)
+1754.531 (3) finding files: js_composer: adding to list (7)
+1754.533 (3) finding files: revslider: adding to list (8)
+1754.535 (3) finding files: wp-migrate-db: adding to list (9)
+1754.536 (3) finding files: wp-security-audit-log: adding to list (10)
+1754.538 (3) finding files: 2018: adding to list (11)
+1754.540 (3) finding files: js_composer1508074500.zip: adding to list (12)
+1754.541 (3) finding files: js_composer1511036160.zip: adding to list (13)
+1754.543 (3) finding files: js_composer1512424144.zip: adding to list (14)
+1754.545 (3) finding files: imagecleanup: adding to list (15)
+1754.546 (3) finding files: 2019: adding to list (16)
+1754.548 (3) finding files: js_composer1522282588.zip: adding to list (17)
+1754.550 (3) finding files: js_composer1536670071.zip: adding to list (18)
+1754.551 (3) finding files: js_composer1539347941.zip: adding to list (19)
+1754.553 (3) finding files: js_composer1543959210.zip: adding to list (20)
+1754.555 (3) Beginning creation of dump of uploads (split every: 400 MB)
+1754.560 (3) File exists (/data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content/updraft/backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp), but was apparently not modified within the last 30 seconds, so we assume that any previous run has now terminated (time_mod=1549144955, time_now=1549145359, diff=404)
+1754.712 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: Zip file already exists, with 4106 files
+1756.541 (3) Total entities for the zip file: 226 directories, 4106 files (0 skipped as non-modified), 343.4 MB
+1756.546 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 100 files added (on-disk size: 343891.8 KB)
+1756.549 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 200 files added (on-disk size: 343891.8 KB)
+1756.552 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 300 files added (on-disk size: 343891.8 KB)
+1756.554 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 400 files added (on-disk size: 343891.8 KB)
+1756.557 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 500 files added (on-disk size: 343891.8 KB)
+1756.560 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 600 files added (on-disk size: 343891.8 KB)
+1756.563 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 700 files added (on-disk size: 343891.8 KB)
+1756.566 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 800 files added (on-disk size: 343891.8 KB)
+1756.569 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 900 files added (on-disk size: 343891.8 KB)
+1756.571 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1000 files added (on-disk size: 343891.8 KB)
+1756.576 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1100 files added (on-disk size: 343891.8 KB)
+1756.579 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1200 files added (on-disk size: 343891.8 KB)
+1756.582 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1300 files added (on-disk size: 343891.8 KB)
+1756.585 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1400 files added (on-disk size: 343891.8 KB)
+1756.587 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1500 files added (on-disk size: 343891.8 KB)
+1756.590 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1600 files added (on-disk size: 343891.8 KB)
+1756.593 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1700 files added (on-disk size: 343891.8 KB)
+1756.596 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1800 files added (on-disk size: 343891.8 KB)
+1756.599 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 1900 files added (on-disk size: 343891.8 KB)
+1756.602 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2000 files added (on-disk size: 343891.8 KB)
+1756.606 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2100 files added (on-disk size: 343891.8 KB)
+1756.609 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2200 files added (on-disk size: 343891.8 KB)
+1756.611 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2300 files added (on-disk size: 343891.8 KB)
+1756.614 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2400 files added (on-disk size: 343891.8 KB)
+1756.617 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2500 files added (on-disk size: 343891.8 KB)
+1756.620 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2600 files added (on-disk size: 343891.8 KB)
+1756.623 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2700 files added (on-disk size: 343891.8 KB)
+1756.626 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2800 files added (on-disk size: 343891.8 KB)
+1756.628 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 2900 files added (on-disk size: 343891.8 KB)
+1756.631 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3000 files added (on-disk size: 343891.8 KB)
+1756.636 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3100 files added (on-disk size: 343891.8 KB)
+1756.639 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3200 files added (on-disk size: 343891.8 KB)
+1756.642 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3300 files added (on-disk size: 343891.8 KB)
+1756.648 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3400 files added (on-disk size: 343891.8 KB)
+1756.655 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3500 files added (on-disk size: 343891.8 KB)
+1756.660 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3600 files added (on-disk size: 343891.8 KB)
+1756.667 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3700 files added (on-disk size: 343891.8 KB)
+1756.674 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3800 files added (on-disk size: 343891.8 KB)
+1756.679 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 3900 files added (on-disk size: 343891.8 KB)
+1756.683 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 4000 files added (on-disk size: 343891.8 KB)
+1756.688 (3) Zip: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip.tmp: 4100 files added (on-disk size: 343891.8 KB)
+1769.728 (3) Created uploads zip (0) - 343891.9 KB in 15.2 s (22680.2 KB/s) (sha1: 2a77288c7c7731693916412e60e80c42b76d0da2, sha256: 94d8761ed763a24de1b40746c2fefd9eae655471a05c659539e23690097bb53a)
+1769.739 (3) Beginning backup of other directories found in the content directory (index: 0)
+1769.742 (3) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+1769.743 (3) Looking for candidates to backup in: /data/57/4/147/91/4473906/user/5305344/htdocs/snohomishflying/wp-content
+1769.746 (3) finding files: blogs.dir: adding to list (1)
+1769.748 (3) finding files: advanced-cache.php: adding to list (2)
+1769.750 (3) finding files: languages: adding to list (3)
+1769.752 (3) finding files: plugins: skipping: this is the plugins directory
+1769.754 (3) finding files: themes: skipping: this is the themes directory
+1769.755 (3) finding files: wp-cache-config.php: adding to list (4)
+1769.757 (3) finding files: index.php: adding to list (5)
+1769.759 (3) finding files: install.php: adding to list (6)
+1769.761 (3) finding files: cache: skipping: excluded by options
+1769.763 (3) finding files: updraft: skipping: this is the updraft directory
+1769.765 (3) finding files: upgrade: skipping: excluded by options
+1769.767 (3) finding files: uploads: skipping: this is the uploads directory
+1769.769 (3) finding files: w3tc-config: adding to list (7)
+1769.771 (3) finding files: wp-vcnfics.php: adding to list (8)
+1769.773 (3) finding files: wp-mbrxsmrs.php: adding to list (9)
+1769.775 (3) finding files: wflogs: adding to list (10)
+1769.791 (3) Total entities for the zip file: 4 directories, 18 files (0 skipped as non-modified), 5.3 MB
+1770.440 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-others.zip.tmp: size is now: 2.30 MB
+1770.501 (3) Created others zip (0) - 2368.1 KB in 0.7 s (3290 KB/s) (sha1: a7f993e82e4e782fd9397ffde4b06016fa933e67, sha256: 3523af79076ffe430f42307e4920e0e5bfaee51c8681385f1e98f756af2726eb)
+1770.517 (3) Saving backup status to database (elements: 8)
+1770.529 (3) Resuming creation of database dump (WordPress DB)
+1770.537 (3) Testing potential mysqldump binary: /usr/bin/mysqldump
+1770.572 (3) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1195 bytes total)
+1770.579 (3) Working binary mysqldump found: /usr/bin/mysqldump
+1770.723 (3) Table wp_options: Total expected rows (approximate): 493
+1770.780 (3) Table wp_options: Total rows added: 486 in 0.05 seconds
+1770.784 (3) Table wp_options: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_options.table.gz - 97.9 KB)
+1770.806 (3) Table wp_users: Total expected rows (approximate): 4
+1770.811 (3) Table wp_users: Total rows added: 4 in 0.00 seconds
+1770.814 (3) Table wp_users: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_users.table.gz - 0.7 KB)
+1770.841 (3) Table wp_usermeta: Total expected rows (approximate): 161
+1770.851 (3) Table wp_usermeta: Total rows added: 161 in 0.01 seconds
+1770.854 (3) Table wp_usermeta: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_usermeta.table.gz - 3.4 KB)
+1770.889 (3) Table wp_commentmeta: Total expected rows (approximate): 0
+1770.897 (3) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+1770.902 (3) Table wp_commentmeta: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_commentmeta.table.gz - 0.4 KB)
+1770.929 (3) Table wp_comments: Total expected rows (approximate): 0
+1770.936 (3) Table wp_comments: Total rows added: 0 in 0.00 seconds
+1770.938 (3) Table wp_comments: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_comments.table.gz - 0.5 KB)
+1770.954 (3) Table wp_links: Total expected rows (approximate): 7
+1770.971 (3) Table wp_links: Total rows added: 7 in 0.02 seconds
+1770.975 (3) Table wp_links: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_links.table.gz - 0.6 KB)
+1770.997 (3) Table wp_postmeta: Total expected rows (approximate): 2006
+1771.197 (3) Table wp_postmeta: Total rows added: 2218 in 0.20 seconds
+1771.202 (3) Table wp_postmeta: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_postmeta.table.gz - 219.9 KB)
+1771.238 (3) Table wp_posts: Total expected rows (approximate): 468
+1771.392 (3) Table wp_posts: Total rows added: 531 in 0.15 seconds
+1771.396 (3) Table wp_posts: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_posts.table.gz - 46.1 KB)
+1771.426 (3) Table wp_term_relationships: Total expected rows (approximate): 27
+1771.435 (3) Table wp_term_relationships: Total rows added: 28 in 0.01 seconds
+1771.438 (3) Table wp_term_relationships: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_term_relationships.table.gz - 0.4 KB)
+1771.488 (3) Table wp_term_taxonomy: Total expected rows (approximate): 4
+1771.494 (3) Table wp_term_taxonomy: Total rows added: 4 in 0.00 seconds
+1771.496 (3) Table wp_term_taxonomy: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+1771.519 (3) Table wp_termmeta: Total expected rows (approximate): 0
+1771.524 (3) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+1771.527 (3) Table wp_termmeta: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_termmeta.table.gz - 0.4 KB)
+1771.552 (3) Table wp_terms: Total expected rows (approximate): 4
+1771.559 (3) Table wp_terms: Total rows added: 4 in 0.00 seconds
+1771.561 (3) Table wp_terms: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_terms.table.gz - 0.4 KB)
+1771.619 (3) Table wp_yoast_seo_links: Total expected rows (approximate): 19
+1771.641 (3) Table wp_yoast_seo_links: Total rows added: 19 in 0.02 seconds
+1771.644 (3) Table wp_yoast_seo_links: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_yoast_seo_links.table.gz - 0.7 KB)
+1771.666 (3) Table wp_yoast_seo_meta: Total expected rows (approximate): 17
+1771.674 (3) Table wp_yoast_seo_meta: Total rows added: 76 in 0.01 seconds
+1771.677 (3) Table wp_yoast_seo_meta: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_yoast_seo_meta.table.gz - 0.5 KB)
+1771.699 (3) Table wp_datalist: Total expected rows (approximate): 0
+1771.706 (3) Table wp_datalist: Total rows added: 0 in 0.00 seconds
+1771.709 (3) Table wp_datalist: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_datalist.table.gz - 0.3 KB)
+1771.736 (3) Table wp_redirection_404: Total expected rows (approximate): 990
+1771.804 (3) Table wp_redirection_404: Total rows added: 1211 in 0.07 seconds
+1771.807 (3) Table wp_redirection_404: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_404.table.gz - 22.4 KB)
+1771.842 (3) Table wp_redirection_groups: Total expected rows (approximate): 2
+1771.849 (3) Table wp_redirection_groups: Total rows added: 2 in 0.01 seconds
+1771.851 (3) Table wp_redirection_groups: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+1771.870 (3) Table wp_redirection_items: Total expected rows (approximate): 36
+1771.881 (3) Table wp_redirection_items: Total rows added: 72 in 0.01 seconds
+1771.884 (3) Table wp_redirection_items: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_items.table.gz - 2.5 KB)
+1771.903 (3) Table wp_redirection_logs: Total expected rows (approximate): 250
+1771.937 (3) Table wp_redirection_logs: Total rows added: 285 in 0.03 seconds
+1771.940 (3) Table wp_redirection_logs: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_logs.table.gz - 7.4 KB)
+1771.957 (3) Table wp_revslider_css: Total expected rows (approximate): 111
+1771.969 (3) Table wp_revslider_css: Total rows added: 111 in 0.01 seconds
+1771.972 (3) Table wp_revslider_css: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_css.table.gz - 4.9 KB)
+1771.994 (3) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+1771.999 (3) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+1772.002 (3) Table wp_revslider_layer_animations: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+1772.023 (3) Table wp_revslider_navigations: Total expected rows (approximate): 0
+1772.028 (3) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+1772.031 (3) Table wp_revslider_navigations: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+1772.053 (3) Table wp_revslider_sliders: Total expected rows (approximate): 2
+1772.064 (3) Table wp_revslider_sliders: Total rows added: 6 in 0.01 seconds
+1772.068 (3) Table wp_revslider_sliders: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_sliders.table.gz - 4.4 KB)
+1772.093 (3) Table wp_revslider_slides: Total expected rows (approximate): 14
+1772.171 (3) Table wp_revslider_slides: Total rows added: 16 in 0.08 seconds
+1772.176 (3) Table wp_revslider_slides: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_slides.table.gz - 7.5 KB)
+1772.198 (3) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+1772.207 (3) Table wp_revslider_static_slides: Total rows added: 0 in 0.01 seconds
+1772.209 (3) Table wp_revslider_static_slides: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+1772.235 (3) Table wp_smush_dir_images: Total expected rows (approximate): 0
+1772.249 (3) Table wp_smush_dir_images: Total rows added: 0 in 0.01 seconds
+1772.255 (3) Table wp_smush_dir_images: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_smush_dir_images.table.gz - 0.4 KB)
+1772.283 (3) Table wp_wfBadLeechers: Total expected rows (approximate): 0
+1772.295 (3) Table wp_wfBadLeechers: Total rows added: 0 in 0.01 seconds
+1772.299 (3) Table wp_wfBadLeechers: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBadLeechers.table.gz - 0.3 KB)
+1772.328 (3) Table wp_wfBlockedCommentLog: Total expected rows (approximate): 0
+1772.334 (3) Table wp_wfBlockedCommentLog: Total rows added: 0 in 0.00 seconds
+1772.336 (3) Table wp_wfBlockedCommentLog: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBlockedCommentLog.table.gz - 0.3 KB)
+1772.349 (3) Table wp_wfBlockedIPLog: Total expected rows (approximate): 41
+1772.355 (3) Table wp_wfBlockedIPLog: Total rows added: 8 in 0.00 seconds
+1772.358 (3) Table wp_wfBlockedIPLog: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBlockedIPLog.table.gz - 0.5 KB)
+1772.383 (3) Table wp_wfBlocks7: Total expected rows (approximate): 0
+1772.388 (3) Table wp_wfBlocks7: Total rows added: 0 in 0.00 seconds
+1772.390 (3) Table wp_wfBlocks7: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBlocks7.table.gz - 0.4 KB)
+1772.403 (3) Table wp_wfConfig: Total expected rows (approximate): 255
+1772.443 (3) Table wp_wfConfig: Total rows added: 257 in 0.04 seconds
+1772.449 (3) Table wp_wfConfig: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfConfig.table.gz - 365.6 KB)
+1772.471 (3) Table wp_wfCrawlers: Total expected rows (approximate): 20
+1772.478 (3) Table wp_wfCrawlers: Total rows added: 20 in 0.00 seconds
+1772.480 (3) Table wp_wfCrawlers: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfCrawlers.table.gz - 0.8 KB)
+1772.519 (3) Table wp_wfFileChanges: Total expected rows (approximate): 0
+1772.525 (3) Table wp_wfFileChanges: Total rows added: 0 in 0.00 seconds
+1772.528 (3) Table wp_wfFileChanges: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfFileChanges.table.gz - 0.3 KB)
+1772.543 (3) Table wp_wfFileMods: Total expected rows (approximate): 9075
+1772.788 (3) Table wp_wfFileMods: binary mysqldump finished (writes: 36) in 0.24 seconds
+1772.795 (3) Table wp_wfFileMods: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfFileMods.table.gz - 866.6 KB)
+1772.805 (3) Table wp_wfHits: Total expected rows (approximate): 1638
+1772.916 (3) Table wp_wfHits: Total rows added: 1655 in 0.11 seconds
+1772.920 (3) Table wp_wfHits: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfHits.table.gz - 41.9 KB)
+1772.945 (3) Table wp_wfHoover: Total expected rows (approximate): 0
+1772.950 (3) Table wp_wfHoover: Total rows added: 0 in 0.00 seconds
+1772.952 (3) Table wp_wfHoover: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfHoover.table.gz - 0.3 KB)
+1772.974 (3) Table wp_wfIssues: Total expected rows (approximate): 1
+1772.981 (3) Table wp_wfIssues: Total rows added: 1 in 0.00 seconds
+1772.983 (3) Table wp_wfIssues: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfIssues.table.gz - 0.8 KB)
+1773.002 (3) Table wp_wfKnownFileList: Total expected rows (approximate): 9721
+1773.086 (3) Table wp_wfKnownFileList: binary mysqldump finished (writes: 28) in 0.08 seconds
+1773.091 (3) Table wp_wfKnownFileList: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfKnownFileList.table.gz - 98.3 KB)
+1773.115 (3) Table wp_wfLeechers: Total expected rows (approximate): 443
+1773.146 (3) Table wp_wfLeechers: Total rows added: 483 in 0.03 seconds
+1773.148 (3) Table wp_wfLeechers: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLeechers.table.gz - 2.8 KB)
+1773.166 (3) Table wp_wfLiveTrafficHuman: Total expected rows (approximate): 65
+1773.172 (3) Table wp_wfLiveTrafficHuman: Total rows added: 45 in 0.00 seconds
+1773.175 (3) Table wp_wfLiveTrafficHuman: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLiveTrafficHuman.table.gz - 1.8 KB)
+1773.198 (3) Table wp_wfLocs: Total expected rows (approximate): 0
+1773.204 (3) Table wp_wfLocs: Total rows added: 1 in 0.00 seconds
+1773.207 (3) Table wp_wfLocs: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLocs.table.gz - 0.5 KB)
+1773.231 (3) Table wp_wfLogins: Total expected rows (approximate): 72
+1773.247 (3) Table wp_wfLogins: Total rows added: 143 in 0.01 seconds
+1773.250 (3) Table wp_wfLogins: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLogins.table.gz - 3.8 KB)
+1773.265 (3) Table wp_wfNotifications: Total expected rows (approximate): 23
+1773.273 (3) Table wp_wfNotifications: Total rows added: 51 in 0.01 seconds
+1773.275 (3) Table wp_wfNotifications: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfNotifications.table.gz - 1.2 KB)
+1773.291 (3) Table wp_wfPendingIssues: Total expected rows (approximate): 0
+1773.297 (3) Table wp_wfPendingIssues: Total rows added: 0 in 0.00 seconds
+1773.299 (3) Table wp_wfPendingIssues: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfPendingIssues.table.gz - 0.4 KB)
+1773.318 (3) Table wp_wfReverseCache: Total expected rows (approximate): 3
+1773.325 (3) Table wp_wfReverseCache: Total rows added: 3 in 0.01 seconds
+1773.328 (3) Table wp_wfReverseCache: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfReverseCache.table.gz - 0.4 KB)
+1773.351 (3) Table wp_wfSNIPCache: Total expected rows (approximate): 0
+1773.370 (3) Table wp_wfSNIPCache: Total rows added: 1 in 0.02 seconds
+1773.373 (3) Table wp_wfSNIPCache: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfSNIPCache.table.gz - 0.4 KB)
+1773.393 (3) Table wp_wfScanners: Total expected rows (approximate): 87
+1773.403 (3) Table wp_wfScanners: Total rows added: 94 in 0.01 seconds
+1773.406 (3) Table wp_wfScanners: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfScanners.table.gz - 0.9 KB)
+1773.427 (3) Table wp_wfStatus: Total expected rows (approximate): 941
+1773.467 (3) Table wp_wfStatus: Total rows added: 965 in 0.04 seconds
+1773.472 (3) Table wp_wfStatus: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfStatus.table.gz - 16.9 KB)
+1773.490 (3) Table wp_wfTrafficRates: Total expected rows (approximate): 0
+1773.495 (3) Table wp_wfTrafficRates: Total rows added: 0 in 0.00 seconds
+1773.497 (3) Table wp_wfTrafficRates: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfTrafficRates.table.gz - 0.3 KB)
+1773.518 (3) Table wp_wfVulnScanners: Total expected rows (approximate): 0
+1773.524 (3) Table wp_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+1773.528 (3) Table wp_wfVulnScanners: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfVulnScanners.table.gz - 0.3 KB)
+1773.543 (3) Table wp_wsal_metadata: Total expected rows (approximate): 33580
+1774.113 (3) Table wp_wsal_metadata: binary mysqldump finished (writes: 38) in 0.57 seconds
+1774.118 (3) Table wp_wsal_metadata: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wsal_metadata.table.gz - 843.5 KB)
+1774.128 (3) Table wp_wsal_occurrences: Total expected rows (approximate): 10176
+1774.197 (3) Table wp_wsal_occurrences: binary mysqldump finished (writes: 33) in 0.07 seconds
+1774.203 (3) Table wp_wsal_occurrences: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wsal_occurrences.table.gz - 89.3 KB)
+1774.223 (3) Table wp_wsal_options: Total expected rows (approximate): 47
+1774.308 (3) Table wp_wsal_options: Total rows added: 53 in 0.08 seconds
+1774.313 (3) Table wp_wsal_options: finishing file (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wsal_options.table.gz - 248.5 KB)
+1774.323 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_options.table.gz (1/53): adding to final database dump
+1774.363 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_users.table.gz (2/53): adding to final database dump
+1774.367 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_usermeta.table.gz (3/53): adding to final database dump
+1774.372 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_commentmeta.table.gz (4/53): adding to final database dump
+1774.375 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_comments.table.gz (5/53): adding to final database dump
+1774.379 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_links.table.gz (6/53): adding to final database dump
+1774.382 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_postmeta.table.gz (7/53): adding to final database dump
+1774.452 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_posts.table.gz (8/53): adding to final database dump
+1774.471 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_term_relationships.table.gz (9/53): adding to final database dump
+1774.474 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_term_taxonomy.table.gz (10/53): adding to final database dump
+1774.478 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_termmeta.table.gz (11/53): adding to final database dump
+1774.482 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_terms.table.gz (12/53): adding to final database dump
+1774.485 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_yoast_seo_links.table.gz (13/53): adding to final database dump
+1774.489 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_yoast_seo_meta.table.gz (14/53): adding to final database dump
+1774.492 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_datalist.table.gz (15/53): adding to final database dump
+1774.496 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_404.table.gz (16/53): adding to final database dump
+1774.514 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_groups.table.gz (17/53): adding to final database dump
+1774.518 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_items.table.gz (18/53): adding to final database dump
+1774.522 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_redirection_logs.table.gz (19/53): adding to final database dump
+1774.530 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_css.table.gz (20/53): adding to final database dump
+1774.536 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_layer_animations.table.gz (21/53): adding to final database dump
+1774.540 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_navigations.table.gz (22/53): adding to final database dump
+1774.543 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_sliders.table.gz (23/53): adding to final database dump
+1774.548 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_slides.table.gz (24/53): adding to final database dump
+1774.555 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_revslider_static_slides.table.gz (25/53): adding to final database dump
+1774.558 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_smush_dir_images.table.gz (26/53): adding to final database dump
+1774.563 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBadLeechers.table.gz (27/53): adding to final database dump
+1774.566 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBlockedCommentLog.table.gz (28/53): adding to final database dump
+1774.569 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBlockedIPLog.table.gz (29/53): adding to final database dump
+1774.573 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfBlocks7.table.gz (30/53): adding to final database dump
+1774.577 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfConfig.table.gz (31/53): adding to final database dump
+1774.607 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfCrawlers.table.gz (32/53): adding to final database dump
+1774.611 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfFileChanges.table.gz (33/53): adding to final database dump
+1774.614 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfFileMods.table.gz (34/53): adding to final database dump
+1774.722 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfHits.table.gz (35/53): adding to final database dump
+1774.747 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfHoover.table.gz (36/53): adding to final database dump
+1774.751 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfIssues.table.gz (37/53): adding to final database dump
+1774.754 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfKnownFileList.table.gz (38/53): adding to final database dump
+1774.785 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLeechers.table.gz (39/53): adding to final database dump
+1774.792 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLiveTrafficHuman.table.gz (40/53): adding to final database dump
+1774.796 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLocs.table.gz (41/53): adding to final database dump
+1774.799 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfLogins.table.gz (42/53): adding to final database dump
+1774.804 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfNotifications.table.gz (43/53): adding to final database dump
+1774.807 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfPendingIssues.table.gz (44/53): adding to final database dump
+1774.811 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfReverseCache.table.gz (45/53): adding to final database dump
+1774.814 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfSNIPCache.table.gz (46/53): adding to final database dump
+1774.817 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfScanners.table.gz (47/53): adding to final database dump
+1774.821 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfStatus.table.gz (48/53): adding to final database dump
+1774.835 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfTrafficRates.table.gz (49/53): adding to final database dump
+1774.838 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wfVulnScanners.table.gz (50/53): adding to final database dump
+1774.842 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wsal_metadata.table.gz (51/53): adding to final database dump
+1775.088 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wsal_occurrences.table.gz (52/53): adding to final database dump
+1775.116 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db-table-wp_wsal_options.table.gz (53/53): adding to final database dump
+1775.198 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db.gz: finished writing out complete database file (2984 KB)
+1775.306 (3) Total database tables backed up: 53 (backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db.gz, size: 3074758, sha256)
+1775.330 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1775.332 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1775.335 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1775.337 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-others.zip: others: This file has not yet been successfully uploaded: will queue
+1775.339 (3) backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db.gz: db: This file has not yet been successfully uploaded: will queue
+1775.341 (3) Saving backup history. Total backup size: 429.9 MB
+1775.354 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1775.362 (3) Cloud backup selection (1/1): none with instance (1/1) (last)
+1775.365 (3) No remote despatch: user chose no remote backup service
+1775.368 (3) Recording as successfully uploaded: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-plugins.zip
+1775.373 (3) Recording as successfully uploaded: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-themes.zip
+1775.377 (3) Recording as successfully uploaded: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-uploads.zip
+1775.382 (3) Recording as successfully uploaded: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-others.zip
+1775.387 (3) Recording as successfully uploaded: backup_2019-02-02-1340_Snohomish_Flying_Service_68e4353a4062-db.gz
+1775.395 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=10, retain_db=10
+1775.399 (3) Number of backup sets in history: 11; groups (db): 1
+1775.401 (3) Examining (for databases) backup set with group_id=0, nonce=68e4353a4062, datestamp=1549143605 (Feb 02 2019 21:40:05)
+1775.402 (3) This backup set is the backup set just made, so will not be deleted.
+1775.402 (3) Examining (for databases) backup set with group_id=0, nonce=4a6296b087cc, datestamp=1549057119 (Feb 01 2019 21:38:39)
+1775.402 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.404 (3) Examining (for databases) backup set with group_id=0, nonce=71c29795469a, datestamp=1548970751 (Jan 31 2019 21:39:11)
+1775.404 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.405 (3) Examining (for databases) backup set with group_id=0, nonce=33dc4cc256dd, datestamp=1548884297 (Jan 30 2019 21:38:17)
+1775.405 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.405 (3) Examining (for databases) backup set with group_id=0, nonce=e8cfbe1f7a99, datestamp=1548711473 (Jan 28 2019 21:37:53)
+1775.405 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.405 (3) Examining (for databases) backup set with group_id=0, nonce=841f6ad1e423, datestamp=1548625425 (Jan 27 2019 21:43:45)
+1775.405 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.406 (3) Examining (for databases) backup set with group_id=0, nonce=c59711e02f57, datestamp=1548538889 (Jan 26 2019 21:41:29)
+1775.406 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.406 (3) Examining (for databases) backup set with group_id=0, nonce=7ed4056d917a, datestamp=1548452698 (Jan 25 2019 21:44:58)
+1775.406 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.406 (3) Examining (for databases) backup set with group_id=0, nonce=5a15fe9961c5, datestamp=1548366067 (Jan 24 2019 21:41:07)
+1775.406 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.407 (3) Examining (for databases) backup set with group_id=0, nonce=b4d306e6667c, datestamp=1548279477 (Jan 23 2019 21:37:57)
+1775.407 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.407 (3) Examining (for databases) backup set with group_id=0, nonce=c0a6904cd315, datestamp=1548193354 (Jan 22 2019 21:42:34)
+1775.407 (3) 1548193354: db: this set includes a database (backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-db.gz); db count is now 10
+1775.407 (3) 1548193354: db: over retain limit (10); will delete this database
+1775.407 (3) Delete file: backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-db.gz, service=none
+1775.409 (3) Deleting local copy (backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-db.gz)
+1775.414 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+1775.416 (3) Number of backup sets in history: 11; groups (files): 1
+1775.418 (3) Examining (for files) backup set with nonce=68e4353a4062, datestamp=1549143605 (Feb 02 2019 21:40:05)
+1775.418 (3) This backup set is the backup set just made, so will not be deleted.
+1775.420 (3) This backup set is the backup set just made, so will not be deleted.
+1775.421 (3) This backup set is the backup set just made, so will not be deleted.
+1775.421 (3) This backup set is the backup set just made, so will not be deleted.
+1775.421 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.423 (3) Examining (for files) backup set with nonce=4a6296b087cc, datestamp=1549057119 (Feb 01 2019 21:38:39)
+1775.423 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.424 (3) Examining (for files) backup set with nonce=71c29795469a, datestamp=1548970751 (Jan 31 2019 21:39:11)
+1775.424 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.424 (3) Examining (for files) backup set with nonce=33dc4cc256dd, datestamp=1548884297 (Jan 30 2019 21:38:17)
+1775.424 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.424 (3) Examining (for files) backup set with nonce=e8cfbe1f7a99, datestamp=1548711473 (Jan 28 2019 21:37:53)
+1775.425 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.425 (3) Examining (for files) backup set with nonce=841f6ad1e423, datestamp=1548625425 (Jan 27 2019 21:43:45)
+1775.425 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.425 (3) Examining (for files) backup set with nonce=c59711e02f57, datestamp=1548538889 (Jan 26 2019 21:41:29)
+1775.426 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.426 (3) Examining (for files) backup set with nonce=7ed4056d917a, datestamp=1548452698 (Jan 25 2019 21:44:58)
+1775.426 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.426 (3) Examining (for files) backup set with nonce=5a15fe9961c5, datestamp=1548366067 (Jan 24 2019 21:41:07)
+1775.426 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.427 (3) Examining (for files) backup set with nonce=b4d306e6667c, datestamp=1548279477 (Jan 23 2019 21:37:57)
+1775.427 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1775.427 (3) Examining (for files) backup set with nonce=c0a6904cd315, datestamp=1548193354 (Jan 22 2019 21:42:34)
+1775.427 (3) plugins: over retain limit (10); will delete this file entity
+1775.427 (3) themes: over retain limit (10); will delete this file entity
+1775.427 (3) uploads: over retain limit (10); will delete this file entity
+1775.428 (3) others: over retain limit (10); will delete this file entity
+1775.428 (3) Delete file: backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-plugins.zip, service=none
+1775.430 (3) Deleting local copy (backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-plugins.zip)
+1775.432 (3) Delete file: backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-themes.zip, service=none
+1775.435 (3) Deleting local copy (backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-themes.zip)
+1775.438 (3) Delete file: backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-uploads.zip, service=none
+1775.440 (3) Deleting local copy (backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-uploads.zip)
+1775.445 (3) Delete file: backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-others.zip, service=none
+1775.447 (3) Deleting local copy (backup_2019-01-22-1342_Snohomish_Flying_Service_c0a6904cd315-others.zip)
+1775.452 (3) This backup set is now empty; will remove from history
+1775.454 (3) Deleting log file (log.c0a6904cd315.txt)
+1775.460 (3) Retain: saving new backup history (sets now: 10) and finishing retain operation
+1775.470 (3) Resume backup (68e4353a4062, 3): finish run
+1775.473 (3) There were no errors in the uploads, so the 'resume' event (4) is being unscheduled
+1775.482 (3) Fetching RSS news feed
+1775.634 (3) Fetched RSS news feed; result is a: SimplePie
+1775.788 (3) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: runam...
+1775.988 (3) The backup apparently succeeded and is now complete
